@@ -1,0 +1,1 @@
+publish.bat 파일 더블클릭

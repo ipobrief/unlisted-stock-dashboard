@@ -22,118 +22,106 @@ HEADERS = {
 
 
 def fetch_kotc():
-    """K-OTC 종목 리스트 및 시세 수집"""
+    """K-OTC 순위 데이터 수집 (거래대금/거래량/상승률/시가총액 상위).
+    공식 API: POST https://www.k-otc.or.kr/public/api (MainService.getMainTradeRank)
+    """
     print("K-OTC 데이터 수집중...")
     stocks = []
+    api = "https://www.k-otc.or.kr/public/api"
+    headers = {**HEADERS, "Content-Type": "application/json",
+               "Referer": "https://www.k-otc.or.kr/public/main"}
+    # idx: 1=거래대금상위, 2=거래량상위, 3=상승률상위, 4=시가총액상위
+    idx_label = {"1": "거래대금", "2": "거래량", "3": "상승률", "4": "시가총액"}
+    seen = {}
+    for idx, label in idx_label.items():
+        try:
+            body = {"class": "MainService", "method": "getMainTradeRank",
+                    "param": {"idx": idx}}
+            resp = requests.post(api, headers=headers, json=body, timeout=15)
+            resp.raise_for_status()
+            contents = resp.json().get("contents", [])
+            for it in contents:
+                code = it.get("SHORTCD", "")
+                name = it.get("KOREANSHTNM", "")
+                if not name:
+                    continue
+                price = it.get("LASTCOT")
+                diff = it.get("BEFOREDAYCMP")
+                sign = it.get("INDECREASE", "")  # 등락 방향
+                change = ""
+                if diff is not None:
+                    arrow = "-" if sign in ("2", "5", "-") and idx != "4" else ""
+                    # INDECREASE: 보통 1/2 상승, 4/5 하락. 부호 불명확시 그대로 표기
+                    change = f"{diff}"
+                vol = it.get("TRADEACMQTY")
+                rec = seen.get(code) or {
+                    "name": name, "code": code,
+                    "price": str(price) if price is not None else "",
+                    "change": str(diff) if diff is not None else "",
+                    "volume": str(vol) if vol is not None else "",
+                    "amount": str(it.get("TRADEACMAMT", "")),
+                    "platform": "K-OTC",
+                    "ranks": [],
+                }
+                rec["ranks"].append(label)
+                # 가격/거래량이 비어있던 경우 채움
+                if not rec["price"] and price is not None:
+                    rec["price"] = str(price)
+                if not rec["volume"] and vol is not None:
+                    rec["volume"] = str(vol)
+                seen[code] = rec
+        except Exception as e:
+            print(f"  [오류] K-OTC {label}: {e}")
+        time.sleep(0.3)
 
-    try:
-        # K-OTC 시세 페이지
-        url = "https://www.k-otc.or.kr/JISQ020000/JISQ020000.do"
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "lxml")
-
-        rows = soup.select("table tbody tr")
-        for row in rows:
-            cols = row.select("td")
-            if len(cols) < 5:
-                continue
-            texts = [c.get_text(strip=True) for c in cols]
-            name_el = row.select_one("a")
-            stocks.append({
-                "name": name_el.get_text(strip=True) if name_el else texts[0],
-                "code": texts[1] if len(texts) > 1 else "",
-                "price": texts[2] if len(texts) > 2 else "",
-                "change": texts[3] if len(texts) > 3 else "",
-                "volume": texts[4] if len(texts) > 4 else "",
-                "platform": "K-OTC",
-            })
-        print(f"  K-OTC: {len(stocks)}종목")
-
-    except Exception as e:
-        print(f"  [오류] K-OTC: {e}")
-
-    # K-OTC BB (비상장 장외시장)
-    try:
-        url2 = "https://www.k-otc.or.kr/JISQ030000/JISQ030000.do"
-        resp2 = requests.get(url2, headers=HEADERS, timeout=15)
-        resp2.raise_for_status()
-        soup2 = BeautifulSoup(resp2.text, "lxml")
-
-        rows2 = soup2.select("table tbody tr")
-        for row in rows2:
-            cols = row.select("td")
-            if len(cols) < 5:
-                continue
-            texts = [c.get_text(strip=True) for c in cols]
-            name_el = row.select_one("a")
-            stocks.append({
-                "name": name_el.get_text(strip=True) if name_el else texts[0],
-                "code": texts[1] if len(texts) > 1 else "",
-                "price": texts[2] if len(texts) > 2 else "",
-                "change": texts[3] if len(texts) > 3 else "",
-                "volume": texts[4] if len(texts) > 4 else "",
-                "platform": "K-OTC BB",
-            })
-        print(f"  K-OTC BB 추가: {len(rows2)}종목")
-
-    except Exception as e:
-        print(f"  [오류] K-OTC BB: {e}")
-
+    stocks = list(seen.values())
+    print(f"  K-OTC: {len(stocks)}종목 (거래대금/거래량/상승률/시가총액 상위 통합)")
     return stocks
 
 
 def fetch_seoulexchange():
-    """서울거래소 비상장 종목 데이터 수집"""
+    """서울거래소 비상장 종목 데이터 수집.
+    홈페이지 HTML에 박힌 STOCK_TAB_DATA(JSON) 활용
+    (탭: popular/volume/rising/marketcap).
+    """
     print("\n서울거래소 비상장 데이터 수집중...")
+    import re
     stocks = []
-
+    tab_label = {"volume": "거래량", "rising": "상승", "popular": "인기", "marketcap": "시총"}
     try:
-        # 서울거래소 비상장 API
-        url = "https://www.seoulexchange.kr/api/stock/list"
-        resp = requests.get(url, headers={
-            **HEADERS,
-            "Accept": "application/json",
-        }, timeout=15)
+        resp = requests.get("https://www.seoulexchange.kr/", headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        m = re.search(r'STOCK_TAB_DATA\s*=\s*(\{.*?\})\s*;', resp.text, re.DOTALL)
+        if not m:
+            print("  [경고] 서울거래소: STOCK_TAB_DATA를 찾지 못함")
+            return stocks
 
-        if resp.status_code == 200:
-            try:
-                data = resp.json()
-                items = data if isinstance(data, list) else data.get("data", data.get("list", []))
-                for item in items:
-                    if isinstance(item, dict):
-                        stocks.append({
-                            "name": item.get("name", item.get("stockName", item.get("companyName", ""))),
-                            "code": item.get("code", item.get("stockCode", "")),
-                            "price": str(item.get("price", item.get("currentPrice", ""))),
-                            "change": str(item.get("change", item.get("changePrice", ""))),
-                            "volume": str(item.get("volume", item.get("tradeVolume", ""))),
-                            "platform": "서울거래소",
-                        })
-            except json.JSONDecodeError:
-                pass
-
-        if not stocks:
-            # HTML 페이지에서 수집 시도
-            url2 = "https://www.seoulexchange.kr/stocks"
-            resp2 = requests.get(url2, headers=HEADERS, timeout=15)
-            if resp2.status_code == 200:
-                soup = BeautifulSoup(resp2.text, "lxml")
-                rows = soup.select("table tbody tr, div.stock-item, li.stock-item")
-                for row in rows:
-                    cols = row.select("td, span, div.value")
-                    if len(cols) >= 3:
-                        texts = [c.get_text(strip=True) for c in cols]
-                        name_el = row.select_one("a")
-                        stocks.append({
-                            "name": name_el.get_text(strip=True) if name_el else texts[0],
-                            "price": texts[1] if len(texts) > 1 else "",
-                            "change": texts[2] if len(texts) > 2 else "",
-                            "volume": texts[3] if len(texts) > 3 else "",
-                            "platform": "서울거래소",
-                        })
-
-        print(f"  서울거래소: {len(stocks)}종목")
+        data = json.loads(m.group(1))
+        seen = {}
+        for tab, label in tab_label.items():
+            for it in data.get(tab, []):
+                name = it.get("display_name", "")
+                if not name:
+                    continue
+                code = it.get("short_isin", "")
+                price = it.get("current_price")
+                adp = it.get("advance_decline_price")
+                adpct = it.get("advance_decline_percentage")
+                rec = seen.get(name) or {
+                    "name": name,
+                    "code": code,
+                    "price": str(price) if price is not None else "",
+                    "change": (f"{adp} ({adpct}%)" if adp is not None else ""),
+                    "change_pct": str(adpct) if adpct is not None else "",
+                    "visit": it.get("visit_count", 0),
+                    "category": it.get("business_category", ""),
+                    "platform": "서울거래소",
+                    "ranks": [],
+                }
+                rec["ranks"].append(label)
+                seen[name] = rec
+        stocks = list(seen.values())
+        print(f"  서울거래소: {len(stocks)}종목 (인기/거래량/상승/시총 통합)")
 
     except Exception as e:
         print(f"  [오류] 서울거래소: {e}")
@@ -209,23 +197,23 @@ def fetch_naver_unlisted():
     return stocks
 
 
-def identify_volume_spikes(stocks, threshold=2.0):
-    """거래량 급증 종목 식별 (평균 대비 threshold배 이상)"""
-    volume_stocks = []
+def identify_volume_spikes(stocks):
+    """거래량 급증(상위) 종목 식별.
+    각 플랫폼의 '거래량' 상위 랭킹에 든 종목을 모으고,
+    숫자 거래량이 있으면 그 값으로 정렬한다.
+    """
+    spikes = []
     for s in stocks:
-        vol_str = s.get("volume", "").replace(",", "").replace(" ", "")
+        ranks = s.get("ranks", [])
+        if "거래량" not in ranks:
+            continue
+        vol_str = str(s.get("volume", "")).replace(",", "").replace(" ", "")
         try:
             vol = int(vol_str) if vol_str else 0
         except ValueError:
             vol = 0
-        if vol > 0:
-            volume_stocks.append({**s, "volume_int": vol})
+        spikes.append({**s, "volume_int": vol})
 
-    if not volume_stocks:
-        return []
-
-    avg_vol = sum(s["volume_int"] for s in volume_stocks) / len(volume_stocks)
-    spikes = [s for s in volume_stocks if s["volume_int"] > avg_vol * threshold]
     spikes.sort(key=lambda x: x["volume_int"], reverse=True)
     return spikes
 

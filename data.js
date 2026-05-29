@@ -1,7 +1,7 @@
 const DASHBOARD_DATA = {
-  "updated_at": "2026-05-29 15:57",
+  "updated_at": "2026-05-29 19:00",
   "news": {
-    "updated_at": "2026-05-29 15:57",
+    "updated_at": "2026-05-29 19:00",
     "keyword_stats": {
       "IPO 지정감사": 105,
       "상장 주관사선정": 103,
@@ -12,8 +12,8 @@ const DASHBOARD_DATA = {
       "pre ipo": 106,
       "pre-ipo": 106,
       "VC 투자유치": 103,
-      "벤처캐피탈 투자유치": 104,
-      "투자유치 시리즈": 107
+      "벤처캐피탈 투자유치": 103,
+      "투자유치 시리즈": 108
     },
     "total_articles": 1150,
     "top_companies": [
@@ -663,86 +663,6 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "래블업",
-        "mention_count": 4,
-        "keywords": [
-          "IPO 지정감사",
-          "VC 투자유치",
-          "벤처캐피탈 투자유치",
-          "프리IPO"
-        ],
-        "articles": [
-          {
-            "title": "'AI 인프라' 래블업 상장 시동, VC 회수 청사진",
-            "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45179",
-            "keyword": "IPO 지정감사",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "'AI 인프라' 래블업 상장 시동, VC 회수 청사진",
-            "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45179",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "'AI 인프라' 래블업 상장 시동,VC회수 청사진",
-            "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45179",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "'AI 인프라' 래블업 상장 시동, VC 회수 청사진",
-            "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45179",
-            "keyword": "벤처캐피탈 투자유치",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "브리즈바이오",
-        "mention_count": 4,
-        "keywords": [
-          "IPO 지정감사",
-          "상장 주간사선정",
-          "상장 주관사계약",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "[더벨]브리즈바이오, 기술성평가 돌입…코스닥 상장 절차 개시",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191025520760102148",
-            "keyword": "IPO 지정감사",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[더벨]브리즈바이오, 기술성평가 돌입…코스닥상장절차 개시",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191025520760102148",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[더벨]브리즈바이오, 기술성평가 돌입…코스닥상장절차 개시",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191025520760102148",
-            "keyword": "상장 주관사계약",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[더벨]브리즈바이오, 기술성평가 돌입…코스닥상장절차 개시",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191025520760102148",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
         "name": "하이브",
         "mention_count": 4,
         "keywords": [
@@ -852,46 +772,6 @@ const DASHBOARD_DATA = {
             "title": "리봄화장품, IPO 채비…K뷰티 투심 노린다",
             "link": "https://www.the-stock.kr/news/articleView.html?idxno=32614",
             "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "송경한",
-        "mention_count": 4,
-        "keywords": [
-          "상장 주간사계약",
-          "상장 주간사선정",
-          "상장 주관사계약",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "[Who Is ?] 송경한 HJ중공업 대표이사 사장",
-            "link": "https://www.businesspost.co.kr/BP?command=article_view&num=435143",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[Who Is ?] 송경한 HJ중공업 대표이사 사장",
-            "link": "https://www.businesspost.co.kr/BP?command=article_view&num=435143",
-            "keyword": "상장 주관사계약",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[Who Is ?] 송경한 HJ중공업 대표이사 사장",
-            "link": "https://www.businesspost.co.kr/BP?command=article_view&num=435143",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[Who Is ?] 송경한 HJ중공업 대표이사 사장",
-            "link": "https://www.businesspost.co.kr/BP?command=article_view&num=435143",
-            "keyword": "상장 주간사계약",
             "source": "",
             "date": ""
           }
@@ -1014,40 +894,64 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "홍종철",
-        "mention_count": 4,
+        "name": "래블업",
+        "mention_count": 3,
         "keywords": [
-          "pre ipo",
-          "pre-ipo",
+          "IPO 지정감사",
           "벤처캐피탈 투자유치",
           "프리IPO"
         ],
         "articles": [
           {
-            "title": "[N2 인터뷰] 홍종철 인포뱅크 아이엑셀 대표 “투자 생태계,프리A 공백...",
-            "link": "https://www.news2day.co.kr/article/20260527500115",
+            "title": "'AI 인프라' 래블업 상장 시동, VC 회수 청사진",
+            "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45179",
+            "keyword": "IPO 지정감사",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "'AI 인프라' 래블업 상장 시동, VC 회수 청사진",
+            "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45179",
             "keyword": "프리IPO",
             "source": "",
             "date": ""
           },
           {
-            "title": "[N2 인터뷰] 홍종철 인포뱅크 아이엑셀 대표 “투자 생태계, 프리A 공백...",
-            "link": "https://www.news2day.co.kr/article/20260527500115",
-            "keyword": "pre ipo",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[N2 인터뷰] 홍종철 인포뱅크 아이엑셀 대표 “투자 생태계, 프리A 공백...",
-            "link": "https://www.news2day.co.kr/article/20260527500115",
-            "keyword": "pre-ipo",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[N2 인터뷰] 홍종철 인포뱅크 아이엑셀 대표 “투자생태계, 프리A 공백...",
-            "link": "https://www.news2day.co.kr/article/20260527500115",
+            "title": "'AI 인프라' 래블업 상장 시동, VC 회수 청사진",
+            "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45179",
             "keyword": "벤처캐피탈 투자유치",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "디스플레이서",
+        "mention_count": 3,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정",
+          "투자유치 시리즈"
+        ],
+        "articles": [
+          {
+            "title": "[좋은 일자리 기업] 디스플레이서 포토닉스까지…유니젯의 20년 뚝심",
+            "link": "https://www.thelec.kr/news/articleView.html?idxno=57330",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "[좋은 일자리 기업] 디스플레이서 포토닉스까지…유니젯의 20년 뚝심",
+            "link": "https://www.thelec.kr/news/articleView.html?idxno=57330",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "[좋은 일자리 기업] 디스플레이서 포토닉스까지…유니젯의 20년 뚝심",
+            "link": "https://www.thelec.kr/news/articleView.html?idxno=57330",
+            "keyword": "투자유치 시리즈",
             "source": "",
             "date": ""
           }
@@ -1854,6 +1758,38 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "초대형",
+        "mention_count": 3,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정",
+          "투자유치 시리즈"
+        ],
+        "articles": [
+          {
+            "title": "\"스페이스X, IPO 대표주관사로 골드만삭스선정\"...초대형 기업공개 시...",
+            "link": "https://www.thepublic.kr/news/articleView.html?idxno=305078",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "\"스페이스X, IPO 대표주관사로 골드만삭스선정\"...초대형 기업공개 시...",
+            "link": "https://www.thepublic.kr/news/articleView.html?idxno=305078",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "앤트로픽, 650억 달러 초대형투자 유치…오픈AI 넘어 AI 업계 최고 기업...",
+            "link": "http://www.bizwnews.com/news/articleView.html?idxno=137672",
+            "keyword": "투자유치 시리즈",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
         "name": "브렉소젠",
         "mention_count": 3,
         "keywords": [
@@ -1911,70 +1847,6 @@ const DASHBOARD_DATA = {
           {
             "title": "[스트라드비젼 IPO] ②매년 600억 손실인데…장밋빛 '탑다운' 적절하나",
             "link": "https://www.smarttoday.co.kr/ko-kr/articles/107561",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "롯데렌탈",
-        "mention_count": 3,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사계약",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "[Invest]TPG, 카카오모빌리티 엑시트 속도…롯데렌탈·배민 딜 나설까",
-            "link": "https://www.investchosun.com/site/data/html_dir/2026/05/19/2026051980112.html",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[Invest]TPG, 카카오모빌리티 엑시트 속도…롯데렌탈·배민 딜 나설까",
-            "link": "https://www.investchosun.com/site/data/html_dir/2026/05/19/2026051980112.html",
-            "keyword": "상장 주관사계약",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[Invest]TPG, 카카오모빌리티 엑시트 속도…롯데렌탈·배민 딜 나설까",
-            "link": "https://www.investchosun.com/site/data/html_dir/2026/05/19/2026051980112.html",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "배민",
-        "mention_count": 3,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사계약",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "[Invest]TPG, 카카오모빌리티 엑시트 속도…롯데렌탈·배민 딜 나설까",
-            "link": "https://www.investchosun.com/site/data/html_dir/2026/05/19/2026051980112.html",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[Invest]TPG, 카카오모빌리티 엑시트 속도…롯데렌탈·배민 딜 나설까",
-            "link": "https://www.investchosun.com/site/data/html_dir/2026/05/19/2026051980112.html",
-            "keyword": "상장 주관사계약",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[Invest]TPG, 카카오모빌리티 엑시트 속도…롯데렌탈·배민 딜 나설까",
-            "link": "https://www.investchosun.com/site/data/html_dir/2026/05/19/2026051980112.html",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -2040,37 +1912,6 @@ const DASHBOARD_DATA = {
             "title": "CATCH NEWS",
             "link": "https://www.catchnews.kr/",
             "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "퓨리오사AI",
-        "mention_count": 3,
-        "keywords": [
-          "투자유치 시리즈",
-          "프리IPO"
-        ],
-        "articles": [
-          {
-            "title": "국민성장펀드, 퓨리오사AI·스마일게이트·SK바이오 등 4조1400억 지원 승...",
-            "link": "http://www.dailypop.kr/news/articleView.html?idxno=99242",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "퓨리오사AI,프리 IPO투자금 납입 시작",
-            "link": "https://www.thelec.kr/news/articleView.html?idxno=57115",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[더벨]'마중물 역할' MJM인베, 퓨리오사AI·시대인재투자마무리",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605271543063000101959",
-            "keyword": "투자유치 시리즈",
             "source": "",
             "date": ""
           }
@@ -2392,38 +2233,6 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "신규자금",
-        "mention_count": 3,
-        "keywords": [
-          "VC 투자유치",
-          "벤처캐피탈 투자유치",
-          "투자유치 시리즈"
-        ],
-        "articles": [
-          {
-            "title": "[VC포트폴리오] 신규 자금 조달한 '모티프테크놀로지스'...AI 딥테크 역...",
-            "link": "https://www.news2day.co.kr/article/20260528500243",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[VC 포트폴리오] 신규 자금 조달한 '모티프테크놀로지스'...AI 딥테크 역...",
-            "link": "https://www.news2day.co.kr/article/20260528500243",
-            "keyword": "벤처캐피탈 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[VC 포트폴리오] 신규 자금 조달한 '모티프테크놀로지스'...AI 딥테크 역...",
-            "link": "https://www.news2day.co.kr/article/20260528500243",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
         "name": "워케이션",
         "mention_count": 3,
         "keywords": [
@@ -2485,24 +2294,24 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "미국",
+        "name": "브리즈바이오",
         "mention_count": 2,
         "keywords": [
           "IPO 지정감사",
-          "투자유치 시리즈"
+          "상장 주관사계약"
         ],
         "articles": [
           {
-            "title": "[요즘 토스]③'금융그룹'과 미국상장 동시 가능할까?",
-            "link": "https://www.dailybrief.co.kr/news/articleView.html?idxno=5943",
+            "title": "[더벨]브리즈바이오, 기술성평가 돌입…코스닥 상장 절차 개시",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191025520760102148",
             "keyword": "IPO 지정감사",
             "source": "",
             "date": ""
           },
           {
-            "title": "미국·이란, 휴전 60일 연장하나…트럼프는 \"더 검토해야\"[뉴스새벽배송...",
-            "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02702726645453840",
-            "keyword": "투자유치 시리즈",
+            "title": "[더벨]브리즈바이오, 기술성평가 돌입…코스닥상장절차 개시",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191025520760102148",
+            "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
           }
@@ -2627,6 +2436,54 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "빅웨이브로보틱스",
+        "mention_count": 2,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정"
+        ],
+        "articles": [
+          {
+            "title": "[빅웨이브로보틱스 IPO] 피어그룹 변경에도···할인율 높여 공모가 유...",
+            "link": "https://www.topdaily.kr/articles/110332",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "[빅웨이브로보틱스 IPO] 피어그룹 변경에도···할인율 높여 공모가 유...",
+            "link": "https://www.topdaily.kr/articles/110332",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "피어그룹",
+        "mention_count": 2,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정"
+        ],
+        "articles": [
+          {
+            "title": "[빅웨이브로보틱스 IPO] 피어그룹 변경에도···할인율 높여 공모가 유...",
+            "link": "https://www.topdaily.kr/articles/110332",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "[빅웨이브로보틱스 IPO] 피어그룹 변경에도···할인율 높여 공모가 유...",
+            "link": "https://www.topdaily.kr/articles/110332",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
         "name": "⋯피어그룹",
         "mention_count": 2,
         "keywords": [
@@ -2740,6 +2597,78 @@ const DASHBOARD_DATA = {
           {
             "title": "[리봄화장품 IPO] 중복상장극복할까...동국제약과 사업 겹쳐",
             "link": "https://www.the-stock.kr/news/articleView.html?idxno=32618",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "비앤비코리아",
+        "mention_count": 2,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정"
+        ],
+        "articles": [
+          {
+            "title": "[더벨][비앤비코리아 IPO] 'K-뷰티' 코스닥 대어 예비주자, 구주 매출도...",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605270922569320103570",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "[더벨][비앤비코리아 IPO] 'K-뷰티' 코스닥 대어 예비주자, 구주 매출도...",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605270922569320103570",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "듀셀",
+        "mention_count": 2,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정"
+        ],
+        "articles": [
+          {
+            "title": "듀셀, CFO·CMO 영입…2028년 IPO 로드맵 본격 가동",
+            "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=32050",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "듀셀, CFO·CMO 영입…2028년 IPO 로드맵 본격 가동",
+            "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=32050",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "미래",
+        "mention_count": 2,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정"
+        ],
+        "articles": [
+          {
+            "title": "[마키나락스 IPO] 미래는 해냈는데…발행사 잠재력 못 살린 삼성증권",
+            "link": "https://dealsite.co.kr/articles/162407",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "[마키나락스 IPO] 미래는 해냈는데…발행사 잠재력 못 살린 삼성증권",
+            "link": "https://dealsite.co.kr/articles/162407",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -3598,6 +3527,22 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "상장 주관사선정",
+        "title": "[좋은 일자리 기업] 디스플레이서 포토닉스까지…유니젯의 20년 뚝심",
+        "description": "김 대표는 \"잉크젯 프린팅 장비를 단일 핵심 아이템으로상장하는 기업은 글로벌에서도 드물다\"며 \"국내에 헤드 제조사 성격의 기업은 있지만, 유니젯처럼 장비와 공정 솔루션을 함께 제공하는 시스템 기업은 차별성이 있다\"고 말했다. 유니젯은 최근 127억원 규모의 시리즈B 투자도 유치했다. 기존주관사였던...",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=57330",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사선정",
+        "title": "[빅웨이브로보틱스 IPO] 피어그룹 변경에도···할인율 높여 공모가 유...",
+        "description": "주관사단은 최근 한국거래소에상장한 회사의 공모희망가격 산출 시 대부분 주가수익비율(PER)을 활용하고 있다는 점에서 투자자 편의를 위해 PER 가치평가 내역도 함께 공개했다. 비교기업으로선정된 유일로보틱스, 로보스타, 티로보틱스, 씨메스로보틱스 모두 적자 상태인 만큼 PER 기준으로는...",
+        "link": "https://www.topdaily.kr/articles/110332",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사선정",
         "title": "위킵, 신영증권과 IPO 준비 착수…2028년 코스닥상장목표",
         "description": "스마트 풀필먼트 기업 위킵이 신영증권을 기업공개(IPO) 대표주관사로선정하고 코스닥상장을 위한 준비에 착수했다. 위킵은 신영증권을 IPO 대표주관사로선정했으며, 2027년상장예비심사 청구와 2028년 코스닥상장을 목표로 관련 절차를 추진한다고 29일 밝혔다. 위킵은 이커머스 셀러의 상품 보관...",
         "link": "https://platum.kr/archives/287962",
@@ -3790,17 +3735,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "[더벨][애드파마 IPO 로드맵] '유한양행 자회사 입지' 양날의 검…무르...",
-        "description": "애드파마는 2024년 대신증권을상장 주관사로선정하면서 IPO를 위한 첫 준비에 나섰다. 당시는 애드파마가 345억원의 역대 최고 매출에 10억원 영업이익을 기록한 시기다. 전년도 18억원에 이어 2년 연속 흑자 기조를 이어가며 실적 자신감이 붙었다. 작년에도 애드파마는 323억원의 매출과 62억원의 영업이익을...",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605260811383040106070",
+        "title": "[더벨][레메디 IPO] 높은 할인율에도 업종 상단 밴드, 시장 밸류 눈높이...",
+        "description": "레메디는 피어그룹으로 △뷰웍스 △IRAY GROUP △Detection Technology Oyj가선정했다. 이 중 국내상장사는 뷰웍스가 유일하며 IRAY GROUP과 Detection Technology... 레메디 관계자는 \"공모가 밴드는 거래소,주관사와 논의 아래 책정된 것\"이라며 \"최대한 시장 상황에 맞게 책정하기 위해 노력했다\"고 말했다.",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605261417579320108770",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "[더벨][레메디 IPO] 높은 할인율에도 업종 상단 밴드, 시장 밸류 눈높이...",
-        "description": "레메디는 피어그룹으로 △뷰웍스 △IRAY GROUP △Detection Technology Oyj가선정했다. 이 중 국내상장사는 뷰웍스가 유일하며 IRAY GROUP과 Detection Technology... 레메디 관계자는 \"공모가 밴드는 거래소,주관사와 논의 아래 책정된 것\"이라며 \"최대한 시장 상황에 맞게 책정하기 위해 노력했다\"고 말했다.",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605261417579320108770",
+        "title": "[더벨][애드파마 IPO 로드맵] '유한양행 자회사 입지' 양날의 검…무르...",
+        "description": "애드파마는 2024년 대신증권을상장 주관사로선정하면서 IPO를 위한 첫 준비에 나섰다. 당시는 애드파마가 345억원의 역대 최고 매출에 10억원 영업이익을 기록한 시기다. 전년도 18억원에 이어 2년 연속 흑자 기조를 이어가며 실적 자신감이 붙었다. 작년에도 애드파마는 323억원의 매출과 62억원의 영업이익을...",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605260811383040106070",
         "source": "",
         "date": ""
       },
@@ -4038,17 +3983,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "\"스킨1004 합치고 자회사 정리하고\" 구다이글로벌 IPO 작업 '본격화'",
-        "description": "주관사로선정했다. 지난 4월부터는주관사단 인력이 구다이글로벌 본사에 파견돼 상주 근무를 시작한 것으로 전해졌다. 앞서 지난해 8월 구다이글로벌은 8000억원 규모 전환사채(CB) 투자 유치 과정에서 투자자들에게 3년 내 IPO 추진 계획을 제시한 바 있다. 시장에서는 이르면 올해 하반기상장예비심사...",
-        "link": "https://www.dailian.co.kr/news/view/1647128/?sc=Naver",
+        "title": "[더벨]네이버, 배민 인수전 참여 공식화 '실익 계산 돌입'",
+        "description": "DH가 배민 매각주관사로 JP모간을선정했다는 이야기도 나왔다. 당시 우아한형제들은 \"사실무근\"이라고 일축했으나 현시점에서는 JP모간이 관련 업무를... 특히 DH가 독일상장기업인 만큼 현지에서 문제 삼을 수도 있다. 더불어 우버는 배민에 이어 카카오모빌리티 인수까지 검토 중인 것으로 파악된다....",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191546239040105973",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "[더벨]네이버, 배민 인수전 참여 공식화 '실익 계산 돌입'",
-        "description": "DH가 배민 매각주관사로 JP모간을선정했다는 이야기도 나왔다. 당시 우아한형제들은 \"사실무근\"이라고 일축했으나 현시점에서는 JP모간이 관련 업무를... 특히 DH가 독일상장기업인 만큼 현지에서 문제 삼을 수도 있다. 더불어 우버는 배민에 이어 카카오모빌리티 인수까지 검토 중인 것으로 파악된다....",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191546239040105973",
+        "title": "\"스킨1004 합치고 자회사 정리하고\" 구다이글로벌 IPO 작업 '본격화'",
+        "description": "주관사로선정했다. 지난 4월부터는주관사단 인력이 구다이글로벌 본사에 파견돼 상주 근무를 시작한 것으로 전해졌다. 앞서 지난해 8월 구다이글로벌은 8000억원 규모 전환사채(CB) 투자 유치 과정에서 투자자들에게 3년 내 IPO 추진 계획을 제시한 바 있다. 시장에서는 이르면 올해 하반기상장예비심사...",
+        "link": "https://www.dailian.co.kr/news/view/1647128/?sc=Naver",
         "source": "",
         "date": ""
       },
@@ -4393,22 +4338,6 @@ const DASHBOARD_DATA = {
         "title": "[스트라드비젼 IPO] ②매년 600억 손실인데…장밋빛 '탑다운' 적절하나",
         "description": "현재 대규모 영업손실을 지우고 코스피상장대기업과 비교한 밸류를 들고 나선 상황이다. MOQ 없는 탑다운 추정, 외부 변수에 취약 19일 스트라드비젼...주관사는 소프트웨어 개발 및 공급업이라는 산업 유사성을 바탕으로 4개사를 최종 비교기업으로선정했다. 현대오토에버, 슈어소프트테크...",
         "link": "https://www.smarttoday.co.kr/ko-kr/articles/107561",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사선정",
-        "title": "[Invest]TPG, 카카오모빌리티 엑시트 속도…롯데렌탈·배민 딜 나설까",
-        "description": "카카오모빌리티는 미국 ADR상장을 위해 뱅크오브아메리카(BofA), 모건스탠리, UBS 등을주관사로선정했다. 미국 기준에 맞는 재무 정보 정비를 위해 딜로이트안진을 통한 감사 작업도 진행 중이다. 관련 절차는 카카오모빌리티 측이 아닌 TPG가 주도하고 있는 것으로 전해진다.TPG는 2017년 카카오모빌리티...",
-        "link": "https://www.investchosun.com/site/data/html_dir/2026/05/19/2026051980112.html",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사선정",
-        "title": "[더벨]브리즈바이오, 기술성평가 돌입…코스닥상장절차 개시",
-        "description": "브리즈바이오 관계자는 \"주관사를선정하고 기술성평가를 신청해상장준비를 진행 중인데 구체적인 일정은 아직 확정되지 않았다\"며 \"해외 기업인 만큼 물리적으로 시간이 소요되는 작업들이 있다보니 준비 진도에 맞춰 절차를 밟아나갈 것\"이라고 말했다.",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191025520760102148",
         "source": "",
         "date": ""
       },
@@ -5254,6 +5183,22 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "상장 주간사선정",
+        "title": "[좋은 일자리 기업] 디스플레이서 포토닉스까지…유니젯의 20년 뚝심",
+        "description": "김 대표는 \"잉크젯 프린팅 장비를 단일 핵심 아이템으로상장하는 기업은 글로벌에서도 드물다\"며 \"국내에 헤드 제조사 성격의 기업은 있지만, 유니젯처럼 장비와 공정 솔루션을 함께 제공하는 시스템 기업은 차별성이 있다\"고 말했다. 유니젯은 최근 127억원 규모의 시리즈B 투자도 유치했다. 기존주관사였던...",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=57330",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주간사선정",
+        "title": "[빅웨이브로보틱스 IPO] 피어그룹 변경에도···할인율 높여 공모가 유...",
+        "description": "주관사단은 최근 한국거래소에상장한 회사의 공모희망가격 산출 시 대부분 주가수익비율(PER)을 활용하고 있다는 점에서 투자자 편의를 위해 PER 가치평가 내역도 함께 공개했다. 비교기업으로선정된 유일로보틱스, 로보스타, 티로보틱스, 씨메스로보틱스 모두 적자 상태인 만큼 PER 기준으로는...",
+        "link": "https://www.topdaily.kr/articles/110332",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주간사선정",
         "title": "위킵, 신영증권과 IPO 준비 착수…2028년 코스닥상장목표",
         "description": "스마트 풀필먼트 기업 위킵이 신영증권을 기업공개(IPO) 대표주관사로선정하고 코스닥상장을 위한 준비에 착수했다. 위킵은 신영증권을 IPO 대표주관사로선정했으며, 2027년상장예비심사 청구와 2028년 코스닥상장을 목표로 관련 절차를 추진한다고 29일 밝혔다. 위킵은 이커머스 셀러의 상품 보관...",
         "link": "https://platum.kr/archives/287962",
@@ -5694,17 +5639,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "\"스킨1004 합치고 자회사 정리하고\" 구다이글로벌 IPO 작업 '본격화'",
-        "description": "주관사로선정했다. 지난 4월부터는주관사단 인력이 구다이글로벌 본사에 파견돼 상주 근무를 시작한 것으로 전해졌다. 앞서 지난해 8월 구다이글로벌은 8000억원 규모 전환사채(CB) 투자 유치 과정에서 투자자들에게 3년 내 IPO 추진 계획을 제시한 바 있다. 시장에서는 이르면 올해 하반기상장예비심사...",
-        "link": "https://www.dailian.co.kr/news/view/1647128/?sc=Naver",
+        "title": "[더벨]네이버, 배민 인수전 참여 공식화 '실익 계산 돌입'",
+        "description": "DH가 배민 매각주관사로 JP모간을선정했다는 이야기도 나왔다. 당시 우아한형제들은 \"사실무근\"이라고 일축했으나 현시점에서는 JP모간이 관련 업무를... 특히 DH가 독일상장기업인 만큼 현지에서 문제 삼을 수도 있다. 더불어 우버는 배민에 이어 카카오모빌리티 인수까지 검토 중인 것으로 파악된다....",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191546239040105973",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "[더벨]네이버, 배민 인수전 참여 공식화 '실익 계산 돌입'",
-        "description": "DH가 배민 매각주관사로 JP모간을선정했다는 이야기도 나왔다. 당시 우아한형제들은 \"사실무근\"이라고 일축했으나 현시점에서는 JP모간이 관련 업무를... 특히 DH가 독일상장기업인 만큼 현지에서 문제 삼을 수도 있다. 더불어 우버는 배민에 이어 카카오모빌리티 인수까지 검토 중인 것으로 파악된다....",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191546239040105973",
+        "title": "\"스킨1004 합치고 자회사 정리하고\" 구다이글로벌 IPO 작업 '본격화'",
+        "description": "주관사로선정했다. 지난 4월부터는주관사단 인력이 구다이글로벌 본사에 파견돼 상주 근무를 시작한 것으로 전해졌다. 앞서 지난해 8월 구다이글로벌은 8000억원 규모 전환사채(CB) 투자 유치 과정에서 투자자들에게 3년 내 IPO 추진 계획을 제시한 바 있다. 시장에서는 이르면 올해 하반기상장예비심사...",
+        "link": "https://www.dailian.co.kr/news/view/1647128/?sc=Naver",
         "source": "",
         "date": ""
       },
@@ -6049,22 +5994,6 @@ const DASHBOARD_DATA = {
         "title": "[스트라드비젼 IPO] ②매년 600억 손실인데…장밋빛 '탑다운' 적절하나",
         "description": "현재 대규모 영업손실을 지우고 코스피상장대기업과 비교한 밸류를 들고 나선 상황이다. MOQ 없는 탑다운 추정, 외부 변수에 취약 19일 스트라드비젼...주관사는 소프트웨어 개발 및 공급업이라는 산업 유사성을 바탕으로 4개사를 최종 비교기업으로선정했다. 현대오토에버, 슈어소프트테크...",
         "link": "https://www.smarttoday.co.kr/ko-kr/articles/107561",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사선정",
-        "title": "[Invest]TPG, 카카오모빌리티 엑시트 속도…롯데렌탈·배민 딜 나설까",
-        "description": "카카오모빌리티는 미국 ADR상장을 위해 뱅크오브아메리카(BofA), 모건스탠리, UBS 등을주관사로선정했다. 미국 기준에 맞는 재무 정보 정비를 위해 딜로이트안진을 통한 감사 작업도 진행 중이다. 관련 절차는 카카오모빌리티 측이 아닌 TPG가 주도하고 있는 것으로 전해진다.TPG는 2017년 카카오모빌리티...",
-        "link": "https://www.investchosun.com/site/data/html_dir/2026/05/19/2026051980112.html",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사선정",
-        "title": "[더벨]브리즈바이오, 기술성평가 돌입…코스닥상장절차 개시",
-        "description": "브리즈바이오 관계자는 \"주관사를선정하고 기술성평가를 신청해상장준비를 진행 중인데 구체적인 일정은 아직 확정되지 않았다\"며 \"해외 기업인 만큼 물리적으로 시간이 소요되는 작업들이 있다보니 준비 진도에 맞춰 절차를 밟아나갈 것\"이라고 말했다.",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605191025520760102148",
         "source": "",
         "date": ""
       },
@@ -6910,6 +6839,22 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "프리IPO",
+        "title": "스페이스X 한때 45% 급락, 무슨 일?…하이퍼리퀴드서 22억여원 청산",
+        "description": "프리IPO무기한 선물 계약은 일반 투자자도 스페이스X와 같은 대형 비상장 기업에 상장 전 투자할 수 있는 통로를 열었다는 점에서 의미가 있다. 기존프리IPO투자 시장은 벤처캐피탈(VC)과 기관투자자의 전유물로 꼽혀 왔다. 한편 스페이스X는 지난 20일(현지시간) 미국 증권거래위원회(SEC)에 종목명...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=06018806645453840",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "프리IPO",
+        "title": "프리딕트펀, 창신메모리IPO시총 순위 예측시장 개설",
+        "description": "오데일리에 따르면 예측시장프리딕트펀이 창신메모리(CXMT)의IPO당일 종가 기준 시가총액 순위 예측 이벤트를 새로 개설했다. 현재 해당 이벤트의 총거래량은 9만3000달러로 집계됐다. 창신메모리는 5월 27일 중국 과학창업판IPO심사를 통과했으며, 295억위안 규모의 자금 조달을 추진하고 있다....",
+        "link": "https://www.tokenpost.kr/news/breaking/364329",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "프리IPO",
         "title": "[THE COMPASS] 빅웨이브로보틱스IPO, FI ‘잭팟’ 이면 PSR 평가 ‘갸웃...",
         "description": "빅웨이브로보틱스는 지난 2021년 초기투자그룹(카카오인베스트먼트와 KB성장지원 펀드)로부터프리IPO방식으로 약 15억원을 유치했다. 이어 2023년에도 후기투자그룹(에이스톤벤처스, 신한벤처투자 등) 총 98억원가량을 조달했다. 조정단가는 초기투자그룹이 2123원, 후기투자그룹은 5272원이다. 이를...",
         "link": "http://www.fntimes.com/html/view.php?ud=202605291542304663a837df6494_18",
@@ -7182,17 +7127,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "프리IPO",
-        "title": "[국민성장펀드 운용사] 미래에셋자산운용, 책임운용 의지 '우량 딜' 중심",
-        "description": "선임매니저는 뉴딜펀드 등 정책형 펀드 운용 경험을 갖춘 것으로 전해졌다. 미래에셋자산운용 관계자는 \"상장주식은 소부장과 신성장 산업, K제조업을 중심으로 투자할 계획\"이라며 \"PE 부문에서는 후기 자금조달이나프리IPO단계에 있는 우량 딜을 선별해 안정적인 수익성 확보를 추구하겠다\"고 설명했다.",
-        "link": "https://www.fetv.co.kr/news/articleView.html?idxno=303178",
+        "title": "[국민성장펀드 운용사] DS자산운용, 성장기업 발굴 '비상장 투자'에 초점",
+        "description": "비주목적 투자 영역에서는 상장주식 및프리IPO(상장 전 지분투자)를 병행하는 구조를 담았다. 투자 집행 이후 리스크 관리를 위한 사후관리 시스템도 세분화했다. 투자 기업의 가치 변화와 리스크 수준 및 회수 가능성을 정량적·정성적으로 평가하는 내부 자산 평가 기준을 적용한다. 이와 함께 사후관리...",
+        "link": "https://www.fetv.co.kr/news/articleView.html?idxno=303064",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "[국민성장펀드 운용사] DS자산운용, 성장기업 발굴 '비상장 투자'에 초점",
-        "description": "비주목적 투자 영역에서는 상장주식 및프리IPO(상장 전 지분투자)를 병행하는 구조를 담았다. 투자 집행 이후 리스크 관리를 위한 사후관리 시스템도 세분화했다. 투자 기업의 가치 변화와 리스크 수준 및 회수 가능성을 정량적·정성적으로 평가하는 내부 자산 평가 기준을 적용한다. 이와 함께 사후관리...",
-        "link": "https://www.fetv.co.kr/news/articleView.html?idxno=303064",
+        "title": "[국민성장펀드 운용사] 미래에셋자산운용, 책임운용 의지 '우량 딜' 중심",
+        "description": "선임매니저는 뉴딜펀드 등 정책형 펀드 운용 경험을 갖춘 것으로 전해졌다. 미래에셋자산운용 관계자는 \"상장주식은 소부장과 신성장 산업, K제조업을 중심으로 투자할 계획\"이라며 \"PE 부문에서는 후기 자금조달이나프리IPO단계에 있는 우량 딜을 선별해 안정적인 수익성 확보를 추구하겠다\"고 설명했다.",
+        "link": "https://www.fetv.co.kr/news/articleView.html?idxno=303178",
         "source": "",
         "date": ""
       },
@@ -7686,6 +7631,14 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "프리IPO",
+        "title": "[Invest]2조 딥엑스프리IPO에 KB·신한·NH 금융지주 총출동",
+        "description": "딥엑스가 진행 중인프리IPO투자 라운드에서 세 금융지주가 각각 1000억원씩 투자해 공동 앵커를 맡는 방안이 유력하게 검토되고 있다. 금융지주들의 선투자가 마무리되면 국민성장펀드의 매칭 출자 논의도 속도를 낼 전망이다.24일 투자은행(IB)업계에 따르면 딥엑스는 6000억원 규모의프리IPO투자유치를...",
+        "link": "https://www.investchosun.com/site/data/html_dir/2026/05/22/2026052280177.html",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "프리IPO",
         "title": "어디 하나 흠잡을 데 없는 한국투자증권…하반기 기상도 ‘맑음’",
         "description": "기업금융은 기업공개(IPO) 시장 부진에도 중소형 딜과 주선수수료, 상장전 투자유치(PreIPO) 수익, 프로젝트파이낸싱(PF) 관련 수수료가 이익을... 여기에 한국거래소는 올 하반기부터프리∙에프터마켓을 시행한다. 생산적 금융으로의 전환 추세 속 증권사의 역할이 강화되며 사업 영역의 지평도 한층 더...",
         "link": "http://www.segyebiz.com/newsView/20260525508224?OutUrl=naver",
@@ -7702,14 +7655,6 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "프리IPO",
-        "title": "[Invest]2조 딥엑스프리IPO에 KB·신한·NH 금융지주 총출동",
-        "description": "딥엑스가 진행 중인프리IPO투자 라운드에서 세 금융지주가 각각 1000억원씩 투자해 공동 앵커를 맡는 방안이 유력하게 검토되고 있다. 금융지주들의 선투자가 마무리되면 국민성장펀드의 매칭 출자 논의도 속도를 낼 전망이다.24일 투자은행(IB)업계에 따르면 딥엑스는 6000억원 규모의프리IPO투자유치를...",
-        "link": "https://www.investchosun.com/site/data/html_dir/2026/05/22/2026052280177.html",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "프리IPO",
         "title": "“고혈압·당뇨 복합제 임상 첫 성공” … 오토텔릭바이오, R&D 실탄 확보",
         "description": "미국 식품의약국(FDA)프리IND(Pre-IND) 미팅을 마치며 미국 시장 공략에도 속도를 내고 있다. 김 대표는 “임상 3상 결과가 나오기도 전에 기술이전이... 이어 “올해 하반기 기술성 평가를 받고 내년 중반 기업공개(IPO)를 목표로 하고 있다”고 덧붙였다. 한편, 오토텔릭바이오는 중소벤처기업부의...",
         "link": "https://www.sedaily.com/article/20047898?ref=naver",
@@ -7721,22 +7666,6 @@ const DASHBOARD_DATA = {
         "title": "中 소수지분 투자 급증…\"메타도 막힌 규제, 구조 설계 없인 위험\"",
         "description": "그는 \"기업공개(IPO)만 전제로 설계돼 상장 실패 시 회수 방안이 없거나, 정보권과 비토권이 선언적으로만 써 있고 위반 시 제재가 없는 경우가 반복된다\"며 \"프리(Pre)IPO중국 투자는 '상장 가능성에 투자하는 거래'가 아니라 '불확실성을 관리하는 계약 구조를 만드는 거래'에 가깝다\"고 했다. 법무법인 태평양...",
         "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01157846645452856",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "프리IPO",
-        "title": "정재헌號 SKT가 ‘AI 지주사’로 불리는 까닭",
-        "description": "최근 리벨리온이 6400억 원 규모프리IPO(상장 전 지분투자)를 마무리하고 기업가치 3조4000억 원을 인정받음에 따라, SK텔레콤이 보유한 지분 가치 역시 동반 상승했다는 분석이다. 또한 기술 내재화 측면에서 리벨리온 데이터센터용 AI 반도체 ‘아톰(ATOM)’을 자사 생성형 AI ‘에이닷’의 전화 통화...",
-        "link": "http://www.fntimes.com/html/view.php?ud=202605250853166281dd55077bc2_18",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "프리IPO",
-        "title": "\"길 위에 뜬 화살표\"… 외신도 주목한 韓 스타트업",
-        "description": "'AI 글라스 광학기술' 레티널, 278억프리IPO유치…27년 상장 시동 레티널이 278억원 규모의프리IPO투자를 유치했다. 이번 라운드 마무리로 레티널의 누적 투자 유치액은 625억원을 넘어섰다. 이번 투자에는 한국산업은행, 대성창업투자, 코오롱인베스트먼트, 신한캐피탈, 롯데벤처스 등 총 16개 투자기관이...",
-        "link": "https://www.mt.co.kr/future/2026/05/25/2026052515262794978",
         "source": "",
         "date": ""
       },
@@ -8110,17 +8039,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "pre ipo",
-        "title": "빌드블록, 미국 데이터센터 개발 시장 진출",
-        "description": "올해 상반기 내로 국내 대형 증권사들을 대상으로 IPO 주관사 선정을 완료하고 연내 대규모Pre-IPO투자 유치까지 매듭지어 북미 전역의 포트폴리오를 한층 더 공격적으로 확장하겠다는 구상이다. 빌드블록 관계자는 “데이터센터는 AI 시대를 지탱하는 핵심 인프라로, 향후 북미 전역으로 데이터센터 및 첨단...",
-        "link": "https://www.joongang.co.kr/article/25431669",
+        "title": "KB금융, AI 반도체 기업 리벨리온과 차세대 AI 금융 인프라 구축 협약",
+        "description": "KB증권과 KB인베스트먼트는 시리즈 B부터Pre-IPO까지 매 라운드 빠짐없이 투자에 참여했다. 리벨리온은 2025년 KB금융 'HUB Day'에서 기업가치 1조원을 돌파해 신규 유니콘 기업상을 수상했으며 최근에는 기업가치 3조4000억원을 인정받아 국민성장펀드 직접투자 1호 기업으로 선정됐다. 국내 금융지주가 창업...",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=521922",
         "source": "",
         "date": ""
       },
       {
         "keyword": "pre ipo",
-        "title": "KB금융, AI 반도체 기업 리벨리온과 차세대 AI 금융 인프라 구축 협약",
-        "description": "KB증권과 KB인베스트먼트는 시리즈 B부터Pre-IPO까지 매 라운드 빠짐없이 투자에 참여했다. 리벨리온은 2025년 KB금융 'HUB Day'에서 기업가치 1조원을 돌파해 신규 유니콘 기업상을 수상했으며 최근에는 기업가치 3조4000억원을 인정받아 국민성장펀드 직접투자 1호 기업으로 선정됐다. 국내 금융지주가 창업...",
-        "link": "https://www.joongangenews.com/news/articleView.html?idxno=521922",
+        "title": "빌드블록, 미국 데이터센터 개발 시장 진출",
+        "description": "올해 상반기 내로 국내 대형 증권사들을 대상으로 IPO 주관사 선정을 완료하고 연내 대규모Pre-IPO투자 유치까지 매듭지어 북미 전역의 포트폴리오를 한층 더 공격적으로 확장하겠다는 구상이다. 빌드블록 관계자는 “데이터센터는 AI 시대를 지탱하는 핵심 인프라로, 향후 북미 전역으로 데이터센터 및 첨단...",
+        "link": "https://www.joongang.co.kr/article/25431669",
         "source": "",
         "date": ""
       },
@@ -8166,17 +8095,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "pre ipo",
-        "title": "넥스트투자포럼 새출발…숭실대와 유니콘 육성",
-        "description": "기존 포럼이 초기 창업기업 발굴과 시드(Seed) 단계 투자에 초점을 맞췄다면 넥스트투자포럼은 시리즈 A 이상 후속 라운드 등 성장 단계까지 아우르며 시드부터Pre-IPO까지 전 단계로 투자 대상을 확대한다. 넥스트투자포럼은 일반 투자자와 엔젤투자자, 개인전문투자자를 비롯해 액셀러레이터(AC)...",
-        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=306206",
+        "title": "KB금융그룹, 국산 AI 반도체 기업 리벨리온과 전략적 업무 제휴",
+        "description": "이후 KB증권과 KB인베스트먼트는 시리즈 B 및 C,Pre-IPO라운드에 이르기까지 빠짐없이 투자에 참여하며 리벨리온의 성장을 돕는 든든한 파트너로 자리매김했다. 이러한 전폭적인 지원 속에 리벨리온은 가파른 성장세를 보이며 국내 대표 AI 반도체 기업으로 자리 잡았다. 리벨리온은 최근 기업가치 3.4조...",
+        "link": "http://www.press9.kr/news/articleView.html?idxno=77085",
         "source": "",
         "date": ""
       },
       {
         "keyword": "pre ipo",
-        "title": "KB금융그룹, 국산 AI 반도체 기업 리벨리온과 전략적 업무 제휴",
-        "description": "이후 KB증권과 KB인베스트먼트는 시리즈 B 및 C,Pre-IPO라운드에 이르기까지 빠짐없이 투자에 참여하며 리벨리온의 성장을 돕는 든든한 파트너로 자리매김했다. 이러한 전폭적인 지원 속에 리벨리온은 가파른 성장세를 보이며 국내 대표 AI 반도체 기업으로 자리 잡았다. 리벨리온은 최근 기업가치 3.4조...",
-        "link": "http://www.press9.kr/news/articleView.html?idxno=77085",
+        "title": "넥스트투자포럼 새출발…숭실대와 유니콘 육성",
+        "description": "기존 포럼이 초기 창업기업 발굴과 시드(Seed) 단계 투자에 초점을 맞췄다면 넥스트투자포럼은 시리즈 A 이상 후속 라운드 등 성장 단계까지 아우르며 시드부터Pre-IPO까지 전 단계로 투자 대상을 확대한다. 넥스트투자포럼은 일반 투자자와 엔젤투자자, 개인전문투자자를 비롯해 액셀러레이터(AC)...",
+        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=306206",
         "source": "",
         "date": ""
       },
@@ -8958,17 +8887,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "pre-ipo",
-        "title": "KB금융, AI 반도체 기업 리벨리온과 차세대 AI 금융 인프라 구축 협약",
-        "description": "KB증권과 KB인베스트먼트는 시리즈 B부터Pre-IPO까지 매 라운드 빠짐없이 투자에 참여했다. 리벨리온은 2025년 KB금융 'HUB Day'에서 기업가치 1조원을 돌파해 신규 유니콘 기업상을 수상했으며 최근에는 기업가치 3조4000억원을 인정받아 국민성장펀드 직접투자 1호 기업으로 선정됐다. 국내 금융지주가 창업...",
-        "link": "https://www.joongangenews.com/news/articleView.html?idxno=521922",
+        "title": "빌드블록, 미국 데이터센터 개발 시장 진출",
+        "description": "올해 상반기 내로 국내 대형 증권사들을 대상으로 IPO 주관사 선정을 완료하고 연내 대규모Pre-IPO투자 유치까지 매듭지어 북미 전역의 포트폴리오를 한층 더 공격적으로 확장하겠다는 구상이다. 빌드블록 관계자는 “데이터센터는 AI 시대를 지탱하는 핵심 인프라로, 향후 북미 전역으로 데이터센터 및 첨단...",
+        "link": "https://www.joongang.co.kr/article/25431669",
         "source": "",
         "date": ""
       },
       {
         "keyword": "pre-ipo",
-        "title": "빌드블록, 미국 데이터센터 개발 시장 진출",
-        "description": "올해 상반기 내로 국내 대형 증권사들을 대상으로 IPO 주관사 선정을 완료하고 연내 대규모Pre-IPO투자 유치까지 매듭지어 북미 전역의 포트폴리오를 한층 더 공격적으로 확장하겠다는 구상이다. 빌드블록 관계자는 “데이터센터는 AI 시대를 지탱하는 핵심 인프라로, 향후 북미 전역으로 데이터센터 및 첨단...",
-        "link": "https://www.joongang.co.kr/article/25431669",
+        "title": "KB금융, AI 반도체 기업 리벨리온과 차세대 AI 금융 인프라 구축 협약",
+        "description": "KB증권과 KB인베스트먼트는 시리즈 B부터Pre-IPO까지 매 라운드 빠짐없이 투자에 참여했다. 리벨리온은 2025년 KB금융 'HUB Day'에서 기업가치 1조원을 돌파해 신규 유니콘 기업상을 수상했으며 최근에는 기업가치 3조4000억원을 인정받아 국민성장펀드 직접투자 1호 기업으로 선정됐다. 국내 금융지주가 창업...",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=521922",
         "source": "",
         "date": ""
       },
@@ -9014,17 +8943,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "pre-ipo",
-        "title": "KB금융그룹, 국산 AI 반도체 기업 리벨리온과 전략적 업무 제휴",
-        "description": "이후 KB증권과 KB인베스트먼트는 시리즈 B 및 C,Pre-IPO라운드에 이르기까지 빠짐없이 투자에 참여하며 리벨리온의 성장을 돕는 든든한 파트너로 자리매김했다. 이러한 전폭적인 지원 속에 리벨리온은 가파른 성장세를 보이며 국내 대표 AI 반도체 기업으로 자리 잡았다. 리벨리온은 최근 기업가치 3.4조...",
-        "link": "http://www.press9.kr/news/articleView.html?idxno=77085",
+        "title": "넥스트투자포럼 새출발…숭실대와 유니콘 육성",
+        "description": "기존 포럼이 초기 창업기업 발굴과 시드(Seed) 단계 투자에 초점을 맞췄다면 넥스트투자포럼은 시리즈 A 이상 후속 라운드 등 성장 단계까지 아우르며 시드부터Pre-IPO까지 전 단계로 투자 대상을 확대한다. 넥스트투자포럼은 일반 투자자와 엔젤투자자, 개인전문투자자를 비롯해 액셀러레이터(AC)...",
+        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=306206",
         "source": "",
         "date": ""
       },
       {
         "keyword": "pre-ipo",
-        "title": "넥스트투자포럼 새출발…숭실대와 유니콘 육성",
-        "description": "기존 포럼이 초기 창업기업 발굴과 시드(Seed) 단계 투자에 초점을 맞췄다면 넥스트투자포럼은 시리즈 A 이상 후속 라운드 등 성장 단계까지 아우르며 시드부터Pre-IPO까지 전 단계로 투자 대상을 확대한다. 넥스트투자포럼은 일반 투자자와 엔젤투자자, 개인전문투자자를 비롯해 액셀러레이터(AC)...",
-        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=306206",
+        "title": "KB금융그룹, 국산 AI 반도체 기업 리벨리온과 전략적 업무 제휴",
+        "description": "이후 KB증권과 KB인베스트먼트는 시리즈 B 및 C,Pre-IPO라운드에 이르기까지 빠짐없이 투자에 참여하며 리벨리온의 성장을 돕는 든든한 파트너로 자리매김했다. 이러한 전폭적인 지원 속에 리벨리온은 가파른 성장세를 보이며 국내 대표 AI 반도체 기업으로 자리 잡았다. 리벨리온은 최근 기업가치 3.4조...",
+        "link": "http://www.press9.kr/news/articleView.html?idxno=77085",
         "source": "",
         "date": ""
       },
@@ -9438,17 +9367,49 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "VC 투자유치",
-        "title": "바이라인네트워크",
+        "title": "Keep에 저장",
         "description": "",
-        "link": "https://byline.network",
+        "link": "#",
         "source": "",
         "date": ""
       },
       {
         "keyword": "VC 투자유치",
-        "title": "Keep에 저장",
+        "title": "중진공-기보, 탄소감축 우수 기후테크 기업투자 유치길 연다",
+        "description": "중소벤처기업진흥공단은 29일 서울 영등포구에 소재한 더 포텐셜에서 기술보증기금과 함께 기후테크 기업의투자 유치지원을 위한 '중진공-기보... 설명회에는 반정식 중진공 지역혁신이사를 비롯해 중소기업 대표와 신용보증기금, 벤처캐피털(VC) 심사역 등투자전문가 50여 명이 참석했다. 설명회에서는 단순...",
+        "link": "https://www.cnbnews.com/news/articleView.html?idxno=1003179",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "한투·OKX, 코인원 지분 20%씩 전격 인수…\"전통 금융과 가상자산 영토 ...",
+        "description": "한국투자증권 김성환 대표, OKX 네테로 다이 글로벌 마켓 총괄 대표, 코인원 차명훈 대표, 컴투스홀딩스 정철호 대표가 29일 서울 여의도 코인원 본사에서 진행된 코인원투자 유치계약 체결식에서 포즈를 취하고 있다. / 사진=코인원 국내 대형 대형 증권사인 한국투자증권과 글로벌 가상자산 벤처캐피털(VC)인...",
+        "link": "https://www.businessplus.kr/news/articleView.html?idxno=112386",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "\"돈 벌어도 못 쌓는다\"…리츠업계, 유동성 위기 막는 제도개선 '촉구'",
+        "description": "스타트업이 벤처캐피탈(VC)로부터투자를 받거나, 재무구조 개선을 위해 전략적투자자를유치할 때 자주 활용되는 방식이다. 업계에서는 리츠에 적용되는 '유상증자' 규정으로 인해 '자금 펑크'가 발생할 위험이 높다는 지적이 이전부터 많았다. 제조기업의 경우 유상증자를 실시하면 소액주주 보호를 위해 '1차...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05103686645453840",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "코인원, 한투증권·OKX 3대 주주로 맞았다…지분 20%씩 인수",
+        "description": "코인원투자 유치계약 체결식[출처: 코인원] 한국투자증권과 가상자산 벤처캐피털(VC) OKX벤처스가 가상자산 거래소 코인원의 지분을 각각 20%씩 인수했다. 이에 따라 두 회사는 기존 최대 주주인 차명훈 코인원 대표(30.36%)와 2대 주주인 컴투스홀딩스(24.54%)에 이어 코인원의 공동 3대 주주가 됐다. 코인원은 29일...",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4417510",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "바이라인네트워크",
         "description": "",
-        "link": "#",
+        "link": "https://byline.network",
         "source": "",
         "date": ""
       },
@@ -9550,17 +9511,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "VC 투자유치",
-        "title": "STK 2026, 글로벌 테크 비즈니스 플랫폼 확대…투자·수출 연계 프로그...",
-        "description": "STK 2026은 기술 전시 중심 행사에서 나아가투자 유치와 글로벌 판로 확대, 산업 협업 기회 연결까지 지원하는 성과형 테크 플랫폼으로... 글로벌 비즈니스 라운지 ‘The Sphere’는 참가기업의투자및 수출 성과 지원을 위한 핵심 프로그램으로 운영된다. The Sphere에서는 국내외VC와...",
-        "link": "https://www.etoday.co.kr/news/view/2588973",
+        "title": "KDDF, 2026 글로벌 바이오텍 쇼케이스 성료",
+        "description": "올해로 4회째를 맞은 이번 행사는 국내 우수 신약 후보물질의 해외투자 유치와 글로벌 협력 기회 확대를 위해 마련됐다. 특히 올해는 기존 IR 중심 행사에서 한발 더 나아가 글로벌 제약사,투자기관, 국내 주요VC·CVC, 전략적투자기관과 국내 바이오기업 간 실질적인 사업개발, 공동개발, 전략적투자...",
+        "link": "https://new.dailypharm.com/user/news/338982?REFERER=NP",
         "source": "",
         "date": ""
       },
       {
         "keyword": "VC 투자유치",
-        "title": "KDDF, 2026 글로벌 바이오텍 쇼케이스 성료",
-        "description": "올해로 4회째를 맞은 이번 행사는 국내 우수 신약 후보물질의 해외투자 유치와 글로벌 협력 기회 확대를 위해 마련됐다. 특히 올해는 기존 IR 중심 행사에서 한발 더 나아가 글로벌 제약사,투자기관, 국내 주요VC·CVC, 전략적투자기관과 국내 바이오기업 간 실질적인 사업개발, 공동개발, 전략적투자...",
-        "link": "https://new.dailypharm.com/user/news/338982?REFERER=NP",
+        "title": "STK 2026, 글로벌 테크 비즈니스 플랫폼 확대…투자·수출 연계 프로그...",
+        "description": "STK 2026은 기술 전시 중심 행사에서 나아가투자 유치와 글로벌 판로 확대, 산업 협업 기회 연결까지 지원하는 성과형 테크 플랫폼으로... 글로벌 비즈니스 라운지 ‘The Sphere’는 참가기업의투자및 수출 성과 지원을 위한 핵심 프로그램으로 운영된다. The Sphere에서는 국내외VC와...",
+        "link": "https://www.etoday.co.kr/news/view/2588973",
         "source": "",
         "date": ""
       },
@@ -9622,17 +9583,17 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "VC 투자유치",
-        "title": "부산테크노파크, '2026 초소형위성 워크숍' 산업체의 날 성황",
-        "description": "부산테크노파크는 산업체의 날 세션을 통해 우주산업 관련 27개 기업·기관의 전시 부스를 운영하고 기업 발표와 AC(액셀러레이터)·VC(벤처캐피털) 밋업... 이를 통해 참가자들은 기술개발뿐 아니라 사업화와투자유치측면에서도 실질적인 협력 기회를 모색하는 시간을 가졌다. 부산테크노파크는 최근 발사된...",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2434207",
+        "title": "'AI·플랫폼' 장착한 스타트업, 금융과 손잡고 영토 넓힌다",
+        "description": "및투자 유치기회를 제공했다. 또한 산업은행과 신용보증기금이 추천한 유망 기업과 코스닥 상장에 성공한 디지털 헬스케어 기업 '메쥬'의 성장... 디캠프 2.0 선포 이후 프리A와 시리즈A 단계 스타트업의 데스밸리 극복을 지원해 온 디캠프는 이번 행사에 국내외 주요VC15곳과 5대 시중은행을 포함한...",
+        "link": "http://www.dailypop.kr/news/articleView.html?idxno=99225",
         "source": "",
         "date": ""
       },
       {
         "keyword": "VC 투자유치",
-        "title": "'AI·플랫폼' 장착한 스타트업, 금융과 손잡고 영토 넓힌다",
-        "description": "및투자 유치기회를 제공했다. 또한 산업은행과 신용보증기금이 추천한 유망 기업과 코스닥 상장에 성공한 디지털 헬스케어 기업 '메쥬'의 성장... 디캠프 2.0 선포 이후 프리A와 시리즈A 단계 스타트업의 데스밸리 극복을 지원해 온 디캠프는 이번 행사에 국내외 주요VC15곳과 5대 시중은행을 포함한...",
-        "link": "http://www.dailypop.kr/news/articleView.html?idxno=99225",
+        "title": "부산테크노파크, '2026 초소형위성 워크숍' 산업체의 날 성황",
+        "description": "부산테크노파크는 산업체의 날 세션을 통해 우주산업 관련 27개 기업·기관의 전시 부스를 운영하고 기업 발표와 AC(액셀러레이터)·VC(벤처캐피털) 밋업... 이를 통해 참가자들은 기술개발뿐 아니라 사업화와투자유치측면에서도 실질적인 협력 기회를 모색하는 시간을 가졌다. 부산테크노파크는 최근 발사된...",
+        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2434207",
         "source": "",
         "date": ""
       },
@@ -10126,9 +10087,9 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "VC 투자유치",
-        "title": "[더벨]아이쿠카, 부산서 ‘패밀리 라이프 OS’ 실증…펀딩 재개 채비",
-        "description": "26일 벤처투자(VC) 업계에 따르면 아이쿠카는 과학기술정보통신부와 한국인터넷진흥원이 추진하고 부산광역시와 부산테크노파크가 수행하는 ‘2026년... 아이쿠카는 지난해 시리즈A투자 유치를 검토했지만 시장 환경을 고려해 일정을 조정했다. 대신 필요한 운영 자금을 중심으로 브리지 성격의 자금을 우선...",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605261412100840103724",
+        "title": "[더벨]파블로항공, 150억 프리IPO 브릿지투자시동",
+        "description": "투자유치에 나선다. 예정보다 상장 일정이 뒤로 밀리면서 넉넉하게 자금을 확보하기 위해 라운드를 열었다. 직전 프리IPO에서 오버부킹이 이뤄졌던 만큼 상당수의 운용사들이투자를 검토하고 있는 것으로 알려진다. 26일 벤처캐피탈(VC) 업계에 따르면 파블로항공은 150억원 규모로 프리IPO 브릿지 라운드를...",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605260748358900102596",
         "source": "",
         "date": ""
       },
@@ -10142,9 +10103,9 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "VC 투자유치",
-        "title": "[더벨]파블로항공, 150억 프리IPO 브릿지투자시동",
-        "description": "투자유치에 나선다. 예정보다 상장 일정이 뒤로 밀리면서 넉넉하게 자금을 확보하기 위해 라운드를 열었다. 직전 프리IPO에서 오버부킹이 이뤄졌던 만큼 상당수의 운용사들이투자를 검토하고 있는 것으로 알려진다. 26일 벤처캐피탈(VC) 업계에 따르면 파블로항공은 150억원 규모로 프리IPO 브릿지 라운드를...",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605260748358900102596",
+        "title": "[더벨]아이쿠카, 부산서 ‘패밀리 라이프 OS’ 실증…펀딩 재개 채비",
+        "description": "26일 벤처투자(VC) 업계에 따르면 아이쿠카는 과학기술정보통신부와 한국인터넷진흥원이 추진하고 부산광역시와 부산테크노파크가 수행하는 ‘2026년... 아이쿠카는 지난해 시리즈A투자 유치를 검토했지만 시장 환경을 고려해 일정을 조정했다. 대신 필요한 운영 자금을 중심으로 브리지 성격의 자금을 우선...",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605261412100840103724",
         "source": "",
         "date": ""
       },
@@ -10229,34 +10190,18 @@ const DASHBOARD_DATA = {
         "date": ""
       },
       {
-        "keyword": "VC 투자유치",
-        "title": "자금난 빠진 비상장 바이오…\"원천특허·데이터로 가치 증명해야\"",
-        "description": "그는 \"초기에 있던 자금이 후기로 넘어갔다\"며 \"벤처캐피탈(VC)이 대형화되면서 초기 딜에투자하기 어려운 구조가 됐다\"고 했다. 이어 이 대표는투자 유치를 위해서는 플랫폼 경쟁력과 원천특허, 파이프라인 확장성, 임상 데이터, 매출 연결 가능성을 창업 단계부터 관리해야 한다고 강조했다. 이 대표는 \"어느...",
-        "link": "https://new.dailypharm.com/user/news/338903?REFERER=NP",
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "Keep에 저장",
+        "description": "",
+        "link": "#",
         "source": "",
         "date": ""
       },
       {
-        "keyword": "VC 투자유치",
-        "title": "'AI 인프라' 래블업 상장 시동,VC회수 청사진",
-        "description": "상장 절차가 본궤도에 오르면서 기존 벤처캐피탈(VC) 등 재무적투자자(FI)들의 회수 기대에도 관심이 쏠리고 있다. 27일 한국거래소 전자공시시스템에... 설립 2년 뒤인 2017년 첫 외부투자를유치한 뒤 지금까지 125억원 안팎의 자금을 조달하며 성장 기반을 다져왔다. 래블업은 최근 기술특례상장을 위한...",
-        "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45179",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "특구재단, 이노폴리스캠퍼스 기업가정신 프로그램 운영",
-        "description": "주요 과정은 선배 창업가가 정부출연연구기관을 직접 방문하는 '찾아가는 기업가정신 교육'을 비롯해 선후배 창업가와 액셀러레이터(AC), 벤처캐피탈(VC)... 노 실장은 기술사업화 창업의 전반적인 이해를 돕기 위해 연구소기업 창업 초기 단계부터 기술 기반 시장 진입 전략,투자 유치, 경영 등 창업 전반의...",
-        "link": "http://www.ccnnews.co.kr/news/articleView.html?idxno=410110",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "대기업-스타트업 경남 창업 생태계 ‘혁신 가속’",
-        "description": "이날 행사에는 우수 스타트업 9개 사가 참여해 20개 내외의 전문투자사(AC/VC)를 대상으로투자제안(IR)을 진행했다. 특히 한화오션을 비롯해 삼성중공업... 조선·해양 분야에 AX 기술이 깊숙이 스며들어 제조혁신을 이룰 수 있도록 유망 스타트업 발굴과투자 유치, 현장 PoC 지원을 아끼지 않겠다”고 강조했다.",
-        "link": "http://www.knnews.co.kr/news/articleView.php?idxno=1542502",
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "\"돈 벌어도 못 쌓는다\"…리츠업계, 유동성 위기 막는 제도개선 '촉구'",
+        "description": "스타트업이벤처캐피탈(VC)로부터투자를 받거나, 재무구조 개선을 위해 전략적투자자를유치할 때 자주 활용되는 방식이다. 업계에서는 리츠에 적용되는 '유상증자' 규정으로 인해 '자금 펑크'가 발생할 위험이 높다는 지적이 이전부터 많았다. 제조기업의 경우 유상증자를 실시하면 소액주주 보호를 위해 '1차...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05103686645453840",
         "source": "",
         "date": ""
       },
@@ -10265,14 +10210,6 @@ const DASHBOARD_DATA = {
         "title": "바이라인네트워크",
         "description": "",
         "link": "https://byline.network",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "Keep에 저장",
-        "description": "",
-        "link": "#",
         "source": "",
         "date": ""
       },
@@ -10513,14 +10450,6 @@ const DASHBOARD_DATA = {
         "title": "스타트업 월드컵 코리아-경산 개최…’우승팀 100만 달러투자’",
         "description": "한국 대표팀에게는 항공 및 숙박 비용이 지원되며, 그랜드 파이널에서 최종 우승할 경우 100만 달러(약 14억 5,000만 원) 규모의투자 유치기회를 확보하게 된다. 대회 당일 현장에서는 본선 피칭 외에도벤처캐피탈(VC)과의 1:1투자상담 및 네트워킹 프로그램이 병행 운영된다. 참가 기업들은 이를 활용해...",
         "link": "https://www.venturesquare.net/1086260/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "삼일회계법인, '2026년 스케일업 팁스 그로우스랩' 참가기업 모집",
-        "description": "한국벤처캐피탈협회(KVCA)가 스케일업 단계 스타트업을 위한 성장 지원 프로그램 '2026년 스케일업 팁스 그로우스랩(Growth Lab)' 참가기업 모집에 나섰다. 이번 프로그램은 스케일업 팁스(Scale-up TIPS) 및 DCP(Deep-tech Challenge Program) 선정기업을 대상으로 진행되며, 회계·세무·투자유치·인수합병·기업공개...",
-        "link": "https://www.aitimes.kr/news/articleView.html?idxno=40235",
         "source": "",
         "date": ""
       },
@@ -11085,18 +11014,146 @@ const DASHBOARD_DATA = {
         "date": ""
       },
       {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "[금융zip] 하나은행, HD현대로보틱스·신보와 'K-로봇' 지원 맞손 外",
-        "description": "한국산업은행은 남부권 지역소재 혁신기업들의투자유치및 영업확대를 위한 네트워킹 기회 등을 제공해오고 있다. 이날 행사에서는벤처캐피탈및 자산운용사를 대상으로 5월 7일 공고한 '2026 남부권 지역성장지원펀드' 출자사업 설명회와 스타트업의투자유치를 위한 IR 세션이 함께 진행됐다....",
-        "link": "https://www.getnews.co.kr/news/articleView.html?idxno=870669",
+        "keyword": "투자유치 시리즈",
+        "title": "Keep에 저장",
+        "description": "",
+        "link": "#",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "Keep에 저장",
+        "title": "[경희대학교 창업캠퍼스타운센터] 전기분해 방식 내시경 소독 장치 옥타...",
+        "description": "만큼,시리즈A 수준의 외부투자 유치를 목표로 하고 있다”고 말했다. 덧붙여 “중소벤처기업부, 산업통상자원부 등 정부 과제 및 보조금도 지속적으로 신청하고 있다”며 “이미 벤처기업 인증을 통해 일부 지원 혜택을 받고 있다.투자 유치와 정부 지원을 병행하여 성장 재원을 확보할 것”이라고...",
+        "link": "https://magazine.hankyung.com/job-joy/article/202605297561d",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "삼성-SK, 앤트로픽에투자...AI 칩 협력 기대감 '솔솔'",
+        "description": "28일(현지시간) 앤트로픽은시리즈H투자라운드에서 650억달러(약 98조원)를유치했다고 밝혔다.투자이후 기업 가치는 9650억달러(약 1440조원)다. 이번투자라운드에는 삼성전자와 SK하이닉스, 마이크론 등 메모리 공급 업체 3곳도 참가했다. 앤트로픽은 \"이들은 전 세계 메모리지와 스토리지, 로직 반도체...",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=57382",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "삼성전자 파운드리, HBM4E·클로드 호재에 흑자 전환 기대 모으나",
+        "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 650억달러(약 97조9615억원)를유치했으며투자후 기업가치는 9650억달러(약 1440조원)로 평가됐다고 밝혔다. 앤트로픽은 \"삼성전자, SK하이닉스, 마이크론이 전략적 인프라 파트너로 참여해 전 세계 메모리, 스토리지 및 로직 칩 공급에 중요한 역할을...",
+        "link": "https://www.econovill.com/news/articleView.html?idxno=741169",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "'뜨는 AI' 앤스로픽 올라탄 삼전닉스",
+        "description": "앤스로픽은 28일(현지시간)시리즈H(8번째투자유치) 라운드에서 650억달러(약 98조원)를 조달했다고 밝혔다. 전체 기업가치는 9650억달러(약 1450조원)로 평가됐다. 지난 2월 3800억달러에서 2.5배 이상 높아진 것이다. 앤스로픽은 이에 따라 지난 3월투자를유치하며 8520억달러 수준의 기업가치를 인정받은...",
+        "link": "https://www.mk.co.kr/article/12061456",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "CEO스코어데일리",
         "description": "",
-        "link": "#",
+        "link": "http://www.ceoscoredaily.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "K-반도체, 앤트로픽에 전략적투자…“삼성 파운드리, ‘흑자전환’ 전...",
+        "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 총 650억달러(약 97조8185억원)를유치했다고 현지시간으로 28일 밝혔다. 이번투자 유치로 앤트로픽의 기업 가치는 무려 9650억달러(약 1452조2285억원)로 평가됐다. 이번투자라운드에는 삼성전자를 비롯해 SK하이닉스, 마이크론테크놀로지(마이크론) 등...",
+        "link": "https://www.ceoscoredaily.com/page/view/2026052913354153429",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "[좋은 일자리 기업] 디스플레이서 포토닉스까지…유니젯의 20년 뚝심",
+        "description": "유니젯은 최근 127억원 규모의시리즈B투자도유치했다. 기존 주관사였던 신영증권에 한국투자증권을 공동대표 주관사로 추가 선임했다. 회사는투자금을 생산능력 확대, 신규 생산시설 구축, 글로벌 마케팅, 페로브스카이트와 블랙링 패턴 장비 생산 등에 투입할 계획이다. 평택 공장 기준 연간 장비...",
+        "link": "https://www.thelec.kr/news/articleView.html?idxno=57330",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "삼성전자·SK하이닉스, 엔트로픽투자참여… 'AI 반도체' 협력 확대",
+        "description": "엔트로픽은 최근 진행한시리즈H투자라운드에서 650억달러를유치했다고 밝혔다.투자후 기업가치는 9650억달러(약 1440조원)로 평가됐다. 이번투자에는 삼성전자와 SK하이닉스, 마이크론 등 글로벌 반도체 기업들이 '전략적 인프라 파트너'자격으로 참여했다. 엔트로픽은 AI 모델 '클로드'(Claude)...",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092163031",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "[도파민: 도시성장과 선거⑳] 이번에도 또?… 선거 때마다 '그린벨트 해...",
+        "description": "시사위크는 6·3 지방선거를 맞아 기획시리즈'도파민(도시로 파악하는 대한민국 미래)'을 통해 대한민국을 '사라지는 도시'와 '생겨나는 도시'라는 두... 기업투자를유치했다\"고 강조했다. 지난 2022년 지방선거에서 내세웠던 '그린벨트 해제' 공약을 이번 자신의 업적으로 내세우며 이번 선거에서도 활용하고...",
+        "link": "https://www.sisaweek.com/news/articleView.html?idxno=235790",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "[데일리픽] 이더리움, 6월 약세 전망…6.3 지방선거 'AI 투입' 확산",
+        "description": "■ 앤트로픽, 650억달러투자 유치...상장 전 몸값 1조달러 육박 앤트로픽이시리즈H투자라운드에서 650억달러 규모 자금을유치했다. 이번투자로 기업가치는 9650억달러까지 상승했으며, 업계에서는 상장 전 마지막 대규모 자금 조달이 될 가능성에 주목하고 있다. 이번투자에는 알티미터 캐피털...",
+        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670274",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "[DD퇴근길] 크루보다 주주가치?…AI 시대 IT기업의 새로운 숙제",
+        "description": "기사 원문 : 퀄컴, 300달러 '스냅드래곤C' 전격 공개…AI PC 대중화 앞당긴다 (배태용 기자) 몸값만 1450조원…앤트로픽의 질주, 그리고 K-반도체의 탑승 앤트로픽이시리즈H 펀딩에서 무려 650억달러(약 97조원)의투자금을유치하며 기업 가치가 1450조원으로 상승했습니다. 알티미터 캐피털, 드래고니아 등...",
+        "link": "https://www.ddaily.co.kr/page/view/2026052914022689236",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "'오픈AI' 제친 앤트로픽...몸값 1,440조 원에 삼성·SK도 가세",
+        "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 대규모 자금을유치하며투자후 기업가치를 우리 돈 약 1,440조 원으로 평가받았다고 밝혔습니다. 이는 불과 1년 전보다 2.5배 이상 폭등한 수치로 상장을 추진 중인 강력한 경쟁사 오픈AI의 최근 평가액마저 돌파한 역대 최고 속도의 성장세입니다. 특히...",
+        "link": "https://science.ytn.co.kr/program/view.php?mcd=0082&hcd=&key=202605291604441286",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "앤트로픽, 650억 달러 초대형투자 유치…오픈AI 넘어 AI 업계 최고 기업...",
+        "description": "투자 유치에 성공하며 글로벌 AI 산업의 판도를 뒤흔들고 있다. 시장에서는 이번 자금 조달이 단순투자확대를 넘어 AI 산업 주도권 경쟁이 새로운 단계로 진입했음을 보여주는 상징적 사건이라는 평가가 나온다. 로이터와 워싱턴 포스트 등의 보도에 따르면 앤트로픽은 최근시리즈H투자라운드를 통해 총...",
+        "link": "http://www.bizwnews.com/news/articleView.html?idxno=137672",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "삼성전자·SK하이닉스, 연내 IPO '엔트로픽'투자에 참여",
+        "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 650억달러(약 98억400만원)를유치했으며,투자후 기업가치는 9650억달러(약 1440조원)로 평가됐다고 26일(현지시간) 밝혔다. 금융정보업체 피치북 자료에 따르면 2021년 설립된 앤트로픽의 기업가치 증가는 역대 가장 빠른 속도라고 월스트리트저널(WSJ)이...",
+        "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=842324",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "삼전·하닉·마이크론, 앤스로픽 신규투자사로…메모리-AI기업 ‘파트너...",
+        "description": "앤스로픽은 28일(현지시간) 650억 달러(약 97조 원) 규모의시리즈H투자 유치를 마쳤다고 발표했다. 삼성전자와 SK하이닉스의 구체적인투자규모와 조건은 공개되지 않았다. 이번투자 유치로 공개된 앤스로픽의 기업가치는 9650억 달러(약 1440조 원)로, 올 2월 평가액 3800억 달러의 2.5배를 넘어섰다. 지난...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260529/134016468/1",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "삼성전자, 앤트로픽에 전략적투자...파운드리 부활 신호탄 쏠까",
+        "description": "28일(현지시간) 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억달러를유치했으며,투자후 기업가치는 9650억달러(약 1440조원)로 평가됐다고 밝혔다. 지난 2월 평가액인 3800억달러보다 2.5배 이상 증가한 규모다.  상장을 추진하고 있는 라이벌 오픈AI가 지난 3월 말 기록한 평가액 8520억 달러보다 높다....",
+        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=15640",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "삼성·SK하이닉스, 앤트로픽에 전략적투자",
+        "description": "현지시간 28일 앤트로픽은 '시리즈H투자라운드'에서 650억 달러를유치했으며,투자후 기업가치는 9,650억 달러, 한화 약 1,440조원으로 평가됐다고 밝혔습니다.투자라운드에는 3대 메모리 반도체 제조사인 삼성전자와 SK하이닉스, 마이크론도 '전략적 인프라 파트너'로 참여했습니다. 업계에서는 국내...",
+        "link": "http://www.yonhapnewstv.co.kr/news/MYH20260529160425iw4",
         "source": "",
         "date": ""
       },
@@ -11462,14 +11519,6 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "삼성 파운드리 앤트로픽 AI칩 수주 가능성",
-        "description": "앤트로픽은 28일(현지시간) 자사 뉴스룸에서시리즈H투자라운드를 통해 650억달러(약 97조원) 규모 자금을유치했다고 밝혔다.투자후 기업가치는 9650억달러(약 1446조원)로 평가됐다. 이번투자에는 삼성전자와 SK하이닉스, 마이크론 등이 '전략적 인프라 파트너'(strategic infrastructure partners)로...",
-        "link": "http://www.4th.kr/news/articleView.html?idxno=2112428",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
         "title": "삼성·SK, 앤트로픽과 전략적 밀착…AI 반도체 생태계 공략",
         "description": "28일(현지시간) 앤트로픽은시리즈H투자라운드를 통해 650억달러를유치했다고 밝혔다.투자 유치이후 기업가치는 9650억달러(약 1440조원)로 평가됐다. 이번투자에는 삼성전자와 SK하이닉스, 마이크론 등 글로벌 메모리 반도체 기업들이 '전략적 인프라 파트너' 자격으로 참여했다. 업계에서는 이번...",
         "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1710578",
@@ -11478,9 +11527,9 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "앤트로픽 몸값, 오픈AI도 제쳐…삼성전자·하이닉스도투자참여",
-        "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9천650억 달러(약 1천440조 원)로 평가됐다고 28일(현지시간) 밝혔습니다. 이는 지난 2월의 기업가치 평가액 3천800억 달러에서 2.5배 이상으로 늘어난 것이며, 역시 상장을 추진하고 있는 라이벌 오픈AI가 지난 3월...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008585111&plink=ORI&cooper=NAVER",
+        "title": "삼성 파운드리 앤트로픽 AI칩 수주 가능성",
+        "description": "앤트로픽은 28일(현지시간) 자사 뉴스룸에서시리즈H투자라운드를 통해 650억달러(약 97조원) 규모 자금을유치했다고 밝혔다.투자후 기업가치는 9650억달러(약 1446조원)로 평가됐다. 이번투자에는 삼성전자와 SK하이닉스, 마이크론 등이 '전략적 인프라 파트너'(strategic infrastructure partners)로...",
+        "link": "http://www.4th.kr/news/articleView.html?idxno=2112428",
         "source": "",
         "date": ""
       },
@@ -11494,9 +11543,9 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "삼성·SK, 앤트로픽에 전략적투자…삼성은 AI칩 수주",
-        "description": "28일(현지시간) 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9천650억 달러(약 1천440조원)로 평가됐다고 밝혔습니다. 이번투자라운드에는 3대 메모리 반도체 제조사인 삼성전자와 SK하이닉스, 마이크론도 '전략적 인프라 파트너'로 참여했습니다. 삼성·SK의...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008585109&plink=ORI&cooper=NAVER",
+        "title": "앤트로픽 몸값, 오픈AI도 제쳐…삼성전자·하이닉스도투자참여",
+        "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9천650억 달러(약 1천440조 원)로 평가됐다고 28일(현지시간) 밝혔습니다. 이는 지난 2월의 기업가치 평가액 3천800억 달러에서 2.5배 이상으로 늘어난 것이며, 역시 상장을 추진하고 있는 라이벌 오픈AI가 지난 3월...",
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008585111&plink=ORI&cooper=NAVER",
         "source": "",
         "date": ""
       },
@@ -11513,6 +11562,14 @@ const DASHBOARD_DATA = {
         "title": "앤트로픽, 전 세계 가장 비싼 AI 스타트업 등극",
         "description": "한편, 앤트로픽은시리즈H투자 유치사실과 함께 미토스(Mythos)의 하위 모델이자, 공개된 모델 중 최상위 모델인 오퍼스의 신규 버전 '오퍼스 4.8'을 공개했다. 이번 버전은 이용자 답변의 정직성이 강화되었고, 악의적 사용자의 악용 유도에 동조하는 '오정렬 행동' 발생 비율은 크게 감소했다는...",
         "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=357845",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "삼성·SK, 앤트로픽에 전략적투자…삼성은 AI칩 수주",
+        "description": "28일(현지시간) 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9천650억 달러(약 1천440조원)로 평가됐다고 밝혔습니다. 이번투자라운드에는 3대 메모리 반도체 제조사인 삼성전자와 SK하이닉스, 마이크론도 '전략적 인프라 파트너'로 참여했습니다. 삼성·SK의...",
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008585109&plink=ORI&cooper=NAVER",
         "source": "",
         "date": ""
       },
@@ -11542,14 +11599,6 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "삼성전자, 7세대 HBM 샘플 첫 출하…앤트로픽투자도 참여",
-        "description": "앤트로픽은 앞선 28일(현지시각) 진행한 상장 전투자 유치단계(시리즈H투자라운드)에서 650억달러를유치하며투자후 기업가치 9650억달러를 평가받았다고 밝혔다. 여기엔 삼성전자, 에스케이하이닉스, 마이크론 등 ‘메모리 3사’가 일제히 전략적 인프라 파트너로 지분투자에 참여했다. 앤트로픽...",
-        "link": "https://www.hani.co.kr/arti/economy/economy_general/1260978.html",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
         "title": "Korea IT Times",
         "description": "",
         "link": "http://www.koreaittimes.com/",
@@ -11566,9 +11615,9 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "\"네이버와 AI 사업 겹쳤다\"…하정우 '업스테이지 지분 100억' 미스터리",
-        "description": "업스테이지는 같은 달시리즈B 브릿지 라운드에서 AMD, 아마존의투자를유치했다. 이어 지난달시리즈C 라운드까지 성공적으로 마무리하면서 유니콘기업(기업가치 1조원 이상 스타트업) 반열에 올랐다. 당시 업스테이지는 금융위원회로부터 첨단전략사업기금 1000억원등도유치했다. 이 과정에서도 독파모...",
-        "link": "https://www.hankyung.com/article/202605272031i",
+        "title": "삼성전자, 7세대 HBM 샘플 첫 출하…앤트로픽투자도 참여",
+        "description": "앤트로픽은 앞선 28일(현지시각) 진행한 상장 전투자 유치단계(시리즈H투자라운드)에서 650억달러를유치하며투자후 기업가치 9650억달러를 평가받았다고 밝혔다. 여기엔 삼성전자, 에스케이하이닉스, 마이크론 등 ‘메모리 3사’가 일제히 전략적 인프라 파트너로 지분투자에 참여했다. 앤트로픽...",
+        "link": "https://www.hani.co.kr/arti/economy/economy_general/1260978.html",
         "source": "",
         "date": ""
       },
@@ -11577,6 +11626,14 @@ const DASHBOARD_DATA = {
         "title": "앤트로픽, 기업가치 오픈AI 넘어섰다…삼성전자·SK하이닉스·마이크론...",
         "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9천650억 달러(약 1천440조원)로 평가됐다고 28일(현지시간) 밝혔다고 연합뉴스가 보도했다. 사진=AFP/연합뉴스 이는 지난 2월의 기업가치 평가액 3천800억 달러에서 2.5배 이상으로 늘어난 것이며, 역시 상장을...",
         "link": "https://www.slist.kr/news/articleView.html?idxno=742067",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "\"네이버와 AI 사업 겹쳤다\"…하정우 '업스테이지 지분 100억' 미스터리",
+        "description": "업스테이지는 같은 달시리즈B 브릿지 라운드에서 AMD, 아마존의투자를유치했다. 이어 지난달시리즈C 라운드까지 성공적으로 마무리하면서 유니콘기업(기업가치 1조원 이상 스타트업) 반열에 올랐다. 당시 업스테이지는 금융위원회로부터 첨단전략사업기금 1000억원등도유치했다. 이 과정에서도 독파모...",
+        "link": "https://www.hankyung.com/article/202605272031i",
         "source": "",
         "date": ""
       },
@@ -11598,6 +11655,14 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
+        "title": "삼성·SK, 앤트로픽에 전략적투자…삼성은 AI칩 수주(종합)",
+        "description": "28일(현지시간) 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9천650억 달러(약 1천440조원)로 평가됐다고 밝혔다. 이번투자라운드에는 3대 메모리 반도체 제조사인 삼성전자와 SK하이닉스, 마이크론도 '전략적 인프라 파트너'로 참여했다. 삼성·SK의 이번...",
+        "link": "https://www.yna.co.kr/view/AKR20260528181851003?input=1195m",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
         "title": "더오피니언타임즈",
         "description": "",
         "link": "https://theopiniontimes.news/",
@@ -11609,14 +11674,6 @@ const DASHBOARD_DATA = {
         "title": "“오픈AI 게 꿇어라”… 상장 직전 앤트로픽, 몸값 1조 달러 ‘초읽기’...",
         "description": "시리즈H서 650억 달러 수수… 삼성·SK하이닉스·아마존 인프라 연합군 전격 합류 연간 환산 매출 470억 달러 돌파… 신형 ‘클로드 오푸스 4.8’ 무기로... 비공개투자 유치라운드에서 천문학적인 자금을 조달하며 기업가치 1조 달러 고지를 턱밑까지 추격했다. 이번에 단행된 자금 조달은 실리콘밸리...",
         "link": "https://theopiniontimes.news/%ec%98%a4%ed%94%88ai-%ea%b2%8c-%ea%bf%87%ec%96%b4%eb%9d%bc-%ec%83%81%ec%9e%a5-%ec%a7%81%ec%a0%84-%ec%95%a4%ed%8a%b8%eb%a1%9c%ed%94%bd-%eb%aa%b8%ea%b0%92-1%ec%a1%b0/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "삼성·SK, 앤트로픽에 전략적투자…삼성은 AI칩 수주(종합)",
-        "description": "28일(현지시간) 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9천650억 달러(약 1천440조원)로 평가됐다고 밝혔다. 이번투자라운드에는 3대 메모리 반도체 제조사인 삼성전자와 SK하이닉스, 마이크론도 '전략적 인프라 파트너'로 참여했다. 삼성·SK의 이번...",
-        "link": "https://www.yna.co.kr/view/AKR20260528181851003?input=1195m",
         "source": "",
         "date": ""
       },
@@ -11750,6 +11807,14 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
+        "title": "‘클로드’ 앤트로픽 몸값 1440조…삼전닉스·마이크론도투자",
+        "description": "앤트로픽은시리즈H투자라운드에서 650억 달러 규모의 자금을유치해 기업가치 9650억(약 1440조원) 달러를 인정받았다고 28일(현지시간) 밝혔다. 앤트로픽은 이번투자 유치를 통해 AI 모델 클로드의 안전성과 해석 가능성 연구를 강화하고 증가하는 수요에 대응하기 위한 컴퓨팅 인프라 확대와 제품...",
+        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260529010008682",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
         "title": "앤트로픽 몸값, 오픈AI 추월 … 삼성·하이닉스도투자나섰다",
         "description": "투자 유치에 성공하며 기업가치를 1조 달러 수준까지 끌어올렸다. 삼성전자와 SK하이닉스 등 국내 메모리 반도체 기업들도투자에 참여하면서 AI 인프라 경쟁이 한층 치열해지는 양상이다. CNBC, 블룸버그 통신, 연합뉴스에 따르면 앤트로픽은 28일(현지시각)시리즈H투자라운드에서 650억 달러를 조달했으며...",
         "link": "https://www.newdaily.co.kr/site/data/html/2026/05/29/2026052900037.html",
@@ -11761,14 +11826,6 @@ const DASHBOARD_DATA = {
         "title": "삼성·SK하이닉스, '클로드' 개발 美 AI기업 앤트로픽투자참여",
         "description": "앤트로픽은 28일(현지 시각) 공식 홈페이지를 통해 650억 달러(약 97조 2725억 원)에 달하는시리즈H투자 유치를 완료했다고 밝혔다. 이번투자에는 삼성전자와 SK하이닉스를 비롯해 여러 글로벌 전략·재무투자자들이 참여했다. 구체적인투자규모는 공개되지 않았다. 앤트로픽은 생성형 AI 모델 '클로드...",
         "link": "https://www.news1.kr/industry/general-industry/6181073",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "‘클로드’ 앤트로픽 몸값 1440조…삼전닉스·마이크론도투자",
-        "description": "앤트로픽은시리즈H투자라운드에서 650억 달러 규모의 자금을유치해 기업가치 9650억(약 1440조원) 달러를 인정받았다고 28일(현지시간) 밝혔다. 앤트로픽은 이번투자 유치를 통해 AI 모델 클로드의 안전성과 해석 가능성 연구를 강화하고 증가하는 수요에 대응하기 위한 컴퓨팅 인프라 확대와 제품...",
-        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260529010008682",
         "source": "",
         "date": ""
       },
@@ -11814,137 +11871,9 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "삼성전자도투자한 엔스로픽⋯ IPO 앞두고 기업가치 1440조 평가",
-        "description": "28일(현지시간) 인베스팅닷컴과 로이터 등에 따르면 앤스로픽은 최근 진행한시리즈H투자라운드에서 650억달러(약 97조3000억원)를유치했다.투자후 기업 가치는 9650억달러(약 1440조원)로 평가됐다. 지난 2월 기업 가치 평가액은 3800억달러 수준이었다. 평가액이 이보다 2.5배 이상 늘어난 셈이다....",
-        "link": "https://www.etoday.co.kr/news/view/2588844",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
         "title": "셀트리온이 픽한 바이오미...윤상선 대표 \"마이크로바이옴 신약 빅파마...",
         "description": "바이오미는 지난 4월부터시리즈B투자 유치를 시작했으며 목표 금액은 150억원에 이른다. NPP 매출이 목표 수준으로 확보되면 내년 기술성 특례 평가를 거쳐 2028년 기업공개(IPO)를 목표로 하고 있다. 매출 성과에 따라서는시리즈C투자없이 프리IPO(상장 전 지분투자)로 직행하는 시나리오도 검토하고...",
         "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02810966645453840",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "삼성전자, '클로드 개발사' 앤트로픽 칩 수주 전망...파운드리 부활하나",
-        "description": "28일(현지시각) 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9,650억 달러(약 1,440조 원)로 평가됐다고 밝혔습니다. 이번투자라운드에는 3대 메모리 반도체 제조사인 삼성전자와 SK하이닉스, 마이크론도 '전략적 인프라 파트너'로 참여했습니다. 앤트로픽은...",
-        "link": "https://www.ikbc.co.kr/article/view/kbc202605290012",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "[더벨]'마중물 역할' MJM인베, 퓨리오사AI·시대인재투자마무리",
-        "description": "27일투자은행(IB) 업계에 따르면 MJM인베는 최근 퓨리오사AI가 진행하고 있는 약 7500억원 규모투자 유치에 참여했다. MJM인베는 작년 퓨리오사AI시리즈C 브릿지 라운드에 참여한 데 이어 올해 후속투자에서도 이름을 올렸다. 퓨리오사AI가 글로벌 AI 및 NPU(신경망처리장치) 시장에서 폭발적인 성장성이...",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605271543063000101959",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "오픈AI 몸값 제친 앤트로픽, 삼성·SK 전략적 인프라 파트너로 참여",
-        "description": "28일(현지시간) 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러(약 97조원) 규모의 자금을유치했다고 공식 발표했다. 이번투자 유치과정에서 평가받은 앤트로픽의투자후 기업가치는 9650억 달러(약 1440조원)에 달한다. 이번에 평가받은 앤트로픽의 기업가치는 지난 2월 기록했던 3800억 달러...",
-        "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1710547",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "삼성 파운드리, 테슬라·엔비디아 이어 앤트로픽 '클로드 AI 칩' 수주 가...",
-        "description": "앤트로픽은 28일(현지시간) 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9650억 달러(약 1440조원)로 평가됐다고 밝혔다. 이번투자라운드에는 3대 메모리 반도체 제조사인 삼성전자와 SK하이닉스, 마이크론이 '전략적 인프라 파트너'로 참여했다. 앤트로픽은 \"이들...",
-        "link": "https://view.asiae.co.kr/article/2026052907592796585",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "미국·이란, 휴전 60일 연장하나…트럼프는 \"더 검토해야\"[뉴스새벽배송...",
-        "description": "앤스로픽, 몸값 1조달러 육박…오픈AI 제쳐 -인공지능(AI) 스타트업 앤스로픽(Anthropic)이 650억달러(약 97조원) 규모의 대규모투자 유치에 성공하며 기업가치 9650억달러(약 1443조원)를 인정받았다. 경쟁사인 오픈AI를 제치고 실리콘밸리에서 가장 가치 있는 AI 기업이 돼. 이번시리즈H투자라운드에는...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02702726645453840",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "앤드로픽 몸값 1443조원…오픈AI 넘은 '비상장 AI 최대어'",
-        "description": "28일(현지시간) 로이터통신과 월스트리트저널(WSJ) 등에 따르면 앤드로픽은 650억달러(약 97조원) 규모의시리즈H투자를유치했다.투자후 몸값은 9650억달러로 인정받았다. 지난 2월 300억달러를 조달할 당시 3800억달러(약 568조원)에서 3개월여 만에 2.5배 이상 오른 것이다. 몸값을 끌어올린 핵심은 빠른...",
-        "link": "https://www.ajunews.com/view/20260529073959418",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "앤트로픽 몸값, 오픈AI 제쳤다…삼성전자·하이닉스도투자",
-        "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했다.투자후 기업가치는 9천650억 달러(약 1천440조원)로 평가됐다고 28일(현지시간) 밝혔다. 상장을 추진하고 있는 라이벌 오픈AI가 지난 3월 말 기록한 평가액 8천520억 달러보다도 높은 것이다. 지난 2월의 기업가치 평가액 3천800억...",
-        "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202605290248&t=NN",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "앤트로픽 기업가치 1440조원...오픈AI보다도 높아",
-        "description": "앤트로픽은 최근 진행한시리즈H투자라운드에서 650억달러를유치했으며,투자후 기업가치는 9650억달러(약 1440조원)로 평가됐다고 28일(현지시간) 밝혔다. 이는 지난 2월의 기업가치 평가액 3800억 달러에서 2.5배 이상 늘어난 것이며, 역시 상장을 추진하고 있는 라이벌 오픈AI가 지난 3월 말 기록한 평가액...",
-        "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=139227",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "[5월28일] 토큰 맥싱이 '남의 집 불구경'이 아닌 이유는...\"AI 챗봇과 에...",
-        "description": "■ 모티프, '독자 설계' AI 모델 기술로 240억시리즈B투자 유치'국가대표 AI' 스타트업 모티프가 대규모투자 유치에 성공했습니다. 지금까지 보여준 성과도 상당하지만, 앞으로 출시될 멀티모달 모델 등에 대한 기대가 영향을 준 것으로 보입니다. 올해 들어 미국과 중국의 기술 독주가 부쩍 거세지는 가운데...",
-        "link": "https://www.aitimes.com/news/articleView.html?idxno=211017",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "앤트로픽, 기업가치 9650억 달러…오픈AI 추월 속 신모델 공개",
-        "description": "CNBC 등 외신에 따르면 '클로드' 개발사 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억달러(약 97조원)를유치했으며,투자후 기업가치는 9650억달러로 평가됐다고 28일(현지 시간) 밝혔다. 시장에서는 이번 밸류에이션 상승이 단순한 기대감이 아니라 기업용 인공지능 수요 급증에 기반한 구조적...",
-        "link": "https://www.newsis.com/view/NISX20260529_0003648364",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "앤트로픽, 오픈AI 몸값 추월...IPO 앞두고 기업 가치 1조달러 근접",
-        "description": "또 \"지난 2월시리즈G투자 유치이후 전 세계 기업 고객들의 제품 도입이 지속적으로 증가했으며, 이달 초 연간 매출이 470억달러를 돌파했다\"라고 밝혔다. 이번 자금은 클로드에 대한 증가하는 수요를 충족하고 제품을 확장하기 위해 컴퓨팅 역량을 강화하는 데 사용할 계획이다. 실제로 앤트로픽은...",
-        "link": "https://www.aitimes.com/news/articleView.html?idxno=211065",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "[VC 포트폴리오] 신규 자금 조달한 '모티프테크놀로지스'...AI 딥테크 역...",
-        "description": "29일 벤처캐피탈(VC) 업계에 따르면 모티프테크놀로지스는 최근 240억원 규모의시리즈B투자 유치를 성공적으로 마무리했다. 이번투자라운드에는 △디토인베스트먼트 △포레스트벤처스 등이 신규 재무적투자자(FI)로 참여했다. 기존투자자인 △나이스투자파트너스 △노틸러스인베스트먼트 등도...",
-        "link": "https://www.news2day.co.kr/article/20260528500243",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "삼성전자, 앤트로픽투자단행…파운드리 부활 기대감",
-        "description": "28일(현지시간) 앤트로픽은시리즈H투자라운드를 통해 650억 달러를유치했다고 밝혔습니다.투자이후 기업가치는 9,650억 달러(약 1,440조원)로 평가됐습니다. 이번투자에는 삼성전자와 SK하이닉스 , 마이크론이 '전략적 인프라 파트너' 자격으로 참여했습니다. 특히 앤트로픽이 발표문에서 \"메모리와...",
-        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005846299",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "앤트로픽 기업가치 1400조원, 오픈AI 추월…삼전닉스도투자참여",
-        "description": "28일(현지시간) 연합뉴스에 따르면 앤트로픽은 최근 진행한시리즈H투자라운드에서 650억 달러를유치했으며,투자후 기업가치는 9천650억 달러(약 1천440조원)로 평가됐다고 이날 밝혔다. 이는 지난 2월의 기업가치 평가액 3천800억 달러에서 2.5배 이상 늘어난 것이며, 역시 상장을 추진하고 있는 라이벌...",
-        "link": "https://www.tfmedia.co.kr/news/article.html?no=204821",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "앤트로픽, 650억달러투자 유치...상장 전 몸값 1조달러 육박",
-        "description": "앤트로픽이시리즈H 라운드에서 650억달러 규모투자를유치했다. 이번투자로 앤트로픽 기업가치는 9650억달러로 높아졌다. 28일(현지시간) 테크크런치에 따르면 이번투자 유치는 앤트로픽이 상장 전 마지막으로 진행하는 자금 조달이 될 가능성이 크다. 이번 라운드는 알티미터 캐피털, 드라고니어...",
-        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=670069",
         "source": "",
         "date": ""
       }
@@ -12905,18 +12834,948 @@ const DASHBOARD_DATA = {
     "total_series_c_plus": 50
   },
   "platforms": {
-    "updated_at": "2026-05-29 15:27",
-    "kotc": [],
-    "seoul_exchange": [],
+    "updated_at": "2026-05-29 18:55",
+    "kotc": [
+      {
+        "name": "아리바이오",
+        "code": "192230",
+        "price": "32300",
+        "change": "250",
+        "volume": "133432",
+        "amount": "4280826150",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "거래량"
+        ]
+      },
+      {
+        "name": "LS전선",
+        "code": "104230",
+        "price": "175000",
+        "change": "14500",
+        "volume": "5345",
+        "amount": "934800000",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "시가총액"
+        ]
+      },
+      {
+        "name": "삼성메디슨",
+        "code": "018360",
+        "price": "11100",
+        "change": "440",
+        "volume": "62645",
+        "amount": "686803840",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "거래량",
+          "시가총액"
+        ]
+      },
+      {
+        "name": "메가젠임플란트",
+        "code": "102600",
+        "price": "52000",
+        "change": "0",
+        "volume": "12146",
+        "amount": "628039000",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금"
+        ]
+      },
+      {
+        "name": "SK에코플랜트",
+        "code": "003340",
+        "price": "44500",
+        "change": "2550",
+        "volume": "7004",
+        "amount": "312442600",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "시가총액"
+        ]
+      },
+      {
+        "name": "파멥신",
+        "code": "208340",
+        "price": "105",
+        "change": "7",
+        "volume": "67417",
+        "amount": "7107489",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ]
+      },
+      {
+        "name": "한국지네틱바이오팜",
+        "code": "241140",
+        "price": "51",
+        "change": "2",
+        "volume": "58560",
+        "amount": "2829626",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ]
+      },
+      {
+        "name": "사운드백신",
+        "code": "274460",
+        "price": "83",
+        "change": "7",
+        "volume": "43069",
+        "amount": "4557981",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ]
+      },
+      {
+        "name": "포겟",
+        "code": "168570",
+        "price": "182",
+        "change": "42",
+        "volume": "7421",
+        "amount": "1347047",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "보아스에셋",
+        "code": "237010",
+        "price": "182",
+        "change": "42",
+        "volume": "3553",
+        "amount": "642329",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "엠소닉",
+        "code": "008120",
+        "price": "1671",
+        "change": "384",
+        "volume": "3",
+        "amount": "3679",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "신영씨앤디",
+        "code": "002470",
+        "price": "7900",
+        "change": "1790",
+        "volume": "100",
+        "amount": "790000",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "제이앤드",
+        "code": "104690",
+        "price": "49",
+        "change": "11",
+        "volume": "42608",
+        "amount": "1937384",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "케이조선",
+        "code": "067250",
+        "price": "",
+        "change": "",
+        "volume": "6",
+        "amount": "",
+        "platform": "K-OTC",
+        "ranks": [
+          "시가총액"
+        ]
+      },
+      {
+        "name": "세메스",
+        "code": "042380",
+        "price": "",
+        "change": "",
+        "volume": "77",
+        "amount": "",
+        "platform": "K-OTC",
+        "ranks": [
+          "시가총액"
+        ]
+      }
+    ],
+    "seoul_exchange": [
+      {
+        "name": "비바리퍼블리카",
+        "code": "A285240",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 8896,
+        "category": "fintech",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기",
+          "시총"
+        ]
+      },
+      {
+        "name": "빗썸",
+        "code": "A341650",
+        "price": "189700",
+        "change": "4700 (2.54%)",
+        "change_pct": "2.54",
+        "visit": 3180,
+        "category": "fintech",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "인기"
+        ]
+      },
+      {
+        "name": "한국신용데이터",
+        "code": "A360160",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 499,
+        "category": "sw",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량"
+        ]
+      },
+      {
+        "name": "두나무",
+        "code": "A389930",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 4125,
+        "category": "platform",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기",
+          "시총"
+        ]
+      },
+      {
+        "name": "야놀자",
+        "code": "A350920",
+        "price": "18800",
+        "change": "400 (2.17%)",
+        "change_pct": "2.17",
+        "visit": 5570,
+        "category": "platform",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "인기"
+        ]
+      },
+      {
+        "name": "브이페이먼츠",
+        "code": "A373560",
+        "price": "20",
+        "change": "-2 (-9.09%)",
+        "change_pct": "-9.09",
+        "visit": 949,
+        "category": "fintech",
+        "platform": "서울거래소",
+        "ranks": [
+          "상승"
+        ]
+      },
+      {
+        "name": "오아시스",
+        "code": "A370190",
+        "price": "7950",
+        "change": "0 (0%)",
+        "change_pct": "0",
+        "visit": 1861,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "ranks": [
+          "상승",
+          "인기"
+        ]
+      },
+      {
+        "name": "무신사",
+        "code": "A458860",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 3497,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "ranks": [
+          "상승",
+          "인기"
+        ]
+      },
+      {
+        "name": "에스엠랩",
+        "code": "A419350",
+        "price": "1119",
+        "change": "-51 (-4.36%)",
+        "change_pct": "-4.36",
+        "visit": 13259,
+        "category": "manufacturing",
+        "platform": "서울거래소",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "컬리",
+        "code": "A408480",
+        "price": "32000",
+        "change": "100 (0.31%)",
+        "change_pct": "0.31",
+        "visit": 8969,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "알바이오",
+        "code": "A003190",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 6382,
+        "category": "bio",
+        "platform": "서울거래소",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "그래핀스퀘어",
+        "code": "A245060",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 4470,
+        "category": "manufacturing",
+        "platform": "서울거래소",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "삼성중공우",
+        "code": "A010145",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 194,
+        "category": "etc",
+        "platform": "서울거래소",
+        "ranks": [
+          "시총"
+        ]
+      },
+      {
+        "name": "교보생명보험",
+        "code": "A073980",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 97,
+        "category": "etc",
+        "platform": "서울거래소",
+        "ranks": [
+          "시총"
+        ]
+      },
+      {
+        "name": "현대오일뱅크",
+        "code": "A004050",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 188,
+        "category": "manufacturing",
+        "platform": "서울거래소",
+        "ranks": [
+          "시총"
+        ]
+      }
+    ],
     "naver_unlisted": [],
-    "all_stocks": [],
-    "volume_spikes": [],
+    "all_stocks": [
+      {
+        "name": "아리바이오",
+        "code": "192230",
+        "price": "32300",
+        "change": "250",
+        "volume": "133432",
+        "amount": "4280826150",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "거래량"
+        ]
+      },
+      {
+        "name": "LS전선",
+        "code": "104230",
+        "price": "175000",
+        "change": "14500",
+        "volume": "5345",
+        "amount": "934800000",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "시가총액"
+        ]
+      },
+      {
+        "name": "삼성메디슨",
+        "code": "018360",
+        "price": "11100",
+        "change": "440",
+        "volume": "62645",
+        "amount": "686803840",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "거래량",
+          "시가총액"
+        ]
+      },
+      {
+        "name": "메가젠임플란트",
+        "code": "102600",
+        "price": "52000",
+        "change": "0",
+        "volume": "12146",
+        "amount": "628039000",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금"
+        ]
+      },
+      {
+        "name": "SK에코플랜트",
+        "code": "003340",
+        "price": "44500",
+        "change": "2550",
+        "volume": "7004",
+        "amount": "312442600",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "시가총액"
+        ]
+      },
+      {
+        "name": "파멥신",
+        "code": "208340",
+        "price": "105",
+        "change": "7",
+        "volume": "67417",
+        "amount": "7107489",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ]
+      },
+      {
+        "name": "한국지네틱바이오팜",
+        "code": "241140",
+        "price": "51",
+        "change": "2",
+        "volume": "58560",
+        "amount": "2829626",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ]
+      },
+      {
+        "name": "사운드백신",
+        "code": "274460",
+        "price": "83",
+        "change": "7",
+        "volume": "43069",
+        "amount": "4557981",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ]
+      },
+      {
+        "name": "포겟",
+        "code": "168570",
+        "price": "182",
+        "change": "42",
+        "volume": "7421",
+        "amount": "1347047",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "보아스에셋",
+        "code": "237010",
+        "price": "182",
+        "change": "42",
+        "volume": "3553",
+        "amount": "642329",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "엠소닉",
+        "code": "008120",
+        "price": "1671",
+        "change": "384",
+        "volume": "3",
+        "amount": "3679",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "신영씨앤디",
+        "code": "002470",
+        "price": "7900",
+        "change": "1790",
+        "volume": "100",
+        "amount": "790000",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "제이앤드",
+        "code": "104690",
+        "price": "49",
+        "change": "11",
+        "volume": "42608",
+        "amount": "1937384",
+        "platform": "K-OTC",
+        "ranks": [
+          "상승률"
+        ]
+      },
+      {
+        "name": "케이조선",
+        "code": "067250",
+        "price": "",
+        "change": "",
+        "volume": "6",
+        "amount": "",
+        "platform": "K-OTC",
+        "ranks": [
+          "시가총액"
+        ]
+      },
+      {
+        "name": "세메스",
+        "code": "042380",
+        "price": "",
+        "change": "",
+        "volume": "77",
+        "amount": "",
+        "platform": "K-OTC",
+        "ranks": [
+          "시가총액"
+        ]
+      },
+      {
+        "name": "비바리퍼블리카",
+        "code": "A285240",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 8896,
+        "category": "fintech",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기",
+          "시총"
+        ]
+      },
+      {
+        "name": "빗썸",
+        "code": "A341650",
+        "price": "189700",
+        "change": "4700 (2.54%)",
+        "change_pct": "2.54",
+        "visit": 3180,
+        "category": "fintech",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "인기"
+        ]
+      },
+      {
+        "name": "한국신용데이터",
+        "code": "A360160",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 499,
+        "category": "sw",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량"
+        ]
+      },
+      {
+        "name": "두나무",
+        "code": "A389930",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 4125,
+        "category": "platform",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기",
+          "시총"
+        ]
+      },
+      {
+        "name": "야놀자",
+        "code": "A350920",
+        "price": "18800",
+        "change": "400 (2.17%)",
+        "change_pct": "2.17",
+        "visit": 5570,
+        "category": "platform",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "인기"
+        ]
+      },
+      {
+        "name": "브이페이먼츠",
+        "code": "A373560",
+        "price": "20",
+        "change": "-2 (-9.09%)",
+        "change_pct": "-9.09",
+        "visit": 949,
+        "category": "fintech",
+        "platform": "서울거래소",
+        "ranks": [
+          "상승"
+        ]
+      },
+      {
+        "name": "오아시스",
+        "code": "A370190",
+        "price": "7950",
+        "change": "0 (0%)",
+        "change_pct": "0",
+        "visit": 1861,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "ranks": [
+          "상승",
+          "인기"
+        ]
+      },
+      {
+        "name": "무신사",
+        "code": "A458860",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 3497,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "ranks": [
+          "상승",
+          "인기"
+        ]
+      },
+      {
+        "name": "에스엠랩",
+        "code": "A419350",
+        "price": "1119",
+        "change": "-51 (-4.36%)",
+        "change_pct": "-4.36",
+        "visit": 13259,
+        "category": "manufacturing",
+        "platform": "서울거래소",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "컬리",
+        "code": "A408480",
+        "price": "32000",
+        "change": "100 (0.31%)",
+        "change_pct": "0.31",
+        "visit": 8969,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "알바이오",
+        "code": "A003190",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 6382,
+        "category": "bio",
+        "platform": "서울거래소",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "그래핀스퀘어",
+        "code": "A245060",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 4470,
+        "category": "manufacturing",
+        "platform": "서울거래소",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "삼성중공우",
+        "code": "A010145",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 194,
+        "category": "etc",
+        "platform": "서울거래소",
+        "ranks": [
+          "시총"
+        ]
+      },
+      {
+        "name": "교보생명보험",
+        "code": "A073980",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 97,
+        "category": "etc",
+        "platform": "서울거래소",
+        "ranks": [
+          "시총"
+        ]
+      },
+      {
+        "name": "현대오일뱅크",
+        "code": "A004050",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 188,
+        "category": "manufacturing",
+        "platform": "서울거래소",
+        "ranks": [
+          "시총"
+        ]
+      }
+    ],
+    "volume_spikes": [
+      {
+        "name": "아리바이오",
+        "code": "192230",
+        "price": "32300",
+        "change": "250",
+        "volume": "133432",
+        "amount": "4280826150",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "거래량"
+        ],
+        "volume_int": 133432
+      },
+      {
+        "name": "파멥신",
+        "code": "208340",
+        "price": "105",
+        "change": "7",
+        "volume": "67417",
+        "amount": "7107489",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ],
+        "volume_int": 67417
+      },
+      {
+        "name": "삼성메디슨",
+        "code": "018360",
+        "price": "11100",
+        "change": "440",
+        "volume": "62645",
+        "amount": "686803840",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래대금",
+          "거래량",
+          "시가총액"
+        ],
+        "volume_int": 62645
+      },
+      {
+        "name": "한국지네틱바이오팜",
+        "code": "241140",
+        "price": "51",
+        "change": "2",
+        "volume": "58560",
+        "amount": "2829626",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ],
+        "volume_int": 58560
+      },
+      {
+        "name": "사운드백신",
+        "code": "274460",
+        "price": "83",
+        "change": "7",
+        "volume": "43069",
+        "amount": "4557981",
+        "platform": "K-OTC",
+        "ranks": [
+          "거래량"
+        ],
+        "volume_int": 43069
+      },
+      {
+        "name": "비바리퍼블리카",
+        "code": "A285240",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 8896,
+        "category": "fintech",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기",
+          "시총"
+        ],
+        "volume_int": 0
+      },
+      {
+        "name": "빗썸",
+        "code": "A341650",
+        "price": "189700",
+        "change": "4700 (2.54%)",
+        "change_pct": "2.54",
+        "visit": 3180,
+        "category": "fintech",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume_int": 0
+      },
+      {
+        "name": "한국신용데이터",
+        "code": "A360160",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 499,
+        "category": "sw",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량"
+        ],
+        "volume_int": 0
+      },
+      {
+        "name": "두나무",
+        "code": "A389930",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 4125,
+        "category": "platform",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기",
+          "시총"
+        ],
+        "volume_int": 0
+      },
+      {
+        "name": "야놀자",
+        "code": "A350920",
+        "price": "18800",
+        "change": "400 (2.17%)",
+        "change_pct": "2.17",
+        "visit": 5570,
+        "category": "platform",
+        "platform": "서울거래소",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume_int": 0
+      }
+    ],
     "summary": {
-      "kotc_count": 0,
-      "seoul_count": 0,
+      "kotc_count": 15,
+      "seoul_count": 15,
       "naver_count": 0,
-      "total": 0,
-      "volume_spike_count": 0
+      "total": 30,
+      "volume_spike_count": 10
     }
   }
 };

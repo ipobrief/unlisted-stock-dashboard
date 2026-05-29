@@ -529,12 +529,18 @@ function renderVolumeSpikes(spikes) {
   }
   let html = '<table><thead><tr><th></th><th>종목</th><th>플랫폼</th><th>현재가</th><th>거래량</th></tr></thead><tbody>';
   spikes.slice(0, 15).forEach(s => {
+    const priceTxt = (s.price === '' || s.price == null)
+      ? '<span style="color:var(--text-dim)">비공개</span>'
+      : (isNaN(Number(s.price)) ? s.price : Number(s.price).toLocaleString() + '원');
+    const volTxt = (s.volume_int && s.volume_int > 0)
+      ? Number(s.volume_int).toLocaleString() + '주'
+      : '<span style="color:var(--text-dim)">상위</span>';
     html += `<tr>
       <td>${starBtn(s.name, s.platform)}</td>
       <td><strong>${s.name}</strong></td>
       <td><span class="tag tag-default">${s.platform}</span></td>
-      <td>${s.price || '-'}</td>
-      <td class="volume-indicator spike">${Number(s.volume_int || 0).toLocaleString()}</td>
+      <td>${priceTxt}</td>
+      <td class="volume-indicator spike">${volTxt}</td>
     </tr>`;
   });
   html += '</tbody></table>';
@@ -685,20 +691,40 @@ function renderPlatformTables(plat) {
   document.getElementById('naverBadge').textContent = naver.length;
   document.getElementById('spikeBadge').textContent = spikes.length + '개';
 
+  function fmtPrice(p) {
+    if (p === '' || p === null || p === undefined) return '<span style="color:var(--text-dim)">비공개</span>';
+    const n = Number(p);
+    return isNaN(n) ? p : n.toLocaleString() + '원';
+  }
+  function rankTags(ranks) {
+    return (ranks || []).map(r =>
+      `<span class="tag tag-default" style="font-size:10px">${r}</span>`
+    ).join('');
+  }
+
   function stockTable(stocks, containerId) {
     if (!stocks.length) {
       document.getElementById(containerId).innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
       return;
     }
-    let html = '<table><thead><tr><th></th><th>종목</th><th>현재가</th><th>등락</th><th>거래량</th></tr></thead><tbody>';
+    let html = '<table><thead><tr><th></th><th>종목</th><th>현재가</th><th>등락</th><th>상위랭킹</th></tr></thead><tbody>';
     stocks.forEach(s => {
-      const changeColor = (s.change || '').includes('-') ? 'var(--blue)' : 'var(--red)';
+      const pct = s.change_pct;
+      let changeHtml = '-';
+      if (pct !== undefined && pct !== '' && pct !== null) {
+        const up = Number(pct) > 0, down = Number(pct) < 0;
+        const col = down ? 'var(--blue)' : (up ? 'var(--red)' : 'var(--text-dim)');
+        changeHtml = `<span style="color:${col}">${up?'▲':(down?'▼':'')}${Math.abs(Number(pct))}%</span>`;
+      } else if (s.change) {
+        const col = String(s.change).includes('-') ? 'var(--blue)' : 'var(--red)';
+        changeHtml = `<span style="color:${col}">${s.change}</span>`;
+      }
       html += `<tr>
         <td>${starBtn(s.name, s.platform || '')}</td>
-        <td><strong>${s.name}</strong></td>
-        <td>${s.price || '-'}</td>
-        <td style="color:${changeColor}">${s.change || '-'}</td>
-        <td>${s.volume || '-'}</td>
+        <td><strong>${s.name}</strong>${s.visit ? `<div style="font-size:10px;color:var(--text-dim)">👁 ${Number(s.visit).toLocaleString()}</div>` : ''}</td>
+        <td>${fmtPrice(s.price)}</td>
+        <td>${changeHtml}</td>
+        <td>${rankTags(s.ranks)}</td>
       </tr>`;
     });
     html += '</tbody></table>';
@@ -715,12 +741,15 @@ function renderPlatformTables(plat) {
   } else {
     let html = '<table><thead><tr><th></th><th>종목</th><th>플랫폼</th><th>현재가</th><th>거래량</th></tr></thead><tbody>';
     spikes.forEach(s => {
+      const volTxt = (s.volume_int && s.volume_int > 0)
+        ? Number(s.volume_int).toLocaleString() + '주'
+        : '<span style="color:var(--text-dim)">거래량 상위</span>';
       html += `<tr>
         <td>${starBtn(s.name, s.platform)}</td>
         <td><strong>${s.name}</strong></td>
         <td><span class="tag tag-default">${s.platform}</span></td>
-        <td>${s.price || '-'}</td>
-        <td style="color:var(--red);font-weight:600">${Number(s.volume_int || 0).toLocaleString()}</td>
+        <td>${fmtPrice(s.price)}</td>
+        <td style="color:var(--red);font-weight:600">${volTxt}</td>
       </tr>`;
     });
     html += '</tbody></table>';

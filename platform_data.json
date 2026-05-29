@@ -1,15 +1,945 @@
 {
-  "updated_at": "2026-05-29 15:27",
-  "kotc": [],
-  "seoul_exchange": [],
+  "updated_at": "2026-05-29 18:55",
+  "kotc": [
+    {
+      "name": "아리바이오",
+      "code": "192230",
+      "price": "32300",
+      "change": "250",
+      "volume": "133432",
+      "amount": "4280826150",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "거래량"
+      ]
+    },
+    {
+      "name": "LS전선",
+      "code": "104230",
+      "price": "175000",
+      "change": "14500",
+      "volume": "5345",
+      "amount": "934800000",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "시가총액"
+      ]
+    },
+    {
+      "name": "삼성메디슨",
+      "code": "018360",
+      "price": "11100",
+      "change": "440",
+      "volume": "62645",
+      "amount": "686803840",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "거래량",
+        "시가총액"
+      ]
+    },
+    {
+      "name": "메가젠임플란트",
+      "code": "102600",
+      "price": "52000",
+      "change": "0",
+      "volume": "12146",
+      "amount": "628039000",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금"
+      ]
+    },
+    {
+      "name": "SK에코플랜트",
+      "code": "003340",
+      "price": "44500",
+      "change": "2550",
+      "volume": "7004",
+      "amount": "312442600",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "시가총액"
+      ]
+    },
+    {
+      "name": "파멥신",
+      "code": "208340",
+      "price": "105",
+      "change": "7",
+      "volume": "67417",
+      "amount": "7107489",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ]
+    },
+    {
+      "name": "한국지네틱바이오팜",
+      "code": "241140",
+      "price": "51",
+      "change": "2",
+      "volume": "58560",
+      "amount": "2829626",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ]
+    },
+    {
+      "name": "사운드백신",
+      "code": "274460",
+      "price": "83",
+      "change": "7",
+      "volume": "43069",
+      "amount": "4557981",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ]
+    },
+    {
+      "name": "포겟",
+      "code": "168570",
+      "price": "182",
+      "change": "42",
+      "volume": "7421",
+      "amount": "1347047",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "보아스에셋",
+      "code": "237010",
+      "price": "182",
+      "change": "42",
+      "volume": "3553",
+      "amount": "642329",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "엠소닉",
+      "code": "008120",
+      "price": "1671",
+      "change": "384",
+      "volume": "3",
+      "amount": "3679",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "신영씨앤디",
+      "code": "002470",
+      "price": "7900",
+      "change": "1790",
+      "volume": "100",
+      "amount": "790000",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "제이앤드",
+      "code": "104690",
+      "price": "49",
+      "change": "11",
+      "volume": "42608",
+      "amount": "1937384",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "케이조선",
+      "code": "067250",
+      "price": "",
+      "change": "",
+      "volume": "6",
+      "amount": "",
+      "platform": "K-OTC",
+      "ranks": [
+        "시가총액"
+      ]
+    },
+    {
+      "name": "세메스",
+      "code": "042380",
+      "price": "",
+      "change": "",
+      "volume": "77",
+      "amount": "",
+      "platform": "K-OTC",
+      "ranks": [
+        "시가총액"
+      ]
+    }
+  ],
+  "seoul_exchange": [
+    {
+      "name": "비바리퍼블리카",
+      "code": "A285240",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 8896,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "상승",
+        "인기",
+        "시총"
+      ]
+    },
+    {
+      "name": "빗썸",
+      "code": "A341650",
+      "price": "189700",
+      "change": "4700 (2.54%)",
+      "change_pct": "2.54",
+      "visit": 3180,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "인기"
+      ]
+    },
+    {
+      "name": "한국신용데이터",
+      "code": "A360160",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 499,
+      "category": "sw",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량"
+      ]
+    },
+    {
+      "name": "두나무",
+      "code": "A389930",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 4125,
+      "category": "platform",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "상승",
+        "인기",
+        "시총"
+      ]
+    },
+    {
+      "name": "야놀자",
+      "code": "A350920",
+      "price": "18800",
+      "change": "400 (2.17%)",
+      "change_pct": "2.17",
+      "visit": 5570,
+      "category": "platform",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "인기"
+      ]
+    },
+    {
+      "name": "브이페이먼츠",
+      "code": "A373560",
+      "price": "20",
+      "change": "-2 (-9.09%)",
+      "change_pct": "-9.09",
+      "visit": 949,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "ranks": [
+        "상승"
+      ]
+    },
+    {
+      "name": "오아시스",
+      "code": "A370190",
+      "price": "7950",
+      "change": "0 (0%)",
+      "change_pct": "0",
+      "visit": 1861,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "ranks": [
+        "상승",
+        "인기"
+      ]
+    },
+    {
+      "name": "무신사",
+      "code": "A458860",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 3497,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "ranks": [
+        "상승",
+        "인기"
+      ]
+    },
+    {
+      "name": "에스엠랩",
+      "code": "A419350",
+      "price": "1119",
+      "change": "-51 (-4.36%)",
+      "change_pct": "-4.36",
+      "visit": 13259,
+      "category": "manufacturing",
+      "platform": "서울거래소",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "컬리",
+      "code": "A408480",
+      "price": "32000",
+      "change": "100 (0.31%)",
+      "change_pct": "0.31",
+      "visit": 8969,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "알바이오",
+      "code": "A003190",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 6382,
+      "category": "bio",
+      "platform": "서울거래소",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "그래핀스퀘어",
+      "code": "A245060",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 4470,
+      "category": "manufacturing",
+      "platform": "서울거래소",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "삼성중공우",
+      "code": "A010145",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 194,
+      "category": "etc",
+      "platform": "서울거래소",
+      "ranks": [
+        "시총"
+      ]
+    },
+    {
+      "name": "교보생명보험",
+      "code": "A073980",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 97,
+      "category": "etc",
+      "platform": "서울거래소",
+      "ranks": [
+        "시총"
+      ]
+    },
+    {
+      "name": "현대오일뱅크",
+      "code": "A004050",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 188,
+      "category": "manufacturing",
+      "platform": "서울거래소",
+      "ranks": [
+        "시총"
+      ]
+    }
+  ],
   "naver_unlisted": [],
-  "all_stocks": [],
-  "volume_spikes": [],
+  "all_stocks": [
+    {
+      "name": "아리바이오",
+      "code": "192230",
+      "price": "32300",
+      "change": "250",
+      "volume": "133432",
+      "amount": "4280826150",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "거래량"
+      ]
+    },
+    {
+      "name": "LS전선",
+      "code": "104230",
+      "price": "175000",
+      "change": "14500",
+      "volume": "5345",
+      "amount": "934800000",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "시가총액"
+      ]
+    },
+    {
+      "name": "삼성메디슨",
+      "code": "018360",
+      "price": "11100",
+      "change": "440",
+      "volume": "62645",
+      "amount": "686803840",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "거래량",
+        "시가총액"
+      ]
+    },
+    {
+      "name": "메가젠임플란트",
+      "code": "102600",
+      "price": "52000",
+      "change": "0",
+      "volume": "12146",
+      "amount": "628039000",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금"
+      ]
+    },
+    {
+      "name": "SK에코플랜트",
+      "code": "003340",
+      "price": "44500",
+      "change": "2550",
+      "volume": "7004",
+      "amount": "312442600",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "시가총액"
+      ]
+    },
+    {
+      "name": "파멥신",
+      "code": "208340",
+      "price": "105",
+      "change": "7",
+      "volume": "67417",
+      "amount": "7107489",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ]
+    },
+    {
+      "name": "한국지네틱바이오팜",
+      "code": "241140",
+      "price": "51",
+      "change": "2",
+      "volume": "58560",
+      "amount": "2829626",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ]
+    },
+    {
+      "name": "사운드백신",
+      "code": "274460",
+      "price": "83",
+      "change": "7",
+      "volume": "43069",
+      "amount": "4557981",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ]
+    },
+    {
+      "name": "포겟",
+      "code": "168570",
+      "price": "182",
+      "change": "42",
+      "volume": "7421",
+      "amount": "1347047",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "보아스에셋",
+      "code": "237010",
+      "price": "182",
+      "change": "42",
+      "volume": "3553",
+      "amount": "642329",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "엠소닉",
+      "code": "008120",
+      "price": "1671",
+      "change": "384",
+      "volume": "3",
+      "amount": "3679",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "신영씨앤디",
+      "code": "002470",
+      "price": "7900",
+      "change": "1790",
+      "volume": "100",
+      "amount": "790000",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "제이앤드",
+      "code": "104690",
+      "price": "49",
+      "change": "11",
+      "volume": "42608",
+      "amount": "1937384",
+      "platform": "K-OTC",
+      "ranks": [
+        "상승률"
+      ]
+    },
+    {
+      "name": "케이조선",
+      "code": "067250",
+      "price": "",
+      "change": "",
+      "volume": "6",
+      "amount": "",
+      "platform": "K-OTC",
+      "ranks": [
+        "시가총액"
+      ]
+    },
+    {
+      "name": "세메스",
+      "code": "042380",
+      "price": "",
+      "change": "",
+      "volume": "77",
+      "amount": "",
+      "platform": "K-OTC",
+      "ranks": [
+        "시가총액"
+      ]
+    },
+    {
+      "name": "비바리퍼블리카",
+      "code": "A285240",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 8896,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "상승",
+        "인기",
+        "시총"
+      ]
+    },
+    {
+      "name": "빗썸",
+      "code": "A341650",
+      "price": "189700",
+      "change": "4700 (2.54%)",
+      "change_pct": "2.54",
+      "visit": 3180,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "인기"
+      ]
+    },
+    {
+      "name": "한국신용데이터",
+      "code": "A360160",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 499,
+      "category": "sw",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량"
+      ]
+    },
+    {
+      "name": "두나무",
+      "code": "A389930",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 4125,
+      "category": "platform",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "상승",
+        "인기",
+        "시총"
+      ]
+    },
+    {
+      "name": "야놀자",
+      "code": "A350920",
+      "price": "18800",
+      "change": "400 (2.17%)",
+      "change_pct": "2.17",
+      "visit": 5570,
+      "category": "platform",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "인기"
+      ]
+    },
+    {
+      "name": "브이페이먼츠",
+      "code": "A373560",
+      "price": "20",
+      "change": "-2 (-9.09%)",
+      "change_pct": "-9.09",
+      "visit": 949,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "ranks": [
+        "상승"
+      ]
+    },
+    {
+      "name": "오아시스",
+      "code": "A370190",
+      "price": "7950",
+      "change": "0 (0%)",
+      "change_pct": "0",
+      "visit": 1861,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "ranks": [
+        "상승",
+        "인기"
+      ]
+    },
+    {
+      "name": "무신사",
+      "code": "A458860",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 3497,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "ranks": [
+        "상승",
+        "인기"
+      ]
+    },
+    {
+      "name": "에스엠랩",
+      "code": "A419350",
+      "price": "1119",
+      "change": "-51 (-4.36%)",
+      "change_pct": "-4.36",
+      "visit": 13259,
+      "category": "manufacturing",
+      "platform": "서울거래소",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "컬리",
+      "code": "A408480",
+      "price": "32000",
+      "change": "100 (0.31%)",
+      "change_pct": "0.31",
+      "visit": 8969,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "알바이오",
+      "code": "A003190",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 6382,
+      "category": "bio",
+      "platform": "서울거래소",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "그래핀스퀘어",
+      "code": "A245060",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 4470,
+      "category": "manufacturing",
+      "platform": "서울거래소",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "삼성중공우",
+      "code": "A010145",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 194,
+      "category": "etc",
+      "platform": "서울거래소",
+      "ranks": [
+        "시총"
+      ]
+    },
+    {
+      "name": "교보생명보험",
+      "code": "A073980",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 97,
+      "category": "etc",
+      "platform": "서울거래소",
+      "ranks": [
+        "시총"
+      ]
+    },
+    {
+      "name": "현대오일뱅크",
+      "code": "A004050",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 188,
+      "category": "manufacturing",
+      "platform": "서울거래소",
+      "ranks": [
+        "시총"
+      ]
+    }
+  ],
+  "volume_spikes": [
+    {
+      "name": "아리바이오",
+      "code": "192230",
+      "price": "32300",
+      "change": "250",
+      "volume": "133432",
+      "amount": "4280826150",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "거래량"
+      ],
+      "volume_int": 133432
+    },
+    {
+      "name": "파멥신",
+      "code": "208340",
+      "price": "105",
+      "change": "7",
+      "volume": "67417",
+      "amount": "7107489",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ],
+      "volume_int": 67417
+    },
+    {
+      "name": "삼성메디슨",
+      "code": "018360",
+      "price": "11100",
+      "change": "440",
+      "volume": "62645",
+      "amount": "686803840",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래대금",
+        "거래량",
+        "시가총액"
+      ],
+      "volume_int": 62645
+    },
+    {
+      "name": "한국지네틱바이오팜",
+      "code": "241140",
+      "price": "51",
+      "change": "2",
+      "volume": "58560",
+      "amount": "2829626",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ],
+      "volume_int": 58560
+    },
+    {
+      "name": "사운드백신",
+      "code": "274460",
+      "price": "83",
+      "change": "7",
+      "volume": "43069",
+      "amount": "4557981",
+      "platform": "K-OTC",
+      "ranks": [
+        "거래량"
+      ],
+      "volume_int": 43069
+    },
+    {
+      "name": "비바리퍼블리카",
+      "code": "A285240",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 8896,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "상승",
+        "인기",
+        "시총"
+      ],
+      "volume_int": 0
+    },
+    {
+      "name": "빗썸",
+      "code": "A341650",
+      "price": "189700",
+      "change": "4700 (2.54%)",
+      "change_pct": "2.54",
+      "visit": 3180,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "인기"
+      ],
+      "volume_int": 0
+    },
+    {
+      "name": "한국신용데이터",
+      "code": "A360160",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 499,
+      "category": "sw",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량"
+      ],
+      "volume_int": 0
+    },
+    {
+      "name": "두나무",
+      "code": "A389930",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 4125,
+      "category": "platform",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "상승",
+        "인기",
+        "시총"
+      ],
+      "volume_int": 0
+    },
+    {
+      "name": "야놀자",
+      "code": "A350920",
+      "price": "18800",
+      "change": "400 (2.17%)",
+      "change_pct": "2.17",
+      "visit": 5570,
+      "category": "platform",
+      "platform": "서울거래소",
+      "ranks": [
+        "거래량",
+        "인기"
+      ],
+      "volume_int": 0
+    }
+  ],
   "summary": {
-    "kotc_count": 0,
-    "seoul_count": 0,
+    "kotc_count": 15,
+    "seoul_count": 15,
     "naver_count": 0,
-    "total": 0,
-    "volume_spike_count": 0
+    "total": 30,
+    "volume_spike_count": 10
   }
 }
