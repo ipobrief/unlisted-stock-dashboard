@@ -1,0 +1,15 @@
+{
+  "updated_at": "2026-05-29 15:27",
+  "kotc": [],
+  "seoul_exchange": [],
+  "naver_unlisted": [],
+  "all_stocks": [],
+  "volume_spikes": [],
+  "summary": {
+    "kotc_count": 0,
+    "seoul_count": 0,
+    "naver_count": 0,
+    "total": 0,
+    "volume_spike_count": 0
+  }
+}

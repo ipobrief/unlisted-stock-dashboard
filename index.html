@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>비상장 종목 서치 대시보드</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --card: #1a1d28;
+  --border: #2a2d3a;
+  --text: #e4e4e7;
+  --text-dim: #8b8d97;
+  --accent: #6366f1;
+  --accent2: #8b5cf6;
+  --green: #22c55e;
+  --red: #ef4444;
+  --orange: #f59e0b;
+  --blue: #3b82f6;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Segoe UI', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+.header {
+  background: linear-gradient(135deg, #1a1d28 0%, #252836 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .updated {
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.tabs {
+  display: flex;
+  gap: 0;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 0 20px;
+  overflow-x: auto;
+}
+.tab {
+  padding: 14px 24px;
+  cursor: pointer;
+  color: var(--text-dim);
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+.tab:hover { color: var(--text); }
+.tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.container { padding: 20px 30px; max-width: 1400px; margin: 0 auto; }
+.grid { display: grid; gap: 20px; }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+.grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+}
+.card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card h3 .badge {
+  font-size: 11px;
+  background: var(--accent);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.stat-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-bottom: 20px; }
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  text-align: center;
+}
+.stat-card .label { font-size: 12px; color: var(--text-dim); margin-bottom: 6px; }
+.stat-card .value { font-size: 28px; font-weight: 700; }
+.stat-card .value.purple { color: var(--accent); }
+.stat-card .value.green { color: var(--green); }
+.stat-card .value.orange { color: var(--orange); }
+.stat-card .value.blue { color: var(--blue); }
+.stat-card .value.red { color: var(--red); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+table th {
+  text-align: left;
+  padding: 10px 12px;
+  color: var(--text-dim);
+  font-weight: 500;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  position: sticky;
+  top: 0;
+  background: var(--card);
+}
+table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(42,45,58,0.5);
+  vertical-align: top;
+}
+table tr:hover { background: rgba(99,102,241,0.05); }
+table a {
+  color: var(--accent);
+  text-decoration: none;
+}
+table a:hover { text-decoration: underline; }
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  margin: 1px 2px;
+}
+.tag-seriesC { background: rgba(34,197,94,0.15); color: var(--green); }
+.tag-seriesD { background: rgba(59,130,246,0.15); color: var(--blue); }
+.tag-preipo { background: rgba(245,158,11,0.15); color: var(--orange); }
+.tag-ipo { background: rgba(239,68,68,0.15); color: var(--red); }
+.tag-default { background: rgba(139,92,246,0.15); color: var(--accent2); }
+
+.keyword-chip {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 3px;
+  background: rgba(99,102,241,0.1);
+  border: 1px solid rgba(99,102,241,0.3);
+  color: var(--accent);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.keyword-chip:hover, .keyword-chip.active {
+  background: var(--accent);
+  color: white;
+}
+.keyword-chip .count {
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.mention-bar {
+  height: 6px;
+  background: rgba(99,102,241,0.2);
+  border-radius: 3px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+.mention-bar .fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  border-radius: 3px;
+  transition: width 0.5s;
+}
+
+.volume-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.volume-indicator.spike {
+  color: var(--red);
+  font-weight: 600;
+}
+
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+.scroll-table {
+  max-height: 500px;
+  overflow-y: auto;
+}
+.scroll-table::-webkit-scrollbar { width: 6px; }
+.scroll-table::-webkit-scrollbar-track { background: transparent; }
+.scroll-table::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-dim);
+}
+.empty-state .icon { font-size: 48px; margin-bottom: 12px; }
+.empty-state p { font-size: 14px; }
+.empty-state .btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 24px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px 16px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 14px;
+  margin-bottom: 16px;
+  outline: none;
+}
+.search-box:focus { border-color: var(--accent); }
+
+@media (max-width: 900px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-cards { grid-template-columns: repeat(3, 1fr); }
+  .container { padding: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>비상장 종목 서치 대시보드</h1>
+  <span class="updated" id="updatedAt">데이터를 로드하세요</span>
+</div>
+
+<div class="tabs">
+  <div class="tab active" data-tab="overview">종합 Overview</div>
+  <div class="tab" data-tab="news">뉴스 키워드</div>
+  <div class="tab" data-tab="thevc">THE VC 투자</div>
+  <div class="tab" data-tab="platforms">거래 플랫폼</div>
+  <div class="tab" data-tab="watchlist">관심종목</div>
+</div>
+
+<!-- Overview -->
+<div class="tab-content active" id="tab-overview">
+  <div class="container">
+    <div class="stat-cards" id="statCards">
+      <div class="stat-card"><div class="label">뉴스 언급 기업</div><div class="value purple" id="s-news">-</div></div>
+      <div class="stat-card"><div class="label">시리즈C+ 기업</div><div class="value green" id="s-series">-</div></div>
+      <div class="stat-card"><div class="label">최근 투자건</div><div class="value blue" id="s-invest">-</div></div>
+      <div class="stat-card"><div class="label">플랫폼 종목</div><div class="value orange" id="s-platform">-</div></div>
+      <div class="stat-card"><div class="label">거래량 급증</div><div class="value red" id="s-spike">-</div></div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>뉴스 언급 빈도 TOP 20 <span class="badge" id="newsTopBadge">0건</span></h3>
+        <div class="scroll-table" id="newsTopTable"></div>
+      </div>
+      <div class="card">
+        <h3>최근 투자 유치 <span class="badge" id="investBadge">최근 30일</span></h3>
+        <div class="scroll-table" id="recentInvestTable"></div>
+      </div>
+    </div>
+
+    <div class="grid grid-2" style="margin-top:20px">
+      <div class="card">
+        <h3>거래량 급증 종목</h3>
+        <div class="scroll-table" id="volumeSpikeTable"></div>
+      </div>
+      <div class="card">
+        <h3>THE VC 조회수 랭킹</h3>
+        <div class="scroll-table" id="rankingTable"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 뉴스 키워드 탭 -->
+<div class="tab-content" id="tab-news">
+  <div class="container">
+    <div class="card" style="margin-bottom:20px">
+      <h3>검색 키워드별 기사 수</h3>
+      <div id="keywordChips"></div>
+    </div>
+    <div class="card">
+      <h3>기업 언급 빈도 분석 <span class="badge" id="mentionBadge">0개</span></h3>
+      <input type="text" class="search-box" placeholder="기업명 검색..." id="newsSearch">
+      <div class="scroll-table" style="max-height:600px" id="mentionTable"></div>
+    </div>
+  </div>
+</div>
+
+<!-- THE VC 탭 -->
+<div class="tab-content" id="tab-thevc">
+  <div class="container">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>시리즈C 이상 기업 <span class="badge" id="seriescBadge">0개</span></h3>
+        <input type="text" class="search-box" placeholder="기업명 검색..." id="thevcSearch">
+        <div class="scroll-table" style="max-height:600px" id="seriesCTable"></div>
+      </div>
+      <div class="card">
+        <h3>최근 투자/M&A 전체 내역</h3>
+        <div class="scroll-table" style="max-height:600px" id="allInvestTable"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 거래 플랫폼 탭 -->
+<div class="tab-content" id="tab-platforms">
+  <div class="container">
+    <div class="card" style="margin-bottom:20px">
+      <h3>거래량 급증 종목 <span class="badge" id="spikeBadge">0개</span></h3>
+      <div class="scroll-table" id="spikeDetailTable"></div>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>K-OTC <span class="badge" id="kotcBadge">0</span></h3>
+        <div class="scroll-table" style="max-height:500px" id="kotcTable"></div>
+      </div>
+      <div class="card">
+        <h3>서울거래소 <span class="badge" id="seoulBadge">0</span></h3>
+        <div class="scroll-table" style="max-height:500px" id="seoulTable"></div>
+      </div>
+      <div class="card">
+        <h3>네이버페이 <span class="badge" id="naverBadge">0</span></h3>
+        <div class="scroll-table" style="max-height:500px" id="naverTable"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 관심종목 탭 -->
+<div class="tab-content" id="tab-watchlist">
+  <div class="container">
+    <div class="card">
+      <h3>관심종목 리스트</h3>
+      <p style="color:var(--text-dim); font-size:13px; margin-bottom:16px;">
+        각 탭에서 기업명 옆의 ★ 버튼을 클릭하여 관심종목에 추가할 수 있습니다.
+      </p>
+      <div id="watchlistContent"></div>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const D = typeof DASHBOARD_DATA !== 'undefined' ? DASHBOARD_DATA : null;
+let watchlist = JSON.parse(localStorage.getItem('unlisted_watchlist') || '[]');
+
+function saveWatchlist() {
+  localStorage.setItem('unlisted_watchlist', JSON.stringify(watchlist));
+}
+
+function toggleWatch(name, source) {
+  const idx = watchlist.findIndex(w => w.name === name);
+  if (idx >= 0) {
+    watchlist.splice(idx, 1);
+  } else {
+    watchlist.push({ name, source, addedAt: new Date().toISOString().slice(0,10) });
+  }
+  saveWatchlist();
+  renderAll();
+}
+
+function isWatched(name) {
+  return watchlist.some(w => w.name === name);
+}
+
+function starBtn(name, source) {
+  const watched = isWatched(name);
+  return `<span style="cursor:pointer;color:${watched ? '#f59e0b' : '#555'};font-size:16px" onclick="toggleWatch('${name.replace(/'/g,"\\'")}','${source}')">${watched ? '★' : '☆'}</span>`;
+}
+
+function stageTag(stage) {
+  const s = (stage || '').toLowerCase().replace(/\s/g,'');
+  if (s.includes('seriesc')) return `<span class="tag tag-seriesC">${stage}</span>`;
+  if (s.includes('seriesd') || s.includes('seriese') || s.includes('seriesf') || s.includes('seriesg'))
+    return `<span class="tag tag-seriesD">${stage}</span>`;
+  if (s.includes('preipo') || s.includes('pre-ipo')) return `<span class="tag tag-preipo">${stage}</span>`;
+  if (s.includes('ipo')) return `<span class="tag tag-ipo">${stage}</span>`;
+  return `<span class="tag tag-default">${stage}</span>`;
+}
+
+// Tabs
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+function renderAll() {
+  if (!D) {
+    document.getElementById('tab-overview').innerHTML =
+      '<div class="container"><div class="empty-state"><div class="icon">📊</div><p>데이터가 없습니다. update.bat을 실행하여 데이터를 수집하세요.</p></div></div>';
+    return;
+  }
+
+  document.getElementById('updatedAt').textContent = '업데이트: ' + (D.updated_at || '-');
+
+  const news = D.news || {};
+  const thevc = D.thevc || {};
+  const plat = D.platforms || {};
+
+  // Stats
+  const topCompanies = news.top_companies || [];
+  document.getElementById('s-news').textContent = topCompanies.length;
+  document.getElementById('s-series').textContent = thevc.total_series_c_plus || 0;
+  document.getElementById('s-invest').textContent = (thevc.recent_investments || []).length;
+  document.getElementById('s-platform').textContent = (plat.summary || {}).total || 0;
+  document.getElementById('s-spike').textContent = (plat.volume_spikes || []).length;
+
+  // Overview - News Top 20
+  renderNewsTop(topCompanies.slice(0, 20));
+  renderRecentInvest(thevc.recent_investments || thevc.home_investments || []);
+  renderVolumeSpikes(plat.volume_spikes || []);
+  renderRanking(thevc.ranking || []);
+
+  // News tab
+  renderMentionTable(topCompanies);
+  renderKeywordChips(news.keyword_stats || {});
+
+  // TheVC tab
+  renderSeriesC(thevc.series_c_plus || []);
+  renderAllInvest(thevc.recent_investments || []);
+
+  // Platforms tab
+  renderPlatformTables(plat);
+
+  // Watchlist
+  renderWatchlist();
+}
+
+function renderNewsTop(companies) {
+  document.getElementById('newsTopBadge').textContent = companies.length + '개';
+  if (!companies.length) {
+    document.getElementById('newsTopTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+    return;
+  }
+  const maxCount = companies[0].mention_count;
+  let html = '<table><thead><tr><th width="40">#</th><th></th><th>기업명</th><th>언급</th><th width="120">빈도</th></tr></thead><tbody>';
+  companies.forEach((c, i) => {
+    const pct = (c.mention_count / maxCount * 100).toFixed(0);
+    html += `<tr>
+      <td>${i+1}</td>
+      <td>${starBtn(c.name, 'news')}</td>
+      <td><strong>${c.name}</strong></td>
+      <td>${c.mention_count}회</td>
+      <td><div class="mention-bar"><div class="fill" style="width:${pct}%"></div></div></td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('newsTopTable').innerHTML = html;
+}
+
+function renderRecentInvest(invests) {
+  document.getElementById('investBadge').textContent = invests.length + '건';
+  if (!invests.length) {
+    document.getElementById('recentInvestTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+    return;
+  }
+  let html = '<table><thead><tr><th>날짜</th><th></th><th>기업</th><th>단계</th><th>금액</th></tr></thead><tbody>';
+  invests.slice(0, 20).forEach(inv => {
+    const name = inv.company || inv.name || '';
+    html += `<tr>
+      <td style="color:var(--text-dim);font-size:12px">${inv.date || ''}</td>
+      <td>${starBtn(name, 'thevc')}</td>
+      <td>${inv.link ? `<a href="${inv.link}" target="_blank">${name}</a>` : name}</td>
+      <td>${stageTag(inv.stage)}</td>
+      <td>${inv.amount || '-'}</td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('recentInvestTable').innerHTML = html;
+}
+
+function renderVolumeSpikes(spikes) {
+  if (!spikes.length) {
+    document.getElementById('volumeSpikeTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+    return;
+  }
+  let html = '<table><thead><tr><th></th><th>종목</th><th>플랫폼</th><th>현재가</th><th>거래량</th></tr></thead><tbody>';
+  spikes.slice(0, 15).forEach(s => {
+    html += `<tr>
+      <td>${starBtn(s.name, s.platform)}</td>
+      <td><strong>${s.name}</strong></td>
+      <td><span class="tag tag-default">${s.platform}</span></td>
+      <td>${s.price || '-'}</td>
+      <td class="volume-indicator spike">${Number(s.volume_int || 0).toLocaleString()}</td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('volumeSpikeTable').innerHTML = html;
+}
+
+function renderRanking(ranking) {
+  if (!ranking.length) {
+    document.getElementById('rankingTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+    return;
+  }
+  let html = '<table><thead><tr><th>#</th><th></th><th>기업명</th></tr></thead><tbody>';
+  ranking.slice(0, 15).forEach((r, i) => {
+    html += `<tr>
+      <td>${i+1}</td>
+      <td>${starBtn(r.name, 'thevc-rank')}</td>
+      <td>${r.link ? `<a href="${r.link}" target="_blank">${r.name}</a>` : r.name}</td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('rankingTable').innerHTML = html;
+}
+
+let allMentionCompanies = [];
+let activeKeyword = null;
+
+function renderKeywordChips(stats) {
+  let html = `<span class="keyword-chip active" data-kw="">전체<span class="count">${allMentionCompanies.length}</span></span>`;
+  Object.entries(stats).forEach(([kw, count]) => {
+    html += `<span class="keyword-chip" data-kw="${kw}">${kw}<span class="count">${count}</span></span>`;
+  });
+  const container = document.getElementById('keywordChips');
+  container.innerHTML = html || '<p style="color:var(--text-dim)">데이터 없음</p>';
+
+  container.querySelectorAll('.keyword-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      container.querySelectorAll('.keyword-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeKeyword = chip.dataset.kw || null;
+      renderMentionTable(allMentionCompanies);
+    });
+  });
+}
+
+function renderMentionTable(companies) {
+  allMentionCompanies = companies;
+
+  // 키워드 필터 적용
+  const filtered = activeKeyword
+    ? companies.filter(c => (c.keywords || []).includes(activeKeyword))
+    : companies;
+
+  document.getElementById('mentionBadge').textContent = filtered.length + '개';
+  if (!filtered.length) {
+    document.getElementById('mentionTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">해당 키워드로 발굴된 기업이 없습니다</p>';
+    return;
+  }
+  const maxCount = filtered[0].mention_count;
+  let html = '<table><thead><tr><th width="40">#</th><th></th><th>기업명</th><th>언급</th><th width="150">빈도</th><th>발굴 키워드</th><th>관련 기사</th></tr></thead><tbody>';
+  filtered.forEach((c, i) => {
+    const pct = (c.mention_count / maxCount * 100).toFixed(0);
+    const articles = (c.articles || []).map(a =>
+      `<a href="${a.link}" target="_blank" style="font-size:11px;display:block;margin:2px 0">${a.title ? a.title.slice(0, 40) + '...' : ''}</a>`
+    ).join('');
+    const kwTags = (c.keywords || []).map(k =>
+      `<span class="tag tag-default" style="font-size:10px">${k}</span>`
+    ).join('');
+    html += `<tr>
+      <td>${i+1}</td>
+      <td>${starBtn(c.name, 'news')}</td>
+      <td><strong>${c.name}</strong></td>
+      <td>${c.mention_count}회</td>
+      <td><div class="mention-bar"><div class="fill" style="width:${pct}%"></div></div></td>
+      <td>${kwTags}</td>
+      <td>${articles}</td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('mentionTable').innerHTML = html;
+
+  document.getElementById('newsSearch').oninput = function() {
+    const q = this.value.toLowerCase();
+    document.querySelectorAll('#mentionTable tbody tr').forEach(tr => {
+      tr.style.display = tr.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  };
+}
+
+function renderSeriesC(startups) {
+  document.getElementById('seriescBadge').textContent = startups.length + '개';
+  if (!startups.length) {
+    document.getElementById('seriesCTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+    return;
+  }
+  let html = '<table><thead><tr><th></th><th>기업명</th><th>분류</th><th>분야</th><th>라운드</th><th>설립</th></tr></thead><tbody>';
+  startups.forEach(s => {
+    const name = s.name || '';
+    html += `<tr>
+      <td>${starBtn(name, 'thevc-seriesC')}</td>
+      <td>${s.link ? `<a href="${s.link}" target="_blank">${name}</a>` : name}</td>
+      <td>${s.category || ''}</td>
+      <td style="font-size:12px">${s.sector || ''}</td>
+      <td>${stageTag(s.latest_stage || '')}</td>
+      <td style="font-size:12px;color:var(--text-dim)">${s.founded || ''}</td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('seriesCTable').innerHTML = html;
+
+  document.getElementById('thevcSearch').oninput = function() {
+    const q = this.value.toLowerCase();
+    document.querySelectorAll('#seriesCTable tbody tr').forEach(tr => {
+      tr.style.display = tr.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  };
+}
+
+function renderAllInvest(invests) {
+  if (!invests.length) {
+    document.getElementById('allInvestTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+    return;
+  }
+  let html = '<table><thead><tr><th>날짜</th><th></th><th>기업</th><th>분야</th><th>단계</th><th>금액</th><th>투자자</th></tr></thead><tbody>';
+  invests.forEach(inv => {
+    const name = inv.company || '';
+    html += `<tr>
+      <td style="font-size:12px;color:var(--text-dim)">${inv.date || ''}</td>
+      <td>${starBtn(name, 'thevc')}</td>
+      <td>${inv.link ? `<a href="${inv.link}" target="_blank">${name}</a>` : name}</td>
+      <td style="font-size:12px">${inv.sector || ''}</td>
+      <td>${stageTag(inv.stage)}</td>
+      <td>${inv.amount || '-'}</td>
+      <td style="font-size:12px">${inv.investor || ''}</td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('allInvestTable').innerHTML = html;
+}
+
+function renderPlatformTables(plat) {
+  const kotc = plat.kotc || [];
+  const seoul = plat.seoul_exchange || [];
+  const naver = plat.naver_unlisted || [];
+  const spikes = plat.volume_spikes || [];
+
+  document.getElementById('kotcBadge').textContent = kotc.length;
+  document.getElementById('seoulBadge').textContent = seoul.length;
+  document.getElementById('naverBadge').textContent = naver.length;
+  document.getElementById('spikeBadge').textContent = spikes.length + '개';
+
+  function stockTable(stocks, containerId) {
+    if (!stocks.length) {
+      document.getElementById(containerId).innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+      return;
+    }
+    let html = '<table><thead><tr><th></th><th>종목</th><th>현재가</th><th>등락</th><th>거래량</th></tr></thead><tbody>';
+    stocks.forEach(s => {
+      const changeColor = (s.change || '').includes('-') ? 'var(--blue)' : 'var(--red)';
+      html += `<tr>
+        <td>${starBtn(s.name, s.platform || '')}</td>
+        <td><strong>${s.name}</strong></td>
+        <td>${s.price || '-'}</td>
+        <td style="color:${changeColor}">${s.change || '-'}</td>
+        <td>${s.volume || '-'}</td>
+      </tr>`;
+    });
+    html += '</tbody></table>';
+    document.getElementById(containerId).innerHTML = html;
+  }
+
+  stockTable(kotc, 'kotcTable');
+  stockTable(seoul, 'seoulTable');
+  stockTable(naver, 'naverTable');
+
+  // Spike detail table
+  if (!spikes.length) {
+    document.getElementById('spikeDetailTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+  } else {
+    let html = '<table><thead><tr><th></th><th>종목</th><th>플랫폼</th><th>현재가</th><th>거래량</th></tr></thead><tbody>';
+    spikes.forEach(s => {
+      html += `<tr>
+        <td>${starBtn(s.name, s.platform)}</td>
+        <td><strong>${s.name}</strong></td>
+        <td><span class="tag tag-default">${s.platform}</span></td>
+        <td>${s.price || '-'}</td>
+        <td style="color:var(--red);font-weight:600">${Number(s.volume_int || 0).toLocaleString()}</td>
+      </tr>`;
+    });
+    html += '</tbody></table>';
+    document.getElementById('spikeDetailTable').innerHTML = html;
+  }
+}
+
+function renderWatchlist() {
+  const el = document.getElementById('watchlistContent');
+  if (!watchlist.length) {
+    el.innerHTML = '<div class="empty-state"><div class="icon">★</div><p>관심종목이 없습니다.<br>각 탭에서 ☆ 버튼을 클릭하여 추가하세요.</p></div>';
+    return;
+  }
+  let html = '<table><thead><tr><th></th><th>기업명</th><th>소스</th><th>추가일</th><th>삭제</th></tr></thead><tbody>';
+  watchlist.forEach((w, i) => {
+    html += `<tr>
+      <td style="color:#f59e0b">★</td>
+      <td><strong>${w.name}</strong></td>
+      <td><span class="tag tag-default">${w.source || ''}</span></td>
+      <td style="font-size:12px;color:var(--text-dim)">${w.addedAt || ''}</td>
+      <td><span style="cursor:pointer;color:var(--red)" onclick="toggleWatch('${w.name.replace(/'/g,"\\'")}','${w.source}')">삭제</span></td>
+    </tr>`;
+  });
+  html += '</tbody></table>';
+  el.innerHTML = html;
+}
+
+renderAll();
+</script>
+</body>
+</html>
