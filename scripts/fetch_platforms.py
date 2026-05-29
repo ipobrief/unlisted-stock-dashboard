@@ -129,72 +129,95 @@ def fetch_seoulexchange():
     return stocks
 
 
+# 증권플러스(네이버) 비상장 랭킹 카테고리 -> 라벨
+NAVER_CAT_LABEL = {
+    "GENERAL_HIGH_VOLUME_STOCKS": "거래량",
+    "POPULAR_STOCKS": "인기",
+    "HIGH_CHANGE_RATE_STOCKS": "상승률",
+    "READY_TO_IPO": "상장준비",
+    "HIGH_ESTIMATED_MARKET_CAP": "시총",
+    "SALES_REVENUE_INCREASE": "매출상승",
+}
+
+
 def fetch_naver_unlisted():
-    """네이버페이 비상장 종목 데이터 수집"""
-    print("\n네이버페이 비상장 데이터 수집중...")
-    stocks = []
+    """네이버 비상장(증권플러스) 랭킹 데이터 수집.
+    https://ustock.naver.com/stock/rank 의 __NEXT_DATA__(React Query)에서 추출.
+    카테고리: 거래량/인기/상승률/상장준비/예상시총/매출상승
+    """
+    import re
+    print("\n네이버 비상장(증권플러스) 데이터 수집중...")
+    seen = {}
+    ready_to_ipo = []
+    revenue_up = []
 
     try:
-        # 네이버페이 비상장 메인 페이지
-        url = "https://m.stock.naver.com/domestic/private/rising"
+        url = "https://ustock.naver.com/stock/rank"
         resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', resp.text, re.DOTALL)
+        if not m:
+            print("  [경고] 네이버 비상장: __NEXT_DATA__ 없음")
+            return []
+        d = json.loads(m.group(1))
+        categories = d["props"]["pageProps"]["dehydratedState"]["queries"][0]["state"]["data"]
 
-        if resp.status_code == 200:
-            soup = BeautifulSoup(resp.text, "lxml")
-            # JSON 데이터가 script 태그에 포함되어 있을 수 있음
-            scripts = soup.select("script")
-            for script in scripts:
-                text = script.string or ""
-                if "stockName" in text or "itemCode" in text:
-                    try:
-                        import re
-                        json_match = re.search(r'\[{.*?}\]', text, re.DOTALL)
-                        if json_match:
-                            data = json.loads(json_match.group())
-                            for item in data:
-                                if isinstance(item, dict):
-                                    stocks.append({
-                                        "name": item.get("stockName", item.get("name", "")),
-                                        "code": item.get("itemCode", item.get("code", "")),
-                                        "price": str(item.get("closePrice", item.get("price", ""))),
-                                        "change": str(item.get("compareToPreviousClosePrice", "")),
-                                        "volume": str(item.get("accumulatedTradingVolume", "")),
-                                        "platform": "네이버페이",
-                                    })
-                    except (json.JSONDecodeError, Exception):
-                        continue
+        for cat in categories:
+            label = NAVER_CAT_LABEL.get(cat.get("type"), cat.get("name", ""))
+            for r in cat.get("rows", []):
+                name = r.get("stockName", "")
+                if not name:
+                    continue
+                code = r.get("stockCode", "")
+                price = r.get("currentPrice")
+                rate = r.get("changeRate")
+                rec = seen.get(code) or {
+                    "name": name,
+                    "code": code,
+                    "price": str(price) if price is not None else "",
+                    "change_pct": str(rate) if rate is not None else "",
+                    "board_count": r.get("boardCount", 0),
+                    "ipo_badge": r.get("displayIpoBadge", False),
+                    "platform": "네이버비상장",
+                    "ranks": [],
+                }
+                if label not in rec["ranks"]:
+                    rec["ranks"].append(label)
+                if not rec["price"] and price is not None:
+                    rec["price"] = str(price)
+                if not rec["change_pct"] and rate is not None:
+                    rec["change_pct"] = str(rate)
+                seen[code] = rec
 
-        # API 시도
-        if not stocks:
-            api_url = "https://m.stock.naver.com/api/stock/private/rising"
-            resp2 = requests.get(api_url, headers={
-                **HEADERS,
-                "Accept": "application/json",
-            }, timeout=15)
-            if resp2.status_code == 200:
-                try:
-                    data = resp2.json()
-                    items = data if isinstance(data, list) else data.get("stocks", data.get("result", []))
-                    for item in items:
-                        if isinstance(item, dict):
-                            stocks.append({
-                                "name": item.get("stockName", item.get("name", "")),
-                                "code": item.get("itemCode", item.get("code", "")),
-                                "price": str(item.get("closePrice", "")),
-                                "change": str(item.get("compareToPreviousClosePrice", "")),
-                                "volume": str(item.get("accumulatedTradingVolume", "")),
-                                "changeRate": str(item.get("fluctuationsRatio", "")),
-                                "platform": "네이버페이",
-                            })
-                except json.JSONDecodeError:
-                    pass
+                # 특수 카테고리 별도 보관
+                if cat.get("type") == "READY_TO_IPO":
+                    ready_to_ipo.append({
+                        "name": name, "code": code,
+                        "ipo_state": r.get("ipoState", ""),
+                        "base_date": (r.get("baseDate") or "")[:10],
+                        "rank": r.get("rank"),
+                    })
+                elif cat.get("type") == "SALES_REVENUE_INCREASE":
+                    revenue_up.append({
+                        "name": name, "code": code,
+                        "revenue_rate": r.get("revenueRaiseRate"),
+                        "rank": r.get("rank"),
+                    })
 
-        print(f"  네이버페이 비상장: {len(stocks)}종목")
+        stocks = list(seen.values())
+        # 부가 정보를 함수 속성으로 전달
+        fetch_naver_unlisted.ready_to_ipo = ready_to_ipo
+        fetch_naver_unlisted.revenue_up = sorted(
+            revenue_up, key=lambda x: (x.get("revenue_rate") or 0), reverse=True)
+        print(f"  네이버 비상장: {len(stocks)}종목 "
+              f"(상장준비 {len(ready_to_ipo)}, 매출상승 {len(revenue_up)})")
+        return stocks
 
     except Exception as e:
-        print(f"  [오류] 네이버페이: {e}")
-
-    return stocks
+        print(f"  [오류] 네이버 비상장: {e}")
+        fetch_naver_unlisted.ready_to_ipo = []
+        fetch_naver_unlisted.revenue_up = []
+        return []
 
 
 def identify_volume_spikes(stocks):
@@ -231,12 +254,17 @@ def main():
     all_stocks = kotc_stocks + seoul_stocks + naver_stocks
     volume_spikes = identify_volume_spikes(all_stocks)
 
+    ready_to_ipo = getattr(fetch_naver_unlisted, "ready_to_ipo", [])
+    revenue_up = getattr(fetch_naver_unlisted, "revenue_up", [])
+
     print(f"\n{'='*60}")
     print(f"수집 결과 요약")
     print(f"  K-OTC: {len(kotc_stocks)}종목")
     print(f"  서울거래소: {len(seoul_stocks)}종목")
-    print(f"  네이버페이: {len(naver_stocks)}종목")
+    print(f"  네이버 비상장: {len(naver_stocks)}종목")
     print(f"  거래량 급증: {len(volume_spikes)}종목")
+    print(f"  상장준비 기업: {len(ready_to_ipo)}개")
+    print(f"  매출 급증 기업: {len(revenue_up)}개")
 
     output = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -245,12 +273,16 @@ def main():
         "naver_unlisted": naver_stocks,
         "all_stocks": all_stocks,
         "volume_spikes": volume_spikes[:30],
+        "ready_to_ipo": ready_to_ipo,
+        "revenue_up": revenue_up,
         "summary": {
             "kotc_count": len(kotc_stocks),
             "seoul_count": len(seoul_stocks),
             "naver_count": len(naver_stocks),
             "total": len(all_stocks),
             "volume_spike_count": len(volume_spikes),
+            "ready_to_ipo_count": len(ready_to_ipo),
+            "revenue_up_count": len(revenue_up),
         }
     }
 

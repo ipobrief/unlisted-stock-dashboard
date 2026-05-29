@@ -349,6 +349,18 @@ table a:hover { text-decoration: underline; }
 <!-- 거래 플랫폼 탭 -->
 <div class="tab-content" id="tab-platforms">
   <div class="container">
+    <div class="grid grid-2" style="margin-bottom:20px">
+      <div class="card">
+        <h3>상장준비 시작 기업 <span class="badge" id="ipoReadyBadge">0개</span></h3>
+        <p style="color:var(--text-dim);font-size:12px;margin-bottom:10px">증권플러스 비상장 기준 — 상장 절차에 착수한 기업</p>
+        <div class="scroll-table" style="max-height:360px" id="ipoReadyTable"></div>
+      </div>
+      <div class="card">
+        <h3>매출 급증 기업 <span class="badge" id="revenueBadge">0개</span></h3>
+        <p style="color:var(--text-dim);font-size:12px;margin-bottom:10px">전년 대비 매출 상승률 상위</p>
+        <div class="scroll-table" style="max-height:360px" id="revenueTable"></div>
+      </div>
+    </div>
     <div class="card" style="margin-bottom:20px">
       <h3>거래량 급증 종목 <span class="badge" id="spikeBadge">0개</span></h3>
       <div class="scroll-table" id="spikeDetailTable"></div>
@@ -363,7 +375,7 @@ table a:hover { text-decoration: underline; }
         <div class="scroll-table" style="max-height:500px" id="seoulTable"></div>
       </div>
       <div class="card">
-        <h3>네이버페이 <span class="badge" id="naverBadge">0</span></h3>
+        <h3>네이버 비상장 <span class="badge" id="naverBadge">0</span></h3>
         <div class="scroll-table" style="max-height:500px" id="naverTable"></div>
       </div>
     </div>
@@ -686,10 +698,55 @@ function renderPlatformTables(plat) {
   const naver = plat.naver_unlisted || [];
   const spikes = plat.volume_spikes || [];
 
+  const ipoReady = plat.ready_to_ipo || [];
+  const revenueUp = plat.revenue_up || [];
+
   document.getElementById('kotcBadge').textContent = kotc.length;
   document.getElementById('seoulBadge').textContent = seoul.length;
   document.getElementById('naverBadge').textContent = naver.length;
   document.getElementById('spikeBadge').textContent = spikes.length + '개';
+  document.getElementById('ipoReadyBadge').textContent = ipoReady.length + '개';
+  document.getElementById('revenueBadge').textContent = revenueUp.length + '개';
+
+  // 상장준비 시작 기업
+  const ipoStateLabel = {
+    EXAMINATION_REQUESTED: '심사청구', EXAMINATION_PASSED: '심사통과',
+    LISTING_APPROVED: '상장승인', DEMAND_FORECAST: '수요예측',
+    SUBSCRIPTION: '청약', LISTED: '상장완료',
+  };
+  const ipoEl = document.getElementById('ipoReadyTable');
+  if (!ipoReady.length) {
+    ipoEl.innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+  } else {
+    let h = '<table><thead><tr><th></th><th>기업명</th><th>단계</th><th>기준일</th></tr></thead><tbody>';
+    ipoReady.forEach(r => {
+      h += `<tr>
+        <td>${starBtn(r.name, '네이버-상장준비')}</td>
+        <td><strong>${r.name}</strong></td>
+        <td><span class="tag tag-preipo">${ipoStateLabel[r.ipo_state] || r.ipo_state || '-'}</span></td>
+        <td style="font-size:12px;color:var(--text-dim)">${r.base_date || ''}</td>
+      </tr>`;
+    });
+    ipoEl.innerHTML = h + '</tbody></table>';
+  }
+
+  // 매출 급증 기업
+  const revEl = document.getElementById('revenueTable');
+  if (!revenueUp.length) {
+    revEl.innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
+  } else {
+    let h = '<table><thead><tr><th></th><th>기업명</th><th>매출 상승률</th></tr></thead><tbody>';
+    revenueUp.forEach(r => {
+      const rate = r.revenue_rate;
+      const rateTxt = (rate != null) ? '+' + Number(rate).toLocaleString() + '%' : '-';
+      h += `<tr>
+        <td>${starBtn(r.name, '네이버-매출급증')}</td>
+        <td><strong>${r.name}</strong></td>
+        <td style="color:var(--green);font-weight:600">${rateTxt}</td>
+      </tr>`;
+    });
+    revEl.innerHTML = h + '</tbody></table>';
+  }
 
   function fmtPrice(p) {
     if (p === '' || p === null || p === undefined) return '<span style="color:var(--text-dim)">비공개</span>';
