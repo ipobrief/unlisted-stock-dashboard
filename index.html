@@ -424,6 +424,11 @@ function starBtn(name, source) {
   return `<span style="cursor:pointer;color:${watched ? '#f59e0b' : '#555'};font-size:16px" onclick="toggleWatch('${name.replace(/'/g,"\\'")}','${source}')">${watched ? '★' : '☆'}</span>`;
 }
 
+function stockLink(name, url) {
+  if (url) return `<a href="${url}" target="_blank" rel="noopener"><strong>${name}</strong></a>`;
+  return `<strong>${name}</strong>`;
+}
+
 function stageTag(stage) {
   const s = (stage || '').toLowerCase().replace(/\s/g,'');
   if (s.includes('seriesc')) return `<span class="tag tag-seriesC">${stage}</span>`;
@@ -549,7 +554,7 @@ function renderVolumeSpikes(spikes) {
       : '<span style="color:var(--text-dim)">상위</span>';
     html += `<tr>
       <td>${starBtn(s.name, s.platform)}</td>
-      <td><strong>${s.name}</strong></td>
+      <td>${stockLink(s.name, s.url)}</td>
       <td><span class="tag tag-default">${s.platform}</span></td>
       <td>${priceTxt}</td>
       <td class="volume-indicator spike">${volTxt}</td>
@@ -722,7 +727,7 @@ function renderPlatformTables(plat) {
     ipoReady.forEach(r => {
       h += `<tr>
         <td>${starBtn(r.name, '네이버-상장준비')}</td>
-        <td><strong>${r.name}</strong></td>
+        <td>${stockLink(r.name, r.url)}</td>
         <td><span class="tag tag-preipo">${ipoStateLabel[r.ipo_state] || r.ipo_state || '-'}</span></td>
         <td style="font-size:12px;color:var(--text-dim)">${r.base_date || ''}</td>
       </tr>`;
@@ -741,7 +746,7 @@ function renderPlatformTables(plat) {
       const rateTxt = (rate != null) ? '+' + Number(rate).toLocaleString() + '%' : '-';
       h += `<tr>
         <td>${starBtn(r.name, '네이버-매출급증')}</td>
-        <td><strong>${r.name}</strong></td>
+        <td>${stockLink(r.name, r.url)}</td>
         <td style="color:var(--green);font-weight:600">${rateTxt}</td>
       </tr>`;
     });
@@ -778,7 +783,7 @@ function renderPlatformTables(plat) {
       }
       html += `<tr>
         <td>${starBtn(s.name, s.platform || '')}</td>
-        <td><strong>${s.name}</strong>${s.visit ? `<div style="font-size:10px;color:var(--text-dim)">👁 ${Number(s.visit).toLocaleString()}</div>` : ''}</td>
+        <td>${stockLink(s.name, s.url)}${s.visit ? `<div style="font-size:10px;color:var(--text-dim)">👁 ${Number(s.visit).toLocaleString()}</div>` : ''}</td>
         <td>${fmtPrice(s.price)}</td>
         <td>${changeHtml}</td>
         <td>${rankTags(s.ranks)}</td>
@@ -803,7 +808,7 @@ function renderPlatformTables(plat) {
         : '<span style="color:var(--text-dim)">거래량 상위</span>';
       html += `<tr>
         <td>${starBtn(s.name, s.platform)}</td>
-        <td><strong>${s.name}</strong></td>
+        <td>${stockLink(s.name, s.url)}</td>
         <td><span class="tag tag-default">${s.platform}</span></td>
         <td>${fmtPrice(s.price)}</td>
         <td style="color:var(--red);font-weight:600">${volTxt}</td>

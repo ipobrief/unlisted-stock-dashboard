@@ -61,6 +61,7 @@ def fetch_kotc():
                     "volume": str(vol) if vol is not None else "",
                     "amount": str(it.get("TRADEACMAMT", "")),
                     "platform": "K-OTC",
+                    "url": "https://www.k-otc.or.kr/public/item/presentPrice",
                     "ranks": [],
                 }
                 rec["ranks"].append(label)
@@ -107,6 +108,7 @@ def fetch_seoulexchange():
                 price = it.get("current_price")
                 adp = it.get("advance_decline_price")
                 adpct = it.get("advance_decline_percentage")
+                slug = it.get("english_slug", "")
                 rec = seen.get(name) or {
                     "name": name,
                     "code": code,
@@ -116,6 +118,7 @@ def fetch_seoulexchange():
                     "visit": it.get("visit_count", 0),
                     "category": it.get("business_category", ""),
                     "platform": "서울거래소",
+                    "url": (f"https://www.seoulexchange.kr/stocks/{slug}" if slug else "https://www.seoulexchange.kr/"),
                     "ranks": [],
                 }
                 rec["ranks"].append(label)
@@ -179,6 +182,7 @@ def fetch_naver_unlisted():
                     "board_count": r.get("boardCount", 0),
                     "ipo_badge": r.get("displayIpoBadge", False),
                     "platform": "네이버비상장",
+                    "url": f"https://ustock.naver.com/stock/{code}" if code else "https://ustock.naver.com/stock/rank",
                     "ranks": [],
                 }
                 if label not in rec["ranks"]:
@@ -190,18 +194,21 @@ def fetch_naver_unlisted():
                 seen[code] = rec
 
                 # 특수 카테고리 별도 보관
+                stock_url = f"https://ustock.naver.com/stock/{code}" if code else "https://ustock.naver.com/stock/rank"
                 if cat.get("type") == "READY_TO_IPO":
                     ready_to_ipo.append({
                         "name": name, "code": code,
                         "ipo_state": r.get("ipoState", ""),
                         "base_date": (r.get("baseDate") or "")[:10],
                         "rank": r.get("rank"),
+                        "url": stock_url,
                     })
                 elif cat.get("type") == "SALES_REVENUE_INCREASE":
                     revenue_up.append({
                         "name": name, "code": code,
                         "revenue_rate": r.get("revenueRaiseRate"),
                         "rank": r.get("rank"),
+                        "url": stock_url,
                     })
 
         stocks = list(seen.values())

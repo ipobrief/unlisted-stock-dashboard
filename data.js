@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "updated_at": "2026-05-29 19:08",
+  "updated_at": "2026-05-29 19:14",
   "news": {
     "updated_at": "2026-05-29 19:00",
     "keyword_stats": {
@@ -12834,7 +12834,7 @@ const DASHBOARD_DATA = {
     "total_series_c_plus": 50
   },
   "platforms": {
-    "updated_at": "2026-05-29 19:07",
+    "updated_at": "2026-05-29 19:14",
     "kotc": [
       {
         "name": "아리바이오",
@@ -12844,6 +12844,7 @@ const DASHBOARD_DATA = {
         "volume": "133432",
         "amount": "4280826150",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "거래량"
@@ -12857,6 +12858,7 @@ const DASHBOARD_DATA = {
         "volume": "5345",
         "amount": "934800000",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "시가총액"
@@ -12870,6 +12872,7 @@ const DASHBOARD_DATA = {
         "volume": "62645",
         "amount": "686803840",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "거래량",
@@ -12884,6 +12887,7 @@ const DASHBOARD_DATA = {
         "volume": "12146",
         "amount": "628039000",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금"
         ]
@@ -12896,6 +12900,7 @@ const DASHBOARD_DATA = {
         "volume": "7004",
         "amount": "312442600",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "시가총액"
@@ -12909,6 +12914,7 @@ const DASHBOARD_DATA = {
         "volume": "67417",
         "amount": "7107489",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ]
@@ -12921,6 +12927,7 @@ const DASHBOARD_DATA = {
         "volume": "58560",
         "amount": "2829626",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ]
@@ -12933,6 +12940,7 @@ const DASHBOARD_DATA = {
         "volume": "43069",
         "amount": "4557981",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ]
@@ -12945,6 +12953,7 @@ const DASHBOARD_DATA = {
         "volume": "7421",
         "amount": "1347047",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -12957,6 +12966,7 @@ const DASHBOARD_DATA = {
         "volume": "3553",
         "amount": "642329",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -12969,6 +12979,7 @@ const DASHBOARD_DATA = {
         "volume": "3",
         "amount": "3679",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -12981,6 +12992,7 @@ const DASHBOARD_DATA = {
         "volume": "100",
         "amount": "790000",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -12993,6 +13005,7 @@ const DASHBOARD_DATA = {
         "volume": "42608",
         "amount": "1937384",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -13005,6 +13018,7 @@ const DASHBOARD_DATA = {
         "volume": "6",
         "amount": "",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "시가총액"
         ]
@@ -13017,6 +13031,7 @@ const DASHBOARD_DATA = {
         "volume": "77",
         "amount": "",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "시가총액"
         ]
@@ -13032,6 +13047,7 @@ const DASHBOARD_DATA = {
         "visit": 8896,
         "category": "fintech",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/viva-republica",
         "ranks": [
           "거래량",
           "상승",
@@ -13048,6 +13064,7 @@ const DASHBOARD_DATA = {
         "visit": 3180,
         "category": "fintech",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/bithumbkorea",
         "ranks": [
           "거래량",
           "인기"
@@ -13062,6 +13079,7 @@ const DASHBOARD_DATA = {
         "visit": 499,
         "category": "sw",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/koreacreditdata",
         "ranks": [
           "거래량"
         ]
@@ -13075,6 +13093,7 @@ const DASHBOARD_DATA = {
         "visit": 4125,
         "category": "platform",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/dunamu",
         "ranks": [
           "거래량",
           "상승",
@@ -13091,6 +13110,7 @@ const DASHBOARD_DATA = {
         "visit": 5570,
         "category": "platform",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/yanolja",
         "ranks": [
           "거래량",
           "인기"
@@ -13105,6 +13125,7 @@ const DASHBOARD_DATA = {
         "visit": 949,
         "category": "fintech",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/paytus",
         "ranks": [
           "상승"
         ]
@@ -13118,6 +13139,7 @@ const DASHBOARD_DATA = {
         "visit": 1861,
         "category": "ecommerce",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/oasis",
         "ranks": [
           "상승",
           "인기"
@@ -13132,6 +13154,7 @@ const DASHBOARD_DATA = {
         "visit": 3497,
         "category": "ecommerce",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/musinsa",
         "ranks": [
           "상승",
           "인기"
@@ -13146,6 +13169,7 @@ const DASHBOARD_DATA = {
         "visit": 13259,
         "category": "manufacturing",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/smlab",
         "ranks": [
           "인기"
         ]
@@ -13159,6 +13183,7 @@ const DASHBOARD_DATA = {
         "visit": 8969,
         "category": "ecommerce",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/kurly",
         "ranks": [
           "인기"
         ]
@@ -13172,6 +13197,7 @@ const DASHBOARD_DATA = {
         "visit": 6382,
         "category": "bio",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/rbio",
         "ranks": [
           "인기"
         ]
@@ -13185,6 +13211,7 @@ const DASHBOARD_DATA = {
         "visit": 4470,
         "category": "manufacturing",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/graphenesquare",
         "ranks": [
           "인기"
         ]
@@ -13198,6 +13225,7 @@ const DASHBOARD_DATA = {
         "visit": 194,
         "category": "etc",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/samsungheavyindustries1p",
         "ranks": [
           "시총"
         ]
@@ -13211,6 +13239,7 @@ const DASHBOARD_DATA = {
         "visit": 97,
         "category": "etc",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/kyobo",
         "ranks": [
           "시총"
         ]
@@ -13224,6 +13253,7 @@ const DASHBOARD_DATA = {
         "visit": 188,
         "category": "manufacturing",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/hyundaioilbank",
         "ranks": [
           "시총"
         ]
@@ -13235,9 +13265,10 @@ const DASHBOARD_DATA = {
         "code": "389930",
         "price": "361000",
         "change_pct": "5.56",
-        "board_count": 252,
+        "board_count": 230,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/389930",
         "ranks": [
           "거래량",
           "인기",
@@ -13250,9 +13281,10 @@ const DASHBOARD_DATA = {
         "code": "458860",
         "price": "24200",
         "change_pct": "-1.63",
-        "board_count": 118,
+        "board_count": 99,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/458860",
         "ranks": [
           "거래량",
           "인기",
@@ -13266,9 +13298,10 @@ const DASHBOARD_DATA = {
         "code": "341650",
         "price": "196000",
         "change_pct": "10.11",
-        "board_count": 51,
+        "board_count": 49,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/341650",
         "ranks": [
           "거래량",
           "인기",
@@ -13281,9 +13314,10 @@ const DASHBOARD_DATA = {
         "code": "408480",
         "price": "31800",
         "change_pct": "0",
-        "board_count": 52,
+        "board_count": 34,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/408480",
         "ranks": [
           "거래량",
           "인기",
@@ -13296,9 +13330,10 @@ const DASHBOARD_DATA = {
         "code": "350920",
         "price": "17900",
         "change_pct": "-2.72",
-        "board_count": 61,
+        "board_count": 58,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/350920",
         "ranks": [
           "거래량",
           "인기",
@@ -13313,6 +13348,7 @@ const DASHBOARD_DATA = {
         "board_count": 18,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/413490",
         "ranks": [
           "거래량",
           "인기",
@@ -13324,9 +13360,10 @@ const DASHBOARD_DATA = {
         "code": "403680",
         "price": "3820",
         "change_pct": "0.79",
-        "board_count": 43,
+        "board_count": 42,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/403680",
         "ranks": [
           "거래량",
           "인기"
@@ -13337,9 +13374,10 @@ const DASHBOARD_DATA = {
         "code": "238930",
         "price": "6000",
         "change_pct": "-1.64",
-        "board_count": 49,
+        "board_count": 46,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/238930",
         "ranks": [
           "거래량",
           "인기",
@@ -13351,9 +13389,10 @@ const DASHBOARD_DATA = {
         "code": "419350",
         "price": "1050",
         "change_pct": "-0.94",
-        "board_count": 56,
+        "board_count": 43,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/419350",
         "ranks": [
           "거래량",
           "인기"
@@ -13364,9 +13403,10 @@ const DASHBOARD_DATA = {
         "code": "370190",
         "price": "7800",
         "change_pct": "2.63",
-        "board_count": 29,
+        "board_count": 27,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/370190",
         "ranks": [
           "거래량",
           "인기",
@@ -13378,9 +13418,10 @@ const DASHBOARD_DATA = {
         "code": "469270",
         "price": "5550",
         "change_pct": "11",
-        "board_count": 21,
+        "board_count": 14,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/469270",
         "ranks": [
           "거래량",
           "인기"
@@ -13394,6 +13435,7 @@ const DASHBOARD_DATA = {
         "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/145730",
         "ranks": [
           "거래량",
           "인기"
@@ -13404,9 +13446,10 @@ const DASHBOARD_DATA = {
         "code": "416920",
         "price": "6600",
         "change_pct": "0.76",
-        "board_count": 15,
+        "board_count": 12,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/416920",
         "ranks": [
           "거래량"
         ]
@@ -13416,9 +13459,10 @@ const DASHBOARD_DATA = {
         "code": "149990",
         "price": "1300",
         "change_pct": "-2.26",
-        "board_count": 12,
+        "board_count": 11,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/149990",
         "ranks": [
           "거래량"
         ]
@@ -13428,9 +13472,10 @@ const DASHBOARD_DATA = {
         "code": "323530",
         "price": "480",
         "change_pct": "1.05",
-        "board_count": 37,
+        "board_count": 36,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/323530",
         "ranks": [
           "거래량"
         ]
@@ -13440,9 +13485,10 @@ const DASHBOARD_DATA = {
         "code": "394890",
         "price": "5900",
         "change_pct": "0",
-        "board_count": 13,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/394890",
         "ranks": [
           "거래량"
         ]
@@ -13452,9 +13498,10 @@ const DASHBOARD_DATA = {
         "code": "214490",
         "price": "4300",
         "change_pct": "0",
-        "board_count": 10,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/214490",
         "ranks": [
           "거래량"
         ]
@@ -13464,9 +13511,10 @@ const DASHBOARD_DATA = {
         "code": "285240",
         "price": "50000",
         "change_pct": "3.73",
-        "board_count": 54,
+        "board_count": 50,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/285240",
         "ranks": [
           "인기",
           "상승률",
@@ -13482,6 +13530,7 @@ const DASHBOARD_DATA = {
         "board_count": 13,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/387690",
         "ranks": [
           "인기",
           "상승률"
@@ -13495,6 +13544,7 @@ const DASHBOARD_DATA = {
         "board_count": 20,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/266690",
         "ranks": [
           "인기",
           "상승률",
@@ -13507,9 +13557,10 @@ const DASHBOARD_DATA = {
         "code": "245060",
         "price": "92000",
         "change_pct": "-0.54",
-        "board_count": 46,
+        "board_count": 41,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/245060",
         "ranks": [
           "인기",
           "상승률",
@@ -13521,9 +13572,10 @@ const DASHBOARD_DATA = {
         "code": "475040",
         "price": "27200",
         "change_pct": "3.42",
-        "board_count": 14,
+        "board_count": 12,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/475040",
         "ranks": [
           "인기",
           "상승률",
@@ -13536,9 +13588,10 @@ const DASHBOARD_DATA = {
         "code": "178010",
         "price": "24000",
         "change_pct": "-11.11",
-        "board_count": 10,
+        "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/178010",
         "ranks": [
           "인기"
         ]
@@ -13551,6 +13604,7 @@ const DASHBOARD_DATA = {
         "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/476350",
         "ranks": [
           "인기"
         ]
@@ -13563,6 +13617,7 @@ const DASHBOARD_DATA = {
         "board_count": 33,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/365660",
         "ranks": [
           "인기",
           "상승률",
@@ -13577,6 +13632,7 @@ const DASHBOARD_DATA = {
         "board_count": 8,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/326200",
         "ranks": [
           "인기",
           "상장준비"
@@ -13587,9 +13643,10 @@ const DASHBOARD_DATA = {
         "code": "424700",
         "price": "9250",
         "change_pct": "-5.61",
-        "board_count": 7,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/424700",
         "ranks": [
           "인기",
           "상승률",
@@ -13604,6 +13661,7 @@ const DASHBOARD_DATA = {
         "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/237230",
         "ranks": [
           "인기"
         ]
@@ -13616,6 +13674,7 @@ const DASHBOARD_DATA = {
         "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/276980",
         "ranks": [
           "인기"
         ]
@@ -13625,9 +13684,10 @@ const DASHBOARD_DATA = {
         "code": "416230",
         "price": "24700",
         "change_pct": "0.82",
-        "board_count": 16,
+        "board_count": 15,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/416230",
         "ranks": [
           "인기",
           "상승률"
@@ -13638,9 +13698,10 @@ const DASHBOARD_DATA = {
         "code": "0017B0",
         "price": "6900",
         "change_pct": "0",
-        "board_count": 9,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0017B0",
         "ranks": [
           "인기"
         ]
@@ -13650,9 +13711,10 @@ const DASHBOARD_DATA = {
         "code": "051310",
         "price": "2000",
         "change_pct": "0",
-        "board_count": 5,
+        "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/051310",
         "ranks": [
           "인기",
           "상승률",
@@ -13667,6 +13729,7 @@ const DASHBOARD_DATA = {
         "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/075050",
         "ranks": [
           "인기",
           "상승률",
@@ -13682,6 +13745,7 @@ const DASHBOARD_DATA = {
         "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/296770",
         "ranks": [
           "인기",
           "매출상승"
@@ -13695,6 +13759,7 @@ const DASHBOARD_DATA = {
         "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/299130",
         "ranks": [
           "인기",
           "상승률"
@@ -13708,6 +13773,7 @@ const DASHBOARD_DATA = {
         "board_count": 15,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/003190",
         "ranks": [
           "상승률",
           "시총"
@@ -13718,9 +13784,10 @@ const DASHBOARD_DATA = {
         "code": "426920",
         "price": "",
         "change_pct": "",
-        "board_count": 14,
+        "board_count": 13,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/426920",
         "ranks": [
           "상승률",
           "시총",
@@ -13732,9 +13799,10 @@ const DASHBOARD_DATA = {
         "code": "052700",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/052700",
         "ranks": [
           "상승률",
           "시총"
@@ -13745,9 +13813,10 @@ const DASHBOARD_DATA = {
         "code": "064540",
         "price": "",
         "change_pct": "",
-        "board_count": 14,
+        "board_count": 13,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/064540",
         "ranks": [
           "상승률",
           "시총"
@@ -13761,6 +13830,7 @@ const DASHBOARD_DATA = {
         "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/049450",
         "ranks": [
           "상승률"
         ]
@@ -13773,6 +13843,7 @@ const DASHBOARD_DATA = {
         "board_count": 10,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/028820",
         "ranks": [
           "상승률",
           "시총"
@@ -13783,9 +13854,10 @@ const DASHBOARD_DATA = {
         "code": "191390",
         "price": "",
         "change_pct": "",
-        "board_count": 6,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/191390",
         "ranks": [
           "상승률",
           "시총"
@@ -13796,9 +13868,10 @@ const DASHBOARD_DATA = {
         "code": "170190",
         "price": "",
         "change_pct": "",
-        "board_count": 20,
+        "board_count": 19,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/170190",
         "ranks": [
           "상승률"
         ]
@@ -13808,9 +13881,10 @@ const DASHBOARD_DATA = {
         "code": "449850",
         "price": "",
         "change_pct": "",
-        "board_count": 8,
+        "board_count": 7,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/449850",
         "ranks": [
           "상승률"
         ]
@@ -13823,6 +13897,7 @@ const DASHBOARD_DATA = {
         "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/067030",
         "ranks": [
           "상승률",
           "시총",
@@ -13837,6 +13912,7 @@ const DASHBOARD_DATA = {
         "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/360160",
         "ranks": [
           "상승률",
           "시총"
@@ -13850,6 +13926,7 @@ const DASHBOARD_DATA = {
         "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0134Y0",
         "ranks": [
           "상승률",
           "매출상승"
@@ -13863,6 +13940,7 @@ const DASHBOARD_DATA = {
         "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/268200",
         "ranks": [
           "상승률",
           "시총"
@@ -13873,9 +13951,10 @@ const DASHBOARD_DATA = {
         "code": "169310",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/169310",
         "ranks": [
           "상승률"
         ]
@@ -13885,9 +13964,10 @@ const DASHBOARD_DATA = {
         "code": "363540",
         "price": "",
         "change_pct": "",
-        "board_count": 10,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/363540",
         "ranks": [
           "상승률",
           "시총"
@@ -13901,6 +13981,7 @@ const DASHBOARD_DATA = {
         "board_count": 10,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/065900",
         "ranks": [
           "상승률",
           "시총"
@@ -13914,6 +13995,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/461800",
         "ranks": [
           "상승률",
           "매출상승"
@@ -13927,6 +14009,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0111R0",
         "ranks": [
           "상장준비"
         ]
@@ -13939,6 +14022,7 @@ const DASHBOARD_DATA = {
         "board_count": 0,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/219730",
         "ranks": [
           "상장준비"
         ]
@@ -13951,6 +14035,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0153R0",
         "ranks": [
           "상장준비"
         ]
@@ -13960,9 +14045,10 @@ const DASHBOARD_DATA = {
         "code": "486440",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 2,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/486440",
         "ranks": [
           "상장준비"
         ]
@@ -13975,6 +14061,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0010S0",
         "ranks": [
           "상장준비"
         ]
@@ -13987,6 +14074,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/439270",
         "ranks": [
           "상장준비"
         ]
@@ -13999,6 +14087,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/243350",
         "ranks": [
           "상장준비"
         ]
@@ -14011,6 +14100,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/420610",
         "ranks": [
           "상장준비"
         ]
@@ -14023,6 +14113,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0155E0",
         "ranks": [
           "상장준비"
         ]
@@ -14035,6 +14126,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/386380",
         "ranks": [
           "상장준비"
         ]
@@ -14047,6 +14139,7 @@ const DASHBOARD_DATA = {
         "board_count": 0,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0088A0",
         "ranks": [
           "상장준비"
         ]
@@ -14059,6 +14152,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0015M0",
         "ranks": [
           "상장준비"
         ]
@@ -14071,6 +14165,7 @@ const DASHBOARD_DATA = {
         "board_count": 0,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/297440",
         "ranks": [
           "상장준비"
         ]
@@ -14083,6 +14178,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0017J0",
         "ranks": [
           "상장준비"
         ]
@@ -14095,6 +14191,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/016830",
         "ranks": [
           "시총"
         ]
@@ -14104,9 +14201,10 @@ const DASHBOARD_DATA = {
         "code": "004050",
         "price": "",
         "change_pct": "",
-        "board_count": 6,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/004050",
         "ranks": [
           "시총"
         ]
@@ -14119,6 +14217,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/497430",
         "ranks": [
           "시총",
           "매출상승"
@@ -14132,6 +14231,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/459650",
         "ranks": [
           "시총"
         ]
@@ -14144,6 +14244,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/475130",
         "ranks": [
           "시총"
         ]
@@ -14156,6 +14257,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/442140",
         "ranks": [
           "시총"
         ]
@@ -14168,6 +14270,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/413550",
         "ranks": [
           "매출상승"
         ]
@@ -14180,6 +14283,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/087400",
         "ranks": [
           "매출상승"
         ]
@@ -14192,6 +14296,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/113300",
         "ranks": [
           "매출상승"
         ]
@@ -14204,6 +14309,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/044130",
         "ranks": [
           "매출상승"
         ]
@@ -14216,6 +14322,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/098790",
         "ranks": [
           "매출상승"
         ]
@@ -14228,6 +14335,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/039330",
         "ranks": [
           "매출상승"
         ]
@@ -14237,9 +14345,10 @@ const DASHBOARD_DATA = {
         "code": "292070",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/292070",
         "ranks": [
           "매출상승"
         ]
@@ -14252,6 +14361,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/060080",
         "ranks": [
           "매출상승"
         ]
@@ -14264,6 +14374,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/052270",
         "ranks": [
           "매출상승"
         ]
@@ -14276,6 +14387,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/474630",
         "ranks": [
           "매출상승"
         ]
@@ -14288,6 +14400,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/074320",
         "ranks": [
           "매출상승"
         ]
@@ -14300,6 +14413,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/083980",
         "ranks": [
           "매출상승"
         ]
@@ -14309,9 +14423,10 @@ const DASHBOARD_DATA = {
         "code": "354450",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/354450",
         "ranks": [
           "매출상승"
         ]
@@ -14324,6 +14439,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/486310",
         "ranks": [
           "매출상승"
         ]
@@ -14336,6 +14452,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/363760",
         "ranks": [
           "매출상승"
         ]
@@ -14348,6 +14465,7 @@ const DASHBOARD_DATA = {
         "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0082M0",
         "ranks": [
           "매출상승"
         ]
@@ -14360,6 +14478,7 @@ const DASHBOARD_DATA = {
         "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/163290",
         "ranks": [
           "매출상승"
         ]
@@ -14372,6 +14491,7 @@ const DASHBOARD_DATA = {
         "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/039090",
         "ranks": [
           "매출상승"
         ]
@@ -14384,6 +14504,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/232150",
         "ranks": [
           "매출상승"
         ]
@@ -14398,6 +14519,7 @@ const DASHBOARD_DATA = {
         "volume": "133432",
         "amount": "4280826150",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "거래량"
@@ -14411,6 +14533,7 @@ const DASHBOARD_DATA = {
         "volume": "5345",
         "amount": "934800000",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "시가총액"
@@ -14424,6 +14547,7 @@ const DASHBOARD_DATA = {
         "volume": "62645",
         "amount": "686803840",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "거래량",
@@ -14438,6 +14562,7 @@ const DASHBOARD_DATA = {
         "volume": "12146",
         "amount": "628039000",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금"
         ]
@@ -14450,6 +14575,7 @@ const DASHBOARD_DATA = {
         "volume": "7004",
         "amount": "312442600",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "시가총액"
@@ -14463,6 +14589,7 @@ const DASHBOARD_DATA = {
         "volume": "67417",
         "amount": "7107489",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ]
@@ -14475,6 +14602,7 @@ const DASHBOARD_DATA = {
         "volume": "58560",
         "amount": "2829626",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ]
@@ -14487,6 +14615,7 @@ const DASHBOARD_DATA = {
         "volume": "43069",
         "amount": "4557981",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ]
@@ -14499,6 +14628,7 @@ const DASHBOARD_DATA = {
         "volume": "7421",
         "amount": "1347047",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -14511,6 +14641,7 @@ const DASHBOARD_DATA = {
         "volume": "3553",
         "amount": "642329",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -14523,6 +14654,7 @@ const DASHBOARD_DATA = {
         "volume": "3",
         "amount": "3679",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -14535,6 +14667,7 @@ const DASHBOARD_DATA = {
         "volume": "100",
         "amount": "790000",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -14547,6 +14680,7 @@ const DASHBOARD_DATA = {
         "volume": "42608",
         "amount": "1937384",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "상승률"
         ]
@@ -14559,6 +14693,7 @@ const DASHBOARD_DATA = {
         "volume": "6",
         "amount": "",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "시가총액"
         ]
@@ -14571,6 +14706,7 @@ const DASHBOARD_DATA = {
         "volume": "77",
         "amount": "",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "시가총액"
         ]
@@ -14584,6 +14720,7 @@ const DASHBOARD_DATA = {
         "visit": 8896,
         "category": "fintech",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/viva-republica",
         "ranks": [
           "거래량",
           "상승",
@@ -14600,6 +14737,7 @@ const DASHBOARD_DATA = {
         "visit": 3180,
         "category": "fintech",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/bithumbkorea",
         "ranks": [
           "거래량",
           "인기"
@@ -14614,6 +14752,7 @@ const DASHBOARD_DATA = {
         "visit": 499,
         "category": "sw",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/koreacreditdata",
         "ranks": [
           "거래량"
         ]
@@ -14627,6 +14766,7 @@ const DASHBOARD_DATA = {
         "visit": 4125,
         "category": "platform",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/dunamu",
         "ranks": [
           "거래량",
           "상승",
@@ -14643,6 +14783,7 @@ const DASHBOARD_DATA = {
         "visit": 5570,
         "category": "platform",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/yanolja",
         "ranks": [
           "거래량",
           "인기"
@@ -14657,6 +14798,7 @@ const DASHBOARD_DATA = {
         "visit": 949,
         "category": "fintech",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/paytus",
         "ranks": [
           "상승"
         ]
@@ -14670,6 +14812,7 @@ const DASHBOARD_DATA = {
         "visit": 1861,
         "category": "ecommerce",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/oasis",
         "ranks": [
           "상승",
           "인기"
@@ -14684,6 +14827,7 @@ const DASHBOARD_DATA = {
         "visit": 3497,
         "category": "ecommerce",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/musinsa",
         "ranks": [
           "상승",
           "인기"
@@ -14698,6 +14842,7 @@ const DASHBOARD_DATA = {
         "visit": 13259,
         "category": "manufacturing",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/smlab",
         "ranks": [
           "인기"
         ]
@@ -14711,6 +14856,7 @@ const DASHBOARD_DATA = {
         "visit": 8969,
         "category": "ecommerce",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/kurly",
         "ranks": [
           "인기"
         ]
@@ -14724,6 +14870,7 @@ const DASHBOARD_DATA = {
         "visit": 6382,
         "category": "bio",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/rbio",
         "ranks": [
           "인기"
         ]
@@ -14737,6 +14884,7 @@ const DASHBOARD_DATA = {
         "visit": 4470,
         "category": "manufacturing",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/graphenesquare",
         "ranks": [
           "인기"
         ]
@@ -14750,6 +14898,7 @@ const DASHBOARD_DATA = {
         "visit": 194,
         "category": "etc",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/samsungheavyindustries1p",
         "ranks": [
           "시총"
         ]
@@ -14763,6 +14912,7 @@ const DASHBOARD_DATA = {
         "visit": 97,
         "category": "etc",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/kyobo",
         "ranks": [
           "시총"
         ]
@@ -14776,6 +14926,7 @@ const DASHBOARD_DATA = {
         "visit": 188,
         "category": "manufacturing",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/hyundaioilbank",
         "ranks": [
           "시총"
         ]
@@ -14785,9 +14936,10 @@ const DASHBOARD_DATA = {
         "code": "389930",
         "price": "361000",
         "change_pct": "5.56",
-        "board_count": 252,
+        "board_count": 230,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/389930",
         "ranks": [
           "거래량",
           "인기",
@@ -14800,9 +14952,10 @@ const DASHBOARD_DATA = {
         "code": "458860",
         "price": "24200",
         "change_pct": "-1.63",
-        "board_count": 118,
+        "board_count": 99,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/458860",
         "ranks": [
           "거래량",
           "인기",
@@ -14816,9 +14969,10 @@ const DASHBOARD_DATA = {
         "code": "341650",
         "price": "196000",
         "change_pct": "10.11",
-        "board_count": 51,
+        "board_count": 49,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/341650",
         "ranks": [
           "거래량",
           "인기",
@@ -14831,9 +14985,10 @@ const DASHBOARD_DATA = {
         "code": "408480",
         "price": "31800",
         "change_pct": "0",
-        "board_count": 52,
+        "board_count": 34,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/408480",
         "ranks": [
           "거래량",
           "인기",
@@ -14846,9 +15001,10 @@ const DASHBOARD_DATA = {
         "code": "350920",
         "price": "17900",
         "change_pct": "-2.72",
-        "board_count": 61,
+        "board_count": 58,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/350920",
         "ranks": [
           "거래량",
           "인기",
@@ -14863,6 +15019,7 @@ const DASHBOARD_DATA = {
         "board_count": 18,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/413490",
         "ranks": [
           "거래량",
           "인기",
@@ -14874,9 +15031,10 @@ const DASHBOARD_DATA = {
         "code": "403680",
         "price": "3820",
         "change_pct": "0.79",
-        "board_count": 43,
+        "board_count": 42,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/403680",
         "ranks": [
           "거래량",
           "인기"
@@ -14887,9 +15045,10 @@ const DASHBOARD_DATA = {
         "code": "238930",
         "price": "6000",
         "change_pct": "-1.64",
-        "board_count": 49,
+        "board_count": 46,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/238930",
         "ranks": [
           "거래량",
           "인기",
@@ -14901,9 +15060,10 @@ const DASHBOARD_DATA = {
         "code": "419350",
         "price": "1050",
         "change_pct": "-0.94",
-        "board_count": 56,
+        "board_count": 43,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/419350",
         "ranks": [
           "거래량",
           "인기"
@@ -14914,9 +15074,10 @@ const DASHBOARD_DATA = {
         "code": "370190",
         "price": "7800",
         "change_pct": "2.63",
-        "board_count": 29,
+        "board_count": 27,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/370190",
         "ranks": [
           "거래량",
           "인기",
@@ -14928,9 +15089,10 @@ const DASHBOARD_DATA = {
         "code": "469270",
         "price": "5550",
         "change_pct": "11",
-        "board_count": 21,
+        "board_count": 14,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/469270",
         "ranks": [
           "거래량",
           "인기"
@@ -14944,6 +15106,7 @@ const DASHBOARD_DATA = {
         "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/145730",
         "ranks": [
           "거래량",
           "인기"
@@ -14954,9 +15117,10 @@ const DASHBOARD_DATA = {
         "code": "416920",
         "price": "6600",
         "change_pct": "0.76",
-        "board_count": 15,
+        "board_count": 12,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/416920",
         "ranks": [
           "거래량"
         ]
@@ -14966,9 +15130,10 @@ const DASHBOARD_DATA = {
         "code": "149990",
         "price": "1300",
         "change_pct": "-2.26",
-        "board_count": 12,
+        "board_count": 11,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/149990",
         "ranks": [
           "거래량"
         ]
@@ -14978,9 +15143,10 @@ const DASHBOARD_DATA = {
         "code": "323530",
         "price": "480",
         "change_pct": "1.05",
-        "board_count": 37,
+        "board_count": 36,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/323530",
         "ranks": [
           "거래량"
         ]
@@ -14990,9 +15156,10 @@ const DASHBOARD_DATA = {
         "code": "394890",
         "price": "5900",
         "change_pct": "0",
-        "board_count": 13,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/394890",
         "ranks": [
           "거래량"
         ]
@@ -15002,9 +15169,10 @@ const DASHBOARD_DATA = {
         "code": "214490",
         "price": "4300",
         "change_pct": "0",
-        "board_count": 10,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/214490",
         "ranks": [
           "거래량"
         ]
@@ -15014,9 +15182,10 @@ const DASHBOARD_DATA = {
         "code": "285240",
         "price": "50000",
         "change_pct": "3.73",
-        "board_count": 54,
+        "board_count": 50,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/285240",
         "ranks": [
           "인기",
           "상승률",
@@ -15032,6 +15201,7 @@ const DASHBOARD_DATA = {
         "board_count": 13,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/387690",
         "ranks": [
           "인기",
           "상승률"
@@ -15045,6 +15215,7 @@ const DASHBOARD_DATA = {
         "board_count": 20,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/266690",
         "ranks": [
           "인기",
           "상승률",
@@ -15057,9 +15228,10 @@ const DASHBOARD_DATA = {
         "code": "245060",
         "price": "92000",
         "change_pct": "-0.54",
-        "board_count": 46,
+        "board_count": 41,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/245060",
         "ranks": [
           "인기",
           "상승률",
@@ -15071,9 +15243,10 @@ const DASHBOARD_DATA = {
         "code": "475040",
         "price": "27200",
         "change_pct": "3.42",
-        "board_count": 14,
+        "board_count": 12,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/475040",
         "ranks": [
           "인기",
           "상승률",
@@ -15086,9 +15259,10 @@ const DASHBOARD_DATA = {
         "code": "178010",
         "price": "24000",
         "change_pct": "-11.11",
-        "board_count": 10,
+        "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/178010",
         "ranks": [
           "인기"
         ]
@@ -15101,6 +15275,7 @@ const DASHBOARD_DATA = {
         "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/476350",
         "ranks": [
           "인기"
         ]
@@ -15113,6 +15288,7 @@ const DASHBOARD_DATA = {
         "board_count": 33,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/365660",
         "ranks": [
           "인기",
           "상승률",
@@ -15127,6 +15303,7 @@ const DASHBOARD_DATA = {
         "board_count": 8,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/326200",
         "ranks": [
           "인기",
           "상장준비"
@@ -15137,9 +15314,10 @@ const DASHBOARD_DATA = {
         "code": "424700",
         "price": "9250",
         "change_pct": "-5.61",
-        "board_count": 7,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/424700",
         "ranks": [
           "인기",
           "상승률",
@@ -15154,6 +15332,7 @@ const DASHBOARD_DATA = {
         "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/237230",
         "ranks": [
           "인기"
         ]
@@ -15166,6 +15345,7 @@ const DASHBOARD_DATA = {
         "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/276980",
         "ranks": [
           "인기"
         ]
@@ -15175,9 +15355,10 @@ const DASHBOARD_DATA = {
         "code": "416230",
         "price": "24700",
         "change_pct": "0.82",
-        "board_count": 16,
+        "board_count": 15,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/416230",
         "ranks": [
           "인기",
           "상승률"
@@ -15188,9 +15369,10 @@ const DASHBOARD_DATA = {
         "code": "0017B0",
         "price": "6900",
         "change_pct": "0",
-        "board_count": 9,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0017B0",
         "ranks": [
           "인기"
         ]
@@ -15200,9 +15382,10 @@ const DASHBOARD_DATA = {
         "code": "051310",
         "price": "2000",
         "change_pct": "0",
-        "board_count": 5,
+        "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/051310",
         "ranks": [
           "인기",
           "상승률",
@@ -15217,6 +15400,7 @@ const DASHBOARD_DATA = {
         "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/075050",
         "ranks": [
           "인기",
           "상승률",
@@ -15232,6 +15416,7 @@ const DASHBOARD_DATA = {
         "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/296770",
         "ranks": [
           "인기",
           "매출상승"
@@ -15245,6 +15430,7 @@ const DASHBOARD_DATA = {
         "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/299130",
         "ranks": [
           "인기",
           "상승률"
@@ -15258,6 +15444,7 @@ const DASHBOARD_DATA = {
         "board_count": 15,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/003190",
         "ranks": [
           "상승률",
           "시총"
@@ -15268,9 +15455,10 @@ const DASHBOARD_DATA = {
         "code": "426920",
         "price": "",
         "change_pct": "",
-        "board_count": 14,
+        "board_count": 13,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/426920",
         "ranks": [
           "상승률",
           "시총",
@@ -15282,9 +15470,10 @@ const DASHBOARD_DATA = {
         "code": "052700",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/052700",
         "ranks": [
           "상승률",
           "시총"
@@ -15295,9 +15484,10 @@ const DASHBOARD_DATA = {
         "code": "064540",
         "price": "",
         "change_pct": "",
-        "board_count": 14,
+        "board_count": 13,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/064540",
         "ranks": [
           "상승률",
           "시총"
@@ -15311,6 +15501,7 @@ const DASHBOARD_DATA = {
         "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/049450",
         "ranks": [
           "상승률"
         ]
@@ -15323,6 +15514,7 @@ const DASHBOARD_DATA = {
         "board_count": 10,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/028820",
         "ranks": [
           "상승률",
           "시총"
@@ -15333,9 +15525,10 @@ const DASHBOARD_DATA = {
         "code": "191390",
         "price": "",
         "change_pct": "",
-        "board_count": 6,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/191390",
         "ranks": [
           "상승률",
           "시총"
@@ -15346,9 +15539,10 @@ const DASHBOARD_DATA = {
         "code": "170190",
         "price": "",
         "change_pct": "",
-        "board_count": 20,
+        "board_count": 19,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/170190",
         "ranks": [
           "상승률"
         ]
@@ -15358,9 +15552,10 @@ const DASHBOARD_DATA = {
         "code": "449850",
         "price": "",
         "change_pct": "",
-        "board_count": 8,
+        "board_count": 7,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/449850",
         "ranks": [
           "상승률"
         ]
@@ -15373,6 +15568,7 @@ const DASHBOARD_DATA = {
         "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/067030",
         "ranks": [
           "상승률",
           "시총",
@@ -15387,6 +15583,7 @@ const DASHBOARD_DATA = {
         "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/360160",
         "ranks": [
           "상승률",
           "시총"
@@ -15400,6 +15597,7 @@ const DASHBOARD_DATA = {
         "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0134Y0",
         "ranks": [
           "상승률",
           "매출상승"
@@ -15413,6 +15611,7 @@ const DASHBOARD_DATA = {
         "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/268200",
         "ranks": [
           "상승률",
           "시총"
@@ -15423,9 +15622,10 @@ const DASHBOARD_DATA = {
         "code": "169310",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/169310",
         "ranks": [
           "상승률"
         ]
@@ -15435,9 +15635,10 @@ const DASHBOARD_DATA = {
         "code": "363540",
         "price": "",
         "change_pct": "",
-        "board_count": 10,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/363540",
         "ranks": [
           "상승률",
           "시총"
@@ -15451,6 +15652,7 @@ const DASHBOARD_DATA = {
         "board_count": 10,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/065900",
         "ranks": [
           "상승률",
           "시총"
@@ -15464,6 +15666,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/461800",
         "ranks": [
           "상승률",
           "매출상승"
@@ -15477,6 +15680,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0111R0",
         "ranks": [
           "상장준비"
         ]
@@ -15489,6 +15693,7 @@ const DASHBOARD_DATA = {
         "board_count": 0,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/219730",
         "ranks": [
           "상장준비"
         ]
@@ -15501,6 +15706,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0153R0",
         "ranks": [
           "상장준비"
         ]
@@ -15510,9 +15716,10 @@ const DASHBOARD_DATA = {
         "code": "486440",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 2,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/486440",
         "ranks": [
           "상장준비"
         ]
@@ -15525,6 +15732,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0010S0",
         "ranks": [
           "상장준비"
         ]
@@ -15537,6 +15745,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/439270",
         "ranks": [
           "상장준비"
         ]
@@ -15549,6 +15758,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/243350",
         "ranks": [
           "상장준비"
         ]
@@ -15561,6 +15771,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/420610",
         "ranks": [
           "상장준비"
         ]
@@ -15573,6 +15784,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0155E0",
         "ranks": [
           "상장준비"
         ]
@@ -15585,6 +15797,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/386380",
         "ranks": [
           "상장준비"
         ]
@@ -15597,6 +15810,7 @@ const DASHBOARD_DATA = {
         "board_count": 0,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0088A0",
         "ranks": [
           "상장준비"
         ]
@@ -15609,6 +15823,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0015M0",
         "ranks": [
           "상장준비"
         ]
@@ -15621,6 +15836,7 @@ const DASHBOARD_DATA = {
         "board_count": 0,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/297440",
         "ranks": [
           "상장준비"
         ]
@@ -15633,6 +15849,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0017J0",
         "ranks": [
           "상장준비"
         ]
@@ -15645,6 +15862,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/016830",
         "ranks": [
           "시총"
         ]
@@ -15654,9 +15872,10 @@ const DASHBOARD_DATA = {
         "code": "004050",
         "price": "",
         "change_pct": "",
-        "board_count": 6,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/004050",
         "ranks": [
           "시총"
         ]
@@ -15669,6 +15888,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/497430",
         "ranks": [
           "시총",
           "매출상승"
@@ -15682,6 +15902,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/459650",
         "ranks": [
           "시총"
         ]
@@ -15694,6 +15915,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/475130",
         "ranks": [
           "시총"
         ]
@@ -15706,6 +15928,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/442140",
         "ranks": [
           "시총"
         ]
@@ -15718,6 +15941,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/413550",
         "ranks": [
           "매출상승"
         ]
@@ -15730,6 +15954,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/087400",
         "ranks": [
           "매출상승"
         ]
@@ -15742,6 +15967,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/113300",
         "ranks": [
           "매출상승"
         ]
@@ -15754,6 +15980,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/044130",
         "ranks": [
           "매출상승"
         ]
@@ -15766,6 +15993,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/098790",
         "ranks": [
           "매출상승"
         ]
@@ -15778,6 +16006,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/039330",
         "ranks": [
           "매출상승"
         ]
@@ -15787,9 +16016,10 @@ const DASHBOARD_DATA = {
         "code": "292070",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/292070",
         "ranks": [
           "매출상승"
         ]
@@ -15802,6 +16032,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/060080",
         "ranks": [
           "매출상승"
         ]
@@ -15814,6 +16045,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/052270",
         "ranks": [
           "매출상승"
         ]
@@ -15826,6 +16058,7 @@ const DASHBOARD_DATA = {
         "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/474630",
         "ranks": [
           "매출상승"
         ]
@@ -15838,6 +16071,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/074320",
         "ranks": [
           "매출상승"
         ]
@@ -15850,6 +16084,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/083980",
         "ranks": [
           "매출상승"
         ]
@@ -15859,9 +16094,10 @@ const DASHBOARD_DATA = {
         "code": "354450",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/354450",
         "ranks": [
           "매출상승"
         ]
@@ -15874,6 +16110,7 @@ const DASHBOARD_DATA = {
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/486310",
         "ranks": [
           "매출상승"
         ]
@@ -15886,6 +16123,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/363760",
         "ranks": [
           "매출상승"
         ]
@@ -15898,6 +16136,7 @@ const DASHBOARD_DATA = {
         "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/0082M0",
         "ranks": [
           "매출상승"
         ]
@@ -15910,6 +16149,7 @@ const DASHBOARD_DATA = {
         "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/163290",
         "ranks": [
           "매출상승"
         ]
@@ -15922,6 +16162,7 @@ const DASHBOARD_DATA = {
         "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/039090",
         "ranks": [
           "매출상승"
         ]
@@ -15934,6 +16175,7 @@ const DASHBOARD_DATA = {
         "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/232150",
         "ranks": [
           "매출상승"
         ]
@@ -15948,6 +16190,7 @@ const DASHBOARD_DATA = {
         "volume": "133432",
         "amount": "4280826150",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "거래량"
@@ -15962,6 +16205,7 @@ const DASHBOARD_DATA = {
         "volume": "67417",
         "amount": "7107489",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ],
@@ -15975,6 +16219,7 @@ const DASHBOARD_DATA = {
         "volume": "62645",
         "amount": "686803840",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래대금",
           "거래량",
@@ -15990,6 +16235,7 @@ const DASHBOARD_DATA = {
         "volume": "58560",
         "amount": "2829626",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ],
@@ -16003,6 +16249,7 @@ const DASHBOARD_DATA = {
         "volume": "43069",
         "amount": "4557981",
         "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/item/presentPrice",
         "ranks": [
           "거래량"
         ],
@@ -16017,6 +16264,7 @@ const DASHBOARD_DATA = {
         "visit": 8896,
         "category": "fintech",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/viva-republica",
         "ranks": [
           "거래량",
           "상승",
@@ -16034,6 +16282,7 @@ const DASHBOARD_DATA = {
         "visit": 3180,
         "category": "fintech",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/bithumbkorea",
         "ranks": [
           "거래량",
           "인기"
@@ -16049,6 +16298,7 @@ const DASHBOARD_DATA = {
         "visit": 499,
         "category": "sw",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/koreacreditdata",
         "ranks": [
           "거래량"
         ],
@@ -16063,6 +16313,7 @@ const DASHBOARD_DATA = {
         "visit": 4125,
         "category": "platform",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/dunamu",
         "ranks": [
           "거래량",
           "상승",
@@ -16080,6 +16331,7 @@ const DASHBOARD_DATA = {
         "visit": 5570,
         "category": "platform",
         "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/yanolja",
         "ranks": [
           "거래량",
           "인기"
@@ -16091,9 +16343,10 @@ const DASHBOARD_DATA = {
         "code": "389930",
         "price": "361000",
         "change_pct": "5.56",
-        "board_count": 252,
+        "board_count": 230,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/389930",
         "ranks": [
           "거래량",
           "인기",
@@ -16107,9 +16360,10 @@ const DASHBOARD_DATA = {
         "code": "458860",
         "price": "24200",
         "change_pct": "-1.63",
-        "board_count": 118,
+        "board_count": 99,
         "ipo_badge": true,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/458860",
         "ranks": [
           "거래량",
           "인기",
@@ -16124,9 +16378,10 @@ const DASHBOARD_DATA = {
         "code": "341650",
         "price": "196000",
         "change_pct": "10.11",
-        "board_count": 51,
+        "board_count": 49,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/341650",
         "ranks": [
           "거래량",
           "인기",
@@ -16140,9 +16395,10 @@ const DASHBOARD_DATA = {
         "code": "408480",
         "price": "31800",
         "change_pct": "0",
-        "board_count": 52,
+        "board_count": 34,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/408480",
         "ranks": [
           "거래량",
           "인기",
@@ -16156,9 +16412,10 @@ const DASHBOARD_DATA = {
         "code": "350920",
         "price": "17900",
         "change_pct": "-2.72",
-        "board_count": 61,
+        "board_count": 58,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/350920",
         "ranks": [
           "거래량",
           "인기",
@@ -16174,6 +16431,7 @@ const DASHBOARD_DATA = {
         "board_count": 18,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/413490",
         "ranks": [
           "거래량",
           "인기",
@@ -16186,9 +16444,10 @@ const DASHBOARD_DATA = {
         "code": "403680",
         "price": "3820",
         "change_pct": "0.79",
-        "board_count": 43,
+        "board_count": 42,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/403680",
         "ranks": [
           "거래량",
           "인기"
@@ -16200,9 +16459,10 @@ const DASHBOARD_DATA = {
         "code": "238930",
         "price": "6000",
         "change_pct": "-1.64",
-        "board_count": 49,
+        "board_count": 46,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/238930",
         "ranks": [
           "거래량",
           "인기",
@@ -16215,9 +16475,10 @@ const DASHBOARD_DATA = {
         "code": "419350",
         "price": "1050",
         "change_pct": "-0.94",
-        "board_count": 56,
+        "board_count": 43,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/419350",
         "ranks": [
           "거래량",
           "인기"
@@ -16229,9 +16490,10 @@ const DASHBOARD_DATA = {
         "code": "370190",
         "price": "7800",
         "change_pct": "2.63",
-        "board_count": 29,
+        "board_count": 27,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/370190",
         "ranks": [
           "거래량",
           "인기",
@@ -16244,9 +16506,10 @@ const DASHBOARD_DATA = {
         "code": "469270",
         "price": "5550",
         "change_pct": "11",
-        "board_count": 21,
+        "board_count": 14,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/469270",
         "ranks": [
           "거래량",
           "인기"
@@ -16261,6 +16524,7 @@ const DASHBOARD_DATA = {
         "board_count": 9,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/145730",
         "ranks": [
           "거래량",
           "인기"
@@ -16272,9 +16536,10 @@ const DASHBOARD_DATA = {
         "code": "416920",
         "price": "6600",
         "change_pct": "0.76",
-        "board_count": 15,
+        "board_count": 12,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/416920",
         "ranks": [
           "거래량"
         ],
@@ -16285,9 +16550,10 @@ const DASHBOARD_DATA = {
         "code": "149990",
         "price": "1300",
         "change_pct": "-2.26",
-        "board_count": 12,
+        "board_count": 11,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/149990",
         "ranks": [
           "거래량"
         ],
@@ -16298,9 +16564,10 @@ const DASHBOARD_DATA = {
         "code": "323530",
         "price": "480",
         "change_pct": "1.05",
-        "board_count": 37,
+        "board_count": 36,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/323530",
         "ranks": [
           "거래량"
         ],
@@ -16311,9 +16578,10 @@ const DASHBOARD_DATA = {
         "code": "394890",
         "price": "5900",
         "change_pct": "0",
-        "board_count": 13,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/394890",
         "ranks": [
           "거래량"
         ],
@@ -16324,9 +16592,10 @@ const DASHBOARD_DATA = {
         "code": "214490",
         "price": "4300",
         "change_pct": "0",
-        "board_count": 10,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/214490",
         "ranks": [
           "거래량"
         ],
@@ -16339,112 +16608,128 @@ const DASHBOARD_DATA = {
         "code": "0111R0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-05-21",
-        "rank": 1
+        "rank": 1,
+        "url": "https://ustock.naver.com/stock/0111R0"
       },
       {
         "name": "비앤비코리아",
         "code": "219730",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-05-21",
-        "rank": 2
+        "rank": 2,
+        "url": "https://ustock.naver.com/stock/219730"
       },
       {
         "name": "바로팜",
         "code": "0153R0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-04-30",
-        "rank": 3
+        "rank": 3,
+        "url": "https://ustock.naver.com/stock/0153R0"
       },
       {
         "name": "텔레픽스",
         "code": "486440",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-04-30",
-        "rank": 4
+        "rank": 4,
+        "url": "https://ustock.naver.com/stock/486440"
       },
       {
         "name": "와이즈플래닛컴퍼니",
         "code": "0010S0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-04-15",
-        "rank": 5
+        "rank": 5,
+        "url": "https://ustock.naver.com/stock/0010S0"
       },
       {
         "name": "크리에이츠",
         "code": "439270",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-04-07",
-        "rank": 6
+        "rank": 6,
+        "url": "https://ustock.naver.com/stock/439270"
       },
       {
         "name": "제이피이노베이션",
         "code": "243350",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-03-25",
-        "rank": 7
+        "rank": 7,
+        "url": "https://ustock.naver.com/stock/243350"
       },
       {
         "name": "인텔리빅스",
         "code": "420610",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-03-24",
-        "rank": 8
+        "rank": 8,
+        "url": "https://ustock.naver.com/stock/420610"
       },
       {
         "name": "해치텍",
         "code": "0155E0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-03-23",
-        "rank": 9
+        "rank": 9,
+        "url": "https://ustock.naver.com/stock/0155E0"
       },
       {
         "name": "스카이랩스",
         "code": "386380",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-01-30",
-        "rank": 10
+        "rank": 10,
+        "url": "https://ustock.naver.com/stock/386380"
       },
       {
         "name": "파워큐브세미",
         "code": "326200",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-01-16",
-        "rank": 11
+        "rank": 11,
+        "url": "https://ustock.naver.com/stock/326200"
       },
       {
         "name": "넥스트젠바이오사이언스",
         "code": "0088A0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2025-12-23",
-        "rank": 12
+        "rank": 12,
+        "url": "https://ustock.naver.com/stock/0088A0"
       },
       {
         "name": "덕산넵코어스",
         "code": "266690",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2025-11-11",
-        "rank": 13
+        "rank": 13,
+        "url": "https://ustock.naver.com/stock/266690"
       },
       {
         "name": "디티에스",
         "code": "0015M0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2025-09-18",
-        "rank": 14
+        "rank": 14,
+        "url": "https://ustock.naver.com/stock/0015M0"
       },
       {
         "name": "씨엠디엘",
         "code": "297440",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2025-09-11",
-        "rank": 15
+        "rank": 15,
+        "url": "https://ustock.naver.com/stock/297440"
       },
       {
         "name": "세미티에스",
         "code": "0017J0",
         "ipo_state": "EXAMINATION_ACCEPTED",
         "base_date": "2026-02-05",
-        "rank": 16
+        "rank": 16,
+        "url": "https://ustock.naver.com/stock/0017J0"
       }
     ],
     "revenue_up": [
@@ -16452,181 +16737,211 @@ const DASHBOARD_DATA = {
         "name": "에코크레이션",
         "code": "413550",
         "revenue_rate": 4596.8,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/413550"
       },
       {
         "name": "에이엠에스티",
         "code": "087400",
         "revenue_rate": 109.9,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/087400"
       },
       {
         "name": "뉴라텍",
         "code": "0134Y0",
         "revenue_rate": 78.6,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/0134Y0"
       },
       {
         "name": "세명테크",
         "code": "113300",
         "revenue_rate": 77.74,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/113300"
       },
       {
         "name": "스트라드비젼",
         "code": "475040",
         "revenue_rate": 56.93,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/475040"
       },
       {
         "name": "리딩투자증권",
         "code": "044130",
         "revenue_rate": 56.42,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/044130"
       },
       {
         "name": "케이솔루션",
         "code": "413490",
         "revenue_rate": 51.26,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/413490"
       },
       {
         "name": "칸에스티엔 주식회사",
         "code": "098790",
         "revenue_rate": 45.71,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/098790"
       },
       {
         "name": "인투코어테크놀로지",
         "code": "461800",
         "revenue_rate": 43.8,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/461800"
       },
       {
         "name": "당근마켓",
         "code": "426920",
         "revenue_rate": 43.04,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/426920"
       },
       {
         "name": "에스엘엘중앙",
         "code": "039330",
         "revenue_rate": 42.96,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/039330"
       },
       {
         "name": "비바리퍼블리카",
         "code": "285240",
         "revenue_rate": 37.98,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/285240"
       },
       {
         "name": "세미솔루션",
         "code": "292070",
         "revenue_rate": 33.3,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/292070"
       },
       {
         "name": "제4기한국",
         "code": "060080",
         "revenue_rate": 32.14,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/060080"
       },
       {
         "name": "윈텍글로비스",
         "code": "296770",
         "revenue_rate": 30.74,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/296770"
       },
       {
         "name": "우전",
         "code": "052270",
         "revenue_rate": 29.22,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/052270"
       },
       {
         "name": "바즈바이오메딕",
         "code": "474630",
         "revenue_rate": 28.73,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/474630"
       },
       {
         "name": "바이오넷",
         "code": "074320",
         "revenue_rate": 26.29,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/074320"
       },
       {
         "name": "에스아이플렉스",
         "code": "075050",
         "revenue_rate": 26.01,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/075050"
       },
       {
         "name": "잉카인터넷",
         "code": "083980",
         "revenue_rate": 23.87,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/083980"
       },
       {
         "name": "지씨에스",
         "code": "354450",
         "revenue_rate": 23.19,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/354450"
       },
       {
         "name": "무아스",
         "code": "486310",
         "revenue_rate": 22.87,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/486310"
       },
       {
         "name": "이랑텍",
         "code": "363760",
         "revenue_rate": 22.41,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/363760"
       },
       {
         "name": "비나우",
         "code": "0082M0",
         "revenue_rate": 21.97,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/0082M0"
       },
       {
         "name": "수양켐텍",
         "code": "163290",
         "revenue_rate": 19.24,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/163290"
       },
       {
         "name": "무신사",
         "code": "458860",
         "revenue_rate": 18.12,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/458860"
       },
       {
         "name": "현대트랜시스",
         "code": "039090",
         "revenue_rate": 16.42,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/039090"
       },
       {
         "name": "어피닛",
         "code": "497430",
         "revenue_rate": 15.82,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/497430"
       },
       {
         "name": "이지메디컴",
         "code": "232150",
         "revenue_rate": 15.47,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/232150"
       },
       {
         "name": "에이치디현대삼호",
         "code": "067030",
         "revenue_rate": 15.25,
-        "rank": null
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/067030"
       }
     ],
     "summary": {
