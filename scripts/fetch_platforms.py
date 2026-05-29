@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 import os
+from urllib.parse import quote
 from datetime import datetime
 
 HEADERS = {
@@ -108,7 +109,7 @@ def fetch_seoulexchange():
                 price = it.get("current_price")
                 adp = it.get("advance_decline_price")
                 adpct = it.get("advance_decline_percentage")
-                slug = it.get("english_slug", "")
+                key = it.get("annotated_display_key", "")
                 rec = seen.get(name) or {
                     "name": name,
                     "code": code,
@@ -118,7 +119,7 @@ def fetch_seoulexchange():
                     "visit": it.get("visit_count", 0),
                     "category": it.get("business_category", ""),
                     "platform": "서울거래소",
-                    "url": (f"https://www.seoulexchange.kr/stocks/{slug}" if slug else "https://www.seoulexchange.kr/"),
+                    "url": (f"https://www.seoulexchange.kr/stocks/{quote(key)}/" if key else "https://www.seoulexchange.kr/"),
                     "ranks": [],
                 }
                 rec["ranks"].append(label)

@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "updated_at": "2026-05-29 19:14",
+  "updated_at": "2026-05-29 19:18",
   "news": {
     "updated_at": "2026-05-29 19:00",
     "keyword_stats": {
@@ -12834,7 +12834,7 @@ const DASHBOARD_DATA = {
     "total_series_c_plus": 50
   },
   "platforms": {
-    "updated_at": "2026-05-29 19:14",
+    "updated_at": "2026-05-29 19:18",
     "kotc": [
       {
         "name": "아리바이오",
@@ -13047,7 +13047,7 @@ const DASHBOARD_DATA = {
         "visit": 8896,
         "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/viva-republica",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
         "ranks": [
           "거래량",
           "상승",
@@ -13064,7 +13064,7 @@ const DASHBOARD_DATA = {
         "visit": 3180,
         "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/bithumbkorea",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B9%97%EC%8D%B8-15/",
         "ranks": [
           "거래량",
           "인기"
@@ -13079,7 +13079,7 @@ const DASHBOARD_DATA = {
         "visit": 499,
         "category": "sw",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/koreacreditdata",
+        "url": "https://www.seoulexchange.kr/stocks/%ED%95%9C%EA%B5%AD%EC%8B%A0%EC%9A%A9%EB%8D%B0%EC%9D%B4%ED%84%B0-265/",
         "ranks": [
           "거래량"
         ]
@@ -13093,7 +13093,7 @@ const DASHBOARD_DATA = {
         "visit": 4125,
         "category": "platform",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/dunamu",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%91%90%EB%82%98%EB%AC%B4-327/",
         "ranks": [
           "거래량",
           "상승",
@@ -13110,7 +13110,7 @@ const DASHBOARD_DATA = {
         "visit": 5570,
         "category": "platform",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/yanolja",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%95%BC%EB%86%80%EC%9E%90-6/",
         "ranks": [
           "거래량",
           "인기"
@@ -13125,7 +13125,7 @@ const DASHBOARD_DATA = {
         "visit": 949,
         "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/paytus",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B8%8C%EC%9D%B4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0-356/",
         "ranks": [
           "상승"
         ]
@@ -13139,7 +13139,7 @@ const DASHBOARD_DATA = {
         "visit": 1861,
         "category": "ecommerce",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/oasis",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4-27/",
         "ranks": [
           "상승",
           "인기"
@@ -13154,7 +13154,7 @@ const DASHBOARD_DATA = {
         "visit": 3497,
         "category": "ecommerce",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/musinsa",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
         "ranks": [
           "상승",
           "인기"
@@ -13169,7 +13169,7 @@ const DASHBOARD_DATA = {
         "visit": 13259,
         "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/smlab",
+        "url": "https://www.seoulexchange.kr/",
         "ranks": [
           "인기"
         ]
@@ -13183,7 +13183,7 @@ const DASHBOARD_DATA = {
         "visit": 8969,
         "category": "ecommerce",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/kurly",
+        "url": "https://www.seoulexchange.kr/",
         "ranks": [
           "인기"
         ]
@@ -13197,7 +13197,7 @@ const DASHBOARD_DATA = {
         "visit": 6382,
         "category": "bio",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/rbio",
+        "url": "https://www.seoulexchange.kr/",
         "ranks": [
           "인기"
         ]
@@ -13211,7 +13211,7 @@ const DASHBOARD_DATA = {
         "visit": 4470,
         "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/graphenesquare",
+        "url": "https://www.seoulexchange.kr/",
         "ranks": [
           "인기"
         ]
@@ -13225,7 +13225,7 @@ const DASHBOARD_DATA = {
         "visit": 194,
         "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/samsungheavyindustries1p",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%82%BC%EC%84%B1%EC%A4%91%EA%B3%B5%EC%9A%B0-3456/",
         "ranks": [
           "시총"
         ]
@@ -13239,7 +13239,7 @@ const DASHBOARD_DATA = {
         "visit": 97,
         "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/kyobo",
+        "url": "https://www.seoulexchange.kr/stocks/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-212/",
         "ranks": [
           "시총"
         ]
@@ -13253,7 +13253,7 @@ const DASHBOARD_DATA = {
         "visit": 188,
         "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/hyundaioilbank",
+        "url": "https://www.seoulexchange.kr/stocks/%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC-220/",
         "ranks": [
           "시총"
         ]
@@ -14720,7 +14720,7 @@ const DASHBOARD_DATA = {
         "visit": 8896,
         "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/viva-republica",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
         "ranks": [
           "거래량",
           "상승",
@@ -14737,7 +14737,7 @@ const DASHBOARD_DATA = {
         "visit": 3180,
         "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/bithumbkorea",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B9%97%EC%8D%B8-15/",
         "ranks": [
           "거래량",
           "인기"
@@ -14752,7 +14752,7 @@ const DASHBOARD_DATA = {
         "visit": 499,
         "category": "sw",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/koreacreditdata",
+        "url": "https://www.seoulexchange.kr/stocks/%ED%95%9C%EA%B5%AD%EC%8B%A0%EC%9A%A9%EB%8D%B0%EC%9D%B4%ED%84%B0-265/",
         "ranks": [
           "거래량"
         ]
@@ -14766,7 +14766,7 @@ const DASHBOARD_DATA = {
         "visit": 4125,
         "category": "platform",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/dunamu",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%91%90%EB%82%98%EB%AC%B4-327/",
         "ranks": [
           "거래량",
           "상승",
@@ -14783,7 +14783,7 @@ const DASHBOARD_DATA = {
         "visit": 5570,
         "category": "platform",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/yanolja",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%95%BC%EB%86%80%EC%9E%90-6/",
         "ranks": [
           "거래량",
           "인기"
@@ -14798,7 +14798,7 @@ const DASHBOARD_DATA = {
         "visit": 949,
         "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/paytus",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B8%8C%EC%9D%B4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0-356/",
         "ranks": [
           "상승"
         ]
@@ -14812,7 +14812,7 @@ const DASHBOARD_DATA = {
         "visit": 1861,
         "category": "ecommerce",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/oasis",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4-27/",
         "ranks": [
           "상승",
           "인기"
@@ -14827,7 +14827,7 @@ const DASHBOARD_DATA = {
         "visit": 3497,
         "category": "ecommerce",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/musinsa",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
         "ranks": [
           "상승",
           "인기"
@@ -14842,7 +14842,7 @@ const DASHBOARD_DATA = {
         "visit": 13259,
         "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/smlab",
+        "url": "https://www.seoulexchange.kr/",
         "ranks": [
           "인기"
         ]
@@ -14856,7 +14856,7 @@ const DASHBOARD_DATA = {
         "visit": 8969,
         "category": "ecommerce",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/kurly",
+        "url": "https://www.seoulexchange.kr/",
         "ranks": [
           "인기"
         ]
@@ -14870,7 +14870,7 @@ const DASHBOARD_DATA = {
         "visit": 6382,
         "category": "bio",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/rbio",
+        "url": "https://www.seoulexchange.kr/",
         "ranks": [
           "인기"
         ]
@@ -14884,7 +14884,7 @@ const DASHBOARD_DATA = {
         "visit": 4470,
         "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/graphenesquare",
+        "url": "https://www.seoulexchange.kr/",
         "ranks": [
           "인기"
         ]
@@ -14898,7 +14898,7 @@ const DASHBOARD_DATA = {
         "visit": 194,
         "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/samsungheavyindustries1p",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%82%BC%EC%84%B1%EC%A4%91%EA%B3%B5%EC%9A%B0-3456/",
         "ranks": [
           "시총"
         ]
@@ -14912,7 +14912,7 @@ const DASHBOARD_DATA = {
         "visit": 97,
         "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/kyobo",
+        "url": "https://www.seoulexchange.kr/stocks/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-212/",
         "ranks": [
           "시총"
         ]
@@ -14926,7 +14926,7 @@ const DASHBOARD_DATA = {
         "visit": 188,
         "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/hyundaioilbank",
+        "url": "https://www.seoulexchange.kr/stocks/%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC-220/",
         "ranks": [
           "시총"
         ]
@@ -16264,7 +16264,7 @@ const DASHBOARD_DATA = {
         "visit": 8896,
         "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/viva-republica",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
         "ranks": [
           "거래량",
           "상승",
@@ -16282,7 +16282,7 @@ const DASHBOARD_DATA = {
         "visit": 3180,
         "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/bithumbkorea",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B9%97%EC%8D%B8-15/",
         "ranks": [
           "거래량",
           "인기"
@@ -16298,7 +16298,7 @@ const DASHBOARD_DATA = {
         "visit": 499,
         "category": "sw",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/koreacreditdata",
+        "url": "https://www.seoulexchange.kr/stocks/%ED%95%9C%EA%B5%AD%EC%8B%A0%EC%9A%A9%EB%8D%B0%EC%9D%B4%ED%84%B0-265/",
         "ranks": [
           "거래량"
         ],
@@ -16313,7 +16313,7 @@ const DASHBOARD_DATA = {
         "visit": 4125,
         "category": "platform",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/dunamu",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%91%90%EB%82%98%EB%AC%B4-327/",
         "ranks": [
           "거래량",
           "상승",
@@ -16331,7 +16331,7 @@ const DASHBOARD_DATA = {
         "visit": 5570,
         "category": "platform",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/yanolja",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%95%BC%EB%86%80%EC%9E%90-6/",
         "ranks": [
           "거래량",
           "인기"
