@@ -100,7 +100,25 @@ body {
   border-radius: 12px;
   padding: 16px 20px;
   text-align: center;
+  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
+.stat-card.clickable { cursor: pointer; position: relative; }
+.stat-card.clickable:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: 0 4px 16px rgba(99,102,241,0.25);
+}
+.stat-card.clickable::after {
+  content: "→";
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 13px;
+  color: var(--text-dim);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.stat-card.clickable:hover::after { opacity: 1; }
 .stat-card .label { font-size: 12px; color: var(--text-dim); margin-bottom: 6px; }
 .stat-card .value { font-size: 28px; font-weight: 700; }
 .stat-card .value.purple { color: var(--accent); }
@@ -265,11 +283,11 @@ table a:hover { text-decoration: underline; }
 <div class="tab-content active" id="tab-overview">
   <div class="container">
     <div class="stat-cards" id="statCards">
-      <div class="stat-card"><div class="label">뉴스 언급 기업</div><div class="value purple" id="s-news">-</div></div>
-      <div class="stat-card"><div class="label">시리즈C+ 기업</div><div class="value green" id="s-series">-</div></div>
-      <div class="stat-card"><div class="label">최근 투자건</div><div class="value blue" id="s-invest">-</div></div>
-      <div class="stat-card"><div class="label">플랫폼 종목</div><div class="value orange" id="s-platform">-</div></div>
-      <div class="stat-card"><div class="label">거래량 급증</div><div class="value red" id="s-spike">-</div></div>
+      <div class="stat-card clickable" onclick="switchTab('news')"><div class="label">뉴스 언급 기업</div><div class="value purple" id="s-news">-</div></div>
+      <div class="stat-card clickable" onclick="switchTab('thevc')"><div class="label">시리즈C+ 기업</div><div class="value green" id="s-series">-</div></div>
+      <div class="stat-card clickable" onclick="switchTab('thevc')"><div class="label">최근 투자건</div><div class="value blue" id="s-invest">-</div></div>
+      <div class="stat-card clickable" onclick="switchTab('platforms')"><div class="label">플랫폼 종목</div><div class="value orange" id="s-platform">-</div></div>
+      <div class="stat-card clickable" onclick="switchTab('platforms')"><div class="label">거래량 급증</div><div class="value red" id="s-spike">-</div></div>
     </div>
 
     <div class="grid grid-2">
@@ -405,13 +423,18 @@ function stageTag(stage) {
 }
 
 // Tabs
+function switchTab(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+  const tabEl = document.querySelector('.tab[data-tab="' + name + '"]');
+  if (tabEl) tabEl.classList.add('active');
+  const contentEl = document.getElementById('tab-' + name);
+  if (contentEl) contentEl.classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 document.querySelectorAll('.tab').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
-    tab.classList.add('active');
-    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
-  });
+  tab.addEventListener('click', () => switchTab(tab.dataset.tab));
 });
 
 function renderAll() {
