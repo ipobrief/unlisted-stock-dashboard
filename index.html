@@ -372,8 +372,8 @@ table a:hover { text-decoration: underline; }
         <div class="scroll-table" style="max-height:420px" id="ttGainerTable"></div>
       </div>
       <div class="card">
-        <h3>38 주주동호회 활성 종목 <span class="badge" id="ttActiveBadge">0개</span></h3>
-        <p style="color:var(--text-dim);font-size:12px;margin-bottom:10px">최신글 댓글 수 기준 — 커뮤니티 관심도</p>
+        <h3>38 주주동호회 인기 종목 <span class="badge" id="ttActiveBadge">0개</span></h3>
+        <p style="color:var(--text-dim);font-size:12px;margin-bottom:10px">38 실시간 인기 동호회 순위 — 커뮤니티 관심도</p>
         <div class="scroll-table" style="max-height:420px" id="ttActiveTable"></div>
       </div>
     </div>
@@ -595,15 +595,15 @@ function render38Active(active) {
     el.innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
     return;
   }
-  const maxRep = active[0].reply_count || 1;
-  let html = '<table><thead><tr><th width="40">#</th><th></th><th>종목</th><th>댓글</th><th width="100">활성도</th></tr></thead><tbody>';
-  active.slice(0, 30).forEach((a, i) => {
-    const pct = (a.reply_count / maxRep * 100).toFixed(0);
+  const shown = active.slice(0, 30);
+  const n = shown.length;
+  let html = '<table><thead><tr><th width="40">#</th><th></th><th>종목</th><th width="120">관심도</th></tr></thead><tbody>';
+  shown.forEach((a, i) => {
+    const pct = ((n - i) / n * 100).toFixed(0);
     html += `<tr>
-      <td>${i+1}</td>
+      <td>${a.rank || i+1}</td>
       <td>${starBtn(a.name, '38')}</td>
       <td><a href="${a.url}" target="_blank">${a.name}</a></td>
-      <td>${a.reply_count}건</td>
       <td><div class="mention-bar"><div class="fill" style="width:${pct}%"></div></div></td>
     </tr>`;
   });

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31 14:23",
+  "updated_at": "2026-05-31 14:55",
   "gainers": [
     {
       "name": "한국증권금융",
@@ -76,248 +76,1058 @@
   ],
   "community_activity": [
     {
-      "name": "하나오피스리츠",
-      "code": "0138X0",
-      "latest_title": "비주거용 건물 임대업",
-      "reply_count": 497,
+      "rank": 1,
+      "name": "두나무",
+      "code": "389930",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0138X0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=389930"
     },
     {
-      "name": "모비어스",
-      "code": "0109W0",
-      "latest_title": "컴퓨터 프로그래밍 서비스업",
-      "reply_count": 104,
+      "rank": 2,
+      "name": "아크로스",
+      "code": "268200",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0109W0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=268200"
     },
     {
-      "name": "삼홍아크튜리온",
-      "code": "0116H0",
-      "latest_title": "금속탱크 및 저장용기 제조업",
-      "reply_count": 85,
+      "rank": 3,
+      "name": "한국증권금융",
+      "code": "028820",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0116H0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=028820"
     },
     {
-      "name": "글로벌테크놀로지",
-      "code": "486510",
-      "latest_title": "전기용 기계ㆍ장비 및 관련 기자재 도매업",
-      "reply_count": 78,
+      "rank": 4,
+      "name": "현대엔지니어링",
+      "code": "064540",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=486510"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=064540"
     },
     {
-      "name": "래블업",
-      "code": "0147B0",
-      "latest_title": "시스템 소프트웨어 개발 및 공급업",
-      "reply_count": 62,
+      "rank": 5,
+      "name": "싸이버로지텍",
+      "code": "052700",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0147B0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=052700"
     },
     {
-      "name": "인터엑스",
-      "code": "480200",
-      "latest_title": "응용 소프트웨어 개발 및 공급업",
-      "reply_count": 58,
+      "rank": 6,
+      "name": "피스피스스튜디오",
+      "code": "0117P0",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=480200"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=0117P0"
     },
     {
-      "name": "씨엘모빌리티",
-      "code": "269880",
-      "latest_title": "응용 소프트웨어 개발 및 공급업",
-      "reply_count": 55,
+      "rank": 7,
+      "name": "파워큐브세미",
+      "code": "326200",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=269880"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=326200"
     },
     {
-      "name": "에이엘로봇",
-      "code": "471800",
-      "latest_title": "기타 기계 및 장비 제조업",
-      "reply_count": 48,
+      "rank": 8,
+      "name": "엑소코바이오",
+      "code": "361190",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=471800"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=361190"
     },
     {
-      "name": "엘리스그룹",
-      "code": "0158S0",
-      "latest_title": "응용 소프트웨어 개발 및 공급업",
-      "reply_count": 44,
+      "rank": 9,
+      "name": "무신사",
+      "code": "458860",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0158S0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=458860"
     },
     {
-      "name": "에이엔에이치스트럭쳐",
-      "code": "0111R0",
-      "latest_title": "기타 엔지니어링 서비스업",
-      "reply_count": 41,
+      "rank": 10,
+      "name": "HD현대삼호",
+      "code": "067030",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0111R0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=067030"
     },
     {
-      "name": "제이피이노베이션",
-      "code": "243350",
-      "latest_title": "그 외 기타 특수목적용 기계 제조업",
-      "reply_count": 41,
+      "rank": 11,
+      "name": "컬리",
+      "code": "408480",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=243350"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=408480"
     },
     {
-      "name": "에이치엘지노믹스",
-      "code": "0156T0",
-      "latest_title": "기초 의약물질 제조업",
-      "reply_count": 30,
+      "rank": 12,
+      "name": "빅웨이브로보틱스",
+      "code": "0035S0",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0156T0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=0035S0"
     },
     {
-      "name": "엠에스바이오",
-      "code": "0013Y0",
-      "latest_title": "그 외 기타 의료용 기기 제조업",
-      "reply_count": 23,
+      "rank": 13,
+      "name": "성림첨단산업",
+      "code": "169310",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0013Y0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=169310"
     },
     {
-      "name": "해치텍",
-      "code": "0155E0",
-      "latest_title": "비메모리용 및 기타 전자집적회로 제조업",
-      "reply_count": 22,
+      "rank": 14,
+      "name": "레몬헬스케어",
+      "code": "365660",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0155E0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=365660"
     },
     {
-      "name": "피투피글로벌",
-      "code": "0171B0",
-      "latest_title": "기타 부동산 임대업",
-      "reply_count": 10,
+      "rank": 15,
+      "name": "오아시스",
+      "code": "370190",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0171B0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=370190"
     },
     {
-      "name": "다비오",
-      "code": "0012G0",
-      "latest_title": "응용 소프트웨어 개발 및 공급업",
-      "reply_count": 8,
+      "rank": 16,
+      "name": "져스텍",
+      "code": "153890",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0012G0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=153890"
     },
     {
-      "name": "인이지",
-      "code": "0160L0",
-      "latest_title": "응용 소프트웨어 개발 및 공급업",
-      "reply_count": 7,
+      "rank": 17,
+      "name": "레메디",
+      "code": "387690",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0160L0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=387690"
     },
     {
-      "name": "옵토닉스",
-      "code": "493260",
-      "latest_title": "광학렌즈 및 광학요소 제조업",
-      "reply_count": 7,
+      "rank": 18,
+      "name": "야놀자",
+      "code": "350920",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=493260"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=350920"
     },
     {
-      "name": "케이솔루션",
-      "code": "413490",
-      "latest_title": "차체 및 특장차 제조업",
-      "reply_count": 7,
+      "rank": 19,
+      "name": "야나두",
+      "code": "467600",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=413490"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=467600"
     },
     {
-      "name": "NH스팩34호",
-      "code": "0197V0",
-      "latest_title": "그 외 기타 분류 안된 금융업",
-      "reply_count": 1,
+      "rank": 20,
+      "name": "빗썸",
+      "code": "341650",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0197V0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=341650"
     },
     {
-      "name": "한국스팩16호",
-      "code": "0164H0",
-      "latest_title": "그 외 기타 금융 지원 서비스업",
-      "reply_count": 1,
+      "rank": 21,
+      "name": "스트라드비젼",
+      "code": "475040",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=0164H0"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=475040"
     },
     {
-      "name": "패스트레인",
-      "code": "952526",
-      "latest_title": "광고 대행업",
-      "reply_count": 0,
+      "rank": 22,
+      "name": "HD현대오일뱅크",
+      "code": "004050",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952526"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=004050"
     },
     {
-      "name": "신일베스텍",
-      "code": "952525",
-      "latest_title": "플라스틱 발포 성형제품 제조업",
-      "reply_count": 0,
+      "rank": 23,
+      "name": "덕산넵코어스",
+      "code": "266690",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952525"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=266690"
     },
     {
-      "name": "케이원에코텍",
-      "code": "952524",
-      "latest_title": "액체 여과기 제조업",
-      "reply_count": 0,
+      "rank": 24,
+      "name": "비바리퍼블리카",
+      "code": "285240",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952524"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=285240"
     },
     {
-      "name": "와이에이치티",
-      "code": "952523",
-      "latest_title": "그 외 기타 특수목적용 기계 제조업",
-      "reply_count": 0,
+      "rank": 25,
+      "name": "당근마켓",
+      "code": "426920",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952523"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=426920"
     },
     {
-      "name": "스파크바이오파마",
-      "code": "952522",
-      "latest_title": "의학 및 약학 연구개발업",
-      "reply_count": 0,
+      "rank": 26,
+      "name": "매드업",
+      "code": "0039P0",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952522"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=0039P0"
     },
     {
-      "name": "패스트레인",
-      "code": "952521",
-      "latest_title": "광고 대행업",
-      "reply_count": 0,
+      "rank": 27,
+      "name": "현대카드",
+      "code": "065900",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952521"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=065900"
     },
     {
-      "name": "에이티아이",
-      "code": "952520",
-      "latest_title": "반도체 제조용 기계 제조업",
-      "reply_count": 0,
+      "rank": 28,
+      "name": "카카오모빌리티",
+      "code": "424700",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952520"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=424700"
     },
     {
-      "name": "블루타일랩",
-      "code": "952519",
-      "latest_title": "시스템 소프트웨어 개발 및 공급업",
-      "reply_count": 0,
+      "rank": 29,
+      "name": "니어스랩",
+      "code": "417030",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952519"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=417030"
     },
     {
-      "name": "에스티씨랩",
-      "code": "952518",
-      "latest_title": "시스템 소프트웨어 개발 및 공급업",
-      "reply_count": 0,
+      "rank": 30,
+      "name": "브릴스",
+      "code": "468670",
       "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=952518"
+      "url": "http://forum.38.co.kr/html/forum/board/?code=468670"
+    },
+    {
+      "rank": 31,
+      "name": "인제니아테라퓨틱스",
+      "code": "952509",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=952509"
+    },
+    {
+      "rank": 32,
+      "name": "케이앤에스아이앤씨",
+      "code": "487400",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=487400"
+    },
+    {
+      "rank": 33,
+      "name": "플랜텍",
+      "code": "051310",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=051310"
+    },
+    {
+      "rank": 34,
+      "name": "퓨리오사에이아이",
+      "code": "951625",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=951625"
+    },
+    {
+      "rank": 35,
+      "name": "포인투테크놀로지",
+      "code": "952432",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=952432"
+    },
+    {
+      "rank": 36,
+      "name": "빅텍스",
+      "code": "276980",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=276980"
+    },
+    {
+      "rank": 37,
+      "name": "다원메닥스",
+      "code": "319760",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=319760"
+    },
+    {
+      "rank": 38,
+      "name": "서울로보틱스",
+      "code": "0024P0",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=0024P0"
+    },
+    {
+      "rank": 39,
+      "name": "노바셀테크놀로지",
+      "code": "170190",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=170190"
+    },
+    {
+      "rank": 40,
+      "name": "피노바이오",
+      "code": "390710",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=390710"
+    },
+    {
+      "rank": 41,
+      "name": "그래핀랩",
+      "code": "951762",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=951762"
+    },
+    {
+      "rank": 42,
+      "name": "엔도비전",
+      "code": "345990",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=345990"
+    },
+    {
+      "rank": 43,
+      "name": "그래핀스퀘어",
+      "code": "245060",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=245060"
+    },
+    {
+      "rank": 44,
+      "name": "이지메디컴",
+      "code": "232150",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=232150"
+    },
+    {
+      "rank": 45,
+      "name": "리벨리온",
+      "code": "951820",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=951820"
+    },
+    {
+      "rank": 46,
+      "name": "딥엑스",
+      "code": "952200",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=952200"
+    },
+    {
+      "rank": 47,
+      "name": "스마트로",
+      "code": "057160",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=057160"
+    },
+    {
+      "rank": 48,
+      "name": "페르소나에이아이",
+      "code": "456130",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=456130"
+    },
+    {
+      "rank": 49,
+      "name": "메타빌드",
+      "code": "469270",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=469270"
+    },
+    {
+      "rank": 50,
+      "name": "후니즈",
+      "code": "374980",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=374980"
+    },
+    {
+      "rank": 51,
+      "name": "재영텍",
+      "code": "449850",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=449850"
+    },
+    {
+      "rank": 52,
+      "name": "에이치씨엔씨",
+      "code": "178010",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=178010"
+    },
+    {
+      "rank": 53,
+      "name": "LPK로보틱스",
+      "code": "183350",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=183350"
+    },
+    {
+      "rank": 54,
+      "name": "인티그리트",
+      "code": "377660",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=377660"
+    },
+    {
+      "rank": 55,
+      "name": "젠바디",
+      "code": "290530",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=290530"
+    },
+    {
+      "rank": 56,
+      "name": "이노그리드",
+      "code": "126830",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=126830"
+    },
+    {
+      "rank": 57,
+      "name": "메를로랩",
+      "code": "389940",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=389940"
+    },
+    {
+      "rank": 58,
+      "name": "미코세라믹스",
+      "code": "402350",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=402350"
+    },
+    {
+      "rank": 59,
+      "name": "업스테이지",
+      "code": "486550",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=486550"
+    },
+    {
+      "rank": 60,
+      "name": "한국코러스",
+      "code": "184390",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=184390"
+    },
+    {
+      "rank": 61,
+      "name": "바이오넷",
+      "code": "074320",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=074320"
+    },
+    {
+      "rank": 62,
+      "name": "뷰텔",
+      "code": "273220",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=273220"
+    },
+    {
+      "rank": 63,
+      "name": "엔지노믹스",
+      "code": "273400",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=273400"
+    },
+    {
+      "rank": 64,
+      "name": "네오바이오텍",
+      "code": "150670",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=150670"
+    },
+    {
+      "rank": 65,
+      "name": "에스엠랩",
+      "code": "419350",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=419350"
+    },
+    {
+      "rank": 66,
+      "name": "지아이티",
+      "code": "049450",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=049450"
+    },
+    {
+      "rank": 67,
+      "name": "DKMaterials",
+      "code": "227490",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=227490"
+    },
+    {
+      "rank": 68,
+      "name": "엔쓰리엔",
+      "code": "106870",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=106870"
+    },
+    {
+      "rank": 69,
+      "name": "쓰리디팩토리",
+      "code": "298700",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=298700"
+    },
+    {
+      "rank": 70,
+      "name": "바이오제닉스",
+      "code": "215820",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=215820"
+    },
+    {
+      "rank": 71,
+      "name": "사피엔스바이오",
+      "code": "446170",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=446170"
+    },
+    {
+      "rank": 72,
+      "name": "에스아이플렉스",
+      "code": "075050",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=075050"
+    },
+    {
+      "rank": 73,
+      "name": "뉴라텍",
+      "code": "950750",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=950750"
+    },
+    {
+      "rank": 74,
+      "name": "지씨에스",
+      "code": "354450",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=354450"
+    },
+    {
+      "rank": 75,
+      "name": "제넨셀",
+      "code": "291530",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=291530"
+    },
+    {
+      "rank": 76,
+      "name": "엘젠",
+      "code": "330970",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=330970"
+    },
+    {
+      "rank": 77,
+      "name": "제네시스디벨롭먼트홀딩스",
+      "code": "053320",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=053320"
+    },
+    {
+      "rank": 78,
+      "name": "대우송도개발",
+      "code": "004550",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=004550"
+    },
+    {
+      "rank": 79,
+      "name": "웰바이오텍",
+      "code": "010600",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=010600"
+    },
+    {
+      "rank": 80,
+      "name": "신양오라컴디스플레이",
+      "code": "086830",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=086830"
+    },
+    {
+      "rank": 81,
+      "name": "엠에프엠코리아",
+      "code": "323230",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=323230"
+    },
+    {
+      "rank": 82,
+      "name": "비에프랩스",
+      "code": "139050",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=139050"
+    },
+    {
+      "rank": 83,
+      "name": "테크로스홀딩스",
+      "code": "096140",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=096140"
+    },
+    {
+      "rank": 84,
+      "name": "지엔티파마",
+      "code": "228980",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=228980"
+    },
+    {
+      "rank": 85,
+      "name": "퓨처코어",
+      "code": "151910",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=151910"
+    },
+    {
+      "rank": 86,
+      "name": "엠비아이",
+      "code": "373180",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=373180"
+    },
+    {
+      "rank": 87,
+      "name": "메디포럼",
+      "code": "250900",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=250900"
+    },
+    {
+      "rank": 88,
+      "name": "아이지에이웍스",
+      "code": "438340",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=438340"
+    },
+    {
+      "rank": 89,
+      "name": "웅진식품",
+      "code": "011350",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=011350"
+    },
+    {
+      "rank": 90,
+      "name": "대덕바이오",
+      "code": "083180",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=083180"
+    },
+    {
+      "rank": 91,
+      "name": "바이오스탠다드",
+      "code": "344540",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=344540"
+    },
+    {
+      "rank": 92,
+      "name": "솔젠트",
+      "code": "145730",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=145730"
+    },
+    {
+      "rank": 93,
+      "name": "하쉬말",
+      "code": "0042G0",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=0042G0"
+    },
+    {
+      "rank": 94,
+      "name": "제노스",
+      "code": "950780",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=950780"
+    },
+    {
+      "rank": 95,
+      "name": "씨앤케이인터내셔널",
+      "code": "039530",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=039530"
+    },
+    {
+      "rank": 96,
+      "name": "금백광업",
+      "code": "0134W0",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=0134W0"
+    },
+    {
+      "rank": 97,
+      "name": "벽산건설",
+      "code": "002530",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=002530"
+    },
+    {
+      "rank": 98,
+      "name": "진켐",
+      "code": "064470",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=064470"
+    },
+    {
+      "rank": 99,
+      "name": "이엑스에스피",
+      "code": "250990",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=250990"
+    },
+    {
+      "rank": 100,
+      "name": "엠쓰리모바일",
+      "code": "087690",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=087690"
+    },
+    {
+      "rank": 101,
+      "name": "엔에스스튜디오",
+      "code": "194530",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=194530"
+    },
+    {
+      "rank": 102,
+      "name": "에프엑스기어",
+      "code": "239620",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=239620"
+    },
+    {
+      "rank": 103,
+      "name": "뉴빌리티",
+      "code": "952253",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=952253"
+    },
+    {
+      "rank": 104,
+      "name": "비디아이",
+      "code": "148140",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=148140"
+    },
+    {
+      "rank": 105,
+      "name": "제이앤케이인더스트리",
+      "code": "039230",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=039230"
+    },
+    {
+      "rank": 106,
+      "name": "비츠",
+      "code": "379360",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=379360"
+    },
+    {
+      "rank": 107,
+      "name": "아세아캐피탈",
+      "code": "108300",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=108300"
+    },
+    {
+      "rank": 108,
+      "name": "미래에스씨아이",
+      "code": "028040",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=028040"
+    },
+    {
+      "rank": 109,
+      "name": "플로트론",
+      "code": "141280",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=141280"
+    },
+    {
+      "rank": 110,
+      "name": "대유",
+      "code": "290380",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=290380"
+    },
+    {
+      "rank": 111,
+      "name": "지디",
+      "code": "155960",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=155960"
+    },
+    {
+      "rank": 112,
+      "name": "아이아이컴바인드",
+      "code": "951050",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=951050"
+    },
+    {
+      "rank": 113,
+      "name": "코원플레이",
+      "code": "056000",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=056000"
+    },
+    {
+      "rank": 114,
+      "name": "조광ILI",
+      "code": "044060",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=044060"
+    },
+    {
+      "rank": 115,
+      "name": "팍스넷",
+      "code": "038160",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=038160"
+    },
+    {
+      "rank": 116,
+      "name": "케이에이치건설",
+      "code": "226360",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=226360"
+    },
+    {
+      "rank": 117,
+      "name": "구골홀딩스",
+      "code": "218160",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=218160"
+    },
+    {
+      "rank": 118,
+      "name": "매직마이크로",
+      "code": "127160",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=127160"
+    },
+    {
+      "rank": 119,
+      "name": "제낙스",
+      "code": "065620",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=065620"
+    },
+    {
+      "rank": 120,
+      "name": "아론티어",
+      "code": "951345",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=951345"
+    },
+    {
+      "rank": 121,
+      "name": "제네톡스",
+      "code": "393700",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=393700"
+    },
+    {
+      "rank": 122,
+      "name": "위너지스",
+      "code": "026260",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=026260"
+    },
+    {
+      "rank": 123,
+      "name": "모다",
+      "code": "149940",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=149940"
+    },
+    {
+      "rank": 124,
+      "name": "웅진에너지",
+      "code": "103130",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=103130"
+    },
+    {
+      "rank": 125,
+      "name": "미라셀",
+      "code": "258890",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=258890"
+    },
+    {
+      "rank": 126,
+      "name": "이화전기공업",
+      "code": "024810",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=024810"
+    },
+    {
+      "rank": 127,
+      "name": "비욘드바이오",
+      "code": "336730",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=336730"
+    },
+    {
+      "rank": 128,
+      "name": "한국우사회",
+      "code": "054190",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=054190"
+    },
+    {
+      "rank": 129,
+      "name": "디지텍시스템스",
+      "code": "091690",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=091690"
+    },
+    {
+      "rank": 130,
+      "name": "녹원씨엔아이",
+      "code": "065560",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=065560"
+    },
+    {
+      "rank": 131,
+      "name": "케이지에듀원",
+      "code": "095240",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=095240"
+    },
+    {
+      "rank": 132,
+      "name": "코썬바이오",
+      "code": "204990",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=204990"
+    },
+    {
+      "rank": 133,
+      "name": "티에스바이오",
+      "code": "372960",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=372960"
+    },
+    {
+      "rank": 134,
+      "name": "펀진",
+      "code": "272810",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=272810"
+    },
+    {
+      "rank": 135,
+      "name": "오리온이엔씨",
+      "code": "416920",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=416920"
+    },
+    {
+      "rank": 136,
+      "name": "퍼스트바이오테라퓨틱스",
+      "code": "951535",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=951535"
+    },
+    {
+      "rank": 137,
+      "name": "오토노머스에이투지",
+      "code": "952329",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=952329"
+    },
+    {
+      "rank": 138,
+      "name": "더금영",
+      "code": "376220",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=376220"
+    },
+    {
+      "rank": 139,
+      "name": "길림양행",
+      "code": "802071",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=802071"
+    },
+    {
+      "rank": 140,
+      "name": "인코스팜",
+      "code": "951397",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=951397"
+    },
+    {
+      "rank": 141,
+      "name": "사노피파스퇴르",
+      "code": "809266",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=809266"
+    },
+    {
+      "rank": 142,
+      "name": "타이어뱅크",
+      "code": "823673",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=823673"
+    },
+    {
+      "rank": 143,
+      "name": "이랑텍",
+      "code": "363760",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=363760"
+    },
+    {
+      "rank": 144,
+      "name": "미소래엠비지",
+      "code": "807870",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=807870"
+    },
+    {
+      "rank": 145,
+      "name": "태진다이텍",
+      "code": "824005",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=824005"
+    },
+    {
+      "rank": 146,
+      "name": "프라터",
+      "code": "390380",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=390380"
+    },
+    {
+      "rank": 147,
+      "name": "참존",
+      "code": "821947",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=821947"
+    },
+    {
+      "rank": 148,
+      "name": "포스크리에이티브파티",
+      "code": "236420",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=236420"
+    },
+    {
+      "rank": 149,
+      "name": "에이티센스",
+      "code": "951585",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=951585"
+    },
+    {
+      "rank": 150,
+      "name": "한국인증서비스",
+      "code": "482400",
+      "platform": "38커뮤니케이션",
+      "url": "http://forum.38.co.kr/html/forum/board/?code=482400"
     }
   ],
   "summary": {
     "gainer_count": 9,
-    "active_count": 30
+    "active_count": 150
   }
 }

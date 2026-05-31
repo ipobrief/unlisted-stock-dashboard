@@ -103,44 +103,32 @@ def fetch_gainers(s):
 
 
 def fetch_community_activity(s):
-    """주주동호회 활성도. 비상장 동호회 종목 목록에서 각 종목 최신글의
-    댓글 수를 커뮤니티 관심도(활성도)로 집계한다.
+    """주주동호회 활성도(인기 순위). 38이 직접 산출하는 비상장 동호회 실시간
+    인기 랭킹(nostock_rank.js)을 가져온다. 배열 순서가 곧 인기 순위다.
 
-    행 구조: [종목구분, 종목코드, 종목명, 최신글 제목, 댓글수(N건), 날짜, ...]
+    각 항목 형식: "종목명|종목코드|...|구분플래그"
     """
-    print("38 주주동호회 활성도 수집중...")
-    active = []
-    seen = set()
+    print("38 주주동호회 인기 순위 수집중...")
     try:
-        html = _get(s, f"{BASE}/html/forum/com_list/?menu=nostock")
+        js = _get(s, f"{BASE}/html/forum/forum_list/nostock_rank.js")
     except Exception as e:
-        print(f"  [오류] 동호회 게시판: {e}")
+        print(f"  [오류] 동호회 인기 랭킹: {e}")
         return []
 
-    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.DOTALL):
-        m = re.search(r"code=([0-9A-Za-z]{6})", tr)
-        if not m:
+    active = []
+    for i, raw in enumerate(re.findall(r'ranklist\[\d+\]\s*=\s*"([^"]*)";', js)):
+        parts = raw.split("|")
+        if len(parts) < 2 or not parts[0] or not parts[1]:
             continue
-        code = m.group(1)
-        cs = _cells(tr)
-        # 종목코드가 두 번째 셀에 그대로 오는 정상 행만 인정
-        if len(cs) < 5 or cs[1] != code or code in seen:
-            continue
-        seen.add(code)
-        # 댓글수: 'N건' 형태 → 앞쪽 숫자만
-        rm = re.match(r"^(\d+)", cs[4])
-        replies = int(rm.group(1)) if rm else 0
+        name, code = parts[0], parts[1]
         active.append({
-            "name": cs[2],
+            "rank": i + 1,                 # 실시간 인기 순위 (1=최상위)
+            "name": name,
             "code": code,
-            "latest_title": cs[3],
-            "reply_count": replies,   # 최신글 댓글 수 = 활성도
             "platform": "38커뮤니케이션",
             "url": _stock_url(code),
         })
-
-    active.sort(key=lambda x: x["reply_count"], reverse=True)
-    print(f"  38 동호회 활성 종목: {len(active)}종목")
+    print(f"  38 동호회 인기 종목: {len(active)}종목")
     return active
 
 
