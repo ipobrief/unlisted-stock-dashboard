@@ -60,51 +60,6 @@ def _stock_url(code):
     return f"http://forum.38.co.kr/html/forum/board/?code={code}"
 
 
-def fetch_gainers(s):
-    """등락률 급등 종목. 38 비상장 시세표의 '정식 시세행'만 사용한다.
-
-    38은 정확한 일간 시세(전일 기준가 대비 등락)를 특징주 시세행으로만 공개한다.
-    정식 행 구조: [종목코드, 종목명, 매도호가, 매수호가, 기준가, 등락가, 등락률%, ...]
-    (첫 셀이 종목코드와 일치하고 등락률에 %가 있는 행만 인정 → 일간 전일비와 일치)
-
-    주의: price.php에는 '급등' 위젯 행(첫 셀이 순위)이 따로 있는데, 그 %는
-    전일비가 아니라 누적/기준가 대비 변동률이므로 사용하지 않는다.
-    """
-    print("38 등락률 급등 종목 수집중...")
-    quotes = {}
-    for o in ["", "?o=updown", "?o=updown5", "?o=time", "?o=38", "?o=ipo"]:
-        try:
-            html = _get(s, f"{BASE}/html/trade/price/price.php{o}")
-        except Exception as e:
-            print(f"  [경고] price.php{o}: {e}")
-            continue
-        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.DOTALL):
-            m = re.search(r"code=([0-9A-Za-z]{6})", tr)
-            if not m:
-                continue
-            code = m.group(1)
-            cs = _cells(tr)
-            # 정식 시세행만: 첫 셀이 종목코드, 7컬럼 이상, 등락률 셀에 %
-            if len(cs) < 7 or cs[0] != code or "%" not in cs[6]:
-                continue
-            rm = re.search(r"-?[0-9.]+", cs[6])
-            if not rm:
-                continue
-            quotes[code] = {
-                "name": cs[1],
-                "code": code,
-                "price": cs[4],            # 기준가
-                "change": cs[5],           # 등락가 (▲/▼)
-                "change_pct": float(rm.group()),
-                "platform": "38커뮤니케이션",
-                "url": _stock_url(code),
-            }
-    gainers = sorted([q for q in quotes.values() if q["change_pct"] > 0],
-                     key=lambda x: x["change_pct"], reverse=True)
-    print(f"  38 급등 종목: {len(gainers)}종목 (정식 시세 {len(quotes)}종목 중)")
-    return gainers
-
-
 def fetch_community_activity(s):
     """주주동호회 활성도(인기 순위). 38이 직접 산출하는 비상장 동호회 실시간
     인기 랭킹(nostock_rank.js)을 가져온다. 배열 순서가 곧 인기 순위다.
@@ -142,15 +97,12 @@ def main():
     print("=" * 60)
 
     s = _session()
-    gainers = fetch_gainers(s)
     active = fetch_community_activity(s)
 
     output = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "gainers": gainers,
         "community_activity": active,
         "summary": {
-            "gainer_count": len(gainers),
             "active_count": len(active),
         },
     }

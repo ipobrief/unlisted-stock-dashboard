@@ -365,17 +365,10 @@ table a:hover { text-decoration: underline; }
       <h3>거래량 급증 종목 <span class="badge" id="spikeBadge">0개</span></h3>
       <div class="scroll-table" id="spikeDetailTable"></div>
     </div>
-    <div class="grid grid-2" style="margin-bottom:20px">
-      <div class="card">
-        <h3>38 등락률 급등 종목 <span class="badge" id="ttGainerBadge">0개</span></h3>
-        <p style="color:var(--text-dim);font-size:12px;margin-bottom:10px">38커뮤니케이션 비상장 시세 — 당일 상승률 상위</p>
-        <div class="scroll-table" style="max-height:420px" id="ttGainerTable"></div>
-      </div>
-      <div class="card">
-        <h3>38 주주동호회 인기 종목 <span class="badge" id="ttActiveBadge">0개</span></h3>
-        <p style="color:var(--text-dim);font-size:12px;margin-bottom:10px">38 실시간 인기 동호회 순위 — 커뮤니티 관심도</p>
-        <div class="scroll-table" style="max-height:420px" id="ttActiveTable"></div>
-      </div>
+    <div class="card" style="margin-bottom:20px">
+      <h3>38 주주동호회 인기 종목 <span class="badge" id="ttActiveBadge">0개</span></h3>
+      <p style="color:var(--text-dim);font-size:12px;margin-bottom:10px">38커뮤니케이션 실시간 인기 동호회 순위 — 커뮤니티 관심도</p>
+      <div class="scroll-table" style="max-height:420px" id="ttActiveTable"></div>
     </div>
     <div class="grid grid-3">
       <div class="card">
@@ -515,7 +508,6 @@ function renderAll() {
 
   // 38커뮤니케이션
   const tt = D.thirtyeight || {};
-  render38Gainers(tt.gainers || []);
   render38Active(tt.community_activity || []);
 
   // Watchlist
@@ -563,29 +555,6 @@ function renderRecentInvest(invests) {
   });
   html += '</tbody></table>';
   document.getElementById('recentInvestTable').innerHTML = html;
-}
-
-function render38Gainers(gainers) {
-  document.getElementById('ttGainerBadge').textContent = gainers.length + '개';
-  const el = document.getElementById('ttGainerTable');
-  if (!gainers.length) {
-    el.innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
-    return;
-  }
-  let html = '<table><thead><tr><th width="40">#</th><th></th><th>종목</th><th>현재가</th><th>등락률</th></tr></thead><tbody>';
-  gainers.forEach((g, i) => {
-    const rate = Number(g.change_pct);
-    const priceTxt = g.price ? g.price + '원' : '-';
-    html += `<tr>
-      <td>${i+1}</td>
-      <td>${starBtn(g.name, '38')}</td>
-      <td><a href="${g.url}" target="_blank">${g.name}</a></td>
-      <td>${priceTxt}</td>
-      <td style="color:#ef4444;font-weight:600">+${rate}%</td>
-    </tr>`;
-  });
-  html += '</tbody></table>';
-  el.innerHTML = html;
 }
 
 function render38Active(active) {

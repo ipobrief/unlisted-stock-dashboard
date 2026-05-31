@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "updated_at": "2026-05-31 15:07",
+  "updated_at": "2026-05-31 15:09",
   "news": {
     "updated_at": "2026-05-29 19:00",
     "keyword_stats": {
@@ -17008,27 +17008,7 @@ const DASHBOARD_DATA = {
     }
   },
   "thirtyeight": {
-    "updated_at": "2026-05-31 15:06",
-    "gainers": [
-      {
-        "name": "덕산넵코어스(구.넵코어스)",
-        "code": "266690",
-        "price": "20,000",
-        "change": "▲ 1,950",
-        "change_pct": 10.8,
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=266690"
-      },
-      {
-        "name": "컬리",
-        "code": "408480",
-        "price": "36,250",
-        "change": "▲ 1,000",
-        "change_pct": 2.84,
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=408480"
-      }
-    ],
+    "updated_at": "2026-05-31 15:09",
     "community_activity": [
       {
         "rank": 1,
@@ -18082,7 +18062,6 @@ const DASHBOARD_DATA = {
       }
     ],
     "summary": {
-      "gainer_count": 2,
       "active_count": 150
     }
   }
