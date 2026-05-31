@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "updated_at": "2026-05-31 15:14",
+  "updated_at": "2026-05-31 15:23",
   "news": {
     "updated_at": "2026-05-29 19:00",
     "keyword_stats": {
@@ -11880,8 +11880,24 @@ const DASHBOARD_DATA = {
     ]
   },
   "thevc": {
-    "updated_at": "2026-05-29 15:27",
+    "updated_at": "2026-05-31 15:23",
     "home_investments": [
+      {
+        "date": "2026-05-29보도자료",
+        "company": "월더허레이반려동물 위생용품 브랜드",
+        "link": "",
+        "stage": "투자단계Pre-A",
+        "amount": "투자금액알 수 없음",
+        "investor": "투자자시그나이트+1"
+      },
+      {
+        "date": "2026-05-29보도자료",
+        "company": "컨셉비페이보릿식물성 세라마이드를 핵심 성분으로 한 데일리 스킨케어 브랜드",
+        "link": "",
+        "stage": "투자단계Seed",
+        "amount": "투자금액알 수 없음",
+        "investor": "투자자해시드"
+      },
       {
         "date": "2026-05-29보도자료",
         "company": "플렛지웨이비스트K-POP 중심의 실물자산 투자 플랫폼",
@@ -11905,28 +11921,153 @@ const DASHBOARD_DATA = {
         "stage": "투자단계Seed",
         "amount": "투자금액로그인 필요",
         "investor": "투자자본엔젤스벤처파트너스+9"
-      },
-      {
-        "date": "2026-05-28보도자료",
-        "company": "코인원코인원암호화폐 거래소",
-        "link": "",
-        "stage": "투자단계Series C",
-        "amount": "투자금액로그인 필요",
-        "investor": "투자자오케이엑스+1"
-      },
-      {
-        "date": "2026-05-28보도자료",
-        "company": "커넥트커넥트국내 체류 외국인 대상 종합 생활지원 플랫폼",
-        "link": "",
-        "stage": "투자단계Seed",
-        "amount": "투자금액알 수 없음",
-        "investor": "투자자씨엔티테크"
       }
     ],
-    "ranking": [],
+    "ranking": [
+      {
+        "name": "포인투테크놀로지",
+        "hits": 1347,
+        "type": "스타트업",
+        "link": "https://thevc.kr/pointwotechnology"
+      },
+      {
+        "name": "퓨리오사에이아이",
+        "hits": 712,
+        "type": "스타트업",
+        "link": "https://thevc.kr/furiosaai"
+      },
+      {
+        "name": "앤트로픽",
+        "hits": 631,
+        "type": "스타트업",
+        "link": "https://thevc.kr/anthropic"
+      },
+      {
+        "name": "에이로봇",
+        "hits": 613,
+        "type": "중소기업",
+        "link": "https://thevc.kr/arobot"
+      },
+      {
+        "name": "리벨리온",
+        "hits": 574,
+        "type": "스타트업",
+        "link": "https://thevc.kr/rebellions"
+      },
+      {
+        "name": "니즈",
+        "hits": 500,
+        "type": "스타트업",
+        "link": "https://thevc.kr/needs"
+      },
+      {
+        "name": "한국평가데이터",
+        "hits": 375,
+        "type": "대기업/중견기업",
+        "link": "https://thevc.kr/kodata"
+      },
+      {
+        "name": "아스테로모프",
+        "hits": 364,
+        "type": "스타트업",
+        "link": "https://thevc.kr/asteromorph"
+      },
+      {
+        "name": "에스씨케이컴퍼니",
+        "hits": 326,
+        "type": "대기업/중견기업",
+        "link": "https://thevc.kr/sckcompany"
+      },
+      {
+        "name": "바이오리버트",
+        "hits": 319,
+        "type": "스타트업",
+        "link": "https://thevc.kr/biorevert"
+      },
+      {
+        "name": "모레",
+        "hits": 282,
+        "type": "스타트업",
+        "link": "https://thevc.kr/moreh"
+      },
+      {
+        "name": "앱솔릭스",
+        "hits": 278,
+        "type": "대기업/중견기업",
+        "link": "https://thevc.kr/absolics"
+      },
+      {
+        "name": "모드하우스",
+        "hits": 259,
+        "type": "스타트업",
+        "link": "https://thevc.kr/modhaus"
+      },
+      {
+        "name": "뉴챗",
+        "hits": 239,
+        "type": "스타트업",
+        "link": "https://thevc.kr/newchat"
+      },
+      {
+        "name": "그래핀스퀘어",
+        "hits": 237,
+        "type": "스타트업",
+        "link": "https://thevc.kr/graphenesquare"
+      },
+      {
+        "name": "피스피스스튜디오",
+        "hits": 224,
+        "type": "스타트업",
+        "link": "https://thevc.kr/piecepeacestudio"
+      },
+      {
+        "name": "싸이월드",
+        "hits": 220,
+        "type": "중소기업",
+        "link": "https://thevc.kr/cyworld"
+      },
+      {
+        "name": "마키나락스",
+        "hits": 216,
+        "type": "스타트업",
+        "link": "https://thevc.kr/makinarocks"
+      },
+      {
+        "name": "리얼월드",
+        "hits": 207,
+        "type": "스타트업",
+        "link": "https://thevc.kr/rlwrld"
+      },
+      {
+        "name": "앤하우스",
+        "hits": 205,
+        "type": "중소기업",
+        "link": "https://thevc.kr/annhouse"
+      }
+    ],
     "recent_investments": [
       {
         "date": "2026-05-29",
+        "company": "월더",
+        "link": "https://thevc.kr/worlder",
+        "press_link": "https://www.hankyung.com/article/202605296855O",
+        "sector": "제조",
+        "stage": "Pre-A",
+        "amount": "투자",
+        "investor": "시그나이트"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "컨셉비",
+        "link": "https://thevc.kr/concept-b",
+        "press_link": "https://www.edaily.co.kr/News/Read?newsId=04001606645453840&mediaCodeNo=257",
+        "sector": "제조",
+        "stage": "Seed",
+        "amount": "투자",
+        "investor": "해시드"
+      },
+      {
+        "date": "2026-05-29",
         "company": "플렛지",
         "link": "https://thevc.kr/pledge",
         "press_link": "https://platum.kr/archives/287878",
@@ -11954,6 +12095,16 @@ const DASHBOARD_DATA = {
         "stage": "Seed",
         "amount": "투자",
         "investor": "본엔젤스벤처파트너스"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "로가",
+        "link": "https://thevc.kr/loga",
+        "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202605291439489400102211",
+        "sector": "제조",
+        "stage": "Series B",
+        "amount": "투자",
+        "investor": "케이비인베스트먼트"
       },
       {
         "date": "2026-05-28",
@@ -11996,34 +12147,24 @@ const DASHBOARD_DATA = {
         "investor": "삼성증권"
       },
       {
-        "date": "2026-05-27",
-        "company": "모티프테크놀로지스",
-        "link": "https://thevc.kr/motiftechnologies",
-        "press_link": "https://wowtale.net/2026/05/27/259251/",
-        "sector": "인공지능",
-        "stage": "Series B",
-        "amount": "투자",
-        "investor": "나이스투자파트너스"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "리턴제로",
-        "link": "https://thevc.kr/returnzero",
-        "press_link": "https://www.aitimes.kr/news/articleView.html?idxno=40213",
-        "sector": "인공지능",
-        "stage": "M&A",
-        "amount": "인수합병인수",
-        "investor": "유베이스"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "투비이스",
-        "link": "https://thevc.kr/2bis",
-        "press_link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205610",
+        "date": "2026-05-29",
+        "company": "월더",
+        "link": "https://thevc.kr/worlder",
+        "press_link": "https://www.hankyung.com/article/202605296855O",
         "sector": "제조",
         "stage": "Pre-A",
         "amount": "투자",
-        "investor": "하임벤처투자"
+        "investor": "시그나이트"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "컨셉비",
+        "link": "https://thevc.kr/concept-b",
+        "press_link": "https://www.edaily.co.kr/News/Read?newsId=04001606645453840&mediaCodeNo=257",
+        "sector": "제조",
+        "stage": "Seed",
+        "amount": "투자",
+        "investor": "해시드"
       },
       {
         "date": "2026-05-29",
@@ -12054,6 +12195,16 @@ const DASHBOARD_DATA = {
         "stage": "Seed",
         "amount": "투자",
         "investor": "본엔젤스벤처파트너스"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "로가",
+        "link": "https://thevc.kr/loga",
+        "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202605291439489400102211",
+        "sector": "제조",
+        "stage": "Series B",
+        "amount": "투자",
+        "investor": "케이비인베스트먼트"
       },
       {
         "date": "2026-05-28",
@@ -12096,34 +12247,24 @@ const DASHBOARD_DATA = {
         "investor": "삼성증권"
       },
       {
-        "date": "2026-05-27",
-        "company": "모티프테크놀로지스",
-        "link": "https://thevc.kr/motiftechnologies",
-        "press_link": "https://wowtale.net/2026/05/27/259251/",
-        "sector": "인공지능",
-        "stage": "Series B",
-        "amount": "투자",
-        "investor": "나이스투자파트너스"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "리턴제로",
-        "link": "https://thevc.kr/returnzero",
-        "press_link": "https://www.aitimes.kr/news/articleView.html?idxno=40213",
-        "sector": "인공지능",
-        "stage": "M&A",
-        "amount": "인수합병인수",
-        "investor": "유베이스"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "투비이스",
-        "link": "https://thevc.kr/2bis",
-        "press_link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205610",
+        "date": "2026-05-29",
+        "company": "월더",
+        "link": "https://thevc.kr/worlder",
+        "press_link": "https://www.hankyung.com/article/202605296855O",
         "sector": "제조",
         "stage": "Pre-A",
         "amount": "투자",
-        "investor": "하임벤처투자"
+        "investor": "시그나이트"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "컨셉비",
+        "link": "https://thevc.kr/concept-b",
+        "press_link": "https://www.edaily.co.kr/News/Read?newsId=04001606645453840&mediaCodeNo=257",
+        "sector": "제조",
+        "stage": "Seed",
+        "amount": "투자",
+        "investor": "해시드"
       },
       {
         "date": "2026-05-29",
@@ -12154,6 +12295,16 @@ const DASHBOARD_DATA = {
         "stage": "Seed",
         "amount": "투자",
         "investor": "본엔젤스벤처파트너스"
+      },
+      {
+        "date": "2026-05-29",
+        "company": "로가",
+        "link": "https://thevc.kr/loga",
+        "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202605291439489400102211",
+        "sector": "제조",
+        "stage": "Series B",
+        "amount": "투자",
+        "investor": "케이비인베스트먼트"
       },
       {
         "date": "2026-05-28",
@@ -12194,40 +12345,34 @@ const DASHBOARD_DATA = {
         "stage": "Series D",
         "amount": "투자구주인수",
         "investor": "삼성증권"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "모티프테크놀로지스",
-        "link": "https://thevc.kr/motiftechnologies",
-        "press_link": "https://wowtale.net/2026/05/27/259251/",
-        "sector": "인공지능",
-        "stage": "Series B",
-        "amount": "투자",
-        "investor": "나이스투자파트너스"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "리턴제로",
-        "link": "https://thevc.kr/returnzero",
-        "press_link": "https://www.aitimes.kr/news/articleView.html?idxno=40213",
-        "sector": "인공지능",
-        "stage": "M&A",
-        "amount": "인수합병인수",
-        "investor": "유베이스"
-      },
-      {
-        "date": "2026-05-27",
-        "company": "투비이스",
-        "link": "https://thevc.kr/2bis",
-        "press_link": "https://www.kdpress.co.kr/news/articleView.html?idxno=205610",
-        "sector": "제조",
-        "stage": "Pre-A",
-        "amount": "투자",
-        "investor": "하임벤처투자"
       }
     ],
     "series_c_plus": [
       {
+        "name": "월더",
+        "link": "https://thevc.kr/worlder",
+        "status": "비상장",
+        "category": "스타트업",
+        "founded": "2023-04-12",
+        "employees": "14명2026-04",
+        "sector": "제조",
+        "latest_stage": "Pre-A",
+        "investors": "공명파트너즈1회팁스1회노틸러스인베스트먼트1회",
+        "investor_count": 3
+      },
+      {
+        "name": "컨셉비",
+        "link": "https://thevc.kr/concept-b",
+        "status": "비상장",
+        "category": "중소기업",
+        "founded": "2022-08-08",
+        "employees": "5명2026-04-",
+        "sector": "제조",
+        "latest_stage": "Seed",
+        "investors": "해시드1회",
+        "investor_count": 1
+      },
+      {
         "name": "플렛지",
         "link": "https://thevc.kr/pledge",
         "status": "비상장",
@@ -12250,6 +12395,18 @@ const DASHBOARD_DATA = {
         "latest_stage": "Seed",
         "investors": "씨엔티테크1회넥스트엘레베이션1회",
         "investor_count": 2
+      },
+      {
+        "name": "로가",
+        "link": "https://thevc.kr/loga",
+        "status": "비상장",
+        "category": "중소기업",
+        "founded": "2020-10-23",
+        "employees": "19명2026-04",
+        "sector": "제조",
+        "latest_stage": "Series B",
+        "investors": "케이비인베스트먼트2회한화투자증권1회에스오에스벤처스1회",
+        "investor_count": 3
       },
       {
         "name": "아스테로모프",
@@ -12312,39 +12469,27 @@ const DASHBOARD_DATA = {
         "investor_count": 3
       },
       {
-        "name": "리턴제로",
-        "link": "https://thevc.kr/returnzero",
+        "name": "월더",
+        "link": "https://thevc.kr/worlder",
         "status": "비상장",
         "category": "스타트업",
-        "founded": "2018-03-28",
-        "employees": "27명2026-04",
-        "sector": "인공지능",
-        "latest_stage": "M&A",
-        "investors": "카카오벤처스2회우리벤처파트너스2회팁스1회",
+        "founded": "2023-04-12",
+        "employees": "14명2026-04",
+        "sector": "제조",
+        "latest_stage": "Pre-A",
+        "investors": "공명파트너즈1회팁스1회노틸러스인베스트먼트1회",
         "investor_count": 3
       },
       {
-        "name": "투비이스",
-        "link": "https://thevc.kr/2bis",
+        "name": "컨셉비",
+        "link": "https://thevc.kr/concept-b",
         "status": "비상장",
         "category": "중소기업",
-        "founded": "2021-05-14",
-        "employees": "8명2026-04-",
+        "founded": "2022-08-08",
+        "employees": "5명2026-04-",
         "sector": "제조",
-        "latest_stage": "Pre-A",
-        "investors": "하임벤처투자1회",
-        "investor_count": 1
-      },
-      {
-        "name": "에이치디하이테크",
-        "link": "https://thevc.kr/hdhitech",
-        "status": "비상장",
-        "category": "중소기업",
-        "founded": "2024-12-10",
-        "employees": "8명2026-04-",
-        "sector": "사물인터넷/센서",
         "latest_stage": "Seed",
-        "investors": "시리즈벤처스1회",
+        "investors": "해시드1회",
         "investor_count": 1
       },
       {
@@ -12370,6 +12515,18 @@ const DASHBOARD_DATA = {
         "latest_stage": "Seed",
         "investors": "씨엔티테크1회넥스트엘레베이션1회",
         "investor_count": 2
+      },
+      {
+        "name": "로가",
+        "link": "https://thevc.kr/loga",
+        "status": "비상장",
+        "category": "중소기업",
+        "founded": "2020-10-23",
+        "employees": "19명2026-04",
+        "sector": "제조",
+        "latest_stage": "Series B",
+        "investors": "케이비인베스트먼트2회한화투자증권1회에스오에스벤처스1회",
+        "investor_count": 3
       },
       {
         "name": "아스테로모프",
@@ -12432,39 +12589,27 @@ const DASHBOARD_DATA = {
         "investor_count": 3
       },
       {
-        "name": "리턴제로",
-        "link": "https://thevc.kr/returnzero",
+        "name": "월더",
+        "link": "https://thevc.kr/worlder",
         "status": "비상장",
         "category": "스타트업",
-        "founded": "2018-03-28",
-        "employees": "27명2026-04",
-        "sector": "인공지능",
-        "latest_stage": "M&A",
-        "investors": "카카오벤처스2회우리벤처파트너스2회팁스1회",
+        "founded": "2023-04-12",
+        "employees": "14명2026-04",
+        "sector": "제조",
+        "latest_stage": "Pre-A",
+        "investors": "공명파트너즈1회팁스1회노틸러스인베스트먼트1회",
         "investor_count": 3
       },
       {
-        "name": "투비이스",
-        "link": "https://thevc.kr/2bis",
+        "name": "컨셉비",
+        "link": "https://thevc.kr/concept-b",
         "status": "비상장",
         "category": "중소기업",
-        "founded": "2021-05-14",
-        "employees": "8명2026-04-",
+        "founded": "2022-08-08",
+        "employees": "5명2026-04-",
         "sector": "제조",
-        "latest_stage": "Pre-A",
-        "investors": "하임벤처투자1회",
-        "investor_count": 1
-      },
-      {
-        "name": "에이치디하이테크",
-        "link": "https://thevc.kr/hdhitech",
-        "status": "비상장",
-        "category": "중소기업",
-        "founded": "2024-12-10",
-        "employees": "8명2026-04-",
-        "sector": "사물인터넷/센서",
         "latest_stage": "Seed",
-        "investors": "시리즈벤처스1회",
+        "investors": "해시드1회",
         "investor_count": 1
       },
       {
@@ -12490,6 +12635,18 @@ const DASHBOARD_DATA = {
         "latest_stage": "Seed",
         "investors": "씨엔티테크1회넥스트엘레베이션1회",
         "investor_count": 2
+      },
+      {
+        "name": "로가",
+        "link": "https://thevc.kr/loga",
+        "status": "비상장",
+        "category": "중소기업",
+        "founded": "2020-10-23",
+        "employees": "19명2026-04",
+        "sector": "제조",
+        "latest_stage": "Series B",
+        "investors": "케이비인베스트먼트2회한화투자증권1회에스오에스벤처스1회",
+        "investor_count": 3
       },
       {
         "name": "아스테로모프",
@@ -12552,39 +12709,27 @@ const DASHBOARD_DATA = {
         "investor_count": 3
       },
       {
-        "name": "리턴제로",
-        "link": "https://thevc.kr/returnzero",
+        "name": "월더",
+        "link": "https://thevc.kr/worlder",
         "status": "비상장",
         "category": "스타트업",
-        "founded": "2018-03-28",
-        "employees": "27명2026-04",
-        "sector": "인공지능",
-        "latest_stage": "M&A",
-        "investors": "카카오벤처스2회우리벤처파트너스2회팁스1회",
+        "founded": "2023-04-12",
+        "employees": "14명2026-04",
+        "sector": "제조",
+        "latest_stage": "Pre-A",
+        "investors": "공명파트너즈1회팁스1회노틸러스인베스트먼트1회",
         "investor_count": 3
       },
       {
-        "name": "투비이스",
-        "link": "https://thevc.kr/2bis",
+        "name": "컨셉비",
+        "link": "https://thevc.kr/concept-b",
         "status": "비상장",
         "category": "중소기업",
-        "founded": "2021-05-14",
-        "employees": "8명2026-04-",
+        "founded": "2022-08-08",
+        "employees": "5명2026-04-",
         "sector": "제조",
-        "latest_stage": "Pre-A",
-        "investors": "하임벤처투자1회",
-        "investor_count": 1
-      },
-      {
-        "name": "에이치디하이테크",
-        "link": "https://thevc.kr/hdhitech",
-        "status": "비상장",
-        "category": "중소기업",
-        "founded": "2024-12-10",
-        "employees": "8명2026-04-",
-        "sector": "사물인터넷/센서",
         "latest_stage": "Seed",
-        "investors": "시리즈벤처스1회",
+        "investors": "해시드1회",
         "investor_count": 1
       },
       {
@@ -12610,6 +12755,18 @@ const DASHBOARD_DATA = {
         "latest_stage": "Seed",
         "investors": "씨엔티테크1회넥스트엘레베이션1회",
         "investor_count": 2
+      },
+      {
+        "name": "로가",
+        "link": "https://thevc.kr/loga",
+        "status": "비상장",
+        "category": "중소기업",
+        "founded": "2020-10-23",
+        "employees": "19명2026-04",
+        "sector": "제조",
+        "latest_stage": "Series B",
+        "investors": "케이비인베스트먼트2회한화투자증권1회에스오에스벤처스1회",
+        "investor_count": 3
       },
       {
         "name": "아스테로모프",
@@ -12672,39 +12829,27 @@ const DASHBOARD_DATA = {
         "investor_count": 3
       },
       {
-        "name": "리턴제로",
-        "link": "https://thevc.kr/returnzero",
+        "name": "월더",
+        "link": "https://thevc.kr/worlder",
         "status": "비상장",
         "category": "스타트업",
-        "founded": "2018-03-28",
-        "employees": "27명2026-04",
-        "sector": "인공지능",
-        "latest_stage": "M&A",
-        "investors": "카카오벤처스2회우리벤처파트너스2회팁스1회",
+        "founded": "2023-04-12",
+        "employees": "14명2026-04",
+        "sector": "제조",
+        "latest_stage": "Pre-A",
+        "investors": "공명파트너즈1회팁스1회노틸러스인베스트먼트1회",
         "investor_count": 3
       },
       {
-        "name": "투비이스",
-        "link": "https://thevc.kr/2bis",
+        "name": "컨셉비",
+        "link": "https://thevc.kr/concept-b",
         "status": "비상장",
         "category": "중소기업",
-        "founded": "2021-05-14",
-        "employees": "8명2026-04-",
+        "founded": "2022-08-08",
+        "employees": "5명2026-04-",
         "sector": "제조",
-        "latest_stage": "Pre-A",
-        "investors": "하임벤처투자1회",
-        "investor_count": 1
-      },
-      {
-        "name": "에이치디하이테크",
-        "link": "https://thevc.kr/hdhitech",
-        "status": "비상장",
-        "category": "중소기업",
-        "founded": "2024-12-10",
-        "employees": "8명2026-04-",
-        "sector": "사물인터넷/센서",
         "latest_stage": "Seed",
-        "investors": "시리즈벤처스1회",
+        "investors": "해시드1회",
         "investor_count": 1
       },
       {
@@ -12730,6 +12875,18 @@ const DASHBOARD_DATA = {
         "latest_stage": "Seed",
         "investors": "씨엔티테크1회넥스트엘레베이션1회",
         "investor_count": 2
+      },
+      {
+        "name": "로가",
+        "link": "https://thevc.kr/loga",
+        "status": "비상장",
+        "category": "중소기업",
+        "founded": "2020-10-23",
+        "employees": "19명2026-04",
+        "sector": "제조",
+        "latest_stage": "Series B",
+        "investors": "케이비인베스트먼트2회한화투자증권1회에스오에스벤처스1회",
+        "investor_count": 3
       },
       {
         "name": "아스테로모프",
@@ -12790,42 +12947,6 @@ const DASHBOARD_DATA = {
         "latest_stage": "Series B",
         "investors": "나이스투자파트너스2회노틸러스인베스트먼트2회디토인베스트먼트1회",
         "investor_count": 3
-      },
-      {
-        "name": "리턴제로",
-        "link": "https://thevc.kr/returnzero",
-        "status": "비상장",
-        "category": "스타트업",
-        "founded": "2018-03-28",
-        "employees": "27명2026-04",
-        "sector": "인공지능",
-        "latest_stage": "M&A",
-        "investors": "카카오벤처스2회우리벤처파트너스2회팁스1회",
-        "investor_count": 3
-      },
-      {
-        "name": "투비이스",
-        "link": "https://thevc.kr/2bis",
-        "status": "비상장",
-        "category": "중소기업",
-        "founded": "2021-05-14",
-        "employees": "8명2026-04-",
-        "sector": "제조",
-        "latest_stage": "Pre-A",
-        "investors": "하임벤처투자1회",
-        "investor_count": 1
-      },
-      {
-        "name": "에이치디하이테크",
-        "link": "https://thevc.kr/hdhitech",
-        "status": "비상장",
-        "category": "중소기업",
-        "founded": "2024-12-10",
-        "employees": "8명2026-04-",
-        "sector": "사물인터넷/센서",
-        "latest_stage": "Seed",
-        "investors": "시리즈벤처스1회",
-        "investor_count": 1
       }
     ],
     "stage_summary": {

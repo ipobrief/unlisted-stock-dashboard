@@ -59,16 +59,28 @@ def fetch_homepage_data():
                     "investor": investor_el.get_text(strip=True) if investor_el else "",
                 })
 
-        # 조회수 랭킹
-        rank_items = soup.select("div.ranking-list a, div.ranking a, ol li a")
-        for item in rank_items:
-            name = item.get_text(strip=True)
-            href = item.get("href", "")
-            if name and "/company/" in href:
+        # 조회수 랭킹 (Vue 렌더라 API 직접 호출). 기간: DATE/WEEK/MONTH
+        try:
+            api = "https://thevc.kr/api/interaction/hits/organizations/rankings/ALL"
+            rr = requests.get(api, headers={**HEADERS, "Referer": "https://thevc.kr/",
+                                            "Accept": "application/json"}, timeout=15)
+            rr.raise_for_status()
+            data = rr.json()
+            # 주간(WEEK) 조회수 랭킹 사용 (없으면 DATE)
+            rows = data.get("WEEK") or data.get("DATE") or []
+            for it in rows:
+                name = it.get("name", "")
+                slug = it.get("profilePage", "")
+                if not name:
+                    continue
                 ranking.append({
                     "name": name,
-                    "link": "https://thevc.kr" + href if href.startswith("/") else href,
+                    "hits": it.get("count", 0),
+                    "type": it.get("type", ""),
+                    "link": f"https://thevc.kr/{slug}" if slug else "",
                 })
+        except Exception as e:
+            print(f"  [경고] 조회수 랭킹 API: {e}")
 
         print(f"  투자 내역: {len(investments)}건, 랭킹: {len(ranking)}개")
         return investments, ranking

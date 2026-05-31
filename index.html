@@ -166,6 +166,7 @@ table a:hover { text-decoration: underline; }
 .tag-seriesC { background: rgba(34,197,94,0.15); color: var(--green); }
 .tag-seriesD { background: rgba(59,130,246,0.15); color: var(--blue); }
 .tag-preipo { background: rgba(245,158,11,0.15); color: var(--orange); }
+.tag-approved { background: rgba(34,197,94,0.15); color: var(--green); }
 .tag-ipo { background: rgba(239,68,68,0.15); color: var(--red); }
 .tag-default { background: rgba(139,92,246,0.15); color: var(--accent2); }
 
@@ -610,12 +611,13 @@ function renderRanking(ranking) {
     document.getElementById('rankingTable').innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
     return;
   }
-  let html = '<table><thead><tr><th>#</th><th></th><th>기업명</th></tr></thead><tbody>';
+  let html = '<table><thead><tr><th>#</th><th></th><th>기업명</th><th>조회수</th></tr></thead><tbody>';
   ranking.slice(0, 15).forEach((r, i) => {
     html += `<tr>
       <td>${i+1}</td>
       <td>${starBtn(r.name, 'thevc-rank')}</td>
       <td>${r.link ? `<a href="${r.link}" target="_blank">${r.name}</a>` : r.name}</td>
+      <td>${r.hits != null ? Number(r.hits).toLocaleString() : '-'}</td>
     </tr>`;
   });
   html += '</tbody></table>';
@@ -770,7 +772,7 @@ function renderPlatformTables(plat) {
       h += `<tr>
         <td>${starBtn(r.name, '네이버-상장준비')}</td>
         <td>${stockLink(r.name, r.url)}</td>
-        <td><span class="tag tag-preipo">${ipoStateLabel[r.ipo_state] || r.ipo_state || '-'}</span></td>
+        <td><span class="tag ${['EXAMINATION_ACCEPTED','EXAMINATION_PASSED','LISTING_APPROVED'].includes(r.ipo_state) ? 'tag-approved' : 'tag-preipo'}">${ipoStateLabel[r.ipo_state] || r.ipo_state || '-'}</span></td>
         <td style="font-size:12px;color:var(--text-dim)">${r.base_date || ''}</td>
       </tr>`;
     });
@@ -819,6 +821,8 @@ function renderPlatformTables(plat) {
         const up = Number(pct) > 0, down = Number(pct) < 0;
         const col = down ? 'var(--blue)' : (up ? 'var(--red)' : 'var(--text-dim)');
         changeHtml = `<span style="color:${col}">${up?'▲':(down?'▼':'')}${Math.abs(Number(pct))}%</span>`;
+      } else if (s.change === '0' || s.change === 0) {
+        changeHtml = '<span style="color:var(--text-dim)">0%</span>';
       } else if (s.change) {
         const col = String(s.change).includes('-') ? 'var(--blue)' : 'var(--red)';
         changeHtml = `<span style="color:${col}">${s.change}</span>`;
