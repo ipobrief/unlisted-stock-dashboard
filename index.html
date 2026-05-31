@@ -169,6 +169,14 @@ table a:hover { text-decoration: underline; }
 .tag-approved { background: rgba(34,197,94,0.15); color: var(--green); }
 .tag-ipo { background: rgba(239,68,68,0.15); color: var(--red); }
 .tag-default { background: rgba(139,92,246,0.15); color: var(--accent2); }
+/* 상장 단계별 색 (각각 다르게) */
+.stage-req  { background: rgba(245,158,11,0.15); color: var(--orange); }   /* 심사청구 */
+.stage-acc  { background: rgba(59,130,246,0.15); color: var(--blue); }     /* 심사승인 */
+.stage-pass { background: rgba(34,197,94,0.15); color: var(--green); }     /* 심사통과 */
+.stage-appr { background: rgba(139,92,246,0.18); color: var(--accent2); }  /* 상장승인 */
+.stage-demand { background: rgba(236,72,153,0.15); color: #ec4899; }       /* 수요예측 */
+.stage-subs { background: rgba(20,184,166,0.15); color: #14b8a6; }         /* 청약 */
+.stage-listed { background: rgba(239,68,68,0.15); color: var(--red); }     /* 상장완료 */
 
 .keyword-chip {
   display: inline-block;
@@ -763,6 +771,12 @@ function renderPlatformTables(plat) {
     LISTING_APPROVED: '상장승인', DEMAND_FORECAST: '수요예측',
     SUBSCRIPTION: '청약', LISTED: '상장완료',
   };
+  const ipoStateClass = {
+    EXAMINATION_REQUESTED: 'stage-req', EXAMINATION_ACCEPTED: 'stage-acc',
+    EXAMINATION_PASSED: 'stage-pass', LISTING_APPROVED: 'stage-appr',
+    DEMAND_FORECAST: 'stage-demand', SUBSCRIPTION: 'stage-subs',
+    LISTED: 'stage-listed',
+  };
   const ipoEl = document.getElementById('ipoReadyTable');
   if (!ipoReady.length) {
     ipoEl.innerHTML = '<p style="color:var(--text-dim);padding:20px">데이터 없음</p>';
@@ -772,7 +786,7 @@ function renderPlatformTables(plat) {
       h += `<tr>
         <td>${starBtn(r.name, '네이버-상장준비')}</td>
         <td>${stockLink(r.name, r.url)}</td>
-        <td><span class="tag ${['EXAMINATION_ACCEPTED','EXAMINATION_PASSED','LISTING_APPROVED'].includes(r.ipo_state) ? 'tag-approved' : 'tag-preipo'}">${ipoStateLabel[r.ipo_state] || r.ipo_state || '-'}</span></td>
+        <td><span class="tag ${ipoStateClass[r.ipo_state] || 'tag-default'}">${ipoStateLabel[r.ipo_state] || r.ipo_state || '-'}</span></td>
         <td style="font-size:12px;color:var(--text-dim)">${r.base_date || ''}</td>
       </tr>`;
     });
