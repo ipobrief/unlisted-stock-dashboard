@@ -395,9 +395,18 @@ table a:hover { text-decoration: underline; }
   </div>
 </div>
 
-<script src="data.js"></script>
 <script>
-const D = typeof DASHBOARD_DATA !== 'undefined' ? DASHBOARD_DATA : null;
+// data.js를 매번 캐시 무시하고 불러온다 (배포 갱신 즉시 반영)
+let D = null;
+(function loadData() {
+  const s = document.createElement('script');
+  s.src = 'data.js?t=' + Date.now();
+  s.onload = function() {
+    D = typeof DASHBOARD_DATA !== 'undefined' ? DASHBOARD_DATA : null;
+    renderAll();
+  };
+  document.head.appendChild(s);
+})();
 let watchlist = JSON.parse(localStorage.getItem('unlisted_watchlist') || '[]');
 
 function saveWatchlist() {
@@ -838,8 +847,6 @@ function renderWatchlist() {
   html += '</tbody></table>';
   el.innerHTML = html;
 }
-
-renderAll();
 </script>
 </body>
 </html>
