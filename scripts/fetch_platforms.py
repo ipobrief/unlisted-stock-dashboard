@@ -144,6 +144,32 @@ NAVER_CAT_LABEL = {
 }
 
 
+def fetch_naver_volume(code):
+    """네이버 비상장 개별 종목 페이지의 최근 거래량(주) 추출.
+    https://ustock.naver.com/stock/{code} 의 dailyPriceHistories[0].quantity.
+    """
+    import re
+    if not code:
+        return None
+    try:
+        url = f"https://ustock.naver.com/stock/{code}"
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', resp.text, re.DOTALL)
+        if not m:
+            return None
+        d = json.loads(m.group(1))
+        for q in d["props"]["pageProps"]["dehydratedState"]["queries"]:
+            if q.get("queryKey", [None])[0] == "dailyPriceHistories":
+                rows = (q.get("state", {}).get("data") or {}).get("dailyPriceHistories") or []
+                if rows:
+                    return rows[0].get("quantity")
+        return None
+    except Exception as e:
+        print(f"    [경고] 거래량 보강 실패({code}): {e}")
+        return None
+
+
 def fetch_naver_unlisted():
     """네이버 비상장(증권플러스) 랭킹 데이터 수집.
     https://ustock.naver.com/stock/rank 의 __NEXT_DATA__(React Query)에서 추출.
@@ -213,6 +239,16 @@ def fetch_naver_unlisted():
                     })
 
         stocks = list(seen.values())
+
+        # 거래량 랭킹에 든 종목은 개별 종목 페이지에서 최근 거래량(주) 보강
+        vol_targets = [s for s in stocks if "거래량" in s.get("ranks", [])]
+        print(f"  네이버 거래량 보강중... ({len(vol_targets)}종목)")
+        for s in vol_targets:
+            v = fetch_naver_volume(s.get("code", ""))
+            if v is not None:
+                s["volume"] = str(v)
+            time.sleep(0.2)
+
         # 부가 정보를 함수 속성으로 전달
         fetch_naver_unlisted.ready_to_ipo = ready_to_ipo
         fetch_naver_unlisted.revenue_up = sorted(
