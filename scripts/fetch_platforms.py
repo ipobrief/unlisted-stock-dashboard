@@ -48,17 +48,25 @@ def fetch_kotc():
                     continue
                 price = it.get("LASTCOT")
                 diff = it.get("BEFOREDAYCMP")
-                sign = it.get("INDECREASE", "")  # 등락 방향
-                change = ""
-                if diff is not None:
-                    arrow = "-" if sign in ("2", "5", "-") and idx != "4" else ""
-                    # INDECREASE: 보통 1/2 상승, 4/5 하락. 부호 불명확시 그대로 표기
-                    change = f"{diff}"
+                # INDECREASE: +/H(상한)=상승, -/L(하한)=하락, 공백=보합
+                sign = (it.get("INDECREASE") or "").strip()
+                signed = 0
+                if diff:
+                    if sign in ("+", "H"):
+                        signed = diff
+                    elif sign in ("-", "L"):
+                        signed = -diff
+                # 등락률(%) = 부호등락가 / 전일종가 * 100
+                change_pct = ""
+                if diff is not None and price is not None:
+                    prev = price - signed
+                    change_pct = str(round(signed / prev * 100, 2)) if prev else "0"
                 vol = it.get("TRADEACMQTY")
                 rec = seen.get(code) or {
                     "name": name, "code": code,
                     "price": str(price) if price is not None else "",
-                    "change": str(diff) if diff is not None else "",
+                    "change": (str(signed) if signed else "0"),
+                    "change_pct": change_pct,
                     "volume": str(vol) if vol is not None else "",
                     "amount": str(it.get("TRADEACMAMT", "")),
                     "platform": "K-OTC",
