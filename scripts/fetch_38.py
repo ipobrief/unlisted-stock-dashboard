@@ -61,11 +61,18 @@ def _stock_url(code):
 
 
 def fetch_gainers(s):
-    """등락률 급등 종목. 38 비상장 시세표에서 현재가/등락률 파싱 후 상승률순 정렬."""
+    """등락률 급등 종목. 38 비상장 시세표의 '정식 시세행'만 사용한다.
+
+    38은 정확한 일간 시세(전일 기준가 대비 등락)를 특징주 시세행으로만 공개한다.
+    정식 행 구조: [종목코드, 종목명, 매도호가, 매수호가, 기준가, 등락가, 등락률%, ...]
+    (첫 셀이 종목코드와 일치하고 등락률에 %가 있는 행만 인정 → 일간 전일비와 일치)
+
+    주의: price.php에는 '급등' 위젯 행(첫 셀이 순위)이 따로 있는데, 그 %는
+    전일비가 아니라 누적/기준가 대비 변동률이므로 사용하지 않는다.
+    """
     print("38 등락률 급등 종목 수집중...")
     quotes = {}
-    # 여러 시세 뷰를 합쳐 더 많은 종목 확보
-    for o in ["", "?o=updown", "?o=time", "?o=38", "?o=ipo"]:
+    for o in ["", "?o=updown", "?o=updown5", "?o=time", "?o=38", "?o=ipo"]:
         try:
             html = _get(s, f"{BASE}/html/trade/price/price.php{o}")
         except Exception as e:
@@ -76,29 +83,25 @@ def fetch_gainers(s):
             if not m:
                 continue
             code = m.group(1)
-            if code in quotes:
-                continue
             cs = _cells(tr)
-            rate_cell = next((c for c in cs if "%" in c), None)
-            name = next((c for c in cs if re.search(r"[가-힣]", c)
-                         and "%" not in c and len(c) < 25), None)
-            price = next((c for c in cs if re.match(r"^\d{1,3}(,\d{3})+$", c)), None)
-            if not (rate_cell and name):
+            # 정식 시세행만: 첫 셀이 종목코드, 7컬럼 이상, 등락률 셀에 %
+            if len(cs) < 7 or cs[0] != code or "%" not in cs[6]:
                 continue
-            rm = re.search(r"-?[0-9.]+", rate_cell)
+            rm = re.search(r"-?[0-9.]+", cs[6])
             if not rm:
                 continue
             quotes[code] = {
-                "name": name,
+                "name": cs[1],
                 "code": code,
-                "price": price or "",
+                "price": cs[4],            # 기준가
+                "change": cs[5],           # 등락가 (▲/▼)
                 "change_pct": float(rm.group()),
                 "platform": "38커뮤니케이션",
                 "url": _stock_url(code),
             }
     gainers = sorted([q for q in quotes.values() if q["change_pct"] > 0],
                      key=lambda x: x["change_pct"], reverse=True)
-    print(f"  38 급등 종목: {len(gainers)}종목 (전체 시세 {len(quotes)}종목 중)")
+    print(f"  38 급등 종목: {len(gainers)}종목 (정식 시세 {len(quotes)}종목 중)")
     return gainers
 
 

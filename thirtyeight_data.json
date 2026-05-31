@@ -1,77 +1,23 @@
 {
-  "updated_at": "2026-05-31 14:55",
+  "updated_at": "2026-05-31 15:06",
   "gainers": [
-    {
-      "name": "한국증권금융",
-      "code": "028820",
-      "price": "17,400",
-      "change_pct": 36.47,
-      "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=028820"
-    },
-    {
-      "name": "싸이버로지텍",
-      "code": "052700",
-      "price": "17,500",
-      "change_pct": 32.08,
-      "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=052700"
-    },
-    {
-      "name": "스트라드비젼",
-      "code": "475040",
-      "price": "28,250",
-      "change_pct": 17.71,
-      "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=475040"
-    },
     {
       "name": "덕산넵코어스(구.넵코어스)",
       "code": "266690",
       "price": "20,000",
+      "change": "▲ 1,950",
       "change_pct": 10.8,
       "platform": "38커뮤니케이션",
       "url": "http://forum.38.co.kr/html/forum/board/?code=266690"
     },
     {
-      "name": "당근마켓",
-      "code": "426920",
-      "price": "210,000",
-      "change_pct": 9.09,
-      "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=426920"
-    },
-    {
-      "name": "레메디",
-      "code": "387690",
-      "price": "48,000",
-      "change_pct": 5.49,
-      "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=387690"
-    },
-    {
-      "name": "오아시스",
-      "code": "370190",
-      "price": "7,500",
-      "change_pct": 3.45,
-      "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=370190"
-    },
-    {
       "name": "컬리",
       "code": "408480",
       "price": "36,250",
+      "change": "▲ 1,000",
       "change_pct": 2.84,
       "platform": "38커뮤니케이션",
       "url": "http://forum.38.co.kr/html/forum/board/?code=408480"
-    },
-    {
-      "name": "무신사",
-      "code": "458860",
-      "price": "24,350",
-      "change_pct": 0.41,
-      "platform": "38커뮤니케이션",
-      "url": "http://forum.38.co.kr/html/forum/board/?code=458860"
     }
   ],
   "community_activity": [
@@ -1127,7 +1073,7 @@
     }
   ],
   "summary": {
-    "gainer_count": 9,
+    "gainer_count": 2,
     "active_count": 150
   }
 }
