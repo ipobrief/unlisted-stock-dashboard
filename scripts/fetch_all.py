@@ -30,15 +30,18 @@ def merge_data():
     news_path = os.path.join(PROJECT_DIR, "news_data.json")
     thevc_path = os.path.join(PROJECT_DIR, "thevc_data.json")
     platform_path = os.path.join(PROJECT_DIR, "platform_data.json")
+    thirtyeight_path = os.path.join(PROJECT_DIR, "thirtyeight_data.json")
 
     merged = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "news": {},
         "thevc": {},
         "platforms": {},
+        "thirtyeight": {},
     }
 
-    for path, key in [(news_path, "news"), (thevc_path, "thevc"), (platform_path, "platforms")]:
+    for path, key in [(news_path, "news"), (thevc_path, "thevc"),
+                      (platform_path, "platforms"), (thirtyeight_path, "thirtyeight")]:
         if os.path.exists(path):
             with open(path, "r", encoding="utf-8") as f:
                 merged[key] = json.load(f)
@@ -62,6 +65,7 @@ def main():
         "fetch_naver_news.py",
         "fetch_thevc.py",
         "fetch_platforms.py",
+        "fetch_38.py",
     ]
 
     results = {}
