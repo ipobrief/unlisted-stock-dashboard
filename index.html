@@ -266,10 +266,75 @@ table a:hover { text-decoration: underline; }
 }
 .search-box:focus { border-color: var(--accent); }
 
+/* 통합 검색 */
+.global-search {
+  position: relative;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 30px;
+}
+.global-search-inner { max-width: 1400px; margin: 0 auto; position: relative; }
+.global-search input {
+  width: 100%;
+  padding: 11px 16px 11px 42px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.global-search input:focus { border-color: var(--accent); }
+.global-search .search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-dim);
+  font-size: 16px;
+  pointer-events: none;
+}
+.search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  max-height: 460px;
+  overflow-y: auto;
+  z-index: 100;
+  display: none;
+}
+.search-results.show { display: block; }
+.search-results::-webkit-scrollbar { width: 6px; }
+.search-results::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.sr-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 16px;
+  border-bottom: 1px solid rgba(42,45,58,0.5);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.sr-item:last-child { border-bottom: none; }
+.sr-item:hover { background: rgba(99,102,241,0.08); }
+.sr-name { font-weight: 600; font-size: 14px; flex-shrink: 0; }
+.sr-meta { color: var(--text-dim); font-size: 12px; flex: 1; }
+.sr-sources { display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+.sr-empty { padding: 24px 16px; text-align: center; color: var(--text-dim); font-size: 13px; }
+.sr-link { color: var(--accent); text-decoration: none; }
+.sr-link:hover { text-decoration: underline; }
+
 @media (max-width: 900px) {
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
   .stat-cards { grid-template-columns: repeat(3, 1fr); }
   .container { padding: 12px; }
+  .global-search { padding: 12px; }
 }
 </style>
 </head>
@@ -286,6 +351,15 @@ table a:hover { text-decoration: underline; }
   <div class="tab" data-tab="thevc">THE VC 투자</div>
   <div class="tab" data-tab="platforms">거래 플랫폼</div>
   <div class="tab" data-tab="watchlist">관심종목</div>
+</div>
+
+<!-- 통합 종목 검색 -->
+<div class="global-search">
+  <div class="global-search-inner">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="globalSearch" placeholder="종목/기업명 통합 검색 (뉴스 · THE VC · 플랫폼 · 38)" autocomplete="off">
+    <div class="search-results" id="globalSearchResults"></div>
+  </div>
 </div>
 
 <!-- Overview -->
@@ -521,7 +595,108 @@ function renderAll() {
 
   // Watchlist
   renderWatchlist();
+
+  // 통합 검색 인덱스
+  buildSearchIndex();
 }
+
+// ===== 통합 종목 검색 =====
+let searchIndex = [];
+
+const SOURCE_LABEL = {
+  news: '뉴스', thevc: 'THE VC', 'thevc-rank': 'THE VC 조회수',
+  'thevc-seriesC': '시리즈C+', kotc: 'K-OTC', seoul_exchange: '서울거래소',
+  naver_unlisted: '네이버비상장', spike: '거래량급증', '38': '38커뮤니티',
+  ipo: '상장준비', revenue: '매출급증',
+};
+
+function buildSearchIndex() {
+  const map = new Map(); // name -> {name, url, sources:Set, detail}
+  function add(name, source, url, detail) {
+    if (!name) return;
+    const key = name.trim();
+    if (!key) return;
+    if (!map.has(key)) map.set(key, { name: key, url: null, sources: new Set(), detail: '' });
+    const e = map.get(key);
+    e.sources.add(source);
+    if (url && !e.url) e.url = url;
+    if (detail && !e.detail) e.detail = detail;
+  }
+
+  const news = D.news || {}, thevc = D.thevc || {}, plat = D.platforms || {}, tt = D.thirtyeight || {};
+
+  (news.top_companies || []).forEach(c => add(c.name, 'news', null, c.mention_count ? c.mention_count + '회 언급' : ''));
+  (thevc.series_c_plus || []).forEach(s => add(s.name, 'thevc-seriesC', s.link, [s.sector, s.latest_stage].filter(Boolean).join(' · ')));
+  (thevc.recent_investments || []).forEach(i => add(i.company || i.name, 'thevc', i.link, [i.stage, i.amount].filter(Boolean).join(' · ')));
+  (thevc.ranking || []).forEach(r => add(r.name, 'thevc-rank', r.link, r.hits != null ? Number(r.hits).toLocaleString() + ' 조회' : ''));
+  (plat.kotc || []).forEach(s => add(s.name, 'kotc', s.url, fmtIdxPrice(s.price)));
+  (plat.seoul_exchange || []).forEach(s => add(s.name, 'seoul_exchange', s.url, fmtIdxPrice(s.price)));
+  (plat.naver_unlisted || []).forEach(s => add(s.name, 'naver_unlisted', s.url, fmtIdxPrice(s.price)));
+  (plat.volume_spikes || []).forEach(s => add(s.name, 'spike', s.url, ''));
+  (plat.ready_to_ipo || []).forEach(r => add(r.name, 'ipo', r.url, ''));
+  (plat.revenue_up || []).forEach(r => add(r.name, 'revenue', r.url, r.revenue_rate != null ? '+' + Number(r.revenue_rate).toLocaleString() + '%' : ''));
+  (tt.community_activity || []).forEach(a => add(a.name, '38', a.url, ''));
+
+  searchIndex = Array.from(map.values());
+}
+
+function fmtIdxPrice(p) {
+  if (p === '' || p == null) return '';
+  const n = Number(p);
+  return isNaN(n) ? p : n.toLocaleString() + '원';
+}
+
+function renderSearchResults(q) {
+  const box = document.getElementById('globalSearchResults');
+  const query = q.trim().toLowerCase();
+  if (!query) { box.classList.remove('show'); box.innerHTML = ''; return; }
+
+  const matches = searchIndex
+    .filter(e => e.name.toLowerCase().includes(query))
+    .sort((a, b) => {
+      const ai = a.name.toLowerCase().indexOf(query), bi = b.name.toLowerCase().indexOf(query);
+      if (ai !== bi) return ai - bi;
+      return b.sources.size - a.sources.size;
+    })
+    .slice(0, 30);
+
+  if (!matches.length) {
+    box.innerHTML = '<div class="sr-empty">검색 결과가 없습니다</div>';
+    box.classList.add('show');
+    return;
+  }
+
+  box.innerHTML = matches.map(e => {
+    const tags = Array.from(e.sources).map(s =>
+      `<span class="tag tag-default" style="font-size:10px">${SOURCE_LABEL[s] || s}</span>`
+    ).join('');
+    const nameHtml = e.url
+      ? `<a href="${e.url}" target="_blank" rel="noopener" class="sr-link sr-name" onclick="event.stopPropagation()">${e.name}</a>`
+      : `<span class="sr-name">${e.name}</span>`;
+    return `<div class="sr-item">
+      ${starBtn(e.name, Array.from(e.sources)[0])}
+      ${nameHtml}
+      <span class="sr-meta">${e.detail || ''}</span>
+      <span class="sr-sources">${tags}</span>
+    </div>`;
+  }).join('');
+  box.classList.add('show');
+}
+
+function addWatchFromSearch(name, source) {
+  if (!isWatched(name)) toggleWatch(name, source);
+}
+
+(function initGlobalSearch() {
+  const input = document.getElementById('globalSearch');
+  const box = document.getElementById('globalSearchResults');
+  input.addEventListener('input', () => renderSearchResults(input.value));
+  input.addEventListener('focus', () => { if (input.value.trim()) renderSearchResults(input.value); });
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.global-search-inner')) box.classList.remove('show');
+  });
+  input.addEventListener('keydown', (e) => { if (e.key === 'Escape') { input.value=''; box.classList.remove('show'); } });
+})();
 
 function renderNewsTop(companies) {
   document.getElementById('newsTopBadge').textContent = companies.length + '개';
