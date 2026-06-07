@@ -610,6 +610,13 @@ const SOURCE_LABEL = {
   ipo: '상장준비', revenue: '매출급증',
 };
 
+// 각 소스가 속한 탭
+const SOURCE_TAB = {
+  news: 'news', thevc: 'thevc', 'thevc-rank': 'thevc', 'thevc-seriesC': 'thevc',
+  kotc: 'platforms', seoul_exchange: 'platforms', naver_unlisted: 'platforms',
+  spike: 'platforms', '38': 'platforms', ipo: 'platforms', revenue: 'platforms',
+};
+
 function buildSearchIndex() {
   const map = new Map(); // name -> {name, url, sources:Set, detail}
   function add(name, source, url, detail) {
@@ -668,7 +675,7 @@ function renderSearchResults(q) {
 
   box.innerHTML = matches.map(e => {
     const tags = Array.from(e.sources).map(s =>
-      `<span class="tag tag-default" style="font-size:10px">${SOURCE_LABEL[s] || s}</span>`
+      `<span class="tag tag-default sr-tag" style="font-size:10px;cursor:pointer" onclick="goToSource('${SOURCE_TAB[s] || 'overview'}','${e.name.replace(/'/g,"\\'")}')">${SOURCE_LABEL[s] || s}</span>`
     ).join('');
     const nameHtml = e.url
       ? `<a href="${e.url}" target="_blank" rel="noopener" class="sr-link sr-name" onclick="event.stopPropagation()">${e.name}</a>`
@@ -685,6 +692,39 @@ function renderSearchResults(q) {
 
 function addWatchFromSearch(name, source) {
   if (!isWatched(name)) toggleWatch(name, source);
+}
+
+function goToSource(tab, name) {
+  // 검색창 닫기
+  const box = document.getElementById('globalSearchResults');
+  box.classList.remove('show');
+
+  switchTab(tab);
+
+  // 탭별 검색창에 종목명 채워 필터링
+  const tabSearchInput = { news: 'newsSearch', thevc: 'thevcSearch' }[tab];
+  if (tabSearchInput) {
+    const inp = document.getElementById(tabSearchInput);
+    if (inp) { inp.value = name; inp.dispatchEvent(new Event('input')); }
+  }
+
+  // 해당 탭에서 종목명이 포함된 행을 찾아 스크롤 + 하이라이트
+  setTimeout(() => {
+    const content = document.getElementById('tab-' + tab);
+    if (!content) return;
+    const rows = content.querySelectorAll('tbody tr');
+    let target = null;
+    for (const tr of rows) {
+      if (tr.style.display !== 'none' && tr.textContent.includes(name)) { target = tr; break; }
+    }
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      const orig = target.style.background;
+      target.style.transition = 'background 0.3s';
+      target.style.background = 'rgba(99,102,241,0.35)';
+      setTimeout(() => { target.style.background = orig; }, 1500);
+    }
+  }, 120);
 }
 
 (function initGlobalSearch() {
