@@ -70,7 +70,8 @@ def fetch_kotc():
                     "volume": str(vol) if vol is not None else "",
                     "amount": str(it.get("TRADEACMAMT", "")),
                     "platform": "K-OTC",
-                    "url": "https://www.k-otc.or.kr/public/item/presentPrice",
+                    # K-OTC는 종목별 고정 URL이 없어(쿠키 기반 이동) 검색 결과 페이지로 연결
+                    "url": "https://www.k-otc.or.kr/public/main/search?searchWord=" + quote(name),
                     "ranks": [],
                 }
                 rec["ranks"].append(label)

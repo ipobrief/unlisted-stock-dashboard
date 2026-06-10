@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10 18:44",
+  "updated_at": "2026-06-10 21:16",
   "home_investments": [
     {
       "date": "2026-06-10보도자료",
@@ -45,91 +45,91 @@
   "ranking": [
     {
       "name": "에이투시스",
-      "hits": 1236,
+      "hits": 1251,
       "type": "스타트업",
       "link": "https://thevc.kr/a2sys"
     },
     {
       "name": "한국평가데이터",
-      "hits": 294,
+      "hits": 298,
       "type": "대기업/중견기업",
       "link": "https://thevc.kr/kodata"
     },
     {
       "name": "탭제로",
-      "hits": 283,
+      "hits": 285,
       "type": "중소기업",
       "link": "https://thevc.kr/tab0"
     },
     {
       "name": "포인투테크놀로지",
-      "hits": 272,
+      "hits": 276,
       "type": "스타트업",
       "link": "https://thevc.kr/pointwotechnology"
     },
     {
       "name": "퓨리오사에이아이",
-      "hits": 207,
+      "hits": 218,
       "type": "스타트업",
       "link": "https://thevc.kr/furiosaai"
     },
     {
       "name": "코어16",
-      "hits": 203,
+      "hits": 208,
       "type": "스타트업",
       "link": "https://thevc.kr/core16"
     },
     {
       "name": "블루마그넷",
-      "hits": 175,
+      "hits": 180,
       "type": "중소기업",
       "link": "https://thevc.kr/bluemagnet"
     },
     {
       "name": "도시유전",
-      "hits": 156,
+      "hits": 177,
       "type": "중소기업",
       "link": "https://thevc.kr/cityoil"
     },
     {
+      "name": "니즈",
+      "hits": 158,
+      "type": "스타트업",
+      "link": "https://thevc.kr/needs"
+    },
+    {
       "name": "에스티유니타스",
-      "hits": 155,
+      "hits": 156,
       "type": "스타트업",
       "link": "https://thevc.kr/stunitas"
     },
     {
       "name": "딥엑스",
-      "hits": 153,
+      "hits": 155,
       "type": "스타트업",
       "link": "https://thevc.kr/deepx"
     },
     {
       "name": "리얼월드",
-      "hits": 144,
+      "hits": 151,
       "type": "스타트업",
       "link": "https://thevc.kr/rlwrld"
     },
     {
-      "name": "니즈",
-      "hits": 142,
-      "type": "스타트업",
-      "link": "https://thevc.kr/needs"
-    },
-    {
       "name": "더뮤즈엔터테인먼트",
-      "hits": 137,
+      "hits": 144,
       "type": "중소기업",
       "link": "https://thevc.kr/themuzeentertainment"
     },
     {
       "name": "아스테로모프",
-      "hits": 130,
+      "hits": 136,
       "type": "스타트업",
       "link": "https://thevc.kr/asteromorph"
     },
     {
       "name": "리벨리온",
-      "hits": 122,
+      "hits": 125,
       "type": "스타트업",
       "link": "https://thevc.kr/rebellions"
     },
@@ -140,26 +140,26 @@
       "link": "https://thevc.kr/standardenergy"
     },
     {
+      "name": "모드하우스",
+      "hits": 117,
+      "type": "스타트업",
+      "link": "https://thevc.kr/modhaus"
+    },
+    {
       "name": "메디프레소",
       "hits": 116,
       "type": "스타트업",
       "link": "https://thevc.kr/medipresso"
     },
     {
-      "name": "모드하우스",
-      "hits": 115,
-      "type": "스타트업",
-      "link": "https://thevc.kr/modhaus"
-    },
-    {
       "name": "홀리데이로보틱스",
-      "hits": 108,
+      "hits": 114,
       "type": "스타트업",
       "link": "https://thevc.kr/holidayrobotics"
     },
     {
       "name": "뤼튼테크놀로지스",
-      "hits": 100,
+      "hits": 105,
       "type": "스타트업",
       "link": "https://thevc.kr/wrtntechnologies"
     }
