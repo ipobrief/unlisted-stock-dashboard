@@ -1,43 +1,61 @@
 {
-  "updated_at": "2026-09-07 17:28",
+  "updated_at": "2026-09-14 09:02",
   "kotc": [
     {
-      "name": "아리바이오",
-      "code": "192230",
-      "price": "20650",
-      "change": "350",
-      "change_pct": "1.72",
-      "volume": "16904",
-      "amount": "346356700",
+      "name": "사운드백신",
+      "code": "274460",
+      "price": "67",
+      "change": "10",
+      "change_pct": "17.54",
+      "volume": "20020",
+      "amount": "1341376",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%AC%EC%9A%B4%EB%93%9C%EB%B0%B1%EC%8B%A0",
       "ranks": [
-        "거래대금"
+        "거래대금",
+        "거래량",
+        "상승률"
       ]
     },
     {
-      "name": "세메스",
-      "code": "042380",
-      "price": "640000",
-      "change": "25000",
-      "change_pct": "4.07",
-      "volume": "469",
-      "amount": "302696000",
+      "name": "한국지네틱바이오팜",
+      "code": "241140",
+      "price": "230",
+      "change": "51",
+      "change_pct": "28.49",
+      "volume": "3000",
+      "amount": "690000",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%84%B8%EB%A9%94%EC%8A%A4",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
       "ranks": [
         "거래대금",
-        "시가총액"
+        "거래량",
+        "상승률"
+      ]
+    },
+    {
+      "name": "아리바이오",
+      "code": "192230",
+      "price": "20950",
+      "change": "0",
+      "change_pct": "0.0",
+      "volume": "8",
+      "amount": "167600",
+      "platform": "K-OTC",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4",
+      "ranks": [
+        "거래대금",
+        "거래량"
       ]
     },
     {
       "name": "비보존",
       "code": "276620",
-      "price": "4245",
-      "change": "360",
-      "change_pct": "9.27",
-      "volume": "44566",
-      "amount": "181944080",
+      "price": "3920",
+      "change": "170",
+      "change_pct": "4.53",
+      "volume": "12",
+      "amount": "45840",
       "platform": "K-OTC",
       "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EB%B9%84%EB%B3%B4%EC%A1%B4",
       "ranks": [
@@ -46,156 +64,59 @@
       ]
     },
     {
-      "name": "티맥스소프트",
-      "code": "072610",
-      "price": "30050",
-      "change": "-50",
-      "change_pct": "-0.17",
-      "volume": "3584",
-      "amount": "108008350",
+      "name": "삼성메디슨",
+      "code": "018360",
+      "price": "9650",
+      "change": "140",
+      "change_pct": "1.47",
+      "volume": "2",
+      "amount": "18960",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%8B%B0%EB%A7%A5%EC%8A%A4%EC%86%8C%ED%94%84%ED%8A%B8",
-      "ranks": [
-        "거래대금"
-      ]
-    },
-    {
-      "name": "LS전선",
-      "code": "104230",
-      "price": "140500",
-      "change": "1400",
-      "change_pct": "1.01",
-      "volume": "762",
-      "amount": "106866300",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=LS%EC%A0%84%EC%84%A0",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
       "ranks": [
         "거래대금",
         "시가총액"
       ]
     },
     {
-      "name": "아이엠증권",
-      "code": "030010",
-      "price": "1020",
-      "change": "40",
-      "change_pct": "4.08",
-      "volume": "52257",
-      "amount": "52590066",
+      "name": "엔피엑스",
+      "code": "222160",
+      "price": "135",
+      "change": "6",
+      "change_pct": "4.65",
+      "volume": "4",
+      "amount": "540",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EC%9D%B4%EC%97%A0%EC%A6%9D%EA%B6%8C",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%94%ED%94%BC%EC%97%91%EC%8A%A4",
       "ranks": [
-        "거래량"
-      ]
-    },
-    {
-      "name": "사운드백신",
-      "code": "274460",
-      "price": "61",
-      "change": "-2",
-      "change_pct": "-3.17",
-      "volume": "47450",
-      "amount": "3446348",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%AC%EC%9A%B4%EB%93%9C%EB%B0%B1%EC%8B%A0",
-      "ranks": [
-        "거래량"
-      ]
-    },
-    {
-      "name": "한국지네틱바이오팜",
-      "code": "241140",
-      "price": "143",
-      "change": "-60",
-      "change_pct": "-29.56",
-      "volume": "21281",
-      "amount": "3531338",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
-      "ranks": [
-        "거래량"
-      ]
-    },
-    {
-      "name": "케이아이티",
-      "code": "040100",
-      "price": "445",
-      "change": "40",
-      "change_pct": "9.88",
-      "volume": "20511",
-      "amount": "9067340",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%BC%80%EC%9D%B4%EC%95%84%EC%9D%B4%ED%8B%B0",
-      "ranks": [
-        "거래량"
-      ]
-    },
-    {
-      "name": "디비엘",
-      "code": "041500",
-      "price": "482",
-      "change": "111",
-      "change_pct": "29.92",
-      "volume": "2",
-      "amount": "964",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EB%94%94%EB%B9%84%EC%97%98",
-      "ranks": [
+        "거래량",
         "상승률"
       ]
     },
     {
-      "name": "스마트골프",
-      "code": "268030",
-      "price": "496",
-      "change": "113",
-      "change_pct": "29.5",
-      "volume": "954",
-      "amount": "409639",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%8A%A4%EB%A7%88%ED%8A%B8%EA%B3%A8%ED%94%84",
-      "ranks": [
-        "상승률"
-      ]
-    },
-    {
-      "name": "포겟",
-      "code": "168570",
-      "price": "132",
+      "name": "아크솔루션스",
+      "code": "203690",
+      "price": "150",
       "change": "30",
-      "change_pct": "29.41",
-      "volume": "3348",
-      "amount": "441936",
+      "change_pct": "25.0",
+      "volume": "1",
+      "amount": "150",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%8F%AC%EA%B2%9F",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%ED%81%AC%EC%86%94%EB%A3%A8%EC%85%98%EC%8A%A4",
       "ranks": [
         "상승률"
       ]
     },
     {
-      "name": "에이치디씨영창",
-      "code": "001890",
-      "price": "14",
-      "change": "3",
-      "change_pct": "27.27",
-      "volume": "2507",
-      "amount": "35098",
+      "name": "에이플러스라이프",
+      "code": "141110",
+      "price": "1000",
+      "change": "150",
+      "change_pct": "17.65",
+      "volume": "1",
+      "amount": "1000",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%EC%B9%98%EB%94%94%EC%94%A8%EC%98%81%EC%B0%BD",
-      "ranks": [
-        "상승률"
-      ]
-    },
-    {
-      "name": "지에스엔텍",
-      "code": "037640",
-      "price": "619",
-      "change": "131",
-      "change_pct": "26.84",
-      "volume": "14",
-      "amount": "8666",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%A7%80%EC%97%90%EC%8A%A4%EC%97%94%ED%85%8D",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4%EB%9D%BC%EC%9D%B4%ED%94%84",
       "ranks": [
         "상승률"
       ]
@@ -206,10 +127,24 @@
       "price": "",
       "change": "0",
       "change_pct": "",
-      "volume": "2098",
+      "volume": "",
       "amount": "",
       "platform": "K-OTC",
       "url": "https://www.k-otc.or.kr/public/main/search?searchWord=SK%EC%97%90%EC%BD%94%ED%94%8C%EB%9E%9C%ED%8A%B8",
+      "ranks": [
+        "시가총액"
+      ]
+    },
+    {
+      "name": "LS전선",
+      "code": "104230",
+      "price": "",
+      "change": "0",
+      "change_pct": "",
+      "volume": "6",
+      "amount": "",
+      "platform": "K-OTC",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=LS%EC%A0%84%EC%84%A0",
       "ranks": [
         "시가총액"
       ]
@@ -229,15 +164,15 @@
       ]
     },
     {
-      "name": "삼성메디슨",
-      "code": "018360",
+      "name": "세메스",
+      "code": "042380",
       "price": "",
       "change": "0",
       "change_pct": "",
-      "volume": "9409",
+      "volume": "",
       "amount": "",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%84%B8%EB%A9%94%EC%8A%A4",
       "ranks": [
         "시가총액"
       ]
@@ -245,44 +180,12 @@
   ],
   "seoul_exchange": [
     {
-      "name": "비바리퍼블리카",
-      "code": "A285240",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 4187,
-      "category": "fintech",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
-      "ranks": [
-        "거래량",
-        "상승",
-        "인기",
-        "시총"
-      ]
-    },
-    {
-      "name": "무신사",
-      "code": "A458860",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 2076,
-      "category": "ecommerce",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
-      "ranks": [
-        "거래량",
-        "인기"
-      ]
-    },
-    {
       "name": "쎄니팡",
       "code": "A251430",
-      "price": "908",
-      "change": "108 (13.5%)",
-      "change_pct": "13.5",
-      "visit": 12195,
+      "price": "901",
+      "change": "-1 (-0.11%)",
+      "change_pct": "-0.11",
+      "visit": 21430,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EC%8E%84%EB%8B%88%ED%8C%A1-112/",
@@ -293,26 +196,12 @@
       ]
     },
     {
-      "name": "뷰텔",
-      "code": "A273220",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 318,
-      "category": "etc",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%B7%B0%ED%85%94-695/",
-      "ranks": [
-        "거래량"
-      ]
-    },
-    {
       "name": "한국산삼원",
       "code": "A498420",
-      "price": "21",
-      "change": "0 (0%)",
-      "change_pct": "0",
-      "visit": 3031,
+      "price": "54",
+      "change": "10 (22.73%)",
+      "change_pct": "22.73",
+      "visit": 5153,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%ED%95%9C%EA%B5%AD%EC%82%B0%EC%82%BC%EC%9B%90-3913/",
@@ -323,60 +212,32 @@
       ]
     },
     {
-      "name": "오아시스",
-      "code": "A370190",
-      "price": "6500",
-      "change": "-1300 (-16.67%)",
-      "change_pct": "-16.67",
-      "visit": 1170,
-      "category": "ecommerce",
+      "name": "에스엠랩",
+      "code": "A419350",
+      "price": "1031",
+      "change": "-11 (-1.06%)",
+      "change_pct": "-1.06",
+      "visit": 6122,
+      "category": "manufacturing",
       "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4-27/",
+      "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%97%A0%EB%9E%A9-48/",
       "ranks": [
-        "상승",
+        "거래량",
         "인기"
       ]
     },
     {
       "name": "야놀자",
       "code": "A350920",
-      "price": "17000",
-      "change": "-600 (-3.41%)",
-      "change_pct": "-3.41",
-      "visit": 3432,
+      "price": "14950",
+      "change": "-550 (-3.55%)",
+      "change_pct": "-3.55",
+      "visit": 2868,
       "category": "platform",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EC%95%BC%EB%86%80%EC%9E%90-6/",
       "ranks": [
-        "상승",
-        "인기"
-      ]
-    },
-    {
-      "name": "에스엠랩",
-      "code": "A419350",
-      "price": "1030",
-      "change": "0 (0%)",
-      "change_pct": "0",
-      "visit": 5439,
-      "category": "manufacturing",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/",
-      "ranks": [
-        "인기"
-      ]
-    },
-    {
-      "name": "컬리",
-      "code": "A408480",
-      "price": "27800",
-      "change": "1800 (6.92%)",
-      "change_pct": "6.92",
-      "visit": 3698,
-      "category": "ecommerce",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/",
-      "ranks": [
+        "거래량",
         "인기"
       ]
     },
@@ -386,23 +247,84 @@
       "price": "",
       "change": "",
       "change_pct": "",
-      "visit": 3179,
+      "visit": 3236,
       "category": "platform",
       "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/",
+      "url": "https://www.seoulexchange.kr/stocks/%EB%91%90%EB%82%98%EB%AC%B4-327/",
       "ranks": [
+        "거래량",
         "인기",
         "시총"
       ]
     },
     {
-      "name": "빗썸",
-      "code": "A341650",
-      "price": "180000",
+      "name": "무신사",
+      "code": "A458860",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 4491,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
+      "ranks": [
+        "상승",
+        "인기"
+      ]
+    },
+    {
+      "name": "비바리퍼블리카",
+      "code": "A285240",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 5593,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
+      "ranks": [
+        "상승",
+        "인기",
+        "시총"
+      ]
+    },
+    {
+      "name": "컬리",
+      "code": "A408480",
+      "price": "27600",
       "change": "0 (0%)",
       "change_pct": "0",
-      "visit": 1056,
-      "category": "fintech",
+      "visit": 4549,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EC%BB%AC%EB%A6%AC-3/",
+      "ranks": [
+        "상승",
+        "인기"
+      ]
+    },
+    {
+      "name": "오아시스",
+      "code": "A370190",
+      "price": "6500",
+      "change": "0 (0%)",
+      "change_pct": "0",
+      "visit": 1088,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "알바이오",
+      "code": "A003190",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 1043,
+      "category": "bio",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/",
       "ranks": [
@@ -415,7 +337,7 @@
       "price": "",
       "change": "",
       "change_pct": "",
-      "visit": 259,
+      "visit": 225,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC-889/",
@@ -429,7 +351,7 @@
       "price": "",
       "change": "",
       "change_pct": "",
-      "visit": 114,
+      "visit": 125,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EC%82%BC%EC%84%B1%EC%A4%91%EA%B3%B5%EC%9A%B0-3456/",
@@ -443,7 +365,7 @@
       "price": "",
       "change": "",
       "change_pct": "",
-      "visit": 115,
+      "visit": 85,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-212/",
@@ -456,9 +378,9 @@
     {
       "name": "두나무",
       "code": "389930",
-      "price": "269000",
-      "change_pct": "0.75",
-      "board_count": 94,
+      "price": "271000",
+      "change_pct": "-0.37",
+      "board_count": 63,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/389930",
@@ -468,14 +390,14 @@
         "상승률",
         "시총"
       ],
-      "volume": "1040"
+      "volume": "1001"
     },
     {
       "name": "무신사",
       "code": "458860",
-      "price": "24100",
-      "change_pct": "7.59",
-      "board_count": 172,
+      "price": "26400",
+      "change_pct": "-1.86",
+      "board_count": 192,
       "ipo_badge": true,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/458860",
@@ -483,34 +405,18 @@
         "거래량",
         "인기",
         "상승률",
+        "상장준비",
         "시총",
         "매출상승"
       ],
-      "volume": "1355"
-    },
-    {
-      "name": "빗썸",
-      "code": "341650",
-      "price": "184000",
-      "change_pct": "-3.16",
-      "board_count": 24,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/341650",
-      "ranks": [
-        "거래량",
-        "인기",
-        "상승률",
-        "시총"
-      ],
-      "volume": "119"
+      "volume": "1922"
     },
     {
       "name": "컬리",
       "code": "408480",
-      "price": "27600",
-      "change_pct": "0",
-      "board_count": 53,
+      "price": "26100",
+      "change_pct": "1.16",
+      "board_count": 60,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/408480",
@@ -520,45 +426,29 @@
         "상승률",
         "시총"
       ],
-      "volume": "244"
+      "volume": "1364"
     },
     {
-      "name": "셀메드",
-      "code": "238930",
-      "price": "4980",
-      "change_pct": "5.73",
-      "board_count": 27,
+      "name": "아이월드제약",
+      "code": "323530",
+      "price": "345",
+      "change_pct": "-11.54",
+      "board_count": 14,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/238930",
+      "url": "https://ustock.naver.com/stock/323530",
       "ranks": [
         "거래량",
         "인기"
       ],
-      "volume": "203"
-    },
-    {
-      "name": "오아시스",
-      "code": "370190",
-      "price": "6500",
-      "change_pct": "0",
-      "board_count": 32,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/370190",
-      "ranks": [
-        "거래량",
-        "인기",
-        "상승률"
-      ],
-      "volume": "800"
+      "volume": "4512"
     },
     {
       "name": "야놀자",
       "code": "350920",
-      "price": "16400",
-      "change_pct": "0",
-      "board_count": 93,
+      "price": "14600",
+      "change_pct": "-2.01",
+      "board_count": 58,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/350920",
@@ -568,29 +458,14 @@
         "상승률",
         "시총"
       ],
-      "volume": "14"
-    },
-    {
-      "name": "에스엠랩",
-      "code": "419350",
-      "price": "1140",
-      "change_pct": "8.57",
-      "board_count": 32,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/419350",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "741"
+      "volume": "257"
     },
     {
       "name": "에너진",
       "code": "403680",
-      "price": "2980",
-      "change_pct": "16.41",
-      "board_count": 24,
+      "price": "2600",
+      "change_pct": "-7.14",
+      "board_count": 23,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/403680",
@@ -598,91 +473,79 @@
         "거래량",
         "인기"
       ],
-      "volume": "414"
+      "volume": "111"
     },
     {
-      "name": "오리온이엔씨",
-      "code": "416920",
-      "price": "4810",
-      "change_pct": "-4.75",
-      "board_count": 14,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/416920",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "0"
-    },
-    {
-      "name": "아이월드제약",
-      "code": "323530",
-      "price": "440",
-      "change_pct": "15.79",
-      "board_count": 38,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/323530",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "300"
-    },
-    {
-      "name": "넷마블몬스터",
-      "code": "214490",
-      "price": "4390",
+      "name": "에스엠랩",
+      "code": "419350",
+      "price": "1130",
       "change_pct": "0",
-      "board_count": 7,
+      "board_count": 24,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/214490",
+      "url": "https://ustock.naver.com/stock/419350",
       "ranks": [
-        "거래량"
+        "거래량",
+        "인기"
+      ],
+      "volume": "136"
+    },
+    {
+      "name": "오아시스",
+      "code": "370190",
+      "price": "6550",
+      "change_pct": "0",
+      "board_count": 23,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/370190",
+      "ranks": [
+        "거래량",
+        "인기",
+        "상승률"
+      ],
+      "volume": "180"
+    },
+    {
+      "name": "셀메드",
+      "code": "238930",
+      "price": "4870",
+      "change_pct": "3.62",
+      "board_count": 21,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/238930",
+      "ranks": [
+        "거래량",
+        "인기"
       ],
       "volume": "1"
     },
     {
-      "name": "지아이티",
-      "code": "049450",
-      "price": "53000",
-      "change_pct": "0.95",
-      "board_count": 7,
+      "name": "케이솔루션",
+      "code": "413490",
+      "price": "6500",
+      "change_pct": "0",
+      "board_count": 9,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/049450",
+      "url": "https://ustock.naver.com/stock/413490",
       "ranks": [
+        "거래량",
         "인기",
-        "상승률",
-        "시총"
-      ]
+        "매출상승"
+      ],
+      "volume": "99"
     },
     {
-      "name": "덕산넵코어스",
-      "code": "266690",
-      "price": "19100",
-      "change_pct": "0.53",
-      "board_count": 11,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/266690",
-      "ranks": [
-        "인기",
-        "상승률",
-        "시총"
-      ]
-    },
-    {
-      "name": "비바리퍼블리카",
-      "code": "285240",
-      "price": "46000",
-      "change_pct": "2.22",
-      "board_count": 41,
+      "name": "비나우",
+      "code": "0082M0",
+      "price": "4860000",
+      "change_pct": "-0.1",
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/285240",
+      "url": "https://ustock.naver.com/stock/0082M0",
       "ranks": [
         "인기",
         "상승률",
@@ -693,9 +556,9 @@
     {
       "name": "그래핀스퀘어",
       "code": "245060",
-      "price": "67500",
-      "change_pct": "0.75",
-      "board_count": 47,
+      "price": "69500",
+      "change_pct": "2.21",
+      "board_count": 62,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/245060",
@@ -706,97 +569,10 @@
       ]
     },
     {
-      "name": "한국증권금융",
-      "code": "028820",
-      "price": "19300",
-      "change_pct": "0",
-      "board_count": 12,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/028820",
-      "ranks": [
-        "인기",
-        "상승률",
-        "시총"
-      ]
-    },
-    {
-      "name": "뷰텔",
-      "code": "273220",
-      "price": "14700",
-      "change_pct": "0",
-      "board_count": 6,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/273220",
-      "ranks": [
-        "인기"
-      ]
-    },
-    {
-      "name": "현대엔지니어링",
-      "code": "064540",
-      "price": "32000",
-      "change_pct": "0.31",
-      "board_count": 7,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/064540",
-      "ranks": [
-        "인기",
-        "상승률",
-        "시총"
-      ]
-    },
-    {
-      "name": "뉴라텍",
-      "code": "0134Y0",
-      "price": "7500",
-      "change_pct": "0",
-      "board_count": 5,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0134Y0",
-      "ranks": [
-        "인기",
-        "상승률",
-        "매출상승"
-      ]
-    },
-    {
-      "name": "알바이오",
-      "code": "003190",
-      "price": "2300",
-      "change_pct": "0",
-      "board_count": 10,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/003190",
-      "ranks": [
-        "인기",
-        "상승률",
-        "시총"
-      ]
-    },
-    {
-      "name": "에이치디현대오일뱅크",
-      "code": "004050",
-      "price": "20000",
-      "change_pct": "0",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/004050",
-      "ranks": [
-        "인기",
-        "시총"
-      ]
-    },
-    {
       "name": "에스아이플렉스",
       "code": "075050",
-      "price": "29000",
-      "change_pct": "0",
+      "price": "29600",
+      "change_pct": "-2.95",
       "board_count": 7,
       "ipo_badge": false,
       "platform": "네이버비상장",
@@ -809,11 +585,71 @@
       ]
     },
     {
+      "name": "당근마켓",
+      "code": "426920",
+      "price": "210000",
+      "change_pct": "5",
+      "board_count": 10,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/426920",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총",
+        "매출상승"
+      ]
+    },
+    {
+      "name": "아크로스",
+      "code": "268200",
+      "price": "213000",
+      "change_pct": "1.43",
+      "board_count": 3,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/268200",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "비바리퍼블리카",
+      "code": "285240",
+      "price": "50500",
+      "change_pct": "0",
+      "board_count": 30,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/285240",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총",
+        "매출상승"
+      ]
+    },
+    {
+      "name": "엔지노믹스",
+      "code": "273400",
+      "price": "9500",
+      "change_pct": "0",
+      "board_count": 1,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/273400",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
       "name": "서울로보틱스",
       "code": "0024P0",
-      "price": "7000",
+      "price": "6500",
       "change_pct": "0",
-      "board_count": 5,
+      "board_count": 9,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/0024P0",
@@ -822,22 +658,108 @@
       ]
     },
     {
-      "name": "카네비모빌리티",
-      "code": "313090",
-      "price": "4000",
-      "change_pct": "-4.76",
-      "board_count": 9,
+      "name": "버즈빌",
+      "code": "304990",
+      "price": "3500",
+      "change_pct": "0",
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/313090",
+      "url": "https://ustock.naver.com/stock/304990",
       "ranks": [
         "인기"
       ]
     },
     {
+      "name": "한국증권금융",
+      "code": "028820",
+      "price": "19500",
+      "change_pct": "0",
+      "board_count": 15,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/028820",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "덕산넵코어스",
+      "code": "266690",
+      "price": "22800",
+      "change_pct": "0",
+      "board_count": 13,
+      "ipo_badge": true,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/266690",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "성림첨단산업",
+      "code": "169310",
+      "price": "21000",
+      "change_pct": "0",
+      "board_count": 2,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/169310",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "케이티텔레캅",
+      "code": "105110",
+      "price": "10000",
+      "change_pct": "0",
+      "board_count": 3,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/105110",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "뷰텔",
+      "code": "273220",
+      "price": "15000",
+      "change_pct": "0",
+      "board_count": 3,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/273220",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "에스케이플라즈마",
+      "code": "363540",
+      "price": "26900",
+      "change_pct": "0",
+      "board_count": 12,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/363540",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
       "name": "에이치디현대삼호",
       "code": "067030",
-      "price": "225000",
+      "price": "230000",
       "change_pct": "0",
       "board_count": 5,
       "ipo_badge": false,
@@ -851,73 +773,74 @@
       ]
     },
     {
+      "name": "알바이오",
+      "code": "003190",
+      "price": "2300",
+      "change_pct": "0",
+      "board_count": 9,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/003190",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "플랜텍",
+      "code": "051310",
+      "price": "3600",
+      "change_pct": "0",
+      "board_count": 6,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/051310",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "에이스엔지니어링",
+      "code": "442140",
+      "price": "",
+      "change_pct": "",
+      "board_count": 1,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/442140",
+      "ranks": [
+        "상승률",
+        "시총"
+      ]
+    },
+    {
       "name": "노바셀테크놀로지",
       "code": "170190",
-      "price": "10000",
-      "change_pct": "0",
-      "board_count": 12,
+      "price": "",
+      "change_pct": "",
+      "board_count": 23,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/170190",
       "ranks": [
-        "인기",
         "상승률"
       ]
     },
     {
-      "name": "당근마켓",
-      "code": "426920",
-      "price": "220000",
-      "change_pct": "0",
-      "board_count": 17,
+      "name": "빗썸",
+      "code": "341650",
+      "price": "",
+      "change_pct": "",
+      "board_count": 21,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/426920",
+      "url": "https://ustock.naver.com/stock/341650",
       "ranks": [
-        "인기",
         "상승률",
-        "시총",
-        "매출상승"
-      ]
-    },
-    {
-      "name": "다원메닥스",
-      "code": "319760",
-      "price": "5000",
-      "change_pct": "0",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/319760",
-      "ranks": [
-        "인기"
-      ]
-    },
-    {
-      "name": "뱅크샐러드",
-      "code": "441000",
-      "price": "5500",
-      "change_pct": "0",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/441000",
-      "ranks": [
-        "인기"
-      ]
-    },
-    {
-      "name": "성림첨단산업",
-      "code": "169310",
-      "price": "20000",
-      "change_pct": "-3.38",
-      "board_count": 3,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/169310",
-      "ranks": [
-        "인기",
-        "상승률"
+        "시총"
       ]
     },
     {
@@ -936,31 +859,30 @@
       ]
     },
     {
-      "name": "아크로스",
-      "code": "268200",
+      "name": "텐텍",
+      "code": "448040",
       "price": "",
       "change_pct": "",
-      "board_count": 8,
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/268200",
+      "url": "https://ustock.naver.com/stock/448040",
       "ranks": [
-        "상승률",
-        "시총"
+        "상승률"
       ]
     },
     {
-      "name": "에스케이플라즈마",
-      "code": "363540",
+      "name": "뉴라텍",
+      "code": "0134Y0",
       "price": "",
       "change_pct": "",
-      "board_count": 14,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/363540",
+      "url": "https://ustock.naver.com/stock/0134Y0",
       "ranks": [
         "상승률",
-        "시총"
+        "매출상승"
       ]
     },
     {
@@ -968,23 +890,10 @@
       "code": "057160",
       "price": "",
       "change_pct": "",
-      "board_count": 3,
+      "board_count": 1,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/057160",
-      "ranks": [
-        "상승률"
-      ]
-    },
-    {
-      "name": "텐텍",
-      "code": "448040",
-      "price": "",
-      "change_pct": "",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/448040",
       "ranks": [
         "상승률"
       ]
@@ -1004,6 +913,48 @@
       ]
     },
     {
+      "name": "현대엔지니어링",
+      "code": "064540",
+      "price": "",
+      "change_pct": "",
+      "board_count": 6,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/064540",
+      "ranks": [
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "바디프랜드",
+      "code": "191390",
+      "price": "",
+      "change_pct": "",
+      "board_count": 3,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/191390",
+      "ranks": [
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "카카오모빌리티",
+      "code": "424700",
+      "price": "",
+      "change_pct": "",
+      "board_count": 6,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/424700",
+      "ranks": [
+        "상승률",
+        "시총"
+      ]
+    },
+    {
       "name": "뉴라클사이언스",
       "code": "299130",
       "price": "",
@@ -1017,61 +968,30 @@
       ]
     },
     {
-      "name": "한국신용데이터",
-      "code": "360160",
+      "name": "지아이티",
+      "code": "049450",
       "price": "",
       "change_pct": "",
-      "board_count": 5,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/360160",
-      "ranks": [
-        "상승률",
-        "시총",
-        "매출상승"
-      ]
-    },
-    {
-      "name": "카카오모빌리티",
-      "code": "424700",
-      "price": "",
-      "change_pct": "",
-      "board_count": 9,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/424700",
+      "url": "https://ustock.naver.com/stock/049450",
       "ranks": [
         "상승률",
         "시총"
       ]
     },
     {
-      "name": "비나우",
-      "code": "0082M0",
+      "name": "씨앤엠",
+      "code": "0206M0",
       "price": "",
       "change_pct": "",
-      "board_count": 2,
-      "ipo_badge": false,
+      "board_count": 0,
+      "ipo_badge": true,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0082M0",
+      "url": "https://ustock.naver.com/stock/0206M0",
       "ranks": [
-        "상승률",
-        "시총",
-        "매출상승"
-      ]
-    },
-    {
-      "name": "플랜텍",
-      "code": "051310",
-      "price": "",
-      "change_pct": "",
-      "board_count": 3,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/051310",
-      "ranks": [
-        "상승률",
-        "시총"
+        "상장준비"
       ]
     },
     {
@@ -1079,7 +999,7 @@
       "code": "497430",
       "price": "",
       "change_pct": "",
-      "board_count": 5,
+      "board_count": 2,
       "ipo_badge": true,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/497430",
@@ -1093,7 +1013,7 @@
       "code": "067430",
       "price": "",
       "change_pct": "",
-      "board_count": 7,
+      "board_count": 8,
       "ipo_badge": true,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/067430",
@@ -1219,19 +1139,6 @@
       ]
     },
     {
-      "name": "이에스티",
-      "code": "495910",
-      "price": "",
-      "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/495910",
-      "ranks": [
-        "상장준비"
-      ]
-    },
-    {
       "name": "씨엔티테크",
       "code": "315040",
       "price": "",
@@ -1258,11 +1165,24 @@
       ]
     },
     {
+      "name": "이에스티",
+      "code": "495910",
+      "price": "",
+      "change_pct": "",
+      "board_count": 1,
+      "ipo_badge": true,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/495910",
+      "ranks": [
+        "상장준비"
+      ]
+    },
+    {
       "name": "에이엔에이치스트럭쳐",
       "code": "0111R0",
       "price": "",
       "change_pct": "",
-      "board_count": 2,
+      "board_count": 4,
       "ipo_badge": true,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/0111R0",
@@ -1297,53 +1217,14 @@
       ]
     },
     {
-      "name": "바로팜",
-      "code": "0153R0",
+      "name": "에이치디현대오일뱅크",
+      "code": "004050",
       "price": "",
       "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0153R0",
-      "ranks": [
-        "상장준비"
-      ]
-    },
-    {
-      "name": "디티에스",
-      "code": "0015M0",
-      "price": "",
-      "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0015M0",
-      "ranks": [
-        "상장준비"
-      ]
-    },
-    {
-      "name": "엠에스바이오",
-      "code": "0013Y0",
-      "price": "",
-      "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0013Y0",
-      "ranks": [
-        "상장준비"
-      ]
-    },
-    {
-      "name": "토스뱅크",
-      "code": "456580",
-      "price": "",
-      "change_pct": "",
-      "board_count": 2,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/456580",
+      "url": "https://ustock.naver.com/stock/004050",
       "ranks": [
         "시총"
       ]
@@ -1353,7 +1234,7 @@
       "code": "039090",
       "price": "",
       "change_pct": "",
-      "board_count": 10,
+      "board_count": 9,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/039090",
@@ -1367,7 +1248,7 @@
       "code": "065900",
       "price": "",
       "change_pct": "",
-      "board_count": 5,
+      "board_count": 7,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/065900",
@@ -1376,27 +1257,28 @@
       ]
     },
     {
+      "name": "한국신용데이터",
+      "code": "360160",
+      "price": "",
+      "change_pct": "",
+      "board_count": 4,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/360160",
+      "ranks": [
+        "시총",
+        "매출상승"
+      ]
+    },
+    {
       "name": "자비스앤빌런즈",
       "code": "452580",
       "price": "",
       "change_pct": "",
-      "board_count": 5,
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/452580",
-      "ranks": [
-        "시총"
-      ]
-    },
-    {
-      "name": "에이스엔지니어링",
-      "code": "442140",
-      "price": "",
-      "change_pct": "",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/442140",
       "ranks": [
         "시총"
       ]
@@ -1406,7 +1288,7 @@
       "code": "438340",
       "price": "",
       "change_pct": "",
-      "board_count": 4,
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/438340",
@@ -1415,53 +1297,14 @@
       ]
     },
     {
-      "name": "바디프랜드",
-      "code": "191390",
-      "price": "",
-      "change_pct": "",
-      "board_count": 6,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/191390",
-      "ranks": [
-        "시총"
-      ]
-    },
-    {
-      "name": "에이엠에스티",
-      "code": "087400",
+      "name": "세명테크",
+      "code": "113300",
       "price": "",
       "change_pct": "",
       "board_count": 2,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/087400",
-      "ranks": [
-        "매출상승"
-      ]
-    },
-    {
-      "name": "세명테크",
-      "code": "113300",
-      "price": "",
-      "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/113300",
-      "ranks": [
-        "매출상승"
-      ]
-    },
-    {
-      "name": "케이솔루션",
-      "code": "413490",
-      "price": "",
-      "change_pct": "",
-      "board_count": 6,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/413490",
       "ranks": [
         "매출상승"
       ]
@@ -1471,7 +1314,7 @@
       "code": "345990",
       "price": "",
       "change_pct": "",
-      "board_count": 4,
+      "board_count": 5,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/345990",
@@ -1484,7 +1327,7 @@
       "code": "039330",
       "price": "",
       "change_pct": "",
-      "board_count": 6,
+      "board_count": 5,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/039330",
@@ -1497,7 +1340,7 @@
       "code": "292070",
       "price": "",
       "change_pct": "",
-      "board_count": 1,
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/292070",
@@ -1510,7 +1353,7 @@
       "code": "474630",
       "price": "",
       "change_pct": "",
-      "board_count": 2,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/474630",
@@ -1523,7 +1366,7 @@
       "code": "098790",
       "price": "",
       "change_pct": "",
-      "board_count": 2,
+      "board_count": 1,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/098790",
@@ -1575,7 +1418,7 @@
       "code": "163290",
       "price": "",
       "change_pct": "",
-      "board_count": 4,
+      "board_count": 5,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/163290",
@@ -1592,6 +1435,19 @@
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/082130",
+      "ranks": [
+        "매출상승"
+      ]
+    },
+    {
+      "name": "프리닉스",
+      "code": "295110",
+      "price": "",
+      "change_pct": "",
+      "board_count": 2,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/295110",
       "ranks": [
         "매출상승"
       ]
@@ -1627,7 +1483,7 @@
       "code": "0013S0",
       "price": "",
       "change_pct": "",
-      "board_count": 3,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/0013S0",
@@ -1640,7 +1496,7 @@
       "code": "215820",
       "price": "",
       "change_pct": "",
-      "board_count": 8,
+      "board_count": 11,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/215820",
@@ -1664,42 +1520,60 @@
   ],
   "all_stocks": [
     {
-      "name": "아리바이오",
-      "code": "192230",
-      "price": "20650",
-      "change": "350",
-      "change_pct": "1.72",
-      "volume": "16904",
-      "amount": "346356700",
+      "name": "사운드백신",
+      "code": "274460",
+      "price": "67",
+      "change": "10",
+      "change_pct": "17.54",
+      "volume": "20020",
+      "amount": "1341376",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%AC%EC%9A%B4%EB%93%9C%EB%B0%B1%EC%8B%A0",
       "ranks": [
-        "거래대금"
+        "거래대금",
+        "거래량",
+        "상승률"
       ]
     },
     {
-      "name": "세메스",
-      "code": "042380",
-      "price": "640000",
-      "change": "25000",
-      "change_pct": "4.07",
-      "volume": "469",
-      "amount": "302696000",
+      "name": "한국지네틱바이오팜",
+      "code": "241140",
+      "price": "230",
+      "change": "51",
+      "change_pct": "28.49",
+      "volume": "3000",
+      "amount": "690000",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%84%B8%EB%A9%94%EC%8A%A4",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
       "ranks": [
         "거래대금",
-        "시가총액"
+        "거래량",
+        "상승률"
+      ]
+    },
+    {
+      "name": "아리바이오",
+      "code": "192230",
+      "price": "20950",
+      "change": "0",
+      "change_pct": "0.0",
+      "volume": "8",
+      "amount": "167600",
+      "platform": "K-OTC",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4",
+      "ranks": [
+        "거래대금",
+        "거래량"
       ]
     },
     {
       "name": "비보존",
       "code": "276620",
-      "price": "4245",
-      "change": "360",
-      "change_pct": "9.27",
-      "volume": "44566",
-      "amount": "181944080",
+      "price": "3920",
+      "change": "170",
+      "change_pct": "4.53",
+      "volume": "12",
+      "amount": "45840",
       "platform": "K-OTC",
       "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EB%B9%84%EB%B3%B4%EC%A1%B4",
       "ranks": [
@@ -1708,156 +1582,59 @@
       ]
     },
     {
-      "name": "티맥스소프트",
-      "code": "072610",
-      "price": "30050",
-      "change": "-50",
-      "change_pct": "-0.17",
-      "volume": "3584",
-      "amount": "108008350",
+      "name": "삼성메디슨",
+      "code": "018360",
+      "price": "9650",
+      "change": "140",
+      "change_pct": "1.47",
+      "volume": "2",
+      "amount": "18960",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%8B%B0%EB%A7%A5%EC%8A%A4%EC%86%8C%ED%94%84%ED%8A%B8",
-      "ranks": [
-        "거래대금"
-      ]
-    },
-    {
-      "name": "LS전선",
-      "code": "104230",
-      "price": "140500",
-      "change": "1400",
-      "change_pct": "1.01",
-      "volume": "762",
-      "amount": "106866300",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=LS%EC%A0%84%EC%84%A0",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
       "ranks": [
         "거래대금",
         "시가총액"
       ]
     },
     {
-      "name": "아이엠증권",
-      "code": "030010",
-      "price": "1020",
-      "change": "40",
-      "change_pct": "4.08",
-      "volume": "52257",
-      "amount": "52590066",
+      "name": "엔피엑스",
+      "code": "222160",
+      "price": "135",
+      "change": "6",
+      "change_pct": "4.65",
+      "volume": "4",
+      "amount": "540",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EC%9D%B4%EC%97%A0%EC%A6%9D%EA%B6%8C",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%94%ED%94%BC%EC%97%91%EC%8A%A4",
       "ranks": [
-        "거래량"
-      ]
-    },
-    {
-      "name": "사운드백신",
-      "code": "274460",
-      "price": "61",
-      "change": "-2",
-      "change_pct": "-3.17",
-      "volume": "47450",
-      "amount": "3446348",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%AC%EC%9A%B4%EB%93%9C%EB%B0%B1%EC%8B%A0",
-      "ranks": [
-        "거래량"
-      ]
-    },
-    {
-      "name": "한국지네틱바이오팜",
-      "code": "241140",
-      "price": "143",
-      "change": "-60",
-      "change_pct": "-29.56",
-      "volume": "21281",
-      "amount": "3531338",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
-      "ranks": [
-        "거래량"
-      ]
-    },
-    {
-      "name": "케이아이티",
-      "code": "040100",
-      "price": "445",
-      "change": "40",
-      "change_pct": "9.88",
-      "volume": "20511",
-      "amount": "9067340",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%BC%80%EC%9D%B4%EC%95%84%EC%9D%B4%ED%8B%B0",
-      "ranks": [
-        "거래량"
-      ]
-    },
-    {
-      "name": "디비엘",
-      "code": "041500",
-      "price": "482",
-      "change": "111",
-      "change_pct": "29.92",
-      "volume": "2",
-      "amount": "964",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EB%94%94%EB%B9%84%EC%97%98",
-      "ranks": [
+        "거래량",
         "상승률"
       ]
     },
     {
-      "name": "스마트골프",
-      "code": "268030",
-      "price": "496",
-      "change": "113",
-      "change_pct": "29.5",
-      "volume": "954",
-      "amount": "409639",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%8A%A4%EB%A7%88%ED%8A%B8%EA%B3%A8%ED%94%84",
-      "ranks": [
-        "상승률"
-      ]
-    },
-    {
-      "name": "포겟",
-      "code": "168570",
-      "price": "132",
+      "name": "아크솔루션스",
+      "code": "203690",
+      "price": "150",
       "change": "30",
-      "change_pct": "29.41",
-      "volume": "3348",
-      "amount": "441936",
+      "change_pct": "25.0",
+      "volume": "1",
+      "amount": "150",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%8F%AC%EA%B2%9F",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%ED%81%AC%EC%86%94%EB%A3%A8%EC%85%98%EC%8A%A4",
       "ranks": [
         "상승률"
       ]
     },
     {
-      "name": "에이치디씨영창",
-      "code": "001890",
-      "price": "14",
-      "change": "3",
-      "change_pct": "27.27",
-      "volume": "2507",
-      "amount": "35098",
+      "name": "에이플러스라이프",
+      "code": "141110",
+      "price": "1000",
+      "change": "150",
+      "change_pct": "17.65",
+      "volume": "1",
+      "amount": "1000",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%EC%B9%98%EB%94%94%EC%94%A8%EC%98%81%EC%B0%BD",
-      "ranks": [
-        "상승률"
-      ]
-    },
-    {
-      "name": "지에스엔텍",
-      "code": "037640",
-      "price": "619",
-      "change": "131",
-      "change_pct": "26.84",
-      "volume": "14",
-      "amount": "8666",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%A7%80%EC%97%90%EC%8A%A4%EC%97%94%ED%85%8D",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4%EB%9D%BC%EC%9D%B4%ED%94%84",
       "ranks": [
         "상승률"
       ]
@@ -1868,10 +1645,24 @@
       "price": "",
       "change": "0",
       "change_pct": "",
-      "volume": "2098",
+      "volume": "",
       "amount": "",
       "platform": "K-OTC",
       "url": "https://www.k-otc.or.kr/public/main/search?searchWord=SK%EC%97%90%EC%BD%94%ED%94%8C%EB%9E%9C%ED%8A%B8",
+      "ranks": [
+        "시가총액"
+      ]
+    },
+    {
+      "name": "LS전선",
+      "code": "104230",
+      "price": "",
+      "change": "0",
+      "change_pct": "",
+      "volume": "6",
+      "amount": "",
+      "platform": "K-OTC",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=LS%EC%A0%84%EC%84%A0",
       "ranks": [
         "시가총액"
       ]
@@ -1891,58 +1682,26 @@
       ]
     },
     {
-      "name": "삼성메디슨",
-      "code": "018360",
+      "name": "세메스",
+      "code": "042380",
       "price": "",
       "change": "0",
       "change_pct": "",
-      "volume": "9409",
+      "volume": "",
       "amount": "",
       "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%84%B8%EB%A9%94%EC%8A%A4",
       "ranks": [
         "시가총액"
       ]
     },
     {
-      "name": "비바리퍼블리카",
-      "code": "A285240",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 4187,
-      "category": "fintech",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
-      "ranks": [
-        "거래량",
-        "상승",
-        "인기",
-        "시총"
-      ]
-    },
-    {
-      "name": "무신사",
-      "code": "A458860",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 2076,
-      "category": "ecommerce",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
-      "ranks": [
-        "거래량",
-        "인기"
-      ]
-    },
-    {
       "name": "쎄니팡",
       "code": "A251430",
-      "price": "908",
-      "change": "108 (13.5%)",
-      "change_pct": "13.5",
-      "visit": 12195,
+      "price": "901",
+      "change": "-1 (-0.11%)",
+      "change_pct": "-0.11",
+      "visit": 21430,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EC%8E%84%EB%8B%88%ED%8C%A1-112/",
@@ -1953,26 +1712,12 @@
       ]
     },
     {
-      "name": "뷰텔",
-      "code": "A273220",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 318,
-      "category": "etc",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%B7%B0%ED%85%94-695/",
-      "ranks": [
-        "거래량"
-      ]
-    },
-    {
       "name": "한국산삼원",
       "code": "A498420",
-      "price": "21",
-      "change": "0 (0%)",
-      "change_pct": "0",
-      "visit": 3031,
+      "price": "54",
+      "change": "10 (22.73%)",
+      "change_pct": "22.73",
+      "visit": 5153,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%ED%95%9C%EA%B5%AD%EC%82%B0%EC%82%BC%EC%9B%90-3913/",
@@ -1983,60 +1728,32 @@
       ]
     },
     {
-      "name": "오아시스",
-      "code": "A370190",
-      "price": "6500",
-      "change": "-1300 (-16.67%)",
-      "change_pct": "-16.67",
-      "visit": 1170,
-      "category": "ecommerce",
+      "name": "에스엠랩",
+      "code": "A419350",
+      "price": "1031",
+      "change": "-11 (-1.06%)",
+      "change_pct": "-1.06",
+      "visit": 6122,
+      "category": "manufacturing",
       "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4-27/",
+      "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%97%A0%EB%9E%A9-48/",
       "ranks": [
-        "상승",
+        "거래량",
         "인기"
       ]
     },
     {
       "name": "야놀자",
       "code": "A350920",
-      "price": "17000",
-      "change": "-600 (-3.41%)",
-      "change_pct": "-3.41",
-      "visit": 3432,
+      "price": "14950",
+      "change": "-550 (-3.55%)",
+      "change_pct": "-3.55",
+      "visit": 2868,
       "category": "platform",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EC%95%BC%EB%86%80%EC%9E%90-6/",
       "ranks": [
-        "상승",
-        "인기"
-      ]
-    },
-    {
-      "name": "에스엠랩",
-      "code": "A419350",
-      "price": "1030",
-      "change": "0 (0%)",
-      "change_pct": "0",
-      "visit": 5439,
-      "category": "manufacturing",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/",
-      "ranks": [
-        "인기"
-      ]
-    },
-    {
-      "name": "컬리",
-      "code": "A408480",
-      "price": "27800",
-      "change": "1800 (6.92%)",
-      "change_pct": "6.92",
-      "visit": 3698,
-      "category": "ecommerce",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/",
-      "ranks": [
+        "거래량",
         "인기"
       ]
     },
@@ -2046,23 +1763,84 @@
       "price": "",
       "change": "",
       "change_pct": "",
-      "visit": 3179,
+      "visit": 3236,
       "category": "platform",
       "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/",
+      "url": "https://www.seoulexchange.kr/stocks/%EB%91%90%EB%82%98%EB%AC%B4-327/",
       "ranks": [
+        "거래량",
         "인기",
         "시총"
       ]
     },
     {
-      "name": "빗썸",
-      "code": "A341650",
-      "price": "180000",
+      "name": "무신사",
+      "code": "A458860",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 4491,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
+      "ranks": [
+        "상승",
+        "인기"
+      ]
+    },
+    {
+      "name": "비바리퍼블리카",
+      "code": "A285240",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 5593,
+      "category": "fintech",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
+      "ranks": [
+        "상승",
+        "인기",
+        "시총"
+      ]
+    },
+    {
+      "name": "컬리",
+      "code": "A408480",
+      "price": "27600",
       "change": "0 (0%)",
       "change_pct": "0",
-      "visit": 1056,
-      "category": "fintech",
+      "visit": 4549,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EC%BB%AC%EB%A6%AC-3/",
+      "ranks": [
+        "상승",
+        "인기"
+      ]
+    },
+    {
+      "name": "오아시스",
+      "code": "A370190",
+      "price": "6500",
+      "change": "0 (0%)",
+      "change_pct": "0",
+      "visit": 1088,
+      "category": "ecommerce",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "알바이오",
+      "code": "A003190",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 1043,
+      "category": "bio",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/",
       "ranks": [
@@ -2075,7 +1853,7 @@
       "price": "",
       "change": "",
       "change_pct": "",
-      "visit": 259,
+      "visit": 225,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC-889/",
@@ -2089,7 +1867,7 @@
       "price": "",
       "change": "",
       "change_pct": "",
-      "visit": 114,
+      "visit": 125,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EC%82%BC%EC%84%B1%EC%A4%91%EA%B3%B5%EC%9A%B0-3456/",
@@ -2103,7 +1881,7 @@
       "price": "",
       "change": "",
       "change_pct": "",
-      "visit": 115,
+      "visit": 85,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-212/",
@@ -2114,9 +1892,9 @@
     {
       "name": "두나무",
       "code": "389930",
-      "price": "269000",
-      "change_pct": "0.75",
-      "board_count": 94,
+      "price": "271000",
+      "change_pct": "-0.37",
+      "board_count": 63,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/389930",
@@ -2126,14 +1904,14 @@
         "상승률",
         "시총"
       ],
-      "volume": "1040"
+      "volume": "1001"
     },
     {
       "name": "무신사",
       "code": "458860",
-      "price": "24100",
-      "change_pct": "7.59",
-      "board_count": 172,
+      "price": "26400",
+      "change_pct": "-1.86",
+      "board_count": 192,
       "ipo_badge": true,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/458860",
@@ -2141,34 +1919,18 @@
         "거래량",
         "인기",
         "상승률",
+        "상장준비",
         "시총",
         "매출상승"
       ],
-      "volume": "1355"
-    },
-    {
-      "name": "빗썸",
-      "code": "341650",
-      "price": "184000",
-      "change_pct": "-3.16",
-      "board_count": 24,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/341650",
-      "ranks": [
-        "거래량",
-        "인기",
-        "상승률",
-        "시총"
-      ],
-      "volume": "119"
+      "volume": "1922"
     },
     {
       "name": "컬리",
       "code": "408480",
-      "price": "27600",
-      "change_pct": "0",
-      "board_count": 53,
+      "price": "26100",
+      "change_pct": "1.16",
+      "board_count": 60,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/408480",
@@ -2178,45 +1940,29 @@
         "상승률",
         "시총"
       ],
-      "volume": "244"
+      "volume": "1364"
     },
     {
-      "name": "셀메드",
-      "code": "238930",
-      "price": "4980",
-      "change_pct": "5.73",
-      "board_count": 27,
+      "name": "아이월드제약",
+      "code": "323530",
+      "price": "345",
+      "change_pct": "-11.54",
+      "board_count": 14,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/238930",
+      "url": "https://ustock.naver.com/stock/323530",
       "ranks": [
         "거래량",
         "인기"
       ],
-      "volume": "203"
-    },
-    {
-      "name": "오아시스",
-      "code": "370190",
-      "price": "6500",
-      "change_pct": "0",
-      "board_count": 32,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/370190",
-      "ranks": [
-        "거래량",
-        "인기",
-        "상승률"
-      ],
-      "volume": "800"
+      "volume": "4512"
     },
     {
       "name": "야놀자",
       "code": "350920",
-      "price": "16400",
-      "change_pct": "0",
-      "board_count": 93,
+      "price": "14600",
+      "change_pct": "-2.01",
+      "board_count": 58,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/350920",
@@ -2226,29 +1972,14 @@
         "상승률",
         "시총"
       ],
-      "volume": "14"
-    },
-    {
-      "name": "에스엠랩",
-      "code": "419350",
-      "price": "1140",
-      "change_pct": "8.57",
-      "board_count": 32,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/419350",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "741"
+      "volume": "257"
     },
     {
       "name": "에너진",
       "code": "403680",
-      "price": "2980",
-      "change_pct": "16.41",
-      "board_count": 24,
+      "price": "2600",
+      "change_pct": "-7.14",
+      "board_count": 23,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/403680",
@@ -2256,91 +1987,79 @@
         "거래량",
         "인기"
       ],
-      "volume": "414"
+      "volume": "111"
     },
     {
-      "name": "오리온이엔씨",
-      "code": "416920",
-      "price": "4810",
-      "change_pct": "-4.75",
-      "board_count": 14,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/416920",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "0"
-    },
-    {
-      "name": "아이월드제약",
-      "code": "323530",
-      "price": "440",
-      "change_pct": "15.79",
-      "board_count": 38,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/323530",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "300"
-    },
-    {
-      "name": "넷마블몬스터",
-      "code": "214490",
-      "price": "4390",
+      "name": "에스엠랩",
+      "code": "419350",
+      "price": "1130",
       "change_pct": "0",
-      "board_count": 7,
+      "board_count": 24,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/214490",
+      "url": "https://ustock.naver.com/stock/419350",
       "ranks": [
-        "거래량"
+        "거래량",
+        "인기"
+      ],
+      "volume": "136"
+    },
+    {
+      "name": "오아시스",
+      "code": "370190",
+      "price": "6550",
+      "change_pct": "0",
+      "board_count": 23,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/370190",
+      "ranks": [
+        "거래량",
+        "인기",
+        "상승률"
+      ],
+      "volume": "180"
+    },
+    {
+      "name": "셀메드",
+      "code": "238930",
+      "price": "4870",
+      "change_pct": "3.62",
+      "board_count": 21,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/238930",
+      "ranks": [
+        "거래량",
+        "인기"
       ],
       "volume": "1"
     },
     {
-      "name": "지아이티",
-      "code": "049450",
-      "price": "53000",
-      "change_pct": "0.95",
-      "board_count": 7,
+      "name": "케이솔루션",
+      "code": "413490",
+      "price": "6500",
+      "change_pct": "0",
+      "board_count": 9,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/049450",
+      "url": "https://ustock.naver.com/stock/413490",
       "ranks": [
+        "거래량",
         "인기",
-        "상승률",
-        "시총"
-      ]
+        "매출상승"
+      ],
+      "volume": "99"
     },
     {
-      "name": "덕산넵코어스",
-      "code": "266690",
-      "price": "19100",
-      "change_pct": "0.53",
-      "board_count": 11,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/266690",
-      "ranks": [
-        "인기",
-        "상승률",
-        "시총"
-      ]
-    },
-    {
-      "name": "비바리퍼블리카",
-      "code": "285240",
-      "price": "46000",
-      "change_pct": "2.22",
-      "board_count": 41,
+      "name": "비나우",
+      "code": "0082M0",
+      "price": "4860000",
+      "change_pct": "-0.1",
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/285240",
+      "url": "https://ustock.naver.com/stock/0082M0",
       "ranks": [
         "인기",
         "상승률",
@@ -2351,9 +2070,9 @@
     {
       "name": "그래핀스퀘어",
       "code": "245060",
-      "price": "67500",
-      "change_pct": "0.75",
-      "board_count": 47,
+      "price": "69500",
+      "change_pct": "2.21",
+      "board_count": 62,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/245060",
@@ -2364,97 +2083,10 @@
       ]
     },
     {
-      "name": "한국증권금융",
-      "code": "028820",
-      "price": "19300",
-      "change_pct": "0",
-      "board_count": 12,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/028820",
-      "ranks": [
-        "인기",
-        "상승률",
-        "시총"
-      ]
-    },
-    {
-      "name": "뷰텔",
-      "code": "273220",
-      "price": "14700",
-      "change_pct": "0",
-      "board_count": 6,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/273220",
-      "ranks": [
-        "인기"
-      ]
-    },
-    {
-      "name": "현대엔지니어링",
-      "code": "064540",
-      "price": "32000",
-      "change_pct": "0.31",
-      "board_count": 7,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/064540",
-      "ranks": [
-        "인기",
-        "상승률",
-        "시총"
-      ]
-    },
-    {
-      "name": "뉴라텍",
-      "code": "0134Y0",
-      "price": "7500",
-      "change_pct": "0",
-      "board_count": 5,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0134Y0",
-      "ranks": [
-        "인기",
-        "상승률",
-        "매출상승"
-      ]
-    },
-    {
-      "name": "알바이오",
-      "code": "003190",
-      "price": "2300",
-      "change_pct": "0",
-      "board_count": 10,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/003190",
-      "ranks": [
-        "인기",
-        "상승률",
-        "시총"
-      ]
-    },
-    {
-      "name": "에이치디현대오일뱅크",
-      "code": "004050",
-      "price": "20000",
-      "change_pct": "0",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/004050",
-      "ranks": [
-        "인기",
-        "시총"
-      ]
-    },
-    {
       "name": "에스아이플렉스",
       "code": "075050",
-      "price": "29000",
-      "change_pct": "0",
+      "price": "29600",
+      "change_pct": "-2.95",
       "board_count": 7,
       "ipo_badge": false,
       "platform": "네이버비상장",
@@ -2467,11 +2099,71 @@
       ]
     },
     {
+      "name": "당근마켓",
+      "code": "426920",
+      "price": "210000",
+      "change_pct": "5",
+      "board_count": 10,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/426920",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총",
+        "매출상승"
+      ]
+    },
+    {
+      "name": "아크로스",
+      "code": "268200",
+      "price": "213000",
+      "change_pct": "1.43",
+      "board_count": 3,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/268200",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "비바리퍼블리카",
+      "code": "285240",
+      "price": "50500",
+      "change_pct": "0",
+      "board_count": 30,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/285240",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총",
+        "매출상승"
+      ]
+    },
+    {
+      "name": "엔지노믹스",
+      "code": "273400",
+      "price": "9500",
+      "change_pct": "0",
+      "board_count": 1,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/273400",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
       "name": "서울로보틱스",
       "code": "0024P0",
-      "price": "7000",
+      "price": "6500",
       "change_pct": "0",
-      "board_count": 5,
+      "board_count": 9,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/0024P0",
@@ -2480,22 +2172,108 @@
       ]
     },
     {
-      "name": "카네비모빌리티",
-      "code": "313090",
-      "price": "4000",
-      "change_pct": "-4.76",
-      "board_count": 9,
+      "name": "버즈빌",
+      "code": "304990",
+      "price": "3500",
+      "change_pct": "0",
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/313090",
+      "url": "https://ustock.naver.com/stock/304990",
       "ranks": [
         "인기"
       ]
     },
     {
+      "name": "한국증권금융",
+      "code": "028820",
+      "price": "19500",
+      "change_pct": "0",
+      "board_count": 15,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/028820",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "덕산넵코어스",
+      "code": "266690",
+      "price": "22800",
+      "change_pct": "0",
+      "board_count": 13,
+      "ipo_badge": true,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/266690",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "성림첨단산업",
+      "code": "169310",
+      "price": "21000",
+      "change_pct": "0",
+      "board_count": 2,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/169310",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "케이티텔레캅",
+      "code": "105110",
+      "price": "10000",
+      "change_pct": "0",
+      "board_count": 3,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/105110",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "뷰텔",
+      "code": "273220",
+      "price": "15000",
+      "change_pct": "0",
+      "board_count": 3,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/273220",
+      "ranks": [
+        "인기"
+      ]
+    },
+    {
+      "name": "에스케이플라즈마",
+      "code": "363540",
+      "price": "26900",
+      "change_pct": "0",
+      "board_count": 12,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/363540",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
       "name": "에이치디현대삼호",
       "code": "067030",
-      "price": "225000",
+      "price": "230000",
       "change_pct": "0",
       "board_count": 5,
       "ipo_badge": false,
@@ -2509,73 +2287,74 @@
       ]
     },
     {
+      "name": "알바이오",
+      "code": "003190",
+      "price": "2300",
+      "change_pct": "0",
+      "board_count": 9,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/003190",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "플랜텍",
+      "code": "051310",
+      "price": "3600",
+      "change_pct": "0",
+      "board_count": 6,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/051310",
+      "ranks": [
+        "인기",
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "에이스엔지니어링",
+      "code": "442140",
+      "price": "",
+      "change_pct": "",
+      "board_count": 1,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/442140",
+      "ranks": [
+        "상승률",
+        "시총"
+      ]
+    },
+    {
       "name": "노바셀테크놀로지",
       "code": "170190",
-      "price": "10000",
-      "change_pct": "0",
-      "board_count": 12,
+      "price": "",
+      "change_pct": "",
+      "board_count": 23,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/170190",
       "ranks": [
-        "인기",
         "상승률"
       ]
     },
     {
-      "name": "당근마켓",
-      "code": "426920",
-      "price": "220000",
-      "change_pct": "0",
-      "board_count": 17,
+      "name": "빗썸",
+      "code": "341650",
+      "price": "",
+      "change_pct": "",
+      "board_count": 21,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/426920",
+      "url": "https://ustock.naver.com/stock/341650",
       "ranks": [
-        "인기",
         "상승률",
-        "시총",
-        "매출상승"
-      ]
-    },
-    {
-      "name": "다원메닥스",
-      "code": "319760",
-      "price": "5000",
-      "change_pct": "0",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/319760",
-      "ranks": [
-        "인기"
-      ]
-    },
-    {
-      "name": "뱅크샐러드",
-      "code": "441000",
-      "price": "5500",
-      "change_pct": "0",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/441000",
-      "ranks": [
-        "인기"
-      ]
-    },
-    {
-      "name": "성림첨단산업",
-      "code": "169310",
-      "price": "20000",
-      "change_pct": "-3.38",
-      "board_count": 3,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/169310",
-      "ranks": [
-        "인기",
-        "상승률"
+        "시총"
       ]
     },
     {
@@ -2594,31 +2373,30 @@
       ]
     },
     {
-      "name": "아크로스",
-      "code": "268200",
+      "name": "텐텍",
+      "code": "448040",
       "price": "",
       "change_pct": "",
-      "board_count": 8,
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/268200",
+      "url": "https://ustock.naver.com/stock/448040",
       "ranks": [
-        "상승률",
-        "시총"
+        "상승률"
       ]
     },
     {
-      "name": "에스케이플라즈마",
-      "code": "363540",
+      "name": "뉴라텍",
+      "code": "0134Y0",
       "price": "",
       "change_pct": "",
-      "board_count": 14,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/363540",
+      "url": "https://ustock.naver.com/stock/0134Y0",
       "ranks": [
         "상승률",
-        "시총"
+        "매출상승"
       ]
     },
     {
@@ -2626,23 +2404,10 @@
       "code": "057160",
       "price": "",
       "change_pct": "",
-      "board_count": 3,
+      "board_count": 1,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/057160",
-      "ranks": [
-        "상승률"
-      ]
-    },
-    {
-      "name": "텐텍",
-      "code": "448040",
-      "price": "",
-      "change_pct": "",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/448040",
       "ranks": [
         "상승률"
       ]
@@ -2662,6 +2427,48 @@
       ]
     },
     {
+      "name": "현대엔지니어링",
+      "code": "064540",
+      "price": "",
+      "change_pct": "",
+      "board_count": 6,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/064540",
+      "ranks": [
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "바디프랜드",
+      "code": "191390",
+      "price": "",
+      "change_pct": "",
+      "board_count": 3,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/191390",
+      "ranks": [
+        "상승률",
+        "시총"
+      ]
+    },
+    {
+      "name": "카카오모빌리티",
+      "code": "424700",
+      "price": "",
+      "change_pct": "",
+      "board_count": 6,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/424700",
+      "ranks": [
+        "상승률",
+        "시총"
+      ]
+    },
+    {
       "name": "뉴라클사이언스",
       "code": "299130",
       "price": "",
@@ -2675,61 +2482,30 @@
       ]
     },
     {
-      "name": "한국신용데이터",
-      "code": "360160",
+      "name": "지아이티",
+      "code": "049450",
       "price": "",
       "change_pct": "",
-      "board_count": 5,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/360160",
-      "ranks": [
-        "상승률",
-        "시총",
-        "매출상승"
-      ]
-    },
-    {
-      "name": "카카오모빌리티",
-      "code": "424700",
-      "price": "",
-      "change_pct": "",
-      "board_count": 9,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/424700",
+      "url": "https://ustock.naver.com/stock/049450",
       "ranks": [
         "상승률",
         "시총"
       ]
     },
     {
-      "name": "비나우",
-      "code": "0082M0",
+      "name": "씨앤엠",
+      "code": "0206M0",
       "price": "",
       "change_pct": "",
-      "board_count": 2,
-      "ipo_badge": false,
+      "board_count": 0,
+      "ipo_badge": true,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0082M0",
+      "url": "https://ustock.naver.com/stock/0206M0",
       "ranks": [
-        "상승률",
-        "시총",
-        "매출상승"
-      ]
-    },
-    {
-      "name": "플랜텍",
-      "code": "051310",
-      "price": "",
-      "change_pct": "",
-      "board_count": 3,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/051310",
-      "ranks": [
-        "상승률",
-        "시총"
+        "상장준비"
       ]
     },
     {
@@ -2737,7 +2513,7 @@
       "code": "497430",
       "price": "",
       "change_pct": "",
-      "board_count": 5,
+      "board_count": 2,
       "ipo_badge": true,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/497430",
@@ -2751,7 +2527,7 @@
       "code": "067430",
       "price": "",
       "change_pct": "",
-      "board_count": 7,
+      "board_count": 8,
       "ipo_badge": true,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/067430",
@@ -2877,19 +2653,6 @@
       ]
     },
     {
-      "name": "이에스티",
-      "code": "495910",
-      "price": "",
-      "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/495910",
-      "ranks": [
-        "상장준비"
-      ]
-    },
-    {
       "name": "씨엔티테크",
       "code": "315040",
       "price": "",
@@ -2916,11 +2679,24 @@
       ]
     },
     {
+      "name": "이에스티",
+      "code": "495910",
+      "price": "",
+      "change_pct": "",
+      "board_count": 1,
+      "ipo_badge": true,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/495910",
+      "ranks": [
+        "상장준비"
+      ]
+    },
+    {
       "name": "에이엔에이치스트럭쳐",
       "code": "0111R0",
       "price": "",
       "change_pct": "",
-      "board_count": 2,
+      "board_count": 4,
       "ipo_badge": true,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/0111R0",
@@ -2955,53 +2731,14 @@
       ]
     },
     {
-      "name": "바로팜",
-      "code": "0153R0",
+      "name": "에이치디현대오일뱅크",
+      "code": "004050",
       "price": "",
       "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0153R0",
-      "ranks": [
-        "상장준비"
-      ]
-    },
-    {
-      "name": "디티에스",
-      "code": "0015M0",
-      "price": "",
-      "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0015M0",
-      "ranks": [
-        "상장준비"
-      ]
-    },
-    {
-      "name": "엠에스바이오",
-      "code": "0013Y0",
-      "price": "",
-      "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/0013Y0",
-      "ranks": [
-        "상장준비"
-      ]
-    },
-    {
-      "name": "토스뱅크",
-      "code": "456580",
-      "price": "",
-      "change_pct": "",
-      "board_count": 2,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/456580",
+      "url": "https://ustock.naver.com/stock/004050",
       "ranks": [
         "시총"
       ]
@@ -3011,7 +2748,7 @@
       "code": "039090",
       "price": "",
       "change_pct": "",
-      "board_count": 10,
+      "board_count": 9,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/039090",
@@ -3025,7 +2762,7 @@
       "code": "065900",
       "price": "",
       "change_pct": "",
-      "board_count": 5,
+      "board_count": 7,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/065900",
@@ -3034,27 +2771,28 @@
       ]
     },
     {
+      "name": "한국신용데이터",
+      "code": "360160",
+      "price": "",
+      "change_pct": "",
+      "board_count": 4,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/360160",
+      "ranks": [
+        "시총",
+        "매출상승"
+      ]
+    },
+    {
       "name": "자비스앤빌런즈",
       "code": "452580",
       "price": "",
       "change_pct": "",
-      "board_count": 5,
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/452580",
-      "ranks": [
-        "시총"
-      ]
-    },
-    {
-      "name": "에이스엔지니어링",
-      "code": "442140",
-      "price": "",
-      "change_pct": "",
-      "board_count": 2,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/442140",
       "ranks": [
         "시총"
       ]
@@ -3064,7 +2802,7 @@
       "code": "438340",
       "price": "",
       "change_pct": "",
-      "board_count": 4,
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/438340",
@@ -3073,53 +2811,14 @@
       ]
     },
     {
-      "name": "바디프랜드",
-      "code": "191390",
-      "price": "",
-      "change_pct": "",
-      "board_count": 6,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/191390",
-      "ranks": [
-        "시총"
-      ]
-    },
-    {
-      "name": "에이엠에스티",
-      "code": "087400",
+      "name": "세명테크",
+      "code": "113300",
       "price": "",
       "change_pct": "",
       "board_count": 2,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/087400",
-      "ranks": [
-        "매출상승"
-      ]
-    },
-    {
-      "name": "세명테크",
-      "code": "113300",
-      "price": "",
-      "change_pct": "",
-      "board_count": 1,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/113300",
-      "ranks": [
-        "매출상승"
-      ]
-    },
-    {
-      "name": "케이솔루션",
-      "code": "413490",
-      "price": "",
-      "change_pct": "",
-      "board_count": 6,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/413490",
       "ranks": [
         "매출상승"
       ]
@@ -3129,7 +2828,7 @@
       "code": "345990",
       "price": "",
       "change_pct": "",
-      "board_count": 4,
+      "board_count": 5,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/345990",
@@ -3142,7 +2841,7 @@
       "code": "039330",
       "price": "",
       "change_pct": "",
-      "board_count": 6,
+      "board_count": 5,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/039330",
@@ -3155,7 +2854,7 @@
       "code": "292070",
       "price": "",
       "change_pct": "",
-      "board_count": 1,
+      "board_count": 3,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/292070",
@@ -3168,7 +2867,7 @@
       "code": "474630",
       "price": "",
       "change_pct": "",
-      "board_count": 2,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/474630",
@@ -3181,7 +2880,7 @@
       "code": "098790",
       "price": "",
       "change_pct": "",
-      "board_count": 2,
+      "board_count": 1,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/098790",
@@ -3233,7 +2932,7 @@
       "code": "163290",
       "price": "",
       "change_pct": "",
-      "board_count": 4,
+      "board_count": 5,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/163290",
@@ -3250,6 +2949,19 @@
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/082130",
+      "ranks": [
+        "매출상승"
+      ]
+    },
+    {
+      "name": "프리닉스",
+      "code": "295110",
+      "price": "",
+      "change_pct": "",
+      "board_count": 2,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/295110",
       "ranks": [
         "매출상승"
       ]
@@ -3285,7 +2997,7 @@
       "code": "0013S0",
       "price": "",
       "change_pct": "",
-      "board_count": 3,
+      "board_count": 4,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/0013S0",
@@ -3298,7 +3010,7 @@
       "code": "215820",
       "price": "",
       "change_pct": "",
-      "board_count": 8,
+      "board_count": 11,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/215820",
@@ -3322,173 +3034,28 @@
   ],
   "volume_spikes": [
     {
-      "name": "아이엠증권",
-      "code": "030010",
-      "price": "1020",
-      "change": "40",
-      "change_pct": "4.08",
-      "volume": "52257",
-      "amount": "52590066",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EC%9D%B4%EC%97%A0%EC%A6%9D%EA%B6%8C",
-      "ranks": [
-        "거래량"
-      ],
-      "volume_int": 52257
-    },
-    {
       "name": "사운드백신",
       "code": "274460",
-      "price": "61",
-      "change": "-2",
-      "change_pct": "-3.17",
-      "volume": "47450",
-      "amount": "3446348",
+      "price": "67",
+      "change": "10",
+      "change_pct": "17.54",
+      "volume": "20020",
+      "amount": "1341376",
       "platform": "K-OTC",
       "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%AC%EC%9A%B4%EB%93%9C%EB%B0%B1%EC%8B%A0",
       "ranks": [
-        "거래량"
-      ],
-      "volume_int": 47450
-    },
-    {
-      "name": "비보존",
-      "code": "276620",
-      "price": "4245",
-      "change": "360",
-      "change_pct": "9.27",
-      "volume": "44566",
-      "amount": "181944080",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EB%B9%84%EB%B3%B4%EC%A1%B4",
-      "ranks": [
         "거래대금",
-        "거래량"
-      ],
-      "volume_int": 44566
-    },
-    {
-      "name": "한국지네틱바이오팜",
-      "code": "241140",
-      "price": "143",
-      "change": "-60",
-      "change_pct": "-29.56",
-      "volume": "21281",
-      "amount": "3531338",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
-      "ranks": [
-        "거래량"
-      ],
-      "volume_int": 21281
-    },
-    {
-      "name": "케이아이티",
-      "code": "040100",
-      "price": "445",
-      "change": "40",
-      "change_pct": "9.88",
-      "volume": "20511",
-      "amount": "9067340",
-      "platform": "K-OTC",
-      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%BC%80%EC%9D%B4%EC%95%84%EC%9D%B4%ED%8B%B0",
-      "ranks": [
-        "거래량"
-      ],
-      "volume_int": 20511
-    },
-    {
-      "name": "무신사",
-      "code": "458860",
-      "price": "24100",
-      "change_pct": "7.59",
-      "board_count": 172,
-      "ipo_badge": true,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/458860",
-      "ranks": [
         "거래량",
-        "인기",
-        "상승률",
-        "시총",
-        "매출상승"
-      ],
-      "volume": "1355",
-      "volume_int": 1355
-    },
-    {
-      "name": "두나무",
-      "code": "389930",
-      "price": "269000",
-      "change_pct": "0.75",
-      "board_count": 94,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/389930",
-      "ranks": [
-        "거래량",
-        "인기",
-        "상승률",
-        "시총"
-      ],
-      "volume": "1040",
-      "volume_int": 1040
-    },
-    {
-      "name": "오아시스",
-      "code": "370190",
-      "price": "6500",
-      "change_pct": "0",
-      "board_count": 32,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/370190",
-      "ranks": [
-        "거래량",
-        "인기",
         "상승률"
       ],
-      "volume": "800",
-      "volume_int": 800
-    },
-    {
-      "name": "에스엠랩",
-      "code": "419350",
-      "price": "1140",
-      "change_pct": "8.57",
-      "board_count": 32,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/419350",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "741",
-      "volume_int": 741
-    },
-    {
-      "name": "에너진",
-      "code": "403680",
-      "price": "2980",
-      "change_pct": "16.41",
-      "board_count": 24,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/403680",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "414",
-      "volume_int": 414
+      "volume_int": 20020
     },
     {
       "name": "아이월드제약",
       "code": "323530",
-      "price": "440",
-      "change_pct": "15.79",
-      "board_count": 38,
+      "price": "345",
+      "change_pct": "-11.54",
+      "board_count": 14,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/323530",
@@ -3496,15 +3063,52 @@
         "거래량",
         "인기"
       ],
-      "volume": "300",
-      "volume_int": 300
+      "volume": "4512",
+      "volume_int": 4512
+    },
+    {
+      "name": "한국지네틱바이오팜",
+      "code": "241140",
+      "price": "230",
+      "change": "51",
+      "change_pct": "28.49",
+      "volume": "3000",
+      "amount": "690000",
+      "platform": "K-OTC",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
+      "ranks": [
+        "거래대금",
+        "거래량",
+        "상승률"
+      ],
+      "volume_int": 3000
+    },
+    {
+      "name": "무신사",
+      "code": "458860",
+      "price": "26400",
+      "change_pct": "-1.86",
+      "board_count": 192,
+      "ipo_badge": true,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/458860",
+      "ranks": [
+        "거래량",
+        "인기",
+        "상승률",
+        "상장준비",
+        "시총",
+        "매출상승"
+      ],
+      "volume": "1922",
+      "volume_int": 1922
     },
     {
       "name": "컬리",
       "code": "408480",
-      "price": "27600",
-      "change_pct": "0",
-      "board_count": 53,
+      "price": "26100",
+      "change_pct": "1.16",
+      "board_count": 60,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/408480",
@@ -3514,49 +3118,33 @@
         "상승률",
         "시총"
       ],
-      "volume": "244",
-      "volume_int": 244
+      "volume": "1364",
+      "volume_int": 1364
     },
     {
-      "name": "셀메드",
-      "code": "238930",
-      "price": "4980",
-      "change_pct": "5.73",
-      "board_count": 27,
+      "name": "두나무",
+      "code": "389930",
+      "price": "271000",
+      "change_pct": "-0.37",
+      "board_count": 63,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/238930",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume": "203",
-      "volume_int": 203
-    },
-    {
-      "name": "빗썸",
-      "code": "341650",
-      "price": "184000",
-      "change_pct": "-3.16",
-      "board_count": 24,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/341650",
+      "url": "https://ustock.naver.com/stock/389930",
       "ranks": [
         "거래량",
         "인기",
         "상승률",
         "시총"
       ],
-      "volume": "119",
-      "volume_int": 119
+      "volume": "1001",
+      "volume_int": 1001
     },
     {
       "name": "야놀자",
       "code": "350920",
-      "price": "16400",
-      "change_pct": "0",
-      "board_count": 93,
+      "price": "14600",
+      "change_pct": "-2.01",
+      "board_count": 58,
       "ipo_badge": false,
       "platform": "네이버비상장",
       "url": "https://ustock.naver.com/stock/350920",
@@ -3566,65 +3154,146 @@
         "상승률",
         "시총"
       ],
-      "volume": "14",
-      "volume_int": 14
+      "volume": "257",
+      "volume_int": 257
     },
     {
-      "name": "넷마블몬스터",
-      "code": "214490",
-      "price": "4390",
+      "name": "오아시스",
+      "code": "370190",
+      "price": "6550",
       "change_pct": "0",
-      "board_count": 7,
+      "board_count": 23,
       "ipo_badge": false,
       "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/214490",
+      "url": "https://ustock.naver.com/stock/370190",
       "ranks": [
+        "거래량",
+        "인기",
+        "상승률"
+      ],
+      "volume": "180",
+      "volume_int": 180
+    },
+    {
+      "name": "에스엠랩",
+      "code": "419350",
+      "price": "1130",
+      "change_pct": "0",
+      "board_count": 24,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/419350",
+      "ranks": [
+        "거래량",
+        "인기"
+      ],
+      "volume": "136",
+      "volume_int": 136
+    },
+    {
+      "name": "에너진",
+      "code": "403680",
+      "price": "2600",
+      "change_pct": "-7.14",
+      "board_count": 23,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/403680",
+      "ranks": [
+        "거래량",
+        "인기"
+      ],
+      "volume": "111",
+      "volume_int": 111
+    },
+    {
+      "name": "케이솔루션",
+      "code": "413490",
+      "price": "6500",
+      "change_pct": "0",
+      "board_count": 9,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/413490",
+      "ranks": [
+        "거래량",
+        "인기",
+        "매출상승"
+      ],
+      "volume": "99",
+      "volume_int": 99
+    },
+    {
+      "name": "비보존",
+      "code": "276620",
+      "price": "3920",
+      "change": "170",
+      "change_pct": "4.53",
+      "volume": "12",
+      "amount": "45840",
+      "platform": "K-OTC",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EB%B9%84%EB%B3%B4%EC%A1%B4",
+      "ranks": [
+        "거래대금",
         "거래량"
+      ],
+      "volume_int": 12
+    },
+    {
+      "name": "아리바이오",
+      "code": "192230",
+      "price": "20950",
+      "change": "0",
+      "change_pct": "0.0",
+      "volume": "8",
+      "amount": "167600",
+      "platform": "K-OTC",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4",
+      "ranks": [
+        "거래대금",
+        "거래량"
+      ],
+      "volume_int": 8
+    },
+    {
+      "name": "엔피엑스",
+      "code": "222160",
+      "price": "135",
+      "change": "6",
+      "change_pct": "4.65",
+      "volume": "4",
+      "amount": "540",
+      "platform": "K-OTC",
+      "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%94%ED%94%BC%EC%97%91%EC%8A%A4",
+      "ranks": [
+        "거래량",
+        "상승률"
+      ],
+      "volume_int": 4
+    },
+    {
+      "name": "셀메드",
+      "code": "238930",
+      "price": "4870",
+      "change_pct": "3.62",
+      "board_count": 21,
+      "ipo_badge": false,
+      "platform": "네이버비상장",
+      "url": "https://ustock.naver.com/stock/238930",
+      "ranks": [
+        "거래량",
+        "인기"
       ],
       "volume": "1",
       "volume_int": 1
     },
     {
-      "name": "비바리퍼블리카",
-      "code": "A285240",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 4187,
-      "category": "fintech",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
-      "ranks": [
-        "거래량",
-        "상승",
-        "인기",
-        "시총"
-      ],
-      "volume_int": 0
-    },
-    {
-      "name": "무신사",
-      "code": "A458860",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 2076,
-      "category": "ecommerce",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
-      "ranks": [
-        "거래량",
-        "인기"
-      ],
-      "volume_int": 0
-    },
-    {
       "name": "쎄니팡",
       "code": "A251430",
-      "price": "908",
-      "change": "108 (13.5%)",
-      "change_pct": "13.5",
-      "visit": 12195,
+      "price": "901",
+      "change": "-1 (-0.11%)",
+      "change_pct": "-0.11",
+      "visit": 21430,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%EC%8E%84%EB%8B%88%ED%8C%A1-112/",
@@ -3636,27 +3305,12 @@
       "volume_int": 0
     },
     {
-      "name": "뷰텔",
-      "code": "A273220",
-      "price": "",
-      "change": "",
-      "change_pct": "",
-      "visit": 318,
-      "category": "etc",
-      "platform": "서울거래소",
-      "url": "https://www.seoulexchange.kr/stocks/%EB%B7%B0%ED%85%94-695/",
-      "ranks": [
-        "거래량"
-      ],
-      "volume_int": 0
-    },
-    {
       "name": "한국산삼원",
       "code": "A498420",
-      "price": "21",
-      "change": "0 (0%)",
-      "change_pct": "0",
-      "visit": 3031,
+      "price": "54",
+      "change": "10 (22.73%)",
+      "change_pct": "22.73",
+      "visit": 5153,
       "category": "etc",
       "platform": "서울거래소",
       "url": "https://www.seoulexchange.kr/stocks/%ED%95%9C%EA%B5%AD%EC%82%B0%EC%82%BC%EC%9B%90-3913/",
@@ -3668,29 +3322,78 @@
       "volume_int": 0
     },
     {
-      "name": "오리온이엔씨",
-      "code": "416920",
-      "price": "4810",
-      "change_pct": "-4.75",
-      "board_count": 14,
-      "ipo_badge": false,
-      "platform": "네이버비상장",
-      "url": "https://ustock.naver.com/stock/416920",
+      "name": "에스엠랩",
+      "code": "A419350",
+      "price": "1031",
+      "change": "-11 (-1.06%)",
+      "change_pct": "-1.06",
+      "visit": 6122,
+      "category": "manufacturing",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%97%A0%EB%9E%A9-48/",
       "ranks": [
         "거래량",
         "인기"
       ],
-      "volume": "0",
+      "volume_int": 0
+    },
+    {
+      "name": "야놀자",
+      "code": "A350920",
+      "price": "14950",
+      "change": "-550 (-3.55%)",
+      "change_pct": "-3.55",
+      "visit": 2868,
+      "category": "platform",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EC%95%BC%EB%86%80%EC%9E%90-6/",
+      "ranks": [
+        "거래량",
+        "인기"
+      ],
+      "volume_int": 0
+    },
+    {
+      "name": "두나무",
+      "code": "A389930",
+      "price": "",
+      "change": "",
+      "change_pct": "",
+      "visit": 3236,
+      "category": "platform",
+      "platform": "서울거래소",
+      "url": "https://www.seoulexchange.kr/stocks/%EB%91%90%EB%82%98%EB%AC%B4-327/",
+      "ranks": [
+        "거래량",
+        "인기",
+        "시총"
+      ],
       "volume_int": 0
     }
   ],
   "ready_to_ipo": [
     {
+      "name": "씨앤엠",
+      "code": "0206M0",
+      "ipo_state": "EXAMINATION_REQUESTED",
+      "base_date": "2026-09-08",
+      "rank": 1,
+      "url": "https://ustock.naver.com/stock/0206M0"
+    },
+    {
+      "name": "무신사",
+      "code": "458860",
+      "ipo_state": "EXAMINATION_REQUESTED",
+      "base_date": "2026-09-07",
+      "rank": 2,
+      "url": "https://ustock.naver.com/stock/458860"
+    },
+    {
       "name": "어피닛",
       "code": "497430",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-08-18",
-      "rank": 1,
+      "rank": 3,
       "url": "https://ustock.naver.com/stock/497430"
     },
     {
@@ -3698,7 +3401,7 @@
       "code": "067430",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-08-04",
-      "rank": 2,
+      "rank": 4,
       "url": "https://ustock.naver.com/stock/067430"
     },
     {
@@ -3706,7 +3409,7 @@
       "code": "345290",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-07-31",
-      "rank": 3,
+      "rank": 5,
       "url": "https://ustock.naver.com/stock/345290"
     },
     {
@@ -3714,7 +3417,7 @@
       "code": "370850",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-07-31",
-      "rank": 4,
+      "rank": 6,
       "url": "https://ustock.naver.com/stock/370850"
     },
     {
@@ -3722,7 +3425,7 @@
       "code": "083030",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-07-24",
-      "rank": 5,
+      "rank": 7,
       "url": "https://ustock.naver.com/stock/083030"
     },
     {
@@ -3730,7 +3433,7 @@
       "code": "459650",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-07-09",
-      "rank": 6,
+      "rank": 8,
       "url": "https://ustock.naver.com/stock/459650"
     },
     {
@@ -3738,7 +3441,7 @@
       "code": "0155D0",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-06-30",
-      "rank": 7,
+      "rank": 9,
       "url": "https://ustock.naver.com/stock/0155D0"
     },
     {
@@ -3746,7 +3449,7 @@
       "code": "0161Y0",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-06-30",
-      "rank": 8,
+      "rank": 10,
       "url": "https://ustock.naver.com/stock/0161Y0"
     },
     {
@@ -3754,7 +3457,7 @@
       "code": "0008D0",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-06-26",
-      "rank": 9,
+      "rank": 11,
       "url": "https://ustock.naver.com/stock/0008D0"
     },
     {
@@ -3762,7 +3465,7 @@
       "code": "088920",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-06-25",
-      "rank": 10,
+      "rank": 12,
       "url": "https://ustock.naver.com/stock/088920"
     },
     {
@@ -3770,23 +3473,15 @@
       "code": "404130",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-06-19",
-      "rank": 11,
+      "rank": 13,
       "url": "https://ustock.naver.com/stock/404130"
-    },
-    {
-      "name": "이에스티",
-      "code": "495910",
-      "ipo_state": "EXAMINATION_REQUESTED",
-      "base_date": "2026-06-19",
-      "rank": 12,
-      "url": "https://ustock.naver.com/stock/495910"
     },
     {
       "name": "씨엔티테크",
       "code": "315040",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-06-11",
-      "rank": 13,
+      "rank": 14,
       "url": "https://ustock.naver.com/stock/315040"
     },
     {
@@ -3794,15 +3489,23 @@
       "code": "219730",
       "ipo_state": "EXAMINATION_REQUESTED",
       "base_date": "2026-05-21",
-      "rank": 14,
+      "rank": 15,
       "url": "https://ustock.naver.com/stock/219730"
+    },
+    {
+      "name": "이에스티",
+      "code": "495910",
+      "ipo_state": "EXAMINATION_ACCEPTED",
+      "base_date": "2026-09-11",
+      "rank": 16,
+      "url": "https://ustock.naver.com/stock/495910"
     },
     {
       "name": "에이엔에이치스트럭쳐",
       "code": "0111R0",
       "ipo_state": "EXAMINATION_ACCEPTED",
       "base_date": "2026-09-03",
-      "rank": 15,
+      "rank": 17,
       "url": "https://ustock.naver.com/stock/0111R0"
     },
     {
@@ -3810,7 +3513,7 @@
       "code": "420610",
       "ipo_state": "EXAMINATION_ACCEPTED",
       "base_date": "2026-09-03",
-      "rank": 16,
+      "rank": 18,
       "url": "https://ustock.naver.com/stock/420610"
     },
     {
@@ -3818,42 +3521,11 @@
       "code": "271160",
       "ipo_state": "EXAMINATION_ACCEPTED",
       "base_date": "2026-08-28",
-      "rank": 17,
-      "url": "https://ustock.naver.com/stock/271160"
-    },
-    {
-      "name": "바로팜",
-      "code": "0153R0",
-      "ipo_state": "EXAMINATION_ACCEPTED",
-      "base_date": "2026-08-12",
-      "rank": 18,
-      "url": "https://ustock.naver.com/stock/0153R0"
-    },
-    {
-      "name": "디티에스",
-      "code": "0015M0",
-      "ipo_state": "EXAMINATION_ACCEPTED",
-      "base_date": "2026-07-20",
       "rank": 19,
-      "url": "https://ustock.naver.com/stock/0015M0"
-    },
-    {
-      "name": "엠에스바이오",
-      "code": "0013Y0",
-      "ipo_state": "OFFER_SUBSCRIPTION",
-      "base_date": "2026-10-12",
-      "rank": 20,
-      "url": "https://ustock.naver.com/stock/0013Y0"
+      "url": "https://ustock.naver.com/stock/271160"
     }
   ],
   "revenue_up": [
-    {
-      "name": "에이엠에스티",
-      "code": "087400",
-      "revenue_rate": 109.9,
-      "rank": null,
-      "url": "https://ustock.naver.com/stock/087400"
-    },
     {
       "name": "뉴라텍",
       "code": "0134Y0",
@@ -3988,6 +3660,13 @@
       "url": "https://ustock.naver.com/stock/458860"
     },
     {
+      "name": "프리닉스",
+      "code": "295110",
+      "revenue_rate": 17.02,
+      "rank": null,
+      "url": "https://ustock.naver.com/stock/295110"
+    },
+    {
       "name": "현대트랜시스",
       "code": "039090",
       "revenue_rate": 16.42,
@@ -4059,12 +3738,12 @@
     }
   ],
   "summary": {
-    "kotc_count": 17,
-    "seoul_count": 14,
-    "naver_count": 87,
-    "total": 118,
-    "volume_spike_count": 22,
-    "ready_to_ipo_count": 20,
+    "kotc_count": 12,
+    "seoul_count": 13,
+    "naver_count": 82,
+    "total": 107,
+    "volume_spike_count": 20,
+    "ready_to_ipo_count": 19,
     "revenue_up_count": 30
   }
 }
