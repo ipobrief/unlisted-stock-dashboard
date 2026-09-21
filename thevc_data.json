@@ -1,78 +1,90 @@
 {
-  "updated_at": "2026-09-14 09:02",
+  "updated_at": "2026-09-21 09:00",
   "home_investments": [],
   "ranking": [
     {
-      "name": "비드래프트",
-      "hits": 48,
-      "type": "중소기업",
-      "link": "https://thevc.kr/vidraft"
-    },
-    {
-      "name": "로칼",
-      "hits": 47,
-      "type": "스타트업",
-      "link": "https://thevc.kr/loekal"
-    },
-    {
-      "name": "퓨리오사에이아이",
-      "hits": 42,
-      "type": "스타트업",
-      "link": "https://thevc.kr/furiosaai"
-    },
-    {
-      "name": "지투지바이오",
-      "hits": 42,
-      "type": "스타트업",
-      "link": "https://thevc.kr/g2gbio"
-    },
-    {
-      "name": "에이럭스",
-      "hits": 41,
-      "type": "스타트업",
-      "link": "https://thevc.kr/alux"
-    },
-    {
-      "name": "앤트로픽",
-      "hits": 41,
-      "type": "스타트업",
-      "link": "https://thevc.kr/anthropic"
-    },
-    {
       "name": "딥엑스",
-      "hits": 41,
+      "hits": 50,
       "type": "스타트업",
       "link": "https://thevc.kr/deepx"
     },
     {
-      "name": "플랫포스",
-      "hits": 40,
-      "type": "스타트업",
-      "link": "https://thevc.kr/platfos"
-    },
-    {
-      "name": "코넥스트",
-      "hits": 40,
-      "type": "중소기업",
-      "link": "https://thevc.kr/connext"
-    },
-    {
-      "name": "뤼튼테크놀로지스",
-      "hits": 39,
-      "type": "스타트업",
-      "link": "https://thevc.kr/wrtntechnologies"
-    },
-    {
       "name": "바인드",
-      "hits": 39,
+      "hits": 48,
       "type": "스타트업",
       "link": "https://thevc.kr/bind"
     },
     {
-      "name": "컬리",
+      "name": "에이에프더블유파트너스",
+      "hits": 46,
+      "type": "사모투자회사",
+      "link": "https://thevc.kr/afwpartners"
+    },
+    {
+      "name": "지투지바이오",
+      "hits": 45,
+      "type": "스타트업",
+      "link": "https://thevc.kr/g2gbio"
+    },
+    {
+      "name": "리얼월드",
+      "hits": 43,
+      "type": "스타트업",
+      "link": "https://thevc.kr/rlwrld"
+    },
+    {
+      "name": "뤼튼테크놀로지스",
+      "hits": 42,
+      "type": "스타트업",
+      "link": "https://thevc.kr/wrtntechnologies"
+    },
+    {
+      "name": "호석촌",
+      "hits": 41,
+      "type": "중소기업",
+      "link": "https://thevc.kr/hoseokchon"
+    },
+    {
+      "name": "에이아이쓰리",
+      "hits": 41,
+      "type": "스타트업",
+      "link": "https://thevc.kr/ai3"
+    },
+    {
+      "name": "팀프레시",
+      "hits": 39,
+      "type": "스타트업",
+      "link": "https://thevc.kr/teamfresh"
+    },
+    {
+      "name": "카나프테라퓨틱스",
       "hits": 38,
       "type": "스타트업",
-      "link": "https://thevc.kr/kurly"
+      "link": "https://thevc.kr/kanaphtherapeutics"
+    },
+    {
+      "name": "에이럭스",
+      "hits": 38,
+      "type": "스타트업",
+      "link": "https://thevc.kr/alux"
+    },
+    {
+      "name": "업스테이지",
+      "hits": 38,
+      "type": "스타트업",
+      "link": "https://thevc.kr/upstage"
+    },
+    {
+      "name": "서치오에스에이아이",
+      "hits": 38,
+      "type": "중소기업",
+      "link": "https://thevc.kr/searchosai"
+    },
+    {
+      "name": "퓨리오사에이아이",
+      "hits": 37,
+      "type": "스타트업",
+      "link": "https://thevc.kr/furiosaai"
     },
     {
       "name": "뉴넥스",
@@ -81,46 +93,34 @@
       "link": "https://thevc.kr/newnex"
     },
     {
-      "name": "리얼월드",
-      "hits": 36,
+      "name": "앤트로픽",
+      "hits": 37,
       "type": "스타트업",
-      "link": "https://thevc.kr/rlwrld"
-    },
-    {
-      "name": "업스테이지",
-      "hits": 36,
-      "type": "스타트업",
-      "link": "https://thevc.kr/upstage"
-    },
-    {
-      "name": "아정네트웍스",
-      "hits": 36,
-      "type": "중소기업",
-      "link": "https://thevc.kr/ajungnetworks"
+      "link": "https://thevc.kr/anthropic"
     },
     {
       "name": "리벨리온",
-      "hits": 33,
+      "hits": 34,
       "type": "스타트업",
       "link": "https://thevc.kr/rebellions"
     },
     {
-      "name": "카나프테라퓨틱스",
-      "hits": 32,
-      "type": "스타트업",
-      "link": "https://thevc.kr/kanaphtherapeutics"
-    },
-    {
-      "name": "서치오에스에이아이",
+      "name": "코넥스트",
       "hits": 32,
       "type": "중소기업",
-      "link": "https://thevc.kr/searchosai"
+      "link": "https://thevc.kr/connext"
     },
     {
-      "name": "팀프레시",
+      "name": "아정네트웍스",
+      "hits": 32,
+      "type": "중소기업",
+      "link": "https://thevc.kr/ajungnetworks"
+    },
+    {
+      "name": "컬리",
       "hits": 31,
       "type": "스타트업",
-      "link": "https://thevc.kr/teamfresh"
+      "link": "https://thevc.kr/kurly"
     }
   ],
   "recent_investments": [],
