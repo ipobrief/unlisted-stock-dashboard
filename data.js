@@ -1,66 +1,103 @@
 const DASHBOARD_DATA = {
-  "updated_at": "2026-09-21 09:00",
+  "updated_at": "2026-09-28 09:01",
   "news": {
-    "updated_at": "2026-09-21 09:00",
+    "updated_at": "2026-09-28 09:00",
     "keyword_stats": {
       "IPO 지정감사": 16,
-      "상장 주관사선정": 19,
-      "상장 주관사계약": 20,
-      "상장 주간사선정": 19,
+      "상장 주관사선정": 16,
+      "상장 주관사계약": 18,
+      "상장 주간사선정": 16,
       "상장 주간사계약": 18,
-      "프리IPO": 16,
-      "pre ipo": 18,
-      "pre-ipo": 18,
-      "VC 투자유치": 14,
-      "벤처캐피탈 투자유치": 13,
-      "투자유치 시리즈": 14
+      "프리IPO": 18,
+      "pre ipo": 21,
+      "pre-ipo": 21,
+      "VC 투자유치": 20,
+      "벤처캐피탈 투자유치": 15,
+      "투자유치 시리즈": 18
     },
-    "total_articles": 185,
+    "total_articles": 197,
     "top_companies": [
       {
-        "name": "더벨새",
-        "mention_count": 7,
+        "name": "솔리다임",
+        "mention_count": 8,
         "keywords": [
-          "VC 투자유치",
-          "벤처캐피탈 투자유치",
           "상장 주간사선정",
           "상장 주관사계약",
           "상장 주관사선정",
-          "투자유치 시리즈",
           "프리IPO"
         ],
         "articles": [
           {
-            "title": "더벨새 창 열림",
-            "link": "https://www.thebell.co.kr/",
+            "title": "솔리다임 200조 몸값…SK하닉의 셈법새 창 열림",
+            "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=868249",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "더벨새 창 열림",
-            "link": "https://www.thebell.co.kr/",
+            "title": "솔리다임, 내년 美상장추진새 창 열림",
+            "link": "https://www.hankyung.com/article/2026092776191",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "솔리다임 ‘1500억달러’의 조건…SK하이닉스그룹 eSSD 매출 86% 늘어도 ...새 창 열림",
+            "link": "http://sateconomy.co.kr/news/view/1065550825371205",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
           },
           {
-            "title": "더벨새 창 열림",
-            "link": "https://www.thebell.co.kr/",
+            "title": "[김대호 진단] 솔리다임 쪼개기상장... SK하이닉스 최태원의 배신?새 창 열림",
+            "link": "https://www.g-enews.com/view.php?ud=202609260854114205906806b77b_1",
+            "keyword": "상장 주관사계약",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "'203조 몸값' 솔리다임 美상장?...하이닉스 주가엔 '악재 vs 호재'새 창 열림",
+            "link": "https://www.mt.co.kr/world/2026/09/26/2026092613073039770",
+            "keyword": "상장 주관사계약",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "이투데이새",
+        "mention_count": 4,
+        "keywords": [
+          "IPO 지정감사",
+          "VC 투자유치",
+          "상장 주간사선정",
+          "상장 주관사선정"
+        ],
+        "articles": [
+          {
+            "title": "이투데이새 창 열림",
+            "link": "http://www.etoday.co.kr",
+            "keyword": "IPO 지정감사",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "이투데이새 창 열림",
+            "link": "http://www.etoday.co.kr",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "이투데이새 창 열림",
+            "link": "http://www.etoday.co.kr",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "더벨새 창 열림",
-            "link": "https://www.thebell.co.kr/",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "더벨새 창 열림",
-            "link": "https://www.thebell.co.kr/",
+            "title": "이투데이새 창 열림",
+            "link": "http://www.etoday.co.kr",
             "keyword": "VC 투자유치",
             "source": "",
             "date": ""
@@ -68,31 +105,37 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "슬로우뉴스새",
-        "mention_count": 3,
+        "name": "사회공헌",
+        "mention_count": 4,
         "keywords": [
-          "IPO 지정감사",
           "pre ipo",
           "pre-ipo"
         ],
         "articles": [
           {
-            "title": "슬로우뉴스새 창 열림",
-            "link": "http://slownews.kr/",
-            "keyword": "IPO 지정감사",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "슬로우뉴스새 창 열림",
-            "link": "http://slownews.kr/",
+            "title": "금융권, 추석 앞두고 '상생·사회공헌' 행보 확대…미래 성장 기반 확보...새 창 열림",
+            "link": "http://www.dailypop.kr/news/articleView.html?idxno=102860",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "슬로우뉴스새 창 열림",
-            "link": "http://slownews.kr/",
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "금융권, 추석 앞두고 '상생·사회공헌' 행보 확대…미래 성장 기반 확보...새 창 열림",
+            "link": "http://www.dailypop.kr/news/articleView.html?idxno=102860",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -100,7 +143,77 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "인사이트새",
+        "name": "IBK기업은행",
+        "mention_count": 4,
+        "keywords": [
+          "pre ipo",
+          "pre-ipo"
+        ],
+        "articles": [
+          {
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "IBK기업은행, 산업은행과 1200억원 규모 'Pre-IPO펀드' 조성새 창 열림",
+            "link": "https://www.womentimes.co.kr/news/articleView.html?idxno=106443",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "IBK기업은행, 산업은행과 1200억원 규모 'Pre-IPO펀드' 조성새 창 열림",
+            "link": "https://www.womentimes.co.kr/news/articleView.html?idxno=106443",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "한스경제새",
+        "mention_count": 3,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정",
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "한스경제새 창 열림",
+            "link": "http://www.hansbiz.co.kr/",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "한스경제새 창 열림",
+            "link": "http://www.hansbiz.co.kr/",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "한스경제새 창 열림",
+            "link": "http://www.hansbiz.co.kr/",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "디지털투데이새",
         "mention_count": 3,
         "keywords": [
           "상장 주간사선정",
@@ -109,22 +222,22 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "인사이트새 창 열림",
-            "link": "http://www.insight.co.kr",
+            "title": "디지털투데이새 창 열림",
+            "link": "http://www.digitaltoday.co.kr/",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "인사이트새 창 열림",
-            "link": "http://www.insight.co.kr",
+            "title": "디지털투데이새 창 열림",
+            "link": "http://www.digitaltoday.co.kr/",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
           },
           {
-            "title": "인사이트새 창 열림",
-            "link": "http://www.insight.co.kr",
+            "title": "디지털투데이새 창 열림",
+            "link": "http://www.digitaltoday.co.kr/",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -132,7 +245,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "구다이글로벌",
+        "name": "새로운",
         "mention_count": 3,
         "keywords": [
           "상장 주간사선정",
@@ -141,23 +254,119 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "구다이글로벌 '10조 IPO'...공모가 기준 밑돌면 FI 전환주식 늘어난다새 창 열림",
-            "link": "https://www.insight.co.kr/news/574249",
+            "title": "[AI핫이슈] 새로운 AI 모델의 탄생...메타 '뮤즈' 초반 돌풍새 창 열림",
+            "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=703070",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "구다이글로벌 '10조 IPO'...공모가 기준 밑돌면 FI 전환주식 늘어난다새 창 열림",
-            "link": "https://www.insight.co.kr/news/574249",
+            "title": "[AI핫이슈] 새로운 AI 모델의 탄생...메타 '뮤즈' 초반 돌풍새 창 열림",
+            "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=703070",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
           },
           {
-            "title": "구다이글로벌 '10조 IPO'...공모가 기준 밑돌면 FI 전환주식 늘어난다새 창 열림",
-            "link": "https://www.insight.co.kr/news/574249",
+            "title": "[AI핫이슈] 새로운 AI 모델의 탄생...메타 '뮤즈' 초반 돌풍새 창 열림",
+            "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=703070",
             "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "FETV새",
+        "mention_count": 3,
+        "keywords": [
+          "상장 주간사선정",
+          "상장 주관사선정",
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "FETV새 창 열림",
+            "link": "https://www.fetv.co.kr/",
+            "keyword": "상장 주관사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "FETV새 창 열림",
+            "link": "https://www.fetv.co.kr/",
+            "keyword": "상장 주간사선정",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "FETV새 창 열림",
+            "link": "https://www.fetv.co.kr/",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "아시아투데이새",
+        "mention_count": 3,
+        "keywords": [
+          "pre ipo",
+          "pre-ipo",
+          "상장 주관사계약"
+        ],
+        "articles": [
+          {
+            "title": "아시아투데이새 창 열림",
+            "link": "http://www.asiatoday.co.kr",
+            "keyword": "상장 주관사계약",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "아시아투데이새 창 열림",
+            "link": "http://www.asiatoday.co.kr",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "아시아투데이새 창 열림",
+            "link": "http://www.asiatoday.co.kr",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "글로벌이코노믹새",
+        "mention_count": 3,
+        "keywords": [
+          "상장 주간사계약",
+          "상장 주관사계약",
+          "투자유치 시리즈"
+        ],
+        "articles": [
+          {
+            "title": "글로벌이코노믹새 창 열림",
+            "link": "http://www.g-enews.com/",
+            "keyword": "상장 주관사계약",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "글로벌이코노믹새 창 열림",
+            "link": "http://www.g-enews.com/",
+            "keyword": "상장 주간사계약",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "글로벌이코노믹새 창 열림",
+            "link": "http://www.g-enews.com/",
+            "keyword": "투자유치 시리즈",
             "source": "",
             "date": ""
           }
@@ -167,130 +376,36 @@ const DASHBOARD_DATA = {
         "name": "머니투데이방송새",
         "mention_count": 3,
         "keywords": [
-          "상장 주간사선정",
-          "상장 주관사계약",
-          "상장 주관사선정"
+          "pre ipo",
+          "pre-ipo",
+          "벤처캐피탈 투자유치"
         ],
         "articles": [
           {
             "title": "머니투데이방송새 창 열림",
             "link": "https://news.mtn.co.kr/",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "머니투데이방송새 창 열림",
-            "link": "https://news.mtn.co.kr/",
-            "keyword": "상장 주관사계약",
+            "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
             "title": "머니투데이방송새 창 열림",
             "link": "https://news.mtn.co.kr/",
-            "keyword": "상장 주간사선정",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "머니투데이방송새 창 열림",
+            "link": "https://news.mtn.co.kr/",
+            "keyword": "벤처캐피탈 투자유치",
             "source": "",
             "date": ""
           }
         ]
       },
       {
-        "name": "뉴욕증시",
-        "mention_count": 3,
-        "keywords": [
-          "상장 주관사계약"
-        ],
-        "articles": [
-          {
-            "title": "네오클라우드 엔스케일, 엔비디아 지원으로 뉴욕증시상장추진새 창 열림",
-            "link": "https://www.aitimes.com/news/articleView.html?idxno=215489",
-            "keyword": "상장 주관사계약",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "엔비디아 투자사 엔스케일, 美 뉴욕증시상장신청새 창 열림",
-            "link": "https://www.gokorea.kr/news/articleView.html?idxno=879118",
-            "keyword": "상장 주관사계약",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "네오클라우드 엔스케일, 뉴욕증시상장신청…현재 기업가치 146억 달러새 창 열림",
-            "link": "https://www.mediapen.com/news/view/1124733",
-            "keyword": "상장 주관사계약",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "리벨리온",
-        "mention_count": 3,
-        "keywords": [
-          "VC 투자유치",
-          "투자유치 시리즈",
-          "프리IPO"
-        ],
-        "articles": [
-          {
-            "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-            "link": "https://www.news1.kr/industry/sb-founded/6296515",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-            "link": "https://www.news1.kr/industry/sb-founded/6296515",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-            "link": "https://www.news1.kr/industry/sb-founded/6296515",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "퓨리오사AI",
-        "mention_count": 3,
-        "keywords": [
-          "VC 투자유치",
-          "투자유치 시리즈",
-          "프리IPO"
-        ],
-        "articles": [
-          {
-            "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-            "link": "https://www.news1.kr/industry/sb-founded/6296515",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-            "link": "https://www.news1.kr/industry/sb-founded/6296515",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-            "link": "https://www.news1.kr/industry/sb-founded/6296515",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "트웰브랩스",
+        "name": "더벨새",
         "mention_count": 3,
         "keywords": [
           "VC 투자유치",
@@ -299,22 +414,22 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[더벨][AI 스타트업 in 실리콘밸리] 트웰브랩스, 미국서 키운 영상 AI…...새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171240540080103750",
+            "title": "더벨새 창 열림",
+            "link": "https://www.thebell.co.kr/",
             "keyword": "VC 투자유치",
             "source": "",
             "date": ""
           },
           {
-            "title": "[더벨][AI 스타트업 in 실리콘밸리] 트웰브랩스, 미국서 키운 영상 AI…...새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171240540080103750",
+            "title": "더벨새 창 열림",
+            "link": "https://www.thebell.co.kr/",
             "keyword": "벤처캐피탈 투자유치",
             "source": "",
             "date": ""
           },
           {
-            "title": "[더벨][AI 스타트업 in 실리콘밸리] 트웰브랩스, 미국서 키운 영상 AI…...새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171240540080103750",
+            "title": "더벨새 창 열림",
+            "link": "https://www.thebell.co.kr/",
             "keyword": "투자유치 시리즈",
             "source": "",
             "date": ""
@@ -322,7 +437,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "코스포",
+        "name": "김영준",
         "mention_count": 3,
         "keywords": [
           "VC 투자유치",
@@ -331,22 +446,22 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[더벨][코스포 in 제주] 코스포, 제주 스타트업투자기회 확대…지역 유...새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609201019169640106936",
+            "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 김영준 중진공 소장...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609220845307140108979",
             "keyword": "VC 투자유치",
             "source": "",
             "date": ""
           },
           {
-            "title": "[더벨][코스포 in 제주] 코스포, 제주 스타트업투자기회 확대…지역 유...새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609201019169640106936",
+            "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 김영준 중진공 소장...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609220845307140108979",
             "keyword": "벤처캐피탈 투자유치",
             "source": "",
             "date": ""
           },
           {
-            "title": "[더벨][코스포 in 제주] 코스포, 제주 스타트업투자기회 확대…지역 유...새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609201019169640106936",
+            "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 김영준 중진공 소장...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609220845307140108979",
             "keyword": "투자유치 시리즈",
             "source": "",
             "date": ""
@@ -354,7 +469,63 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "아이씨티케이",
+        "name": "빅밸류",
+        "mention_count": 3,
+        "keywords": [
+          "VC 투자유치",
+          "벤처캐피탈 투자유치",
+          "투자유치 시리즈"
+        ],
+        "articles": [
+          {
+            "title": "[더벨][건설부동산 AX 기업 돋보기] 빅밸류 '복덕방 가재', 주거용 부동...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171609056920103934",
+            "keyword": "VC 투자유치",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "[더벨][건설부동산 AX 기업 돋보기] 빅밸류 '복덕방 가재', 주거용 부동...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171609056920103934",
+            "keyword": "벤처캐피탈 투자유치",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "[더벨][건설부동산 AX 기업 돋보기] 빅밸류 '복덕방 가재', 주거용 부동...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171609056920103934",
+            "keyword": "투자유치 시리즈",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "메트로신문새",
+        "mention_count": 2,
+        "keywords": [
+          "IPO 지정감사",
+          "VC 투자유치"
+        ],
+        "articles": [
+          {
+            "title": "메트로신문새 창 열림",
+            "link": "http://www.metroseoul.co.kr",
+            "keyword": "IPO 지정감사",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "메트로신문새 창 열림",
+            "link": "http://www.metroseoul.co.kr",
+            "keyword": "VC 투자유치",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "스마트비즈새",
         "mention_count": 2,
         "keywords": [
           "상장 주간사선정",
@@ -362,15 +533,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "아이씨티케이,상장후 실적 목표 줄줄이 미달새 창 열림",
-            "link": "https://www.sidae.com/article/2026091815024319581",
+            "title": "스마트비즈새 창 열림",
+            "link": "https://www.smartbizn.com/",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "아이씨티케이,상장후 실적 목표 줄줄이 미달새 창 열림",
-            "link": "https://www.sidae.com/article/2026091815024319581",
+            "title": "스마트비즈새 창 열림",
+            "link": "https://www.smartbizn.com/",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -378,7 +549,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "AI기업",
+        "name": "오늘시장",
         "mention_count": 2,
         "keywords": [
           "상장 주간사선정",
@@ -386,15 +557,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "AI 기업 줄줄이 증시로…하반기 IPO '실적 검증대'새 창 열림",
-            "link": "https://news.mtn.co.kr/news-detail/2026091814183622624",
+            "title": "[MUST KNOW5]오늘 시장은 'LG전자'·'삼전·SK하닉'...투자자가 알아야 할...새 창 열림",
+            "link": "https://www.edaily.co.kr/News/Read?newsId=01830246645584712&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "AI 기업 줄줄이 증시로…하반기 IPO '실적 검증대'새 창 열림",
-            "link": "https://news.mtn.co.kr/news-detail/2026091814183622624",
+            "title": "[MUST KNOW5]오늘 시장은 'LG전자'·'삼전·SK하닉'...투자자가 알아야 할...새 창 열림",
+            "link": "https://www.edaily.co.kr/News/Read?newsId=01830246645584712&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -402,7 +573,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "일요신문새",
+        "name": "SK하닉",
         "mention_count": 2,
         "keywords": [
           "상장 주간사선정",
@@ -410,15 +581,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "일요신문새 창 열림",
-            "link": "https://www.ilyo.co.kr/",
+            "title": "[MUST KNOW5]오늘 시장은 'LG전자'·'삼전·SK하닉'...투자자가 알아야 할...새 창 열림",
+            "link": "https://www.edaily.co.kr/News/Read?newsId=01830246645584712&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "일요신문새 창 열림",
-            "link": "https://www.ilyo.co.kr/",
+            "title": "[MUST KNOW5]오늘 시장은 'LG전자'·'삼전·SK하닉'...투자자가 알아야 할...새 창 열림",
+            "link": "https://www.edaily.co.kr/News/Read?newsId=01830246645584712&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -426,7 +597,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "운동화",
+        "name": "인텔리빅스",
         "mention_count": 2,
         "keywords": [
           "상장 주간사선정",
@@ -434,15 +605,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "운동화 커뮤니티에서 패션·뷰티 플랫폼으로…무신사, 8조 몸값 인정받...새 창 열림",
-            "link": "https://ilyo.co.kr/?ac=article_view&entry_id=512795",
+            "title": "[인텔리빅스 IPO] ③'PER'로 몸값 산정, 흑자가 이뤄낸 성과새 창 열림",
+            "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "운동화 커뮤니티에서 패션·뷰티 플랫폼으로…무신사, 8조 몸값 인정받...새 창 열림",
-            "link": "https://ilyo.co.kr/?ac=article_view&entry_id=512795",
+            "title": "[인텔리빅스 IPO] ③'PER'로 몸값 산정, 흑자가 이뤄낸 성과새 창 열림",
+            "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -450,7 +621,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "패션",
+        "name": "③'PER'로",
         "mention_count": 2,
         "keywords": [
           "상장 주간사선정",
@@ -458,15 +629,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "운동화 커뮤니티에서 패션·뷰티 플랫폼으로…무신사, 8조 몸값 인정받...새 창 열림",
-            "link": "https://ilyo.co.kr/?ac=article_view&entry_id=512795",
+            "title": "[인텔리빅스 IPO] ③'PER'로 몸값 산정, 흑자가 이뤄낸 성과새 창 열림",
+            "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "운동화 커뮤니티에서 패션·뷰티 플랫폼으로…무신사, 8조 몸값 인정받...새 창 열림",
-            "link": "https://ilyo.co.kr/?ac=article_view&entry_id=512795",
+            "title": "[인텔리빅스 IPO] ③'PER'로 몸값 산정, 흑자가 이뤄낸 성과새 창 열림",
+            "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -474,7 +645,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "뷰티",
+        "name": "중복상장예외",
         "mention_count": 2,
         "keywords": [
           "상장 주간사선정",
@@ -482,15 +653,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "운동화 커뮤니티에서 패션·뷰티 플랫폼으로…무신사, 8조 몸값 인정받...새 창 열림",
-            "link": "https://ilyo.co.kr/?ac=article_view&entry_id=512795",
+            "title": "중복상장예외 1호 나왔어도… 대기업은 ‘주주동의 벽’에 눈치만새 창 열림",
+            "link": "https://biz.chosun.com/stock/market_trend/2026/09/27/KMD76RLQQ5HFDDDNZZDM3KGHD4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
             "keyword": "상장 주관사선정",
             "source": "",
             "date": ""
           },
           {
-            "title": "운동화 커뮤니티에서 패션·뷰티 플랫폼으로…무신사, 8조 몸값 인정받...새 창 열림",
-            "link": "https://ilyo.co.kr/?ac=article_view&entry_id=512795",
+            "title": "중복상장예외 1호 나왔어도… 대기업은 ‘주주동의 벽’에 눈치만새 창 열림",
+            "link": "https://biz.chosun.com/stock/market_trend/2026/09/27/KMD76RLQQ5HFDDDNZZDM3KGHD4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
             "keyword": "상장 주간사선정",
             "source": "",
             "date": ""
@@ -498,199 +669,31 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "뉴스웨이새",
+        "name": "오늘경제새",
         "mention_count": 2,
         "keywords": [
-          "상장 주간사선정",
-          "상장 주관사선정"
+          "상장 주간사계약",
+          "상장 주관사계약"
         ],
         "articles": [
           {
-            "title": "뉴스웨이새 창 열림",
-            "link": "http://www.newsway.kr/",
-            "keyword": "상장 주관사선정",
+            "title": "오늘경제새 창 열림",
+            "link": "http://www.startuptoday.co.kr/",
+            "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
           },
           {
-            "title": "뉴스웨이새 창 열림",
-            "link": "http://www.newsway.kr/",
-            "keyword": "상장 주간사선정",
+            "title": "오늘경제새 창 열림",
+            "link": "http://www.startuptoday.co.kr/",
+            "keyword": "상장 주간사계약",
             "source": "",
             "date": ""
           }
         ]
       },
       {
-        "name": "꼬리표",
-        "mention_count": 2,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "'공유오피스' 꼬리표 떼는 패스트파이브…IPO 앞두고 덩치 키운다새 창 열림",
-            "link": "https://www.newsway.co.kr/news/view?ud=2026091815080563219",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "'공유오피스' 꼬리표 떼는 패스트파이브…IPO 앞두고 덩치 키운다새 창 열림",
-            "link": "https://www.newsway.co.kr/news/view?ud=2026091815080563219",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "딜사이트새",
-        "mention_count": 2,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "딜사이트새 창 열림",
-            "link": "https://dealsite.co.kr/",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "딜사이트새 창 열림",
-            "link": "https://dealsite.co.kr/",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "텐센트",
-        "mention_count": 2,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "[더벨]텐센트, 넷마블 지분 3740억 블록딜…NH증권 주관새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609180838452540105416",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[더벨]텐센트, 넷마블 지분 3740억 블록딜…NH증권 주관새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609180838452540105416",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "투데이신문새",
-        "mention_count": 2,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "투데이신문새 창 열림",
-            "link": "http://www.ntoday.co.kr/",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "투데이신문새 창 열림",
-            "link": "http://www.ntoday.co.kr/",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "무신사",
-        "mention_count": 2,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "무신사 IPO 시동...유통업계상장움직임 이어질까새 창 열림",
-            "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=129499",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "무신사 IPO 시동...유통업계상장움직임 이어질까새 창 열림",
-            "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=129499",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "유통업계",
-        "mention_count": 2,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "무신사 IPO 시동...유통업계상장움직임 이어질까새 창 열림",
-            "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=129499",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "무신사 IPO 시동...유통업계상장움직임 이어질까새 창 열림",
-            "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=129499",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "더파워새",
-        "mention_count": 2,
-        "keywords": [
-          "상장 주간사선정",
-          "상장 주관사선정"
-        ],
-        "articles": [
-          {
-            "title": "더파워새 창 열림",
-            "link": "http://www.thepowernews.co.kr",
-            "keyword": "상장 주관사선정",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "더파워새 창 열림",
-            "link": "http://www.thepowernews.co.kr",
-            "keyword": "상장 주간사선정",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "노바셀테크놀로지",
+        "name": "토요경제새",
         "mention_count": 2,
         "keywords": [
           "상장 주관사계약",
@@ -698,15 +701,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[더벨][IPO 모니터] 노바셀테크놀로지, 이번주 예심 청구새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609170958268280101637",
+            "title": "토요경제새 창 열림",
+            "link": "https://www.sateconomy.co.kr/",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
           },
           {
-            "title": "[더벨][IPO모니터] 노바셀테크놀로지, 이번주 예심 청구새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609170958268280101637",
+            "title": "토요경제새 창 열림",
+            "link": "https://www.sateconomy.co.kr/",
             "keyword": "프리IPO",
             "source": "",
             "date": ""
@@ -714,23 +717,120 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "네오클라우드",
+        "name": "훈풍부",
         "mention_count": 2,
         "keywords": [
-          "상장 주관사계약"
+          "pre ipo",
+          "pre-ipo"
         ],
         "articles": [
           {
-            "title": "네오클라우드 엔스케일, 엔비디아 지원으로 뉴욕증시상장추진새 창 열림",
-            "link": "https://www.aitimes.com/news/articleView.html?idxno=215489",
-            "keyword": "상장 주관사계약",
+            "title": "훈풍 부는 바이오 투자…팬데믹 시절 최대치 넘을까새 창 열림",
+            "link": "https://news.mtn.co.kr/news-detail/2026092316432571142",
+            "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "네오클라우드 엔스케일, 뉴욕증시상장신청…현재 기업가치 146억 달러새 창 열림",
-            "link": "https://www.mediapen.com/news/view/1124733",
-            "keyword": "상장 주관사계약",
+            "title": "훈풍 부는 바이오 투자…팬데믹 시절 최대치 넘을까새 창 열림",
+            "link": "https://news.mtn.co.kr/news-detail/2026092316432571142",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "중기이코노미새",
+        "mention_count": 2,
+        "keywords": [
+          "pre ipo",
+          "pre-ipo"
+        ],
+        "articles": [
+          {
+            "title": "중기이코노미새 창 열림",
+            "link": "http://www.junggi.co.kr",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "중기이코노미새 창 열림",
+            "link": "http://www.junggi.co.kr",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "데일리팝새",
+        "mention_count": 2,
+        "keywords": [
+          "pre ipo",
+          "pre-ipo"
+        ],
+        "articles": [
+          {
+            "title": "데일리팝새 창 열림",
+            "link": "http://www.dailypop.kr",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "데일리팝새 창 열림",
+            "link": "http://www.dailypop.kr",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "금융권",
+        "mention_count": 2,
+        "keywords": [
+          "pre ipo",
+          "pre-ipo"
+        ],
+        "articles": [
+          {
+            "title": "금융권, 추석 앞두고 '상생·사회공헌' 행보 확대…미래 성장 기반 확보...새 창 열림",
+            "link": "http://www.dailypop.kr/news/articleView.html?idxno=102860",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "금융권, 추석 앞두고 '상생·사회공헌' 행보 확대…미래 성장 기반 확보...새 창 열림",
+            "link": "http://www.dailypop.kr/news/articleView.html?idxno=102860",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "상생",
+        "mention_count": 2,
+        "keywords": [
+          "pre ipo",
+          "pre-ipo"
+        ],
+        "articles": [
+          {
+            "title": "금융권, 추석 앞두고 '상생·사회공헌' 행보 확대…미래 성장 기반 확보...새 창 열림",
+            "link": "http://www.dailypop.kr/news/articleView.html?idxno=102860",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "금융권, 추석 앞두고 '상생·사회공헌' 행보 확대…미래 성장 기반 확보...새 창 열림",
+            "link": "http://www.dailypop.kr/news/articleView.html?idxno=102860",
+            "keyword": "pre-ipo",
             "source": "",
             "date": ""
           }
@@ -740,92 +840,20 @@ const DASHBOARD_DATA = {
         "name": "한국금융신문새",
         "mention_count": 2,
         "keywords": [
-          "상장 주간사계약",
-          "프리IPO"
+          "pre ipo",
+          "pre-ipo"
         ],
         "articles": [
           {
             "title": "한국금융신문새 창 열림",
             "link": "http://www.fntimes.com",
-            "keyword": "상장 주간사계약",
+            "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
             "title": "한국금융신문새 창 열림",
             "link": "http://www.fntimes.com",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "개발전과정",
-        "mention_count": 2,
-        "keywords": [
-          "투자유치 시리즈",
-          "프리IPO"
-        ],
-        "articles": [
-          {
-            "title": "개발 전과정 수행… 에이디시스템, K드론 국산화 주도새 창 열림",
-            "link": "https://www.mt.co.kr/future/2026/09/21/2026092019491181904",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "개발 전과정 수행… 에이디시스템, K드론 국산화 주도새 창 열림",
-            "link": "https://www.mt.co.kr/future/2026/09/21/2026092019491181904",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "디지털투데이새",
-        "mention_count": 2,
-        "keywords": [
-          "투자유치 시리즈",
-          "프리IPO"
-        ],
-        "articles": [
-          {
-            "title": "디지털투데이새 창 열림",
-            "link": "http://www.digitaltoday.co.kr/",
-            "keyword": "프리IPO",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "디지털투데이새 창 열림",
-            "link": "http://www.digitaltoday.co.kr/",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "Anthropic",
-        "mention_count": 2,
-        "keywords": [
-          "pre ipo",
-          "pre-ipo"
-        ],
-        "articles": [
-          {
-            "title": "Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate새 창 열림",
-            "link": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html?partner=naver",
-            "keyword": "pre ipo",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate새 창 열림",
-            "link": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html?partner=naver",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -833,7 +861,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "팍스경제TV새",
+        "name": "태양",
         "mention_count": 2,
         "keywords": [
           "pre ipo",
@@ -841,15 +869,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "팍스경제TV새 창 열림",
-            "link": "http://www.paxetv.com",
+            "title": "태양을 쫓다 증시에 도착한 거인:러쥐 로보틱스(Leju Robotics)의 시대 [전...새 창 열림",
+            "link": "https://www.fntimes.com/html/view.php?ud=202609120022114720c1c16452b0_18",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "팍스경제TV새 창 열림",
-            "link": "http://www.paxetv.com",
+            "title": "태양을 쫓다 증시에 도착한 거인:러쥐 로보틱스(Leju Robotics)의 시대 [전...새 창 열림",
+            "link": "https://www.fntimes.com/html/view.php?ud=202609120022114720c1c16452b0_18",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -857,7 +885,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "생산적",
+        "name": "AP신문새",
         "mention_count": 2,
         "keywords": [
           "pre ipo",
@@ -865,15 +893,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[이슈] 생산적 금융 '두 쏠림'…가계는 부동산, 딥테크 자금은 초기에새 창 열림",
-            "link": "http://www.paxetv.com/news/articleView.html?idxno=282311",
+            "title": "AP신문새 창 열림",
+            "link": "http://www.apnews.kr",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "[이슈] 생산적 금융 '두 쏠림'…가계는 부동산, 딥테크 자금은 초기에새 창 열림",
-            "link": "http://www.paxetv.com/news/articleView.html?idxno=282311",
+            "title": "AP신문새 창 열림",
+            "link": "http://www.apnews.kr",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -881,7 +909,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "톱데일리새",
+        "name": "상장앞둔",
         "mention_count": 2,
         "keywords": [
           "pre ipo",
@@ -889,15 +917,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "톱데일리새 창 열림",
-            "link": "http://www.topdaily.kr/",
+            "title": "상장 앞둔 혁신기업에 1200억…기업은행, 5000억 성장자금 푼다새 창 열림",
+            "link": "https://www.apnews.kr/news/articleView.html?idxno=3051471",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "톱데일리새 창 열림",
-            "link": "http://www.topdaily.kr/",
+            "title": "상장 앞둔 혁신기업에 1200억…기업은행, 5000억 성장자금 푼다새 창 열림",
+            "link": "https://www.apnews.kr/news/articleView.html?idxno=3051471",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -905,7 +933,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "엠비디",
+        "name": "뉴스티앤티새",
         "mention_count": 2,
         "keywords": [
           "pre ipo",
@@ -913,15 +941,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[엠비디IPO] 단독 주관 맡은 하나증권, 실적 반등할까새 창 열림",
-            "link": "https://www.topdaily.kr/articles/112024",
+            "title": "뉴스티앤티새 창 열림",
+            "link": "http://www.newstnt.com",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "[엠비디IPO] 단독 주관 맡은 하나증권, 실적 반등할까새 창 열림",
-            "link": "https://www.topdaily.kr/articles/112024",
+            "title": "뉴스티앤티새 창 열림",
+            "link": "http://www.newstnt.com",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -929,7 +957,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "단독주관",
+        "name": "문화공연",
         "mention_count": 2,
         "keywords": [
           "pre ipo",
@@ -937,15 +965,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[엠비디IPO] 단독 주관 맡은 하나증권, 실적 반등할까새 창 열림",
-            "link": "https://www.topdaily.kr/articles/112024",
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "[엠비디IPO] 단독 주관 맡은 하나증권, 실적 반등할까새 창 열림",
-            "link": "https://www.topdaily.kr/articles/112024",
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -953,7 +981,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "한국금융경제신문새",
+        "name": "혁신기업",
         "mention_count": 2,
         "keywords": [
           "pre ipo",
@@ -961,15 +989,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "한국금융경제신문새 창 열림",
-            "link": "http://www.kfenews.co.kr/",
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "한국금융경제신문새 창 열림",
-            "link": "http://www.kfenews.co.kr/",
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -977,7 +1005,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "KB증권…차기",
+        "name": "벤처금융",
         "mention_count": 2,
         "keywords": [
           "pre ipo",
@@ -985,15 +1013,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "'1.7조 유상증자' KB증권…차기 승부처는?새 창 열림",
-            "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=664815",
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "'1.7조 유상증자' KB증권…차기 승부처는?새 창 열림",
-            "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=664815",
+            "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+            "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -1001,7 +1029,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "Slow",
+        "name": "팝콘뉴스새",
         "mention_count": 2,
         "keywords": [
           "pre ipo",
@@ -1009,15 +1037,39 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "Slow Letter: September 17, 2026.새 창 열림",
-            "link": "https://slownews.kr/166530",
+            "title": "팝콘뉴스새 창 열림",
+            "link": "http://www.popcornnews.net",
             "keyword": "pre ipo",
             "source": "",
             "date": ""
           },
           {
-            "title": "Slow Letter: September 17, 2026.새 창 열림",
-            "link": "https://slownews.kr/166530",
+            "title": "팝콘뉴스새 창 열림",
+            "link": "http://www.popcornnews.net",
+            "keyword": "pre-ipo",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "우먼타임스새",
+        "mention_count": 2,
+        "keywords": [
+          "pre ipo",
+          "pre-ipo"
+        ],
+        "articles": [
+          {
+            "title": "우먼타임스새 창 열림",
+            "link": "http://www.womentimes.co.kr/",
+            "keyword": "pre ipo",
+            "source": "",
+            "date": ""
+          },
+          {
+            "title": "우먼타임스새 창 열림",
+            "link": "http://www.womentimes.co.kr/",
             "keyword": "pre-ipo",
             "source": "",
             "date": ""
@@ -1049,199 +1101,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "에스알파테라퓨틱스",
-        "mention_count": 2,
-        "keywords": [
-          "pre ipo",
-          "pre-ipo"
-        ],
-        "articles": [
-          {
-            "title": "에스알파테라퓨틱스, 소아 근시 억제 디지털치료기기  'MyoHabit™' 식약처...새 창 열림",
-            "link": "https://www.getnews.co.kr/news/articleView.html?idxno=881015",
-            "keyword": "pre ipo",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "에스알파테라퓨틱스, 소아 근시 억제 디지털치료기기  'MyoHabit™' 식약처...새 창 열림",
-            "link": "https://www.getnews.co.kr/news/articleView.html?idxno=881015",
-            "keyword": "pre-ipo",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "의사신문새",
-        "mention_count": 2,
-        "keywords": [
-          "pre ipo",
-          "pre-ipo"
-        ],
-        "articles": [
-          {
-            "title": "의사신문새 창 열림",
-            "link": "http://www.doctorstimes.com/",
-            "keyword": "pre ipo",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "의사신문새 창 열림",
-            "link": "http://www.doctorstimes.com/",
-            "keyword": "pre-ipo",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "이력서",
-        "mention_count": 2,
-        "keywords": [
-          "VC 투자유치",
-          "투자유치 시리즈"
-        ],
-        "articles": [
-          {
-            "title": "이력서 대신 AI가 연결…유럽 '채용 에이전트'에VC자금 몰린다새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01882726645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "이력서 대신 AI가 연결…유럽 '채용 에이전트'에 VC 자금 몰린다새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01882726645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "프리아이디어",
-        "mention_count": 2,
-        "keywords": [
-          "VC 투자유치",
-          "투자유치 시리즈"
-        ],
-        "articles": [
-          {
-            "title": "[더벨][코스포 in 제주] 프리아이디어, 10억 프리A 추진…호텔 AIoT 양산...새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609181735432880105358",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[더벨][코스포 in 제주] 프리아이디어, 10억 프리A 추진…호텔 AIoT 양산...새 창 열림",
-            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609181735432880105358",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "의원인맥",
-        "mention_count": 2,
-        "keywords": [
-          "VC 투자유치",
-          "투자유치 시리즈"
-        ],
-        "articles": [
-          {
-            "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "배임",
-        "mention_count": 2,
-        "keywords": [
-          "VC 투자유치",
-          "투자유치 시리즈"
-        ],
-        "articles": [
-          {
-            "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "횡령",
-        "mention_count": 2,
-        "keywords": [
-          "VC 투자유치",
-          "투자유치 시리즈"
-        ],
-        "articles": [
-          {
-            "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "탈세",
-        "mention_count": 2,
-        "keywords": [
-          "VC 투자유치",
-          "투자유치 시리즈"
-        ],
-        "articles": [
-          {
-            "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "VC 투자유치",
-            "source": "",
-            "date": ""
-          },
-          {
-            "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-            "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-            "keyword": "투자유치 시리즈",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "청년창업자금",
+        "name": "제논",
         "mention_count": 2,
         "keywords": [
           "VC 투자유치",
@@ -1249,15 +1109,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "청년창업자금 받아도… 10곳 중 1곳 성장 단계서 주저앉았다새 창 열림",
-            "link": "https://www.fnnews.com/news/202609201817340547",
+            "title": "[더벨][제논 IPO] 일반트랙으로 연내 상장 도전, 올해 온기 실적 반영될...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609231042321840103541",
             "keyword": "VC 투자유치",
             "source": "",
             "date": ""
           },
           {
-            "title": "청년창업자금 받아도… 10곳 중 1곳 성장 단계서 주저앉았다새 창 열림",
-            "link": "https://www.fnnews.com/news/202609201817340547",
+            "title": "[더벨][제논 IPO] 일반트랙으로 연내 상장 도전, 올해 온기 실적 반영될...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609231042321840103541",
             "keyword": "벤처캐피탈 투자유치",
             "source": "",
             "date": ""
@@ -1265,7 +1125,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "창업열기",
+        "name": "일반트랙",
         "mention_count": 2,
         "keywords": [
           "VC 투자유치",
@@ -1273,15 +1133,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[단독]창업 열기 뜨거운데...후속투자·회수시장 키워야새 창 열림",
-            "link": "https://www.fnnews.com/news/202609201448052430",
+            "title": "[더벨][제논 IPO] 일반트랙으로 연내 상장 도전, 올해 온기 실적 반영될...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609231042321840103541",
             "keyword": "VC 투자유치",
             "source": "",
             "date": ""
           },
           {
-            "title": "[단독]창업 열기 뜨거운데...후속투자·회수시장 키워야새 창 열림",
-            "link": "https://www.fnnews.com/news/202609201448052430",
+            "title": "[더벨][제논 IPO] 일반트랙으로 연내 상장 도전, 올해 온기 실적 반영될...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609231042321840103541",
             "keyword": "벤처캐피탈 투자유치",
             "source": "",
             "date": ""
@@ -1289,7 +1149,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "후속투자",
+        "name": "연내",
         "mention_count": 2,
         "keywords": [
           "VC 투자유치",
@@ -1297,15 +1157,15 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[단독]창업 열기 뜨거운데...후속투자·회수시장 키워야새 창 열림",
-            "link": "https://www.fnnews.com/news/202609201448052430",
+            "title": "[더벨][제논 IPO] 일반트랙으로 연내 상장 도전, 올해 온기 실적 반영될...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609231042321840103541",
             "keyword": "VC 투자유치",
             "source": "",
             "date": ""
           },
           {
-            "title": "[단독]창업 열기 뜨거운데...후속투자·회수시장 키워야새 창 열림",
-            "link": "https://www.fnnews.com/news/202609201448052430",
+            "title": "[더벨][제논 IPO] 일반트랙으로 연내 상장 도전, 올해 온기 실적 반영될...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609231042321840103541",
             "keyword": "벤처캐피탈 투자유치",
             "source": "",
             "date": ""
@@ -1313,7 +1173,7 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "회수시장",
+        "name": "이종민",
         "mention_count": 2,
         "keywords": [
           "VC 투자유치",
@@ -1321,32 +1181,16 @@ const DASHBOARD_DATA = {
         ],
         "articles": [
           {
-            "title": "[단독]창업 열기 뜨거운데...후속투자·회수시장 키워야새 창 열림",
-            "link": "https://www.fnnews.com/news/202609201448052430",
+            "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 이종민 한벤투 법인...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211008476280105564",
             "keyword": "VC 투자유치",
             "source": "",
             "date": ""
           },
           {
-            "title": "[단독]창업 열기 뜨거운데...후속투자·회수시장 키워야새 창 열림",
-            "link": "https://www.fnnews.com/news/202609201448052430",
+            "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 이종민 한벤투 법인...새 창 열림",
+            "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211008476280105564",
             "keyword": "벤처캐피탈 투자유치",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "메트로신문새",
-        "mention_count": 1,
-        "keywords": [
-          "IPO 지정감사"
-        ],
-        "articles": [
-          {
-            "title": "메트로신문새 창 열림",
-            "link": "http://www.metroseoul.co.kr",
-            "keyword": "IPO 지정감사",
             "source": "",
             "date": ""
           }
@@ -1394,22 +1238,6 @@ const DASHBOARD_DATA = {
           {
             "title": "일간NTN새 창 열림",
             "link": "http://www.intn.co.kr",
-            "keyword": "IPO 지정감사",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "이투데이새",
-        "mention_count": 1,
-        "keywords": [
-          "IPO 지정감사"
-        ],
-        "articles": [
-          {
-            "title": "이투데이새 창 열림",
-            "link": "http://www.etoday.co.kr",
             "keyword": "IPO 지정감사",
             "source": "",
             "date": ""
@@ -1465,6 +1293,22 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "슬로우뉴스새",
+        "mention_count": 1,
+        "keywords": [
+          "IPO 지정감사"
+        ],
+        "articles": [
+          {
+            "title": "슬로우뉴스새 창 열림",
+            "link": "http://slownews.kr/",
+            "keyword": "IPO 지정감사",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
         "name": "미국기준금리",
         "mention_count": 1,
         "keywords": [
@@ -1481,15 +1325,15 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "AI타임스새",
+        "name": "마이다스PE",
         "mention_count": 1,
         "keywords": [
           "상장 주관사계약"
         ],
         "articles": [
           {
-            "title": "AI타임스새 창 열림",
-            "link": "https://aitimes.co.kr/",
+            "title": "[포커스] 마이다스PE VS 부스트랩 추형재 창업주 갈등 '점입가경' (上)새 창 열림",
+            "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=814105",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
@@ -1497,15 +1341,15 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "공감신문새",
+        "name": "쪼개기",
         "mention_count": 1,
         "keywords": [
           "상장 주관사계약"
         ],
         "articles": [
           {
-            "title": "공감신문새 창 열림",
-            "link": "http://gokorea.kr",
+            "title": "[김대호 진단] 솔리다임 쪼개기상장... SK하이닉스 최태원의 배신?새 창 열림",
+            "link": "https://www.g-enews.com/view.php?ud=202609260854114205906806b77b_1",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
@@ -1513,15 +1357,15 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "공식흔들…미국",
+        "name": "파이낸셜투데이새",
         "mention_count": 1,
         "keywords": [
           "상장 주관사계약"
         ],
         "articles": [
           {
-            "title": "'AI면 원전도 뜬다' 공식 흔들…미국 원전 '옥석 가리기'새 창 열림",
-            "link": "https://news.mtn.co.kr/news-detail/2026091813572474218",
+            "title": "파이낸셜투데이새 창 열림",
+            "link": "http://www.ftoday.co.kr/",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
@@ -1529,15 +1373,15 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "이뉴스투데이새",
+        "name": "AI가",
         "mention_count": 1,
         "keywords": [
           "상장 주관사계약"
         ],
         "articles": [
           {
-            "title": "이뉴스투데이새 창 열림",
-            "link": "http://www.enewstoday.co.kr/",
+            "title": "AI가 키운 'SSD 공룡'…SK하이닉스 솔리다임, 204조 몸값 도전새 창 열림",
+            "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=366119",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
@@ -1545,15 +1389,15 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "미디어펜새",
+        "name": "딜사이트새",
         "mention_count": 1,
         "keywords": [
           "상장 주관사계약"
         ],
         "articles": [
           {
-            "title": "미디어펜새 창 열림",
-            "link": "http://www.mediapen.com",
+            "title": "딜사이트새 창 열림",
+            "link": "https://dealsite.co.kr/",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
@@ -1561,15 +1405,15 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "서울경제TV새",
+        "name": "황만순",
         "mention_count": 1,
         "keywords": [
           "상장 주관사계약"
         ],
         "articles": [
           {
-            "title": "서울경제TV새 창 열림",
-            "link": "http://www.sentv.co.kr",
+            "title": "[VC 투자 포트폴리오] 황만순 점찍은 노바셀…한투파 투자 6년 만에 IPO ...새 창 열림",
+            "link": "https://dealsite.co.kr/articles/169442",
             "keyword": "상장 주관사계약",
             "source": "",
             "date": ""
@@ -1577,48 +1421,48 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "상장시험대",
+        "name": "EBN새",
         "mention_count": 1,
         "keywords": [
-          "상장 주관사계약"
+          "상장 주간사계약"
         ],
         "articles": [
           {
-            "title": "[기획]상장시험대 선 뱅크샐러드…‘헬스케어 실적’으로 몸값 입증할...새 창 열림",
-            "link": "https://www.sentv.co.kr/article/view/sentv202609170110",
-            "keyword": "상장 주관사계약",
+            "title": "EBN새 창 열림",
+            "link": "https://www.ebn.co.kr/",
+            "keyword": "상장 주간사계약",
             "source": "",
             "date": ""
           }
         ]
       },
       {
-        "name": "금융소비자뉴스새",
+        "name": "회생절차도",
         "mention_count": 1,
         "keywords": [
-          "상장 주관사계약"
+          "상장 주간사계약"
         ],
         "articles": [
           {
-            "title": "금융소비자뉴스새 창 열림",
-            "link": "http://newsfc.co.kr/",
-            "keyword": "상장 주관사계약",
+            "title": "회생절차도 못 막은 '상폐'…범양건영, 증시 퇴출 수순새 창 열림",
+            "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1725205",
+            "keyword": "상장 주간사계약",
             "source": "",
             "date": ""
           }
         ]
       },
       {
-        "name": "한양증권",
+        "name": "증시",
         "mention_count": 1,
         "keywords": [
-          "상장 주관사계약"
+          "상장 주간사계약"
         ],
         "articles": [
           {
-            "title": "한양증권, 첫 공모회사채 발행서 '찬밥' 대우...'중앙그룹 리스크'?새 창 열림",
-            "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=81252",
-            "keyword": "상장 주관사계약",
+            "title": "英 네오클라우드 기업 엔스케일, 뉴욕 증시상장추진새 창 열림",
+            "link": "https://www.hankyung.com/article/202609218287i",
+            "keyword": "상장 주간사계약",
             "source": "",
             "date": ""
           }
@@ -1650,22 +1494,6 @@ const DASHBOARD_DATA = {
           {
             "title": "[Who Is ?] 김희철 한화오션 대표이사 사장새 창 열림",
             "link": "https://www.businesspost.co.kr/BP?command=article_view&num=446487",
-            "keyword": "상장 주간사계약",
-            "source": "",
-            "date": ""
-          }
-        ]
-      },
-      {
-        "name": "오늘경제새",
-        "mention_count": 1,
-        "keywords": [
-          "상장 주간사계약"
-        ],
-        "articles": [
-          {
-            "title": "오늘경제새 창 열림",
-            "link": "http://www.startuptoday.co.kr/",
             "keyword": "상장 주간사계약",
             "source": "",
             "date": ""
@@ -1785,16 +1613,176 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "글로벌이코노믹새",
+        "name": "시장예고한",
         "mention_count": 1,
         "keywords": [
           "상장 주간사계약"
         ],
         "articles": [
           {
-            "title": "글로벌이코노믹새 창 열림",
-            "link": "http://www.g-enews.com/",
+            "title": "'미 GDP급' 시장 예고한 앤트로픽…美 IPO '잔혹한 쏠림'새 창 열림",
+            "link": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609010226&t=NNv",
             "keyword": "상장 주간사계약",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "IT조선새",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "IT조선새 창 열림",
+            "link": "http://it.chosun.com/",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "미소정보기술",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "[에이전틱 AI 맵 2026] 미소정보기술, AI 에이전트 개발부터 운영까지 '...새 창 열림",
+            "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170421",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "그룹계열",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "[인사 나침판] 그룹 계열 증권, 변화 이끈 리더십 '호실적' 뒷받침되나새 창 열림",
+            "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310771",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "데일리메디새",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "데일리메디새 창 열림",
+            "link": "http://www.dailymedi.com/",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "종근당",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "종근당 CKD창업투자, 항체·암백신·원료 잇단 투자새 창 열림",
+            "link": "https://www.dailymedi.com/news/news_view.php?wr_id=940808",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "항체",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "종근당 CKD창업투자, 항체·암백신·원료 잇단 투자새 창 열림",
+            "link": "https://www.dailymedi.com/news/news_view.php?wr_id=940808",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "암백신",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "종근당 CKD창업투자, 항체·암백신·원료 잇단 투자새 창 열림",
+            "link": "https://www.dailymedi.com/news/news_view.php?wr_id=940808",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "원료",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "종근당 CKD창업투자, 항체·암백신·원료 잇단 투자새 창 열림",
+            "link": "https://www.dailymedi.com/news/news_view.php?wr_id=940808",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "군사용",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "\"정찰 넘어 공격·방어까지\"…군사용 드론 영역 넓힌다새 창 열림",
+            "link": "https://www.mk.co.kr/article/12162021",
+            "keyword": "프리IPO",
+            "source": "",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "name": "마이크론",
+        "mention_count": 1,
+        "keywords": [
+          "프리IPO"
+        ],
+        "articles": [
+          {
+            "title": "[ZD브리핑] 마이크론 최대실적 예고...개보위원장·통신3사 CEO 첫회동새 창 열림",
+            "link": "https://zdnet.co.kr/view/?no=20260927121709",
+            "keyword": "프리IPO",
             "source": "",
             "date": ""
           }
@@ -1932,6 +1920,14 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "상장 주관사선정",
+        "title": "한스경제새 창 열림",
+        "description": "",
+        "link": "http://www.hansbiz.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사선정",
         "title": "Keep에 저장",
         "description": "",
         "link": "#",
@@ -1940,86 +1936,246 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "아이씨티케이,상장후 실적 목표 줄줄이 미달새 창 열림",
-        "description": "아이씨티케이는 2024년 5월 기술특례상장으로 코스닥 시장에 입성할 당시상장주관사(NH투자증권)를 통해 2024년부터 2026년까지 3개년 실적 추정치를... 기업으로선정됐다. 하지만 핵심 기술인 보안칩 판매량은 매년 하락세를 보인다. 전체 매출에서 주력 제품인 보안칩이 차지하는 비중은 2023년 44.7...새 창 열림",
-        "link": "https://www.sidae.com/article/2026091815024319581",
+        "title": "솔리다임 200조 몸값…SK하닉의 셈법새 창 열림",
+        "description": "로이터는 최근 복수의 관계자를 인용해 솔리다임이 이번 주 투자은행(IB)들과 IPO주관사 선정을 위한 제안 미팅인 '베이크 오프(bake-off)'를 진행했다고 보도했다.상장을 위한 실무 준비 단계에 들어갔다는 의미로 해석된다. 거론되는 기업가치는 최대 1500억달러다. IPO 과정에서 약 150억달러를 조달할...새 창 열림",
+        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=868249",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "[단독] 한국거래소, 뉴욕서 K증시 세일즈…외국기업 ‘코스닥 IPO’ 유치...새 창 열림",
-        "description": "KOOM WEEK 참석사 중 하나이자 뷰티 브랜드 ‘누니(Nooni)’ 운영사인 미미박스는 2년 전 삼성증권을상장 주관사로선정하고 코스닥 입성을 추진하고 있다. UKF의 오랜 파트너이자 행사 내 전시 부스 시공을 맡은 빌드블록도 지난달 신한투자증권과 주관 계약을 맺고 코스닥상장을 검토 중이다. 시장에서는...새 창 열림",
-        "link": "https://www.sedaily.com/article/20092811?ref=naver",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사선정",
-        "title": "인사이트새 창 열림",
+        "title": "스마트비즈새 창 열림",
         "description": "",
-        "link": "http://www.insight.co.kr",
+        "link": "https://www.smartbizn.com/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "구다이글로벌 '10조 IPO'...공모가 기준 밑돌면 FI 전환주식 늘어난다새 창 열림",
-        "description": "올해상장 주관사 선정경쟁에서는 10조원 이상의 기업가치가 제시된 것으로 전해졌다. 당시 CB 계약이 전환가 조정 기준으로 삼은 가격에는 예심 청구 전 주관사가 산정하는 예비공모가도 포함됐다.지난해 9월 더벨 보도에 따르면 예비공모가 하한이 기준공모가격에 못 미치면 CB 전환가를 낮춘다. 이후 확정...새 창 열림",
-        "link": "https://www.insight.co.kr/news/574249",
+        "title": "삼성전자·SK하이닉스, 본주는 한 자릿수 하락···2배 ETF는 최대 '반토...새 창 열림",
+        "description": "SK하이닉스는 미국 손자회사 솔리다임의 미국 증시상장추진이 변수로 떠올랐다. 로이터통신에 따르면 솔리다임은 이르면 내년 미국에서 기업공개에 나설 예정이며 최근 투자은행들과 IPO주관사 선정을 위한 제안 회의를 진행했다. 솔리다임은 SK하이닉스가 2021년 인텔의 낸드...새 창 열림",
+        "link": "https://www.smartbizn.com/news/articleView.html?idxno=154888",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "머니투데이방송새 창 열림",
+        "title": "디지털투데이새 창 열림",
         "description": "",
-        "link": "https://news.mtn.co.kr/",
+        "link": "http://www.digitaltoday.co.kr/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "AI 기업 줄줄이 증시로…하반기 IPO '실적 검증대'새 창 열림",
-        "description": "제논은 지난 7월 코스닥상장예비심사를 청구했고, 페르소나AI도주관사를선정하고 기술성평가 등 IPO 절차를 준비 중이다.고석태 제논 대표는 \"설립 이후 기술 경쟁력을 쌓으며 안정적인 성장성과 수익성을 확보해왔다\"며 \"상장을 계기로 엔터프라이즈 생성형 AI 시장에서 입지를 강화하고자 한다....새 창 열림",
-        "link": "https://news.mtn.co.kr/news-detail/2026091814183622624",
+        "title": "[AI핫이슈] 새로운 AI 모델의 탄생...메타 '뮤즈' 초반 돌풍새 창 열림",
+        "description": "ㆍ더존비즈온, 'AI 거버넌스 사무국' 신설...지용구 사장 총괄 ㆍ뤼튼, 내년 IPO 본격화...주관사 선정ㆍ제논, 코스닥상장예비심사 승인…IPO 절차 본격화 ㆍ리얼월드-CJ대한통운, 물류 특화 피지컬 AI 공동 개발 국내 생성형 AI 서비스 시장이 빠르게 커지면서 올해 기업·소비자 간 거래(B2C) 결제 규모가...새 창 열림",
+        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=703070",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "일요신문새 창 열림",
+        "title": "[MUST KNOW5]오늘 시장은 'LG전자'·'삼전·SK하닉'...투자자가 알아야 할...새 창 열림",
+        "description": "로이터 “SK하이닉스 손자회사 솔리다임, 이르면 내년 美상장검토” SK하이닉스의 손자회사 솔리다임이 이르면 내년 미국 증시상장을 추진할 수 있다는 보도가 나왔습니다. 로이터는 소식통을 인용해 솔리다임이 이번 주 투자은행들과 IPO주관사 선정을 위한 제안 회의를 진행했다고 전했습니다. 아직...새 창 열림",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01830246645584712&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사선정",
+        "title": "FETV새 창 열림",
         "description": "",
-        "link": "https://www.ilyo.co.kr/",
+        "link": "https://www.fetv.co.kr/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "운동화 커뮤니티에서 패션·뷰티 플랫폼으로…무신사, 8조 몸값 인정받...새 창 열림",
-        "description": "운동화 사진을 공유하던 온라인 커뮤니티에서 출발한 무신사가 코스피상장을 준비한다. 패션 플랫폼과 자체 브랜드, 오프라인 매장, 해외사업으로... 실제주관사 선정과정에서는 패스트리테일링·인디텍스·H&M 등 글로벌 패션기업과 쿠팡·아마존 같은 플랫폼 기업이 비교기업 후보로 거론됐다. 패션기업과...새 창 열림",
-        "link": "https://ilyo.co.kr/?ac=article_view&entry_id=512795",
+        "title": "[인텔리빅스 IPO] ③'PER'로 몸값 산정, 흑자가 이뤄낸 성과새 창 열림",
+        "description": "이번 IPO의주관사인 미래에셋증권은 관련 업종상장사 176곳에서 재무·사업 유사성 등을 따져 최종적으로 슈어소프트테크와 와이즈넛, 아이쓰리시스템 3곳을 비교기업으로선정했다. 각각 AI·빅데이터와 AI 소프트웨어, 영상센서 분야에서 인텔리빅스와 사업 접점을 가진 기업들이다.상장예비심사...새 창 열림",
+        "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "뉴스웨이새 창 열림",
+        "title": "중복상장예외 1호 나왔어도… 대기업은 ‘주주동의 벽’에 눈치만새 창 열림",
+        "description": "22일 투자은행(IB) 업계에 따르면 대기업집단 기업공개(IPO) 기대주로 거론됐던 HD현대그룹 HD현대로보틱스, LS그룹 에식스솔루션즈, 한화그룹 한화에너지 등 대기업 계열사들이상장 주관사 선정이후 작업을 진행하지 못하고 있다. IB 업계 한 관계자는 “‘중복상장 가이드라인’(세부기준)이 발표되면 대기업...새 창 열림",
+        "link": "https://biz.chosun.com/stock/market_trend/2026/09/27/KMD76RLQQ5HFDDDNZZDM3KGHD4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사선정",
+        "title": "“솔리다임, 내년 美상장추진”… 주주가치 영향 변수새 창 열림",
+        "description": "솔리다임이 미 증시에 입성할 경우 SK그룹의 ‘중복상장’ 논란이 다시 불거질 것으로 보인다. 로이터통신은 25일(현지시간) 복수의 소식통을 인용해 솔리다임이 지난주 투자은행(IB)을 상대로 IPO주관사 선정을 위한 경쟁 프레젠테이션 절차인 ‘베이크 오프’(bake-off)를 진행했다고 보도했다. 통신은...새 창 열림",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000017608&cp=nv",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사선정",
+        "title": "“솔리다임, 내년 美상장추진”…‘주주 가치’ 영향 변수새 창 열림",
+        "description": "솔리다임이 미 증시에 입성할 경우 SK그룹의 ‘중복상장’ 논란이 다시 불거질 것으로 보인다. 로이터통신은 25일(현지시간) 복수의 소식통을 인용해 솔리다임이 지난주 투자은행(IB)을 상대로 기업공개(IPO)주관사 선정을 위한 경쟁 프레젠테이션 절차인 ‘베이크 오프’(bake-off)를 진행했다고...새 창 열림",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000017530&cp=nv",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사선정",
+        "title": "솔리다임, 내년 美상장추진새 창 열림",
+        "description": "이 미팅은 IPO를 추진하는 기업이주관사를선정하기 위해 투자은행의 제안을 받는 자리다. 기업들은 IPO에 나설 때 통상 시장 수급 환경 등을 고려해 전체 기업가치의 10% 수준을 신주로 발행하는 방식으로 대규모 자금을 조달한다. 내년 IPO가 이뤄지면 150억달러(약 20조4000억원) 이상의 금액을 조달받을...새 창 열림",
+        "link": "https://www.hankyung.com/article/2026092776191",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사선정",
+        "title": "이투데이새 창 열림",
         "description": "",
-        "link": "http://www.newsway.kr/",
+        "link": "http://www.etoday.co.kr",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주관사선정",
-        "title": "'공유오피스' 꼬리표 떼는 패스트파이브…IPO 앞두고 덩치 키운다새 창 열림",
-        "description": "대표주관사로 신한투자증권과 대신증권을선정하고상장준비에 속도를 내고 있다. 이번 IPO의 핵심은 단순히 공유오피스 지점을 늘리는 기존 성장 방식에서 벗어나 사업모델 자체를 확장하는 데 있다. 패스트파이브는 2015년 설립 이후 건물을 장기 임차한 뒤 공간을 재임대하는 방식으로 공유오피스 사업을...새 창 열림",
-        "link": "https://www.newsway.co.kr/news/view?ud=2026091815080563219",
+        "title": "SK하이닉스 손자회사 솔리다임, 美 IPO 추진…몸값 최대 204조원새 창 열림",
+        "description": "27일 로이터통신 등에 따르면 솔리다임은 이번주 투자은행(IB)을 대상으로 기업공개(IPO)주관사 선정을 위한 이른바 ‘베이크 오프(bake-off)’를 진행했다. IPO 규모와 시기는 아직 초기 단계로 변경될 가능성이 있다. 다만상장이 현실화할 경우 솔리다임의 기업가치는 최대 1500억달러, 조달 규모는...새 창 열림",
+        "link": "https://www.etoday.co.kr/news/view/2629528",
         "source": "",
         "date": ""
       },
       {
-        "keyword": "상장 주관사선정",
+        "keyword": "상장 주관사계약",
+        "title": "디지털투데이새 창 열림",
+        "description": "",
+        "link": "http://www.digitaltoday.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "Keep에 저장",
+        "description": "",
+        "link": "#",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "[AI핫이슈] 새로운 AI 모델의 탄생...메타 '뮤즈' 초반 돌풍새 창 열림",
+        "description": "공급하는계약을 맺었다. 데이터브릭스가 초기 단계 스프레드시트 스타트업 로우 제로를 인수했다. 데이터브릭스는 스프레드시트를 AI 에이전트와... ㆍ더존비즈온, 'AI 거버넌스 사무국' 신설...지용구 사장 총괄 ㆍ뤼튼, 내년 IPO 본격화...주관사선정 ㆍ제논, 코스닥상장예비심사 승인…IPO 절차 본격화...새 창 열림",
+        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=703070",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "오늘경제새 창 열림",
+        "description": "",
+        "link": "http://www.startuptoday.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "[포커스] 마이다스PE VS 부스트랩 추형재 창업주 갈등 '점입가경' (上)새 창 열림",
+        "description": "16배는주관사실사 과정에서 검토된 여러 참고치 가운데 하나일 뿐, 회사가 산정하거나 그에게 제시한 목표가 아니라는 것이다. 또상장이 더 진행되지 않은 것은 핵심 자회사인 부스트랩의 실적이 악화됐기 때문이라고 주장했다. ■ 쟁점 하나 —계약에 담긴 콜옵션 독소조항? 양측이 가장 첨예하게...새 창 열림",
+        "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=814105",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "최태원 AI 승부수…SK 솔리다임, 최대 200조 미상장가시화새 창 열림",
+        "description": "IPO주관사제안 회의를 진행했다. 로이터는 솔리다임의 기업가치가 최대 1500억달러로 평가 받을 수 있다고 전했다. 이는 지난 2023년상장한 영국... SK 사정에 밝은 한 인사는 “규격화된 범용 메모리와 달리 사전에 빅테크 고객사와 공동 설계하고 장기계약을 맺는 주문형 AI 메모리는 이전과 같은...새 창 열림",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01859766645584384&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "아시아투데이새 창 열림",
+        "description": "",
+        "link": "http://www.asiatoday.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "\"SK하이닉스 미 손자회사 솔리다임, 기업가치 최대 204조원 美 IPO 검토\"...새 창 열림",
+        "description": "◇ \"SK하이닉스 손자회사 솔리다임, 투자은행과 IPO주관사제안 회의…150억달러 조달 검토\"상장논의는주관사선정을 위한 제안 회의 단계로... SK하이닉스는 2020년 약 90억달러(12조2310억원)에 인텔의 낸드 메모리·SSD 사업을 인수하는계약을 발표했고, 이를 토대로 2021년 솔리다임을 출범시켰다....새 창 열림",
+        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260927010009179",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "토요경제새 창 열림",
+        "description": "",
+        "link": "https://www.sateconomy.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "솔리다임 ‘1500억달러’의 조건…SK하이닉스그룹 eSSD 매출 86% 늘어도 ...새 창 열림",
+        "description": "1%…솔리다임 단독 수익성이 가격표 관건 ▲ [SK하이닉스] 솔리다임의 미국상장논의가주관사경쟁 단계로 구체화됐다. AI 데이터센터용 eSSD... 4분기 eSSD계약가격도 전분기보다 23~28% 오를 것으로 전망했다. 솔리다임은 이 시장에서 고용량 QLC 기반 eSSD를 주력으로 한다. 대표 제품 D5-P5336은 최대...새 창 열림",
+        "link": "http://sateconomy.co.kr/news/view/1065550825371205",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "글로벌이코노믹새 창 열림",
+        "description": "",
+        "link": "http://www.g-enews.com/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "[김대호 진단] 솔리다임 쪼개기상장... SK하이닉스 최태원의 배신?새 창 열림",
+        "description": "이른바 쪼개기상장의 저주이다. 로이터 통신은 복수의 정통한 소식통을 인용해, SK하이닉스의 미국 낸드 자회사 솔리다임이 이르면 2027년 뉴욕 증시 기업공개(IPO)를 목표로 주요 글로벌 투자은행(IB)들을 불러주관사선정을 위한 제안 설명회, 이른바 ‘베이크오프(Bake-off)’에 본격 착수했다고 전격...새 창 열림",
+        "link": "https://www.g-enews.com/view.php?ud=202609260854114205906806b77b_1",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "'203조 몸값' 솔리다임 美상장?...하이닉스 주가엔 '악재 vs 호재'새 창 열림",
+        "description": "SK하이닉스의 미국 자회사 솔리다임이 미 증시에상장할 경우 기업가치가 최대 1500억달러(203조원)에 이를 수 있다고 로이터통신이 25일(현지시간)... 로이터 취재에 응한 한 소식통은 이번주 솔리다임이 IPO주관사선정을 위해 여러 투자은행과 회의를 했다고 전했다. 로이터는 2023년 IPO에서 기업가치...새 창 열림",
+        "link": "https://www.mt.co.kr/world/2026/09/26/2026092613073039770",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "파이낸셜투데이새 창 열림",
+        "description": "",
+        "link": "http://www.ftoday.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "AI가 키운 'SSD 공룡'…SK하이닉스 솔리다임, 204조 몸값 도전새 창 열림",
+        "description": "IPO주관사선정을 위한 제안 회의를 진행했다고 보도했다. 여러 IB가상장전략과 기업가치, 공모 구조 등을 제시하며 경쟁하는 '베이크오프(bake-off)... SK하이닉스는 2020년 인수계약을 체결했으며 거래 규모는 약 90억달러였다. 솔리다임은 올해 초 SK하이닉스가 미국에 세운 투자 자회사 'AI 컴퍼니...새 창 열림",
+        "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=366119",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
+        "title": "\"'하이닉스 손자회사' 솔리다임 내년상장시 기업가치 최대 203조원\"새 창 열림",
+        "description": "SK하이닉스의 미국 자회사 솔리다임이 미 증시에상장할 경우 기업가치가 최대 1500억달러(203조원)에 이를 수 있다고 로이터통신이 25일(현지시간)... 로이터 취재에 응한 한 소식통은 이번주 솔리다임이 IPO주관사선정을 위해 여러 투자은행과 회의를 했다고 전했다. 로이터는 2023년 IPO에서 기업가치...새 창 열림",
+        "link": "https://www.mt.co.kr/world/2026/09/26/2026092610191583514",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주관사계약",
         "title": "딜사이트새 창 열림",
         "description": "",
         "link": "https://dealsite.co.kr/",
@@ -2027,218 +2183,18 @@ const DASHBOARD_DATA = {
         "date": ""
       },
       {
-        "keyword": "상장 주관사선정",
-        "title": "9년째 안 판 한화생명 지분…예보, 올해는 매각 나서나새 창 열림",
-        "description": "예보는 2021년 NH투자증권과 UBS를 매각주관사로선정하며 다시 지분 처분을 준비했지만 실제 거래로 이어지지는 않았다. 올해 들어 주가가 반등하면서... 예보는 서울보증보험상장이후 지난 3월 첫 시간외대량매매(블록세일)에 나선 데 이어 8월에도 지분 일부를 추가 매각했다. 기금 청산을 앞두고...새 창 열림",
-        "link": "https://dealsite.co.kr/articles/169159",
+        "keyword": "상장 주관사계약",
+        "title": "[VC 투자 포트폴리오] 황만순 점찍은 노바셀…한투파 투자 6년 만에 IPO ...새 창 열림",
+        "description": "상장 주관사는 키움증권으로상장예정주식수는 1174만8699주, 공모예정주식수는 120만주다. 한투파는 지난 2020년 4월 ‘한국투자 Re-Up 펀드’를 통해... 휴온스에 기술이전한 눈질환 치료제는 국내 임상 2상을 진행 중이며 HK이노엔과도 차세대 면역질환 치료제 기술이전계약을 체결하는 등 제약사와...새 창 열림",
+        "link": "https://dealsite.co.kr/articles/169442",
         "source": "",
         "date": ""
       },
       {
-        "keyword": "상장 주관사선정",
-        "title": "더벨새 창 열림",
+        "keyword": "상장 주간사선정",
+        "title": "한스경제새 창 열림",
         "description": "",
-        "link": "https://www.thebell.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사선정",
-        "title": "[더벨]텐센트, 넷마블 지분 3740억 블록딜…NH증권 주관새 창 열림",
-        "description": "2021년 넷마블 자회사 넷마블네오가 IPO를 추진할 당시에도 NH투자증권은 대표주관사로선정됐다. 최종상장은 성사되지 않았지만 넷마블 본사와 계열사 IPO에 잇달아 참여하며 커버리지 관계를 이어왔다. 이번에는 넷마블 법인의 자금조달이나 IPO가 아닌 최대주주의 대규모 지분 인수 과정에서 기여도를...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609180838452540105416",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사선정",
-        "title": "투데이신문새 창 열림",
-        "description": "",
-        "link": "http://www.ntoday.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사선정",
-        "title": "무신사 IPO 시동...유통업계상장움직임 이어질까새 창 열림",
-        "description": "구다이글로벌은 지난 2월 미래에셋증권과 NH투자증권, 씨티그룹글로벌마켓증권, 모건스탠리를주관사단으로선정했다. '조선미녀'를 시작으로 '티르티르', '스킨푸드' 등을 인수하며 브랜드를 확대해 온 회사로 현재상장예비심사 청구를 준비하고 있다. 지난해 매출은 1조4717억원으로 전년보다 294...새 창 열림",
-        "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=129499",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사선정",
-        "title": "더파워새 창 열림",
-        "description": "",
-        "link": "http://www.thepowernews.co.kr",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사선정",
-        "title": "1.8조→7~8조 몸값 뛴 HD현대로보틱스…‘4배 밸류’가 첫 관문새 창 열림",
-        "description": "HD현대로보틱스는 2025년 12월 국내외 증권사에 입찰제안요청서를 보내상장작업에 들어갔고 올해 1월 UBS·한국투자증권·KB증권을 대표주관사로선정했다. 그러나 현재상장일정과 모회사 주주동의 절차는 공식 확정되지 않은 상태다. 결국 HD현대로보틱스 IPO의 첫 번째 문제는 ‘로봇 산업이...새 창 열림",
-        "link": "https://www.thepowernews.co.kr/view.php?ud=202609171520353339de3f0aa1be_7",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "더벨새 창 열림",
-        "description": "",
-        "link": "https://www.thebell.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "Keep에 저장",
-        "description": "",
-        "link": "#",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "[더벨][IPO 모니터] 노바셀테크놀로지, 이번주 예심 청구새 창 열림",
-        "description": "회사는 2012년 미래에셋증권을주관사로상장을 추진했지만 이듬해 기술성평가를 통과하지 못했다. 2015년에는 하나증권으로주관사를 바꿔... 지난 2월에는 동구바이오제약과 한국·일본·중국을 대상으로 아토피 피부염 치료제 기술이전계약을 체결했다. 아토피 피부염 치료제는 2024년 2월 국내 임상2상...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609170958268280101637",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "AI타임스새 창 열림",
-        "description": "",
-        "link": "https://aitimes.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "네오클라우드 엔스케일, 엔비디아 지원으로 뉴욕증시상장추진새 창 열림",
-        "description": "그럼에도 엔스케일은 대규모 AI 컴퓨팅 수요가 지속될 것으로 보고상장을 추진하고 있다. 엔스케일의 IPO 주식은 NYSE에서 'NSCL'이라는 종목 코드로 거래될 예정이다. 골드만삭스, JP모건, 모건스탠리 등이 대표주관사로 참여한다.새 창 열림",
-        "link": "https://www.aitimes.com/news/articleView.html?idxno=215489",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "공감신문새 창 열림",
-        "description": "",
-        "link": "http://gokorea.kr",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "엔비디아 투자사 엔스케일, 美 뉴욕증시상장신청새 창 열림",
-        "description": "상장대표주관사는 골드만삭스, JP모건, 모건스탠리 등이 맡았다. 이는 지난해 말 알려졌던 비상장기준 기업가치보다 크게 오른 수치로, 시장에서는 AI... 그는 \"GPU 수급 상황과 전력계약조건을 꼼꼼히 살펴본 뒤 결정할 계획\"이라고 전했다. 엔스케일의상장신청은 AI 인프라 기업에 대한 투자자들의...새 창 열림",
-        "link": "https://www.gokorea.kr/news/articleView.html?idxno=879118",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "머니투데이방송새 창 열림",
-        "description": "",
-        "link": "https://news.mtn.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "'AI면 원전도 뜬다' 공식 흔들…미국 원전 '옥석 가리기'새 창 열림",
-        "description": "다시상장을 추진할 계획이다.홀텍은 주당 15~18달러에 클래스A 보통주 5,000만주를 공모할 계획이었다. 공모가 상단을 적용하면 조달금액은 9억달러, 기업가치는 약 102억달러다. JP모건과 골드만삭스, 씨티그룹, 뱅크오브아메리카 등이 공동주관사로 참여했다.홀텍은 IPO 연기 배경으로 최근 2주간...새 창 열림",
-        "link": "https://news.mtn.co.kr/news-detail/2026091813572474218",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "이뉴스투데이새 창 열림",
-        "description": "",
-        "link": "http://www.enewstoday.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "미래에셋증권 노조, 금감원과 정면 충돌하나새 창 열림",
-        "description": "대표주관사인 골드만삭스가 전체 수요에 따라 물량을 재조정하면서 불발된 것이다. 미래에셋증권은 스페이스X상장주식에서 판매할 물량을 배정받지... 그는 \"스페이스 공모주 배정이 불발된 점은계약상 이슈이기에 증권사 잘못이라 할 수는 없다. 다만 아쉬운 측면은 있다\"고 덧붙였다.새 창 열림",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2472369",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "미디어펜새 창 열림",
-        "description": "",
-        "link": "http://www.mediapen.com",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "네오클라우드 엔스케일, 뉴욕증시상장신청…현재 기업가치 146억 달러새 창 열림",
-        "description": "대형 투자은행인 골드만삭스, J.P모건, 모건스탠리가 공동대표주관사로 참여해상장절차를 이끌고 있으나, 구체적인상장시기와 공모주식수... 총계약액은 1030억 달러에 달한다. 특히 AI 공룡인 앤트로픽과 450억 달러 규모의 컴퓨팅 제공계약을 체결했다. 엔스케일의상장추진은 AI 인프라...새 창 열림",
-        "link": "https://www.mediapen.com/news/view/1124733",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "서울경제TV새 창 열림",
-        "description": "",
-        "link": "http://www.sentv.co.kr",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "[기획]상장시험대 선 뱅크샐러드…‘헬스케어 실적’으로 몸값 입증할...새 창 열림",
-        "description": "대표주관사인 미래에셋증권과 함께 연내 한국거래소 코스닥상장예비심사 청구를 목표로 본격적인 세부 절차에 착수했다. 뱅크샐러드는상장에 앞서... 또 최근 진행된 제1기 금융 솔루션 전문가 인턴십 프로그램 결과, 신입으로 구성된 상담 인력 1인당 월 초회 보험료 80만원,계약유치 가동률 100%를...새 창 열림",
-        "link": "https://www.sentv.co.kr/article/view/sentv202609170110",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "[단독] 한국거래소, 뉴욕서 K증시 세일즈…외국기업 ‘코스닥 IPO’ 유치...새 창 열림",
-        "description": "KOOM WEEK 참석사 중 하나이자 뷰티 브랜드 ‘누니(Nooni)’ 운영사인 미미박스는 2년 전 삼성증권을상장 주관사로 선정하고 코스닥 입성을 추진하고 있다. UKF의 오랜 파트너이자 행사 내 전시 부스 시공을 맡은 빌드블록도 지난달 신한투자증권과 주관계약을 맺고 코스닥상장을 검토 중이다. 시장에서는...새 창 열림",
-        "link": "https://www.sedaily.com/article/20092811?ref=naver",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "인사이트새 창 열림",
-        "description": "",
-        "link": "http://www.insight.co.kr",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "구다이글로벌 '10조 IPO'...공모가 기준 밑돌면 FI 전환주식 늘어난다새 창 열림",
-        "description": "올해상장 주관사선정 경쟁에서는 10조원 이상의 기업가치가 제시된 것으로 전해졌다. 당시 CB계약이 전환가 조정 기준으로 삼은 가격에는 예심 청구 전주관사가 산정하는 예비공모가도 포함됐다.지난해 9월 더벨 보도에 따르면 예비공모가 하한이 기준공모가격에 못 미치면 CB 전환가를 낮춘다. 이후 확정...새 창 열림",
-        "link": "https://www.insight.co.kr/news/574249",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "금융소비자뉴스새 창 열림",
-        "description": "",
-        "link": "http://newsfc.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주관사계약",
-        "title": "한양증권, 첫 공모회사채 발행서 '찬밥' 대우...'중앙그룹 리스크'?새 창 열림",
-        "description": "특히 소형사 수준의 한계를 벗어나기위해 최근상장지수펀드(ETF), 유동성공급(LP) 비즈니스 등 신규 플로우 사업에 출사표를 던지며 중대형사의 면모를...주관사를 끼지 않고 기관투자자들을 직접 모집하는 직접공모 방식을 채택한 점도 완충 장치 없이 시장의 매서운 평가를 온전히 금리로 받아내게 된...새 창 열림",
-        "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=81252",
+        "link": "http://www.hansbiz.co.kr/",
         "source": "",
         "date": ""
       },
@@ -2252,145 +2208,145 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "아이씨티케이,상장후 실적 목표 줄줄이 미달새 창 열림",
-        "description": "아이씨티케이는 2024년 5월 기술특례상장으로 코스닥 시장에 입성할 당시상장주관사(NH투자증권)를 통해 2024년부터 2026년까지 3개년 실적 추정치를... 기업으로선정됐다. 하지만 핵심 기술인 보안칩 판매량은 매년 하락세를 보인다. 전체 매출에서 주력 제품인 보안칩이 차지하는 비중은 2023년 44.7...새 창 열림",
-        "link": "https://www.sidae.com/article/2026091815024319581",
+        "title": "솔리다임 200조 몸값…SK하닉의 셈법새 창 열림",
+        "description": "로이터는 최근 복수의 관계자를 인용해 솔리다임이 이번 주 투자은행(IB)들과 IPO주관사 선정을 위한 제안 미팅인 '베이크 오프(bake-off)'를 진행했다고 보도했다.상장을 위한 실무 준비 단계에 들어갔다는 의미로 해석된다. 거론되는 기업가치는 최대 1500억달러다. IPO 과정에서 약 150억달러를 조달할...새 창 열림",
+        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=868249",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "[단독] 한국거래소, 뉴욕서 K증시 세일즈…외국기업 ‘코스닥 IPO’ 유치...새 창 열림",
-        "description": "KOOM WEEK 참석사 중 하나이자 뷰티 브랜드 ‘누니(Nooni)’ 운영사인 미미박스는 2년 전 삼성증권을상장 주관사로선정하고 코스닥 입성을 추진하고 있다. UKF의 오랜 파트너이자 행사 내 전시 부스 시공을 맡은 빌드블록도 지난달 신한투자증권과 주관 계약을 맺고 코스닥상장을 검토 중이다. 시장에서는...새 창 열림",
-        "link": "https://www.sedaily.com/article/20092811?ref=naver",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사선정",
-        "title": "인사이트새 창 열림",
+        "title": "스마트비즈새 창 열림",
         "description": "",
-        "link": "http://www.insight.co.kr",
+        "link": "https://www.smartbizn.com/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "구다이글로벌 '10조 IPO'...공모가 기준 밑돌면 FI 전환주식 늘어난다새 창 열림",
-        "description": "올해상장 주관사 선정경쟁에서는 10조원 이상의 기업가치가 제시된 것으로 전해졌다. 당시 CB 계약이 전환가 조정 기준으로 삼은 가격에는 예심 청구 전 주관사가 산정하는 예비공모가도 포함됐다.지난해 9월 더벨 보도에 따르면 예비공모가 하한이 기준공모가격에 못 미치면 CB 전환가를 낮춘다. 이후 확정...새 창 열림",
-        "link": "https://www.insight.co.kr/news/574249",
+        "title": "삼성전자·SK하이닉스, 본주는 한 자릿수 하락···2배 ETF는 최대 '반토...새 창 열림",
+        "description": "SK하이닉스는 미국 손자회사 솔리다임의 미국 증시상장추진이 변수로 떠올랐다. 로이터통신에 따르면 솔리다임은 이르면 내년 미국에서 기업공개에 나설 예정이며 최근 투자은행들과 IPO주관사 선정을 위한 제안 회의를 진행했다. 솔리다임은 SK하이닉스가 2021년 인텔의 낸드...새 창 열림",
+        "link": "https://www.smartbizn.com/news/articleView.html?idxno=154888",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "머니투데이방송새 창 열림",
+        "title": "디지털투데이새 창 열림",
         "description": "",
-        "link": "https://news.mtn.co.kr/",
+        "link": "http://www.digitaltoday.co.kr/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "AI 기업 줄줄이 증시로…하반기 IPO '실적 검증대'새 창 열림",
-        "description": "제논은 지난 7월 코스닥상장예비심사를 청구했고, 페르소나AI도주관사를선정하고 기술성평가 등 IPO 절차를 준비 중이다.고석태 제논 대표는 \"설립 이후 기술 경쟁력을 쌓으며 안정적인 성장성과 수익성을 확보해왔다\"며 \"상장을 계기로 엔터프라이즈 생성형 AI 시장에서 입지를 강화하고자 한다....새 창 열림",
-        "link": "https://news.mtn.co.kr/news-detail/2026091814183622624",
+        "title": "[AI핫이슈] 새로운 AI 모델의 탄생...메타 '뮤즈' 초반 돌풍새 창 열림",
+        "description": "ㆍ더존비즈온, 'AI 거버넌스 사무국' 신설...지용구 사장 총괄 ㆍ뤼튼, 내년 IPO 본격화...주관사 선정ㆍ제논, 코스닥상장예비심사 승인…IPO 절차 본격화 ㆍ리얼월드-CJ대한통운, 물류 특화 피지컬 AI 공동 개발 국내 생성형 AI 서비스 시장이 빠르게 커지면서 올해 기업·소비자 간 거래(B2C) 결제 규모가...새 창 열림",
+        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=703070",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "일요신문새 창 열림",
+        "title": "[MUST KNOW5]오늘 시장은 'LG전자'·'삼전·SK하닉'...투자자가 알아야 할...새 창 열림",
+        "description": "로이터 “SK하이닉스 손자회사 솔리다임, 이르면 내년 美상장검토” SK하이닉스의 손자회사 솔리다임이 이르면 내년 미국 증시상장을 추진할 수 있다는 보도가 나왔습니다. 로이터는 소식통을 인용해 솔리다임이 이번 주 투자은행들과 IPO주관사 선정을 위한 제안 회의를 진행했다고 전했습니다. 아직...새 창 열림",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01830246645584712&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주간사선정",
+        "title": "FETV새 창 열림",
         "description": "",
-        "link": "https://www.ilyo.co.kr/",
+        "link": "https://www.fetv.co.kr/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "운동화 커뮤니티에서 패션·뷰티 플랫폼으로…무신사, 8조 몸값 인정받...새 창 열림",
-        "description": "운동화 사진을 공유하던 온라인 커뮤니티에서 출발한 무신사가 코스피상장을 준비한다. 패션 플랫폼과 자체 브랜드, 오프라인 매장, 해외사업으로... 실제주관사 선정과정에서는 패스트리테일링·인디텍스·H&M 등 글로벌 패션기업과 쿠팡·아마존 같은 플랫폼 기업이 비교기업 후보로 거론됐다. 패션기업과...새 창 열림",
-        "link": "https://ilyo.co.kr/?ac=article_view&entry_id=512795",
+        "title": "[인텔리빅스 IPO] ③'PER'로 몸값 산정, 흑자가 이뤄낸 성과새 창 열림",
+        "description": "이번 IPO의주관사인 미래에셋증권은 관련 업종상장사 176곳에서 재무·사업 유사성 등을 따져 최종적으로 슈어소프트테크와 와이즈넛, 아이쓰리시스템 3곳을 비교기업으로선정했다. 각각 AI·빅데이터와 AI 소프트웨어, 영상센서 분야에서 인텔리빅스와 사업 접점을 가진 기업들이다.상장예비심사...새 창 열림",
+        "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "뉴스웨이새 창 열림",
+        "title": "중복상장예외 1호 나왔어도… 대기업은 ‘주주동의 벽’에 눈치만새 창 열림",
+        "description": "22일 투자은행(IB) 업계에 따르면 대기업집단 기업공개(IPO) 기대주로 거론됐던 HD현대그룹 HD현대로보틱스, LS그룹 에식스솔루션즈, 한화그룹 한화에너지 등 대기업 계열사들이상장 주관사 선정이후 작업을 진행하지 못하고 있다. IB 업계 한 관계자는 “‘중복상장 가이드라인’(세부기준)이 발표되면 대기업...새 창 열림",
+        "link": "https://biz.chosun.com/stock/market_trend/2026/09/27/KMD76RLQQ5HFDDDNZZDM3KGHD4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주간사선정",
+        "title": "“솔리다임, 내년 美상장추진”… 주주가치 영향 변수새 창 열림",
+        "description": "솔리다임이 미 증시에 입성할 경우 SK그룹의 ‘중복상장’ 논란이 다시 불거질 것으로 보인다. 로이터통신은 25일(현지시간) 복수의 소식통을 인용해 솔리다임이 지난주 투자은행(IB)을 상대로 IPO주관사 선정을 위한 경쟁 프레젠테이션 절차인 ‘베이크 오프’(bake-off)를 진행했다고 보도했다. 통신은...새 창 열림",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000017608&cp=nv",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주간사선정",
+        "title": "“솔리다임, 내년 美상장추진”…‘주주 가치’ 영향 변수새 창 열림",
+        "description": "솔리다임이 미 증시에 입성할 경우 SK그룹의 ‘중복상장’ 논란이 다시 불거질 것으로 보인다. 로이터통신은 25일(현지시간) 복수의 소식통을 인용해 솔리다임이 지난주 투자은행(IB)을 상대로 기업공개(IPO)주관사 선정을 위한 경쟁 프레젠테이션 절차인 ‘베이크 오프’(bake-off)를 진행했다고...새 창 열림",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000017530&cp=nv",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주간사선정",
+        "title": "솔리다임, 내년 美상장추진새 창 열림",
+        "description": "이 미팅은 IPO를 추진하는 기업이주관사를선정하기 위해 투자은행의 제안을 받는 자리다. 기업들은 IPO에 나설 때 통상 시장 수급 환경 등을 고려해 전체 기업가치의 10% 수준을 신주로 발행하는 방식으로 대규모 자금을 조달한다. 내년 IPO가 이뤄지면 150억달러(약 20조4000억원) 이상의 금액을 조달받을...새 창 열림",
+        "link": "https://www.hankyung.com/article/2026092776191",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "상장 주간사선정",
+        "title": "이투데이새 창 열림",
         "description": "",
-        "link": "http://www.newsway.kr/",
+        "link": "http://www.etoday.co.kr",
         "source": "",
         "date": ""
       },
       {
         "keyword": "상장 주간사선정",
-        "title": "'공유오피스' 꼬리표 떼는 패스트파이브…IPO 앞두고 덩치 키운다새 창 열림",
-        "description": "대표주관사로 신한투자증권과 대신증권을선정하고상장준비에 속도를 내고 있다. 이번 IPO의 핵심은 단순히 공유오피스 지점을 늘리는 기존 성장 방식에서 벗어나 사업모델 자체를 확장하는 데 있다. 패스트파이브는 2015년 설립 이후 건물을 장기 임차한 뒤 공간을 재임대하는 방식으로 공유오피스 사업을...새 창 열림",
-        "link": "https://www.newsway.co.kr/news/view?ud=2026091815080563219",
+        "title": "SK하이닉스 손자회사 솔리다임, 美 IPO 추진…몸값 최대 204조원새 창 열림",
+        "description": "27일 로이터통신 등에 따르면 솔리다임은 이번주 투자은행(IB)을 대상으로 기업공개(IPO)주관사 선정을 위한 이른바 ‘베이크 오프(bake-off)’를 진행했다. IPO 규모와 시기는 아직 초기 단계로 변경될 가능성이 있다. 다만상장이 현실화할 경우 솔리다임의 기업가치는 최대 1500억달러, 조달 규모는...새 창 열림",
+        "link": "https://www.etoday.co.kr/news/view/2629528",
         "source": "",
         "date": ""
       },
       {
-        "keyword": "상장 주간사선정",
-        "title": "딜사이트새 창 열림",
+        "keyword": "상장 주간사계약",
+        "title": "EBN새 창 열림",
         "description": "",
-        "link": "https://dealsite.co.kr/",
+        "link": "https://www.ebn.co.kr/",
         "source": "",
         "date": ""
       },
       {
-        "keyword": "상장 주간사선정",
-        "title": "9년째 안 판 한화생명 지분…예보, 올해는 매각 나서나새 창 열림",
-        "description": "예보는 2021년 NH투자증권과 UBS를 매각주관사로선정하며 다시 지분 처분을 준비했지만 실제 거래로 이어지지는 않았다. 올해 들어 주가가 반등하면서... 예보는 서울보증보험상장이후 지난 3월 첫 시간외대량매매(블록세일)에 나선 데 이어 8월에도 지분 일부를 추가 매각했다. 기금 청산을 앞두고...새 창 열림",
-        "link": "https://dealsite.co.kr/articles/169159",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사선정",
-        "title": "더벨새 창 열림",
+        "keyword": "상장 주간사계약",
+        "title": "Keep에 저장",
         "description": "",
-        "link": "https://www.thebell.co.kr/",
+        "link": "#",
         "source": "",
         "date": ""
       },
       {
-        "keyword": "상장 주간사선정",
-        "title": "[더벨]텐센트, 넷마블 지분 3740억 블록딜…NH증권 주관새 창 열림",
-        "description": "2021년 넷마블 자회사 넷마블네오가 IPO를 추진할 당시에도 NH투자증권은 대표주관사로선정됐다. 최종상장은 성사되지 않았지만 넷마블 본사와 계열사 IPO에 잇달아 참여하며 커버리지 관계를 이어왔다. 이번에는 넷마블 법인의 자금조달이나 IPO가 아닌 최대주주의 대규모 지분 인수 과정에서 기여도를...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609180838452540105416",
+        "keyword": "상장 주간사계약",
+        "title": "회생절차도 못 막은 '상폐'…범양건영, 증시 퇴출 수순새 창 열림",
+        "description": "지난 4월 첫 매각이 무산된 뒤 삼일회계법인을 매각주간사로 두고 2차 공개매각에 나섰다. 범양건영과 100% 자회사 범양디앤씨를 함께 인수하거나 각각 인수하는 방안도 열어뒀다. 한편 범양건영은 1958년 설립돼 관급공사를 중심으로 성장했고 1988년 유가증권시장에상장했다. 글로벌 금융위기 이후인...새 창 열림",
+        "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1725205",
         "source": "",
         "date": ""
       },
       {
-        "keyword": "상장 주간사선정",
-        "title": "투데이신문새 창 열림",
-        "description": "",
-        "link": "http://www.ntoday.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사선정",
-        "title": "무신사 IPO 시동...유통업계상장움직임 이어질까새 창 열림",
-        "description": "구다이글로벌은 지난 2월 미래에셋증권과 NH투자증권, 씨티그룹글로벌마켓증권, 모건스탠리를주관사단으로선정했다. '조선미녀'를 시작으로 '티르티르', '스킨푸드' 등을 인수하며 브랜드를 확대해 온 회사로 현재상장예비심사 청구를 준비하고 있다. 지난해 매출은 1조4717억원으로 전년보다 294...새 창 열림",
-        "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=129499",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사선정",
-        "title": "더파워새 창 열림",
-        "description": "",
-        "link": "http://www.thepowernews.co.kr",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사선정",
-        "title": "1.8조→7~8조 몸값 뛴 HD현대로보틱스…‘4배 밸류’가 첫 관문새 창 열림",
-        "description": "HD현대로보틱스는 2025년 12월 국내외 증권사에 입찰제안요청서를 보내상장작업에 들어갔고 올해 1월 UBS·한국투자증권·KB증권을 대표주관사로선정했다. 그러나 현재상장일정과 모회사 주주동의 절차는 공식 확정되지 않은 상태다. 결국 HD현대로보틱스 IPO의 첫 번째 문제는 ‘로봇 산업이...새 창 열림",
-        "link": "https://www.thepowernews.co.kr/view.php?ud=202609171520353339de3f0aa1be_7",
+        "keyword": "상장 주간사계약",
+        "title": "英 네오클라우드 기업 엔스케일, 뉴욕 증시상장추진새 창 열림",
+        "description": "상장시기와 공모발행 주식, 공모가 등 구체적인 내용은 아직 알려지지 않았다. 지난 3월 시리즈C 투자 라운드에서 기업 가치가 146억달러로 매겨졌다. 당시 투자에 엔비디아, 델, 노키아 등 빅테크들이 참여했다. 현재 엔비디아와 마이크로소프트(MS), 오픈AI, 앤트로픽 등과 AI 인프라 임대계약을...새 창 열림",
+        "link": "https://www.hankyung.com/article/202609218287i",
         "source": "",
         "date": ""
       },
@@ -2399,14 +2355,6 @@ const DASHBOARD_DATA = {
         "title": "비즈니스포스트새 창 열림",
         "description": "",
         "link": "http://businesspost.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사계약",
-        "title": "Keep에 저장",
-        "description": "",
-        "link": "#",
         "source": "",
         "date": ""
       },
@@ -2515,34 +2463,10 @@ const DASHBOARD_DATA = {
         "date": ""
       },
       {
-        "keyword": "상장 주간사계약",
-        "title": "‘금양 악재’ 겪은 갑진, 이차전지 업황 회복 속 새 투자자 물색새 창 열림",
-        "description": "10일 중견기업계 등에 따르면 갑진의 매각주간사인 삼일회계법인은 이달 24일까지 잠재 투자자들로부터 인수의향서(LOI)를 제출받을 예정이다. 거래는... 2014년 중국 전기차 BYD에 충·방전기 수출계약을 맺는 등 관련 분야 강소기업으로 꼽혔다. 삼성SDI 협력사로 거래하며 사세를 확장했고, SK온에도 충...새 창 열림",
-        "link": "https://biz.chosun.com/industry/business-venture/2026/08/10/YI233JFCNVAWTLCKLYHZD34JFA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사계약",
-        "title": "한국금융신문새 창 열림",
-        "description": "",
-        "link": "http://www.fntimes.com",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "상장 주간사계약",
-        "title": "3년 만에 글로벌 1위, 로봇판 화웨이의 탄생 :애지봇(AgiBot·智元机器人...새 창 열림",
-        "description": "중금(中金)·중신(中信)을주간사로 모건스탠리가 인수단에 가세했다. 테슬라 옵티머스, 보스턴 다이내믹스 아틀라스와 어깨를 나란히 하는 로봇... 중국이동(China Mobile)은 전국 영업점에 배치할 원정 A2 200대를 단일계약으로 수주했다. 중국내 휴머노이드 로봇 분야에서 공개된 최대 단일 발주 건이다....새 창 열림",
-        "link": "https://www.fntimes.com/html/view.php?ud=202608071731245257c1c16452b0_18",
-        "source": "",
-        "date": ""
-      },
-      {
         "keyword": "프리IPO",
-        "title": "더벨새 창 열림",
+        "title": "IT조선새 창 열림",
         "description": "",
-        "link": "https://www.thebell.co.kr/",
+        "link": "http://it.chosun.com/",
         "source": "",
         "date": ""
       },
@@ -2556,606 +2480,102 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "프리IPO",
-        "title": "[더벨][IPO모니터] 노바셀테크놀로지, 이번주 예심 청구새 창 열림",
-        "description": "2018년에는 NH투자증권으로 대표주관사를 또 한번 교체한 뒤 2020년 130억원 규모프리IPO를 유치했다. 당시 2021년 상반기 IPO를 목표로 했지만 공모로 이어지지 않았다. 이후 키움증권으로 대표주관사를 교체했고 올해 기술성평가를 통과하면서 첫 도전 이후 14년 만에 예심을 청구하게 됐다. 키움증권은...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609170958268280101637",
+        "title": "[에이전틱 AI 맵 2026] 미소정보기술, AI 에이전트 개발부터 운영까지 '...새 창 열림",
+        "description": "의료·제조 레퍼런스로 유럽과 북미 공략 미소정보기술은프리IPO단계에서 사업·재무·기술 경쟁력을 높이며 코스닥 상장을 준비하고 있다. 2026년 창립 20주년을 맞아 인력 중심 서비스에서 패키지 라이선스와 파트너 생태계를 갖춘 제품 중심 AI 기업으로 전환한다는 계획을 세웠다. 액틱을 에이전트 개발...새 창 열림",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170421",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-        "description": "리벨리온은 6400억 원 규모의프리IPO투자를 유치했다. 국민성장펀드 2500억 원과 산업은행 500억 원 등 정책성 직접투자 3000억 원, 미래에셋그룹이 주도한 민간 투자 약 3000억 원, 기존 투자자의 신주인수권 행사분 등이 포함됐다. 이번 라운드에서 인정받은 기업가치는 약 3조 4000억 원이다....새 창 열림",
-        "link": "https://www.news1.kr/industry/sb-founded/6296515",
+        "title": "FETV새 창 열림",
+        "description": "",
+        "link": "https://www.fetv.co.kr/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "개발 전과정 수행… 에이디시스템, K드론 국산화 주도새 창 열림",
-        "description": "에이디시스템의 행보는 최근 코스닥 시장에서 높은 기업가치를 인정받아 상장한 자폭드론 업체 니어스랩과 유사한 만큼IPO(기업공개) 가능성이 높아졌다는 평가도 나온다.프리시리즈A에 이어 이번 라운드에도 투자한 조민하 JB인베스트먼트 선임심사역은 \"국내 방산 드론 국산화의 한축을 담당할 기업으로...새 창 열림",
-        "link": "https://www.mt.co.kr/future/2026/09/21/2026092019491181904",
+        "title": "[인사 나침판] 그룹 계열 증권, 변화 이끈 리더십 '호실적' 뒷받침되나새 창 열림",
+        "description": "이어 발행어음 인가에 필요한 모험자본 투자 역량 확대에 나섰다. 대표적인 예가 바로 인공지능(AI) 반도체 기업 리벨리온프리IPO참여다. 삼성증권은 해당프리IPO참여뿐 아니라 향후 상장 주관사 자리를 선점했다. 시장에서 가장 모범적인 모험자본 투자가 가장 보수적이다 여겨진 삼성증권이 이뤄낸 셈이다.새 창 열림",
+        "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310771",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "한국금융신문새 창 열림",
+        "title": "데일리메디새 창 열림",
         "description": "",
-        "link": "http://www.fntimes.com",
+        "link": "http://www.dailymedi.com/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "스틱벤처스 정보라, 네오사피엔스IPO잰걸음 ‘딥테크 투자 강화ʼ [VC ...새 창 열림",
-        "description": "스틱벤처스는 2024년 10월 큐리오시스프리IPO에 50억원을 투자해 6.59% 지분을 확보했다. 스틱이노베이션펀드를 통해 투자, IPO를 통해 멀티플 5.6배, IRR 352%를 기록했다. 오름테라퓨틱은 스틱벤처스가 2023년 브릿지 라운드에 신규 투자한 포트폴리오사다. 작년 2월 코스닥 상장을 완료했으며, 상장 직후 이틀...새 창 열림",
-        "link": "https://www.fntimes.com/html/view.php?ud=202609182213058383dd55077bc2_18",
+        "title": "종근당 CKD창업투자, 항체·암백신·원료 잇단 투자새 창 열림",
+        "description": "위암 환자를 대상으로 한 미국 임상 2상이 진행되고 있으며, 10월 톱라인 결과 공개 이후 기업공개(IPO)를 추진한다. 애스톤사이언스는 지난 2021년 투자... 셀위버스는프리시리즈A 라운드에서 60억원을 유치했다. 엔도톡신 검사는 투구게 혈액에서 얻은 검출 시약을 사용하는 방식이 일반적인데, 셀위버스는...새 창 열림",
+        "link": "https://www.dailymedi.com/news/news_view.php?wr_id=940808",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "디지털투데이새 창 열림",
-        "description": "",
-        "link": "http://www.digitaltoday.co.kr/",
+        "title": "\"정찰 넘어 공격·방어까지\"…군사용 드론 영역 넓힌다새 창 열림",
+        "description": "생산능력 확대에도 나선다.프리뉴는 2028년까지 국내에서 연간 1만대 이상 생산하는 것을 목표로 하고 있다. 이를 위해 경기 화성의 기존 공장을 활용하는 방안을 검토하고 있다. 기업공개(IPO)도 준비 중으로 내년 2분기 코스닥 상장이 목표다. 주관사는 한국투자증권이다.새 창 열림",
+        "link": "https://www.mk.co.kr/article/12162021",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "중국 AI, 오픈웨이트 전략 언제까지 유효할까? 지속가능성에 의문새 창 열림",
-        "description": "딥시크도 약 5000억위안, 740억달러 가치의프리IPO투자 유치 마무리 단계에 근접했다. 다만 일부 기업은 매출 대비 기업가치가 더 높게 평가됐다. 문샷AI와 딥시크의 기업가치 대비 연간 반복 매출 배수는 각각 50배, 163배로 추정됐다. 오픈AI는 34배, 앤트로픽은 21배였다. 중국 AI 업계는 최첨단 기술...새 창 열림",
-        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=701848",
+        "title": "[ZD브리핑] 마이크론 최대실적 예고...개보위원장·통신3사 CEO 첫회동새 창 열림",
+        "description": "토론에는 김도형프리텔레콤 전무, 박장희 큰사람커넥트 전무가 참여하고 김주호 참여연대 민생경제팀장, 한석현 서울YMCA 시민중계실장, 윤명... 앨리스그룹도 같은 날 서울 여의도 CCMM빌딩에서IPO기자간담회를 개최합니다. 간담회에선 엘리스그룹의 상장 계획과 전략이 발표될 예정으로, AI 인프라...새 창 열림",
+        "link": "https://zdnet.co.kr/view/?no=20260927121709",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "은밀하게 3배 더 멀리 난다…K-스텔스 드론에 130억 '뭉칫돈'새 창 열림",
-        "description": "니어스랩은 지난해 중동 지역에서 150억원 규모 공급계약을 체결하면서IPO추진력을 얻었다.프리시리즈A에 이어 이번 라운드에도 투자한 조민하 JB인베스트먼트 선임심사역은 \"에이디시스템은 지난해프리시리즈A 투자 당시 했던 사업 계획을 1년간 모두 해냈다\"며 \"국내 방산 드론 국산화의 한축을 담당할...새 창 열림",
-        "link": "https://www.mt.co.kr/future/2026/09/19/2026091717261251557",
+        "title": "토요경제새 창 열림",
+        "description": "",
+        "link": "https://www.sateconomy.co.kr/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "\"설립 2년 만에 7500억 회사 됐다\"…투자자들 몰린 '이 기술'새 창 열림",
-        "description": "18일 업계에 따르면 자율주행 로봇업체 트위니는 최근 아토인베스트먼트, DS자산운용 등으로부터 144억원 규모의프리IPO(상장 전 투자)를 유치했다. 지분 100% 가치는 2044억원으로, 3개월 전 투자를 유치할 당시보다 70% 뛰었다. 천홍석 트위니 대표가 주목한 것은 기존 물류센터. QR코드나 사전 이동 경로 없이...새 창 열림",
-        "link": "https://www.hankyung.com/article/2026091844761",
+        "title": "솔리다임 ‘1500억달러’의 조건…SK하이닉스그룹 eSSD 매출 86% 늘어도 ...새 창 열림",
+        "description": "지난 23일 알려진 50억달러 규모프리IPO와 비교하면 달라진 것은 절차와 규모다. 당시에는 외부 투자 유치와 향후 상장 가능성이 거론됐다면 이번에는 투자은행들이 실제 IPO 주관사 자리를 놓고 경쟁하는 단계로 진전됐다. 기업가치 상단도 크게 높아졌다. 국내 투자은행 업계에서프리IPO와 함께...새 창 열림",
+        "link": "http://sateconomy.co.kr/news/view/1065550825371205",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "뉴스톱새 창 열림",
-        "description": "",
-        "link": "https://www.newstopkorea.com/",
+        "title": "기업가치만 1500억달러?…‘미운 오리 새끼’였던 솔리다임의 반전 [반...새 창 열림",
+        "description": "앞서 국내 언론에서 약 5조원(36억달러) 규모의프리IPO(상장 전 지분투자) 추진설이 나오자, SK하이닉스는 지난달 “경쟁력 강화를 위한 다양한 방안을 검토 중”이라고 밝힌 바 있다. 로이터 측은 이번 보도에 대해 솔리다임은 논평을 거부했고, SK하이닉스는 즉각적인 공식 입장을 내놓지 않았다고...새 창 열림",
+        "link": "https://www.segye.com/newsView/20260926504757?OutUrl=naver",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "솔리다임, 美 첫 낸드 공장 구축 검토새 창 열림",
-        "description": "최첨단 장비를 들이는 것도 용이해진다. 이 밖에도 솔리다임은 현재프리IPO와 나스닥 상장을 검토 중인 것으로 알려졌다. SK하이닉스 관계자는 \"솔리다임은 경쟁력 강화를 위해 다양한 방안을 검토 중이지만 확정된 바는 없다\"고 말했다.새 창 열림",
-        "link": "https://www.newstopkorea.com/news/articleView.html?idxno=47766",
+        "title": "시사저널이코노미새 창 열림",
+        "description": "",
+        "link": "https://www.sisajournal-e.com/",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "위키리크스한국새 창 열림",
-        "description": "",
-        "link": "http://wikileaks-kr.org",
+        "title": "외신發 솔리다임 美IPO說 재점화···정말로 상장 추진하나새 창 열림",
+        "description": "당시 솔리다임이 미국 증시 상장을 목표로 5~10조원 규모의프리IPO(상장 전 투자유치)에 나섰다는 내용이었다. 이에 대해 SK하이닉스는 당일 \"해외 종속회사인 솔리다임은 경쟁력 강화를 위해 다양한 방안을 검토하고 있으나, 현재까지 확정된 사항은 없다\"며 \"추후 구체적인 내용이 확정되는 시점 또는...새 창 열림",
+        "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=423954",
         "source": "",
         "date": ""
       },
       {
         "keyword": "프리IPO",
-        "title": "[중소형 증권사 돌파구]⑤ 교보증권, WM·디지털·IB 강화…STO·RWA 신성...새 창 열림",
-        "description": "정부의 모험자본 공급 기조에 맞춰 유망 기업 육성을 조력하고,프리IPO등을 통해 수익성을 높이려는 구상으로 해석된다. WM도 경쟁력도 강화 대상으로 삼고 있다. 교보증권은 금융상품 라인업을 다변화하고 고부가가치 상품 중심의 체질 개선을 추진하고 있다. 내년 출시를 목표로 차세대 MTS를 개발해...새 창 열림",
-        "link": "http://www.wikileaks-kr.org/news/articleView.html?idxno=192185",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "프리IPO",
-        "title": "오아시스, 토스 손잡고 고객 넓힌다…'컬리N마트' 성장 공식 통할까새 창 열림",
-        "description": "이번 토스 투자에서 인정받은프리밸류는 1조3000억원으로 당시 수준을 웃돈다. 당장IPO재추진 일정이 정해진 것은 아니지만 향후 기업가치 산정의 참고점이 될 수 있다. 관건은 토스에서 발생하는 주문이 기존 고객의 채널 이동에 그치지 않고 신규 수요로 이어지느냐다. 늘어난 물량을 기존 흑자 구조 안에서...새 창 열림",
-        "link": "https://www.bloter.net/news/articleView.html?idxno=674023",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "The New York Times새 창 열림",
-        "description": "",
-        "link": "http://www.nytimes.com",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "Keep에 저장",
-        "description": "",
-        "link": "#",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate새 창 열림",
-        "description": "The company has taken meetings with those who are willing to write large checks, or arepre-existing investors in Anthropic, four people... “Anthropic willIPO,” wrote Brad Gerstner of Altimeter Capital",
-        "link": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html?partner=naver",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "The A.I. Industry’s New Worry: ‘Liability Exposure’새 창 열림",
-        "description": "The prospect of artificial intelligence tools being used to do significant harm presents the companies and their leaders with a legal challenge. Andrew here. Breaking: It’s the end of an era as Warren",
-        "link": "https://www.nytimes.com/2026/09/18/business/dealbook/ai-legal-liability.html?partner=naver",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "팍스경제TV새 창 열림",
-        "description": "",
-        "link": "http://www.paxetv.com",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "[이슈] 생산적 금융 '두 쏠림'…가계는 부동산, 딥테크 자금은 초기에새 창 열림",
-        "description": "김 연구위원은 여러 투자자를 묶어 후속투자를 주도할 VC를 육성하고, 대형 기관과 자산운용사의Pre-IPO투자 참여를 확대할 필요가 있다고 제언했다. 기관투자자의 회수를 돕기 위해 세컨더리와 바이아웃 등 회수시장도 넓혀야 한다고 봤다.새 창 열림",
-        "link": "http://www.paxetv.com/news/articleView.html?idxno=282311",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "톱데일리새 창 열림",
-        "description": "",
-        "link": "http://www.topdaily.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "[엠비디IPO] 단독 주관 맡은 하나증권, 실적 반등할까새 창 열림",
-        "description": "하나증권 관계자는 “연내 2~3건의 추가 상장을 목표로 주관 기업과 소통하고 있다”며 “딜 파이프라인 발굴을 위해 우량 기업 발굴 및pre-IPO투자 등을 꾸준히 추진하고 있으며 그룹 차원의 협업을 통해 보다 적극적인 아웃바운드 영업을 추진 중”이라고 밝혔다.새 창 열림",
-        "link": "https://www.topdaily.kr/articles/112024",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "AI, chip stocks reshape Kosdaq as Rebellions eye listing새 창 열림",
-        "description": "The company completed a 640 billion wonpre-IPOround in March at a valuation of 3.4 trillion won, with the National Growth Fund investing 250 billion won directly. Rebellions develops neural processing",
-        "link": "https://www.mk.co.kr/article/12156330",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "\"기술력만으론 안 통한다\"…삼정KPMG, 소프트웨어 기업 대상IPO세미나새 창 열림",
-        "description": "삼정KPMG가 변화하는 기업공개(IPO) 시장 환경에 대응해 소프트웨어 업종 상장예비기업을 대상으로 ‘소프트웨어 업종 상장예비기업 프라이빗 세션’을 개최한다고 18일 밝혔다. 이번 행사는 오는 10월 1일 서울 역삼동 강남파이낸스센터 삼정KPMG 본사에서 열린다. 최근 국내IPO시장은 단순한 외형 확장이나...새 창 열림",
-        "link": "https://www.hankyung.com/article/202609183235r",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "한국금융경제신문새 창 열림",
-        "description": "",
-        "link": "http://www.kfenews.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "'1.7조 유상증자' KB증권…차기 승부처는?새 창 열림",
-        "description": "이어 \"기업공개(IPO) 부문에서도 하반기 예정 딜을 차질 없이 추진하는 가운데, 중견·중소기업 IPO를 확대하고Pre-IPO투자와 벤처캐피탈(VC) 네트워크를 활용해 우량 딜 파이프라인을 강화해 나갈 방침\"이라며 \"프로젝트금융은 안정적인 수익 기반을 유지하면서 신성장 분야로 포트폴리오를 다변화하고...새 창 열림",
-        "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=664815",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "슬로우뉴스새 창 열림",
-        "description": "",
-        "link": "http://slownews.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "Slow Letter: September 17, 2026.새 창 열림",
-        "description": "South Korea has requestedpre-purchase agreements, but the U.S. government refuses. Westinghouse Stake Investment: The Royalty Problem.... “It’s like anIPOfor the Manhattan Project,” goes the joke, but",
-        "link": "https://slownews.kr/166530",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "글로벌경제새 창 열림",
-        "description": "",
-        "link": "http://www.getnews.co.kr",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "에스알파테라퓨틱스, 소아 근시 억제 디지털치료기기  'MyoHabit™' 식약처...새 창 열림",
-        "description": "에스알파테라퓨틱스는 이번 품목허가를 기반으로 코스닥 기술특례 상장을 목표로 한 상장 전 투자유치(Pre-IPO)도 추진 중이다. 최 헌 에스알파테라퓨틱스 대표는 \"단계적인 임상개발을 거쳐 소아 근시 진행 억제를 위한 디지털치료기기로 품목허가를 획득했다\"라며 \"의료진과의 협력을 바탕으로 소아...새 창 열림",
-        "link": "https://www.getnews.co.kr/news/articleView.html?idxno=881015",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "의사신문새 창 열림",
-        "description": "",
-        "link": "http://www.doctorstimes.com/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre ipo",
-        "title": "[의료기기업계 소식] 9월 16일새 창 열림",
-        "description": "또한, 에스알파테라퓨틱스는 이번 품목허가를 기반으로, 코스닥 기술특례 상장을 목표로 한 상장 전 투자유치(Pre-IPO)를 진행 중이다. 최헌 대표는 \"단계적인 임상개발을 거쳐 소아 근시 진행 억제를 위한 디지털치료기기로 품목허가를 획득했다\"라며 \"의료진과의 협력을 바탕으로 소아 근시 환자와...새 창 열림",
-        "link": "http://www.doctorstimes.com/news/articleView.html?idxno=240045",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "The New York Times새 창 열림",
-        "description": "",
-        "link": "http://www.nytimes.com",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "Keep에 저장",
-        "description": "",
-        "link": "#",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "Anthropic Moves Ahead With I.P.O. Plans Amid A.I. Safety Debate새 창 열림",
-        "description": "The company has taken meetings with those who are willing to write large checks, or arepre-existing investors in Anthropic, four people... “Anthropic willIPO,” wrote Brad Gerstner of Altimeter Capital",
-        "link": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html?partner=naver",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "The A.I. Industry’s New Worry: ‘Liability Exposure’새 창 열림",
-        "description": "The prospect of artificial intelligence tools being used to do significant harm presents the companies and their leaders with a legal challenge. Andrew here. Breaking: It’s the end of an era as Warren",
-        "link": "https://www.nytimes.com/2026/09/18/business/dealbook/ai-legal-liability.html?partner=naver",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "팍스경제TV새 창 열림",
-        "description": "",
-        "link": "http://www.paxetv.com",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "[이슈] 생산적 금융 '두 쏠림'…가계는 부동산, 딥테크 자금은 초기에새 창 열림",
-        "description": "김 연구위원은 여러 투자자를 묶어 후속투자를 주도할 VC를 육성하고, 대형 기관과 자산운용사의Pre-IPO투자 참여를 확대할 필요가 있다고 제언했다. 기관투자자의 회수를 돕기 위해 세컨더리와 바이아웃 등 회수시장도 넓혀야 한다고 봤다.새 창 열림",
-        "link": "http://www.paxetv.com/news/articleView.html?idxno=282311",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "톱데일리새 창 열림",
-        "description": "",
-        "link": "http://www.topdaily.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "[엠비디IPO] 단독 주관 맡은 하나증권, 실적 반등할까새 창 열림",
-        "description": "하나증권 관계자는 “연내 2~3건의 추가 상장을 목표로 주관 기업과 소통하고 있다”며 “딜 파이프라인 발굴을 위해 우량 기업 발굴 및pre-IPO투자 등을 꾸준히 추진하고 있으며 그룹 차원의 협업을 통해 보다 적극적인 아웃바운드 영업을 추진 중”이라고 밝혔다.새 창 열림",
-        "link": "https://www.topdaily.kr/articles/112024",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "AI, chip stocks reshape Kosdaq as Rebellions eye listing새 창 열림",
-        "description": "The company completed a 640 billion wonpre-IPOround in March at a valuation of 3.4 trillion won, with the National Growth Fund investing 250 billion won directly. Rebellions develops neural processing",
-        "link": "https://www.mk.co.kr/article/12156330",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "\"기술력만으론 안 통한다\"…삼정KPMG, 소프트웨어 기업 대상IPO세미나새 창 열림",
-        "description": "삼정KPMG가 변화하는 기업공개(IPO) 시장 환경에 대응해 소프트웨어 업종 상장예비기업을 대상으로 ‘소프트웨어 업종 상장예비기업 프라이빗 세션’을 개최한다고 18일 밝혔다. 이번 행사는 오는 10월 1일 서울 역삼동 강남파이낸스센터 삼정KPMG 본사에서 열린다. 최근 국내IPO시장은 단순한 외형 확장이나...새 창 열림",
-        "link": "https://www.hankyung.com/article/202609183235r",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "한국금융경제신문새 창 열림",
-        "description": "",
-        "link": "http://www.kfenews.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "'1.7조 유상증자' KB증권…차기 승부처는?새 창 열림",
-        "description": "이어 \"기업공개(IPO) 부문에서도 하반기 예정 딜을 차질 없이 추진하는 가운데, 중견·중소기업 IPO를 확대하고Pre-IPO투자와 벤처캐피탈(VC) 네트워크를 활용해 우량 딜 파이프라인을 강화해 나갈 방침\"이라며 \"프로젝트금융은 안정적인 수익 기반을 유지하면서 신성장 분야로 포트폴리오를 다변화하고...새 창 열림",
-        "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=664815",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "슬로우뉴스새 창 열림",
-        "description": "",
-        "link": "http://slownews.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "Slow Letter: September 17, 2026.새 창 열림",
-        "description": "South Korea has requestedpre-purchase agreements, but the U.S. government refuses. Westinghouse Stake Investment: The Royalty Problem.... “It’s like anIPOfor the Manhattan Project,” goes the joke, but",
-        "link": "https://slownews.kr/166530",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "글로벌경제새 창 열림",
-        "description": "",
-        "link": "http://www.getnews.co.kr",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "에스알파테라퓨틱스, 소아 근시 억제 디지털치료기기  'MyoHabit™' 식약처...새 창 열림",
-        "description": "에스알파테라퓨틱스는 이번 품목허가를 기반으로 코스닥 기술특례 상장을 목표로 한 상장 전 투자유치(Pre-IPO)도 추진 중이다. 최 헌 에스알파테라퓨틱스 대표는 \"단계적인 임상개발을 거쳐 소아 근시 진행 억제를 위한 디지털치료기기로 품목허가를 획득했다\"라며 \"의료진과의 협력을 바탕으로 소아...새 창 열림",
-        "link": "https://www.getnews.co.kr/news/articleView.html?idxno=881015",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "의사신문새 창 열림",
-        "description": "",
-        "link": "http://www.doctorstimes.com/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "pre-ipo",
-        "title": "[의료기기업계 소식] 9월 16일새 창 열림",
-        "description": "또한, 에스알파테라퓨틱스는 이번 품목허가를 기반으로, 코스닥 기술특례 상장을 목표로 한 상장 전 투자유치(Pre-IPO)를 진행 중이다. 최헌 대표는 \"단계적인 임상개발을 거쳐 소아 근시 진행 억제를 위한 디지털치료기기로 품목허가를 획득했다\"라며 \"의료진과의 협력을 바탕으로 소아 근시 환자와...새 창 열림",
-        "link": "http://www.doctorstimes.com/news/articleView.html?idxno=240045",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "Keep에 저장",
-        "description": "",
-        "link": "#",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "이력서 대신 AI가 연결…유럽 '채용 에이전트'에VC자금 몰린다새 창 열림",
-        "description": "벤처캐피털(VC) 자금이 몰리는 모습이다. 20일 관련 업계에 따르면 영국 런던 기반 AI 채용 스타트업 잭앤질은 최근 에어스트리트캐피털 등으로부터 4000만달러(약 553억원) 규모의 시리즈A투자를유치했다. 앞서 2000만달러 규모의 시드투자를유치한 데 이어 추가 자금을 확보하면서 누적투자유치액은...새 창 열림",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=01882726645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "더벨새 창 열림",
-        "description": "",
-        "link": "https://www.thebell.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "[더벨][AI 스타트업 in 실리콘밸리] 트웰브랩스, 미국서 키운 영상 AI…...새 창 열림",
-        "description": "올해 7월에는 1억달러 규모의 시리즈B투자를유치했다. 미국VC뉴엔터프라이즈어소시에이츠(NEA)와 네이버벤처스가 공동으로투자를 주도했다. 아마존과 래디컬벤처스, 인덱스벤처스, 한국투자파트너스 등도 참여했다. 누적투자 유치액은 2억달러를 넘어섰다. 확보한 자금은 영상 이해 모델 고도화와 응용...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171240540080103750",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "[더벨][코스포 in 제주] 코스포, 제주 스타트업투자기회 확대…지역 유...새 창 열림",
-        "description": "진행 방식은 실제 벤처캐피탈(VC)의투자심사 과정을 간소화한 형태다. 각 기업 대표가 약 5분간 IR을 진행하고 참석자들의 질문에 답하는 시간을 가졌다.... 참가 기업들이 각자의투자유치계획을 설명하는 가운데 실제투자의향을 밝힌 참석자도 있었다. 모의투자대회를 계기로 지역 스타트업과투자자가...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609201019169640106936",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "[더벨][코스포 in 제주] 프리아이디어, 10억 프리A 추진…호텔 AIoT 양산...새 창 열림",
-        "description": "호텔 어메니티 솔루션 기업 프리아이디어가 10억원 규모의 프리 시리즈A투자 유치에 나섰다. 현재까지 3억원의투자를 확정한 가운데 추가투자자를... 모의투자대회에서 더벨과 만나 이 같은투자계획을 밝혔다. 프리아이디어는 최근 10억원을 목표로 프리A 라운드를 진행하고 있다. 현재 한VC와 논의를...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609181735432880105358",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-        "description": "애즈위메이크는 국내 벤처캐피털(VC) 수십여곳에서 약 300억원의 외부투자금을유치한 데 이어 올해 기업가치 1500억원을 기준으로 최대 700억원 규모의 신규투자까지 추진했다. 그러나투자자 실사 과정에서 매출과 거래처, 은행잔고 등 재무자료 조작 의혹이 불거졌고 결국 사기 혐의로 피소됐다. 이데일리...새 창 열림",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-        "description": "(TheVC·한국 비상장 스타트업투자정보 플랫폼)에 따르면 두나무 구주 인수 딜을 제외한 올해투자금 1000억 원 이상 대형투자라운드 13건의 합계는 2조 4520억 원으로 집계됐다. 이 중 AI 추론용 신경망처리장치(NPU) 기업 리벨리온·퓨리오사AI와 CXL 기반 지능형 메모리 기업 엑시나가유치한 금액은...새 창 열림",
-        "link": "https://www.news1.kr/industry/sb-founded/6296515",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "메디게이트뉴스새 창 열림",
-        "description": "",
-        "link": "http://www.medigatenews.com",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "이대목동병원 ER 바이오 코어 사업단, 4회 IR 데모데이 공동 개최새 창 열림",
-        "description": "병원과VC를 늘려 행사를 더욱 발전시켜 나가겠다\"고 밝혔다. 이후정 이대목동병원 ER 바이오 코어 사업단 의생명연구부원장(운영총괄)은 \"이번 IR 데모데이는 임상 현장에서 실제로 검증받은 기술이투자유치로 이어지는 선순환 구조를 보여주는 사례\"라며 \"앞으로도 개방형실험실과 유효성평가센터 등...새 창 열림",
-        "link": "https://www.medigatenews.com/news/3971330381",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "청년창업자금 받아도… 10곳 중 1곳 성장 단계서 주저앉았다새 창 열림",
-        "description": "정부가 '모두의 창업' 등으로 창업 지원을 확대하고 있지만 창업 이후 매출과투자유치로 이어지는 성장 지원도 강화해야 한다는 지적이 나오는 이유다.... 한국벤처캐피탈협회 및 업계 집계에 따르면 국내 벤처캐피털(VC)의투자금 회수 수단 중 IPO 비중은 80%를 웃돈다. 미주·유럽 등 선진 시장에서 M&A와...새 창 열림",
-        "link": "https://www.fnnews.com/news/202609201817340547",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "[단독]창업 열기 뜨거운데...후속투자·회수시장 키워야새 창 열림",
-        "description": "정부가 '모두의 창업' 등으로 창업 지원을 확대하고 있지만 창업 이후 매출과투자 유치로 이어지는 성장 지원도 강화해야 한다는 지적이 나오는... 한국벤처캐피탈협회 및 업계 집계에 따르면 국내 벤처캐피털(VC)의투자금 회수 수단 중 IPO 비중은 80%를 웃돈다. 미주·유럽 등 선진 시장에서 M&A와 세컨더리...새 창 열림",
-        "link": "https://www.fnnews.com/news/202609201448052430",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "CNB저널(문화경제)새 창 열림",
-        "description": "",
-        "link": "http://weekly.cnbnews.com/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "VC 투자유치",
-        "title": "김현기 강남구청장, 로봇기업인들과 수서 현장 누벼… 'K-테크밸리' 조성...새 창 열림",
-        "description": "문화경제 | CNB저널 | 씨앤비저널 서울 강남구(구청장 김현기)가 수서의 로봇·인공지능(AI) 산업과 테헤란로의 벤처캐피털(VC)을 연결한 'K-테크밸리' 조성에... 이를 통해 기술 개발과 실증,투자 유치, 글로벌 시장 진출로 이어지는 산업 생태계를 강남 안에 구축한다는 계획이다. 이를 위해 구는 '수서...새 창 열림",
-        "link": "https://www.cnbizm.com/news/articleView.html?idxno=315701",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "더벨새 창 열림",
-        "description": "",
-        "link": "https://www.thebell.co.kr/",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "Keep에 저장",
-        "description": "",
-        "link": "#",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "[더벨][코스포 in 제주] 코스포, 제주 스타트업투자기회 확대…지역 유...새 창 열림",
-        "description": "진행 방식은 실제벤처캐피탈(VC)의투자심사 과정을 간소화한 형태다. 각 기업 대표가 약 5분간 IR을 진행하고 참석자들의 질문에 답하는 시간을 가졌다....투자금을 배분하도록 했다. 현장에서는 기업별 사업모델과 수익 구조, 향후 성장 계획 등을 확인하는 질문이 이어졌다. 참가 기업들이 각자의투자유치...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609201019169640106936",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "[더벨][AI 스타트업 in 실리콘밸리] 트웰브랩스, 미국서 키운 영상 AI…...새 창 열림",
-        "description": "아마존웹서비스(AWS)를 통한 모델 공급에 이어 올해 1억달러 규모의 시리즈B투자도유치했다. 트웰브랩스는 한국에서 창업한 뒤 창업 초기 미국으로... 대규모 자본을 갖춘 기업들도 참여한 대회에서 성과를 냈고, 이후 글로벌벤처캐피탈(VC) 인덱스벤처스의투자로 이어졌다. 현재 본사를 둔 샌프란시스코는...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171240540080103750",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "촌 \"사람과 사람 신뢰, 플랫폼 없이 직접 연결 첫 회사\"새 창 열림",
-        "description": "행사에는벤처캐피탈과 신기술사업금융회사투자심사역, 파트너 기업, 초기 사용자 그룹, 종중 관계자, 학계 인사 등 100여 명이 참석했다. 조석준 전... 이번 행사를 기점으로 기술 개발과 사업 확장, 글로벌 진출을 위한투자 유치에 본격 나서며,투자 유치가 완료되는 대로 미국 현지 법인 설립과 글로벌...새 창 열림",
-        "link": "https://zdnet.co.kr/view/?no=20260920223212",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "청년창업자금 받아도… 10곳 중 1곳 성장 단계서 주저앉았다새 창 열림",
-        "description": "정부가 '모두의 창업' 등으로 창업 지원을 확대하고 있지만 창업 이후 매출과투자유치로 이어지는 성장 지원도 강화해야 한다는 지적이 나오는 이유다.... 한국벤처캐피탈협회 및 업계 집계에 따르면 국내벤처캐피털(VC)의투자금 회수 수단 중 IPO 비중은 80%를 웃돈다. 미주·유럽 등 선진 시장에서 M&A와...새 창 열림",
-        "link": "https://www.fnnews.com/news/202609201817340547",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "[단독]창업 열기 뜨거운데...후속투자·회수시장 키워야새 창 열림",
-        "description": "정부가 '모두의 창업' 등으로 창업 지원을 확대하고 있지만 창업 이후 매출과투자 유치로 이어지는 성장 지원도 강화해야 한다는 지적이 나오는... 한국벤처캐피탈협회 및 업계 집계에 따르면 국내벤처캐피털(VC)의투자금 회수 수단 중 IPO 비중은 80%를 웃돈다. 미주·유럽 등 선진 시장에서 M&A와 세컨더리...새 창 열림",
-        "link": "https://www.fnnews.com/news/202609201448052430",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "512억 '메가딜' 성사…스타트업투자대세는 AI, 의료 분야 접목도새 창 열림",
-        "description": "정책금융기관인 한국산업은행을 비롯해 스마일게이트인베스트먼트, 미래에셋벤처투자, 미래에셋캐피탈, 플럭스벤처스, 이노폴리스파트너스도투자에 참여했다. 이번투자로 누적투자유치액은 약 184억원이 됐다. 2019년 설립된 에이디시스템은 기체 설계부터 복합재 제조, 비행제어·항전 소프트웨어...새 창 열림",
-        "link": "https://www.mt.co.kr/future/2026/09/20/2026092010515930512",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "\"웹만 열면 5분만에 드론 설계 뚝딱\"…시뮬레이션 문턱 낮춘 이곳새 창 열림",
-        "description": "에브리심은 현재 50억원 규모의 프리시리즈A투자 유치를 진행 중이다. 금융사와벤처캐피탈몇 곳이 직접투자를 검토하고 있다. 특히 우리금융 오픈이노베이션 조직인 디노랩은 올 상반기 지역 스타트업 발굴 과정에서 에브리심과 인연을 맺은 뒤 성장 가능성에 주목, 직접투자를 논의하고 있다. 조만간...새 창 열림",
-        "link": "https://www.mt.co.kr/future/2026/09/20/2026091016041512409",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "“기술은 있지만 사업화 모르는 전문직, 이들의 창업이 쉬워야 富國”[...새 창 열림",
-        "description": "이 강연에서벤처스튜디오가 창업한 스타트업은 창업 후 시드투자 유치까지 걸리는 기간이 절반으로 줄고, 시리즈A투자 유치성공률은 2배 높으며... 송 회장은 “모태펀드는벤처캐피탈을 지원하고 팁스(TIPS)는 액셀러레이터를 지원하는데,벤처스튜디오는 카테고리 자체가 없다”고 했다. 정부 지원...새 창 열림",
-        "link": "https://www.donga.com/news/Health/article/all/20260919/134698289/2",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
-        "title": "'연봉 6000만원? 삼성 갈게요'…인재 외면에 비상 걸린 곳새 창 열림",
-        "description": "인재유치의 걸림돌로 작용하고 있다. ◇ VC 외면하는 공대 인재들 18일벤처캐피탈협회에 따르면 최근 국내 VC와 엑셀러레이터(AC)의 심사역 채용이... DSC인베스트먼트와 아주IB투자등 상장 VC들도 상시 채용을 진행 중이다.투자심사역은 유망 스타트업을 찾아다니며 기술과 사업성을 검토하고투자여부를...새 창 열림",
-        "link": "https://www.hankyung.com/article/2026091844751",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "벤처캐피탈 투자유치",
         "title": "한스경제새 창 열림",
         "description": "",
         "link": "http://www.hansbiz.co.kr/",
@@ -3163,18 +2583,650 @@ const DASHBOARD_DATA = {
         "date": ""
       },
       {
+        "keyword": "프리IPO",
+        "title": "[아슬아슬 현대차]⑤ 아틀라스 복덩이? 짐덩이?새 창 열림",
+        "description": "시장에서는 향후 보스턴다이나믹스의 미국 증시 상장과프리IPO(상장 전 투자유치)를 통한 외부 투자 유치 가능성도 제기되고 있다. 2021년 현대차그룹이 보스턴다이나믹스 지배지분을 인수할 당시 평가된 기업가치는 약 1조2000억원이다. 5년 만에 시장에서 거론되는 몸값이 수십 배로 불어난 셈이다....새 창 열림",
+        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=868003",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "프리IPO",
+        "title": "미디어펜새 창 열림",
+        "description": "",
+        "link": "http://www.mediapen.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "프리IPO",
+        "title": "SK하이닉스 낸드자회사 솔리다임, 내년 뉴욕 상장 검토...기업가치 1500억...새 창 열림",
+        "description": "로이터는 지난 19일, 솔리다임이 미국에서 낸드플래시 공장을 짓는 방안을 검토하고 있으며, 동시에 약 36억 달러의프리IPO자금조달 가능성도 저울질하고 있다고 보도했다. 하지만 당시 SK하이닉스와 솔리다임은 \"경쟁력 강화를 위한 여러 방안을 검토하고 있지만 구체적으로 결정된 것은 없다\"고...새 창 열림",
+        "link": "https://www.mediapen.com/news/view/1126111",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "아시아투데이새 창 열림",
+        "description": "",
+        "link": "http://www.asiatoday.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "Keep에 저장",
+        "description": "",
+        "link": "#",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "\"SK하이닉스 미 손자회사 솔리다임, 기업가치 최대 204조원 美IPO검토\"...새 창 열림",
+        "description": "이에 앞서 지난달 솔리다임이 약 5조원 규모의 상장 전 자금 조달(pre-IPOfundraising)을 검토하고 있다는 보도가 나오자, SK하이닉스는 솔리다임의 경쟁력을 강화하기 위한 방안을 검토하고 있다고 밝힌 바 있다.◇ 솔리다임, AI 컴퍼니 산하 편입…SK하이닉스 손자회사로 재편솔리다임의 지배구조도 올해...새 창 열림",
+        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260927010009179",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "머니투데이방송새 창 열림",
+        "description": "",
+        "link": "https://news.mtn.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "훈풍 부는 바이오 투자…팬데믹 시절 최대치 넘을까새 창 열림",
+        "description": "국내 기업들의 올해 누적 기술이전 규모는 20조원을 넘어서며 지난해 전체 실적의 80%에 육박했습니다.하지만 투자 시장 이면엔 온도 차가 뚜렷합니다.민간 자금이 상장 직전 단계인 프리IPO(Pre-IPO) 기업이나 이미 기술이전 실적을 가진 벤처 위주로만 집중되고 있기 때문입니다.[이승규 / 한국바이오협회...새 창 열림",
+        "link": "https://news.mtn.co.kr/news-detail/2026092316432571142",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "중기이코노미새 창 열림",
+        "description": "",
+        "link": "http://www.junggi.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "스타트업 시리즈C 이후 후속투자 전환율 18% 불과새 창 열림",
+        "description": "둘째, 전략적 투자자의 참여를 독려하고 대형기관과 자산운용사가 상장 직전 단계(Pre-IPO) 투자에 참여하도록 크로스오버 투자를 활성화하며, 양산형·인프라형 기업에는 정부 보증과 저리 대출 같은 투자형 지원을 늘리자고 했다. 셋째, 유동성을 중시하는 기관투자자가 중간에 투자금을 회수할 수...새 창 열림",
+        "link": "https://www.junggi.co.kr/news/articleView.html?idxno=37897",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "데일리팝새 창 열림",
+        "description": "",
+        "link": "http://www.dailypop.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "금융권, 추석 앞두고 '상생·사회공헌' 행보 확대…미래 성장 기반 확보...새 창 열림",
+        "description": "상장 주관계약을 체결했거나 3년 이내 IPO를 목표로 하는Pre-IPO혁신기업에 집중 투자할 계획이다. 기업은행은 코스닥 시장 활성화 TF의 일환으로 향후 3년간 총 5000억원 규모의 펀드를 조성할 방침이다. 소비자 접점 확대 및 문화예술 사회공헌 고객 소통과 특화 사회공헌 프로그램도 눈길을 끈다....새 창 열림",
+        "link": "http://www.dailypop.kr/news/articleView.html?idxno=102860",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "한국금융신문새 창 열림",
+        "description": "",
+        "link": "http://www.fntimes.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "태양을 쫓다 증시에 도착한 거인:러쥐 로보틱스(Leju Robotics)의 시대 [전...새 창 열림",
+        "description": "연속 3년 적자, 누적 손실 1억 7,200만 위안인 회사가Pre-IPO로 15억 위안을 받고도 또 26억 위안을 공모하려 한다는 지적이다. 쿠아보의 공업 제조 현장 매출은 2025년 기준 전체의 3.88%에 불과하다. \"공장에서 실제로 일하는 로봇\"보다 \"전시·연구·행사용 로봇\"이 대부분이라는 것이다. 증권업협회는 현장...새 창 열림",
+        "link": "https://www.fntimes.com/html/view.php?ud=202609120022114720c1c16452b0_18",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "AP신문새 창 열림",
+        "description": "",
+        "link": "http://www.apnews.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "상장 앞둔 혁신기업에 1200억…기업은행, 5000억 성장자금 푼다새 창 열림",
+        "description": "주요 투자 대상은 혁신성장 기업과 상장 전 투자유치(Pre-IPO) 단계에 있는 기업이다. 이미 상장 주관계약을 체결했거나 앞으로 3년 안에 IPO를 목표로 하는 기업을 중심으로 투자 대상을 발굴한다. 상장 직전 단계는 기업이 기술개발과 설비 확충, 사업 확대 등에 필요한 자금을 확보하면서 기업가치를...새 창 열림",
+        "link": "https://www.apnews.kr/news/articleView.html?idxno=3051471",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "뉴스티앤티새 창 열림",
+        "description": "",
+        "link": "http://www.newstnt.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+        "description": "투자 대상은 혁신성장기업 또는Pre-IPO기업 가운데 상장 주관계약을 체결했거나 향후 3년 이내 IPO를 목표로 하는 기업이다. 양 기관은 성장 가능성이 높은 기업을 발굴해 필요한 자금을 적기에 공급할 방침이다. 기업은행은 이번 펀드를 코스닥 시장 활성화를 위한 투자 확대의 일환으로 추진하고 향후...새 창 열림",
+        "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "팝콘뉴스새 창 열림",
+        "description": "",
+        "link": "http://www.popcornnews.net",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "산업은행-기업은행, 상장 전 혁신기업 성장지원 공동펀드 조성새 창 열림",
+        "description": "상장 전(Pre-IPO) 단계의 유망 혁신기업에 성장자금을 공급해 사업 확장과 기업가치 제고, 자본시장 안착 등을 지원하기 위해 마련됐다. 산업은행과 기업은행 계열이 각각 600억 원씩 출자하며 산업은행과 IBK투자증권이 공동으로 운용을 맡는다. 양사는 산업은행의 기업금융·투자 경험과 IBK투자증권의...새 창 열림",
+        "link": "http://www.popcornnews.net/news/articleView.html?idxno=133942",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "우먼타임스새 창 열림",
+        "description": "",
+        "link": "http://www.womentimes.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "IBK기업은행, 산업은행과 1200억원 규모 'Pre-IPO펀드' 조성새 창 열림",
+        "description": "주요 투자 대상은 혁신성장 기업 또는Pre-IPO기업이다. 상장 주관계약을 체결했거나 향후 3년 이내 IPO를 목표로 하는 곳이 해당된다. 양 기관은 성장 잠재력이 높은 혁신기업을 적극 발굴하고 필요한 자금을 적기에 공급할 수 있도록 협력할 계획이다. IBK기업은행 관계자는 \"코스닥 시장 활성화 TF의...새 창 열림",
+        "link": "https://www.womentimes.co.kr/news/articleView.html?idxno=106443",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "글로벌경제새 창 열림",
+        "description": "",
+        "link": "http://www.getnews.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre ipo",
+        "title": "[금융zip] 하나은행, 업비트 글로벌과 디지털자산 이전 인프라 협력 外새 창 열림",
+        "description": "주요 투자 대상은 혁신성장 기업 또는Pre-IPO기업으로 상장 주관계약을 체결했거나 향후 3년 이내 IPO를 목표로 하는 기업이다. 양 기관은 성장 잠재력이 높은 혁신기업을 적극 발굴하고 필요한 자금을 적기에 공급할 수 있도록 상호 협력할 계획이다. 기업은행 관계자는 \"이번 펀드는 기업은행이 추진 중인...새 창 열림",
+        "link": "https://www.getnews.co.kr/news/articleView.html?idxno=881609",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "아시아투데이새 창 열림",
+        "description": "",
+        "link": "http://www.asiatoday.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "Keep에 저장",
+        "description": "",
+        "link": "#",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "\"SK하이닉스 미 손자회사 솔리다임, 기업가치 최대 204조원 美IPO검토\"...새 창 열림",
+        "description": "이에 앞서 지난달 솔리다임이 약 5조원 규모의 상장 전 자금 조달(pre-IPOfundraising)을 검토하고 있다는 보도가 나오자, SK하이닉스는 솔리다임의 경쟁력을 강화하기 위한 방안을 검토하고 있다고 밝힌 바 있다.◇ 솔리다임, AI 컴퍼니 산하 편입…SK하이닉스 손자회사로 재편솔리다임의 지배구조도 올해...새 창 열림",
+        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260927010009179",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "머니투데이방송새 창 열림",
+        "description": "",
+        "link": "https://news.mtn.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "훈풍 부는 바이오 투자…팬데믹 시절 최대치 넘을까새 창 열림",
+        "description": "국내 기업들의 올해 누적 기술이전 규모는 20조원을 넘어서며 지난해 전체 실적의 80%에 육박했습니다.하지만 투자 시장 이면엔 온도 차가 뚜렷합니다.민간 자금이 상장 직전 단계인 프리IPO(Pre-IPO) 기업이나 이미 기술이전 실적을 가진 벤처 위주로만 집중되고 있기 때문입니다.[이승규 / 한국바이오협회...새 창 열림",
+        "link": "https://news.mtn.co.kr/news-detail/2026092316432571142",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "중기이코노미새 창 열림",
+        "description": "",
+        "link": "http://www.junggi.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "스타트업 시리즈C 이후 후속투자 전환율 18% 불과새 창 열림",
+        "description": "둘째, 전략적 투자자의 참여를 독려하고 대형기관과 자산운용사가 상장 직전 단계(Pre-IPO) 투자에 참여하도록 크로스오버 투자를 활성화하며, 양산형·인프라형 기업에는 정부 보증과 저리 대출 같은 투자형 지원을 늘리자고 했다. 셋째, 유동성을 중시하는 기관투자자가 중간에 투자금을 회수할 수...새 창 열림",
+        "link": "https://www.junggi.co.kr/news/articleView.html?idxno=37897",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "데일리팝새 창 열림",
+        "description": "",
+        "link": "http://www.dailypop.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "금융권, 추석 앞두고 '상생·사회공헌' 행보 확대…미래 성장 기반 확보...새 창 열림",
+        "description": "상장 주관계약을 체결했거나 3년 이내 IPO를 목표로 하는Pre-IPO혁신기업에 집중 투자할 계획이다. 기업은행은 코스닥 시장 활성화 TF의 일환으로 향후 3년간 총 5000억원 규모의 펀드를 조성할 방침이다. 소비자 접점 확대 및 문화예술 사회공헌 고객 소통과 특화 사회공헌 프로그램도 눈길을 끈다....새 창 열림",
+        "link": "http://www.dailypop.kr/news/articleView.html?idxno=102860",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "한국금융신문새 창 열림",
+        "description": "",
+        "link": "http://www.fntimes.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "태양을 쫓다 증시에 도착한 거인:러쥐 로보틱스(Leju Robotics)의 시대 [전...새 창 열림",
+        "description": "연속 3년 적자, 누적 손실 1억 7,200만 위안인 회사가Pre-IPO로 15억 위안을 받고도 또 26억 위안을 공모하려 한다는 지적이다. 쿠아보의 공업 제조 현장 매출은 2025년 기준 전체의 3.88%에 불과하다. \"공장에서 실제로 일하는 로봇\"보다 \"전시·연구·행사용 로봇\"이 대부분이라는 것이다. 증권업협회는 현장...새 창 열림",
+        "link": "https://www.fntimes.com/html/view.php?ud=202609120022114720c1c16452b0_18",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "AP신문새 창 열림",
+        "description": "",
+        "link": "http://www.apnews.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "상장 앞둔 혁신기업에 1200억…기업은행, 5000억 성장자금 푼다새 창 열림",
+        "description": "주요 투자 대상은 혁신성장 기업과 상장 전 투자유치(Pre-IPO) 단계에 있는 기업이다. 이미 상장 주관계약을 체결했거나 앞으로 3년 안에 IPO를 목표로 하는 기업을 중심으로 투자 대상을 발굴한다. 상장 직전 단계는 기업이 기술개발과 설비 확충, 사업 확대 등에 필요한 자금을 확보하면서 기업가치를...새 창 열림",
+        "link": "https://www.apnews.kr/news/articleView.html?idxno=3051471",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "뉴스티앤티새 창 열림",
+        "description": "",
+        "link": "http://www.newstnt.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "IBK기업은행, 군인가족 문화공연·혁신기업 투자로 사회공헌·벤처금융...새 창 열림",
+        "description": "투자 대상은 혁신성장기업 또는Pre-IPO기업 가운데 상장 주관계약을 체결했거나 향후 3년 이내 IPO를 목표로 하는 기업이다. 양 기관은 성장 가능성이 높은 기업을 발굴해 필요한 자금을 적기에 공급할 방침이다. 기업은행은 이번 펀드를 코스닥 시장 활성화를 위한 투자 확대의 일환으로 추진하고 향후...새 창 열림",
+        "link": "https://www.newstnt.com/news/articleView.html?idxno=719843",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "팝콘뉴스새 창 열림",
+        "description": "",
+        "link": "http://www.popcornnews.net",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "산업은행-기업은행, 상장 전 혁신기업 성장지원 공동펀드 조성새 창 열림",
+        "description": "상장 전(Pre-IPO) 단계의 유망 혁신기업에 성장자금을 공급해 사업 확장과 기업가치 제고, 자본시장 안착 등을 지원하기 위해 마련됐다. 산업은행과 기업은행 계열이 각각 600억 원씩 출자하며 산업은행과 IBK투자증권이 공동으로 운용을 맡는다. 양사는 산업은행의 기업금융·투자 경험과 IBK투자증권의...새 창 열림",
+        "link": "http://www.popcornnews.net/news/articleView.html?idxno=133942",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "우먼타임스새 창 열림",
+        "description": "",
+        "link": "http://www.womentimes.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "IBK기업은행, 산업은행과 1200억원 규모 'Pre-IPO펀드' 조성새 창 열림",
+        "description": "주요 투자 대상은 혁신성장 기업 또는Pre-IPO기업이다. 상장 주관계약을 체결했거나 향후 3년 이내 IPO를 목표로 하는 곳이 해당된다. 양 기관은 성장 잠재력이 높은 혁신기업을 적극 발굴하고 필요한 자금을 적기에 공급할 수 있도록 협력할 계획이다. IBK기업은행 관계자는 \"코스닥 시장 활성화 TF의...새 창 열림",
+        "link": "https://www.womentimes.co.kr/news/articleView.html?idxno=106443",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "글로벌경제새 창 열림",
+        "description": "",
+        "link": "http://www.getnews.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "pre-ipo",
+        "title": "[금융zip] 하나은행, 업비트 글로벌과 디지털자산 이전 인프라 협력 外새 창 열림",
+        "description": "주요 투자 대상은 혁신성장 기업 또는Pre-IPO기업으로 상장 주관계약을 체결했거나 향후 3년 이내 IPO를 목표로 하는 기업이다. 양 기관은 성장 잠재력이 높은 혁신기업을 적극 발굴하고 필요한 자금을 적기에 공급할 수 있도록 상호 협력할 계획이다. 기업은행 관계자는 \"이번 펀드는 기업은행이 추진 중인...새 창 열림",
+        "link": "https://www.getnews.co.kr/news/articleView.html?idxno=881609",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "Keep에 저장",
+        "description": "",
+        "link": "#",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "기보, 스타트업 美 진출 지원 'K-벤처 글로벌 마켓 커넥트' 개최새 창 열림",
+        "description": "SCIDR 액셀러레이터 프로그램에 참여한 국내 유망 스타트업들은 현지VC를 대상으로투자설명회(IR)를 진행하고,투자자와 네트워킹을 통해투자유치기회를 넓혔다. 기보는 참여기업별 맞춤형 금융지원과 후속투자연계를 추진할 계획이다. 이종혁 기보 실리콘밸리지점장은 \"이번 행사는 SCIDR의 글로벌...새 창 열림",
+        "link": "https://view.asiae.co.kr/article/2026092808571126514",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "기보, 실리콘밸리서 'K-벤처 글로벌 마켓 커넥트' 개최새 창 열림",
+        "description": "기술보증기금이 미국 실리콘밸리에서 현지 대학·금융기관·벤처캐피털(VC)과 손잡고 국내 스타트업의 미국 시장 진출과투자유치지원에 나섰다. 28일 기보에 따르면 지난 23일 미국 캘리포니아 실리콘밸리 스타트업벤처캠퍼스(SVC)에서 'K-벤처 글로벌 마켓 커넥트'를 개최했다. 이번 행사는...새 창 열림",
+        "link": "https://www.news1.kr/industry/general-industry/6302626",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "데일리한국새 창 열림",
+        "description": "",
+        "link": "http://daily.hankooki.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "기보, 실리콘밸리서 'K-벤처 글로벌 마켓 커넥트' 개최새 창 열림",
+        "description": "행사에는 현지 유관기관과 벤처캐피털(VC), 스타트업 관계자 등 약 70명이 참석해 국내 스타트업의 미국시장 진출과투자유치에 높은 관심을 보였다. SCIDR은 케이-뷰티(K-Beauty), 케이-푸드(K-Food) 등 소비재 분야의 유망 스타트업을 발굴해 미국시장 진출을 지원하는 액셀러레이터 프로그램을 운영하고 있다....새 창 열림",
+        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1409764",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "메트로신문새 창 열림",
+        "description": "",
+        "link": "http://www.metroseoul.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "기보, 벤처·스타트업 美 진출·투자등 추가 지원나서새 창 열림",
+        "description": "행사에는 현지 유관기관과 벤처캐피털(VC), 스타트업 관계자 등 약 70명이 참석해 국내 스타트업의 미국시장 진출과투자유치에 높은 관심을 보였다. SCIDR은 K-뷰티, K-푸드 등 소비재 분야의 유망 스타트업을 발굴해 미국시장 진출을 지원하는 액셀러레이터 프로그램을 운영하고 있다. 기보는 정부의 글로벌...새 창 열림",
+        "link": "http://www.metroseoul.co.kr/article/20260928500015",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "서울경제TV새 창 열림",
+        "description": "",
+        "link": "http://www.sentv.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "기보, K-스타트업 미국 진출 지원…기술금융·투자연계새 창 열림",
+        "description": "투자연계보증은 벤처캐피털(VC)투자 유치와 보증을 묶는 구조다. 투자가 확정되면 그에 연동해 추가 자금을 보증한다. 기보는 글로벌 기술이전 지원 사업도 함께 안내했다. 보유 기술을 해외에 이전하거나 현지 기업과 공동 개발할 때 쓰는 창구다. 한미은행은 미국 진출 초기기업의 현지 계좌 개설과 대출...새 창 열림",
+        "link": "https://www.sentv.co.kr/article/view/sentv202609280009",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "이투데이새 창 열림",
+        "description": "",
+        "link": "http://www.etoday.co.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "기보, 실리콘밸리서 K-벤처투자·금융 연계새 창 열림",
+        "description": "진출과투자유치를 지원했다. K-뷰티·웰니스·컨슈머테크 기업의투자설명회(IR)를 진행하고 참여기업별 금융지원과 후속투자연계도 추진한다. 기보는... 스탠퍼드대 연구센터의 액셀러레이터 프로그램에 기보의 기술금융과 현지투자네트워크를 결합하는 방식이다. 현장에는 벤처캐피털(VC)과 현지...새 창 열림",
+        "link": "https://www.etoday.co.kr/news/view/2629658",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "매일일보새 창 열림",
+        "description": "",
+        "link": "http://www.m-i.kr",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "기보, 실리콘밸리서 'K-벤처 글로벌 마켓 커넥트' 실시새 창 열림",
+        "description": "SCIDR 액셀러레이터 프로그램에 참여한 K-뷰티·웰니스·컨슈머테크 분야의 국내 유망 스타트업들은 현지VC를 대상으로투자설명회(IR)를 진행하고,투자자와의 질의응답과 네트워킹을 통해투자유치기회를 넓혔다. 기보는투자자 피드백과 금융 수요를 바탕으로 참여기업별 맞춤형 금융지원과 후속투자...새 창 열림",
+        "link": "https://www.m-i.kr/news/articleView.html?idxno=1418227",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "주간한국새 창 열림",
+        "description": "",
+        "link": "http://weekly.hankooki.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "기보, 스탠퍼드대·한미은행 등과 실리콘밸리서 'K벤처' 지원새 창 열림",
+        "description": "진출과투자유치를 지원하는 'K벤처 글로벌 마켓 커넥트'를 개최했다고 28일 알렸다. 이번 행사는 주샌프란시스코총영사관, 스탠퍼드대 혁신·디자인 연구센터(SCIDR), 한미은행, 스타트업벤처캠퍼스(SVC) 운영기관 등과 협력해 마련됐다. 현지 유관기관과 벤처캐피털(VC), 스타트업 관계자 등 약 70명이...새 창 열림",
+        "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7186048",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "더벨새 창 열림",
+        "description": "",
+        "link": "https://www.thebell.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "[더벨][제논 IPO] 일반트랙으로 연내 상장 도전, 올해 온기 실적 반영될...새 창 열림",
+        "description": "제논은 지난해 사모펀드(PEF) 운용사인 옐로씨매니지먼트와 벤처캐피탈(VC) 알바트로스인베스트먼트, 지앤텍벤처투자등으로부터투자를유치했다.투자금을 활용해 인력을 충원하고 솔루션을 고도화하며 폭발적인 성장이 이뤄지고 있다. 이와함께 피지컬AI 등 신사업에서도 빠른 성과를 만들어내고 있다....새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609231042321840103541",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 이종민 한벤투 법인...새 창 열림",
+        "description": "이 법인장은 \"특별한 행사가 없어도 좋은VC들이 편하게 드나들며 한국 스타트업을 만나는 공간을 만들고 싶다\"며 \"SVC에 가면VC를 만날 수 있다는 기대감이 생기면 미국에서투자를유치하려는 스타트업이 가장 먼저 이곳을 찾게 될 것\"이라고 말했다.새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211008476280105564",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 김영준 중진공 소장...새 창 열림",
+        "description": "투자유치가 77%, 현지 인력 확보가 35%, 법률이 23%로 뒤를 이었다. 김 소장은 \"애로 조사를 하면 세일즈와투자, 인력 순으로 나오는데 이 애로들은 서로... 수료하면 창업가와 전문가, 벤처캐피탈(VC) 3000여명이 모인 스탠퍼드 커뮤니티의 평생 멤버 자격을 받는다. 중소벤처기업진흥공단은 내년 봄 학기 진입도...새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609220845307140108979",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "VC 투자유치",
+        "title": "[더벨][건설부동산 AX 기업 돋보기] 빅밸류 '복덕방 가재', 주거용 부동...새 창 열림",
+        "description": "성장과정에서 누적 124억원 규모 모험자본투자를유치했다. KDB산업은행, 신한은행, 하나은행 등 기관과 인라이트벤처스, 신한벤처투자, KB인베스트먼트, HB인베스트먼트, 로이투자파트너스 등 벤처캐피탈(VC)이 주요 주주로 이름을 올리고 있다. 올해 들어 새롭게 힘을 싣는 영역은 부동산 데이터를 활용한...새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171609056920103934",
+        "source": "",
+        "date": ""
+      },
+      {
         "keyword": "벤처캐피탈 투자유치",
-        "title": "위얼라이브 시리즈 A투자 유치새 창 열림",
-        "description": "사진 제공: 위얼라이브 | 서울=한스경제 김종효 기자 | 위얼라이브는 국내 복수의벤처캐피탈(VC) 등으로부터 시리즈 A투자를유치했다고 밝혔다. 조달한 자금 규모는 외부에 알리지 않았다. 회사는 이번에 확보한 재원을 국내외 아티스트 지식재산권(IP) 확보와 자체 플랫폼 유얼라이브 성능 향상에 투입할...새 창 열림",
-        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=866508",
+        "title": "더벨새 창 열림",
+        "description": "",
+        "link": "https://www.thebell.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "Keep에 저장",
+        "description": "",
+        "link": "#",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 이종민 한벤투 법인...새 창 열림",
+        "description": "한국벤처투자실리콘밸리 법인이 스타트업·벤처캠퍼스(SVC) 실리콘밸리에서 연계한 국내 스타트업투자유치가 200억원을 넘어섰다. 미국에 진출한 스타트업을 도와 한국벤처투자가 출자한 현지벤처캐피탈(VC)과 연결한 결과다. SVC 실리콘밸리에서 만난 이종민 한국벤처투자실리콘밸리 법인장은 \"현지 VC를...새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211008476280105564",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "[더벨][건설부동산 AX 기업 돋보기] 빅밸류 '복덕방 가재', 주거용 부동...새 창 열림",
+        "description": "성장과정에서 누적 124억원 규모 모험자본투자를유치했다. KDB산업은행, 신한은행, 하나은행 등 기관과 인라이트벤처스, 신한벤처투자, KB인베스트먼트, HB인베스트먼트, 로이투자파트너스 등벤처캐피탈(VC)이 주요 주주로 이름을 올리고 있다. 올해 들어 새롭게 힘을 싣는 영역은 부동산 데이터를 활용한...새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171609056920103934",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "[더벨][제논 IPO] 일반트랙으로 연내 상장 도전, 올해 온기 실적 반영될...새 창 열림",
+        "description": "제논은 지난해 사모펀드(PEF) 운용사인 옐로씨매니지먼트와벤처캐피탈(VC) 알바트로스인베스트먼트, 지앤텍벤처투자등으로부터투자를유치했다.투자금을 활용해 인력을 충원하고 솔루션을 고도화하며 폭발적인 성장이 이뤄지고 있다. 이와함께 피지컬AI 등 신사업에서도 빠른 성과를 만들어내고 있다....새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609231042321840103541",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 김영준 중진공 소장...새 창 열림",
+        "description": "20억원,투자유치는 100억원을 넘었다. ◇스탠퍼드 문 열었다…32개사 신청해 4개사 진입 주류 네트워크로 진입하는 통로는 스타트엑스다. 중소벤처기업... 수료하면 창업가와 전문가,벤처캐피탈(VC) 3000여명이 모인 스탠퍼드 커뮤니티의 평생 멤버 자격을 받는다. 중소벤처기업진흥공단은 내년 봄 학기...새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609220845307140108979",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "서울 기업에 '글로벌 자본' 붙인다…서울투자진흥재단,투자서밋 개최새 창 열림",
+        "description": "투자 유치행사 '2026 서울투자서밋(Seoul Innovest Summit 2026)'을 개최한다고 27일 밝혔다. 이번 행사는 서울의 미래를 이끌 유망 기업에 해외 자본을 끌어오고 글로벌 진출을 돕기 위해 마련됐다. 글로벌 출자자(LP)와벤처캐피탈(VC) 등 국내외투자자 100여명을 비롯해 유망 기업과 유관기관 관계자 등 총...새 창 열림",
+        "link": "https://www.mt.co.kr/future/2026/09/28/2026092713172325943",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "더구루새 창 열림",
+        "description": "",
+        "link": "https://www.theguru.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "[크립토리뷰] 원체인 밸리데이터에 '해시키 클라우드' 합류…글로벌 노...새 창 열림",
+        "description": "토로캐피탈은 아부다비 국부펀드로부터 대규모투자를유치한 퍼더벤처스(Further Ventures)의 공동 창업자이자 전 매니징 파트너인 모하메드 함디(Mohamed Hamdy)가 설립한 운용사다. 해시드는 단순 출자에 그치지 않고 핵심 파트너로서 토로캐피탈의 글로벌 사업 확장을 지원한다. 현재 디지털자산...새 창 열림",
+        "link": "https://www.theguru.co.kr/news/article.html?no=107566",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "스팀에 묻히는 韓 인디 건진다…네오위즈 출신들의 도전[VC 요람]새 창 열림",
+        "description": "레드브릭하우스가 설립 두 달 만에 두 차례투자를유치한 배경이다. 26일벤처캐피탈(VC) 업계에 따르면 레드브릭하우스는 카카오벤처스·데브시스터즈벤처스·스마트스터디벤처스·메인스트리트벤처스·지온인베스트먼트로부터 재무적투자를유치했다. 앞서 지난 7월에는 코스닥 상장사...새 창 열림",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02273046645584056&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "웹이코노미새 창 열림",
+        "description": "",
+        "link": "https://www.webeconomy.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "KB금융, 블룸버그와 글로벌 자본시장 협력…스타트업투자연결도 확대새 창 열림",
+        "description": "투자 유치를 지원하는 'KB이노베이션허브-IR 데이'를 개최했다고 밝혔다. 스타트업 8개사와 KB국민은행·KB손해보험·KB자산운용·KB인베스트먼트 등 계열사, 한국투자파트너스·IMM인베스트먼트 등벤처캐피탈(VC)과 기관·정책 출자자를 포함해 모두 33개사가 참여했다. KB금융은 이번 행사를 계기로 기존...새 창 열림",
+        "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2317291",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "머니투데이방송새 창 열림",
+        "description": "",
+        "link": "https://news.mtn.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "우리銀 늘리고 하나銀 줄이고…달라진 육성 전략 [스타트업에 베팅한 금...새 창 열림",
+        "description": "초기 단계는 디노랩펀드와 기업형벤처캐피탈(CVC) 펀드가, 이후 스케일업과 기업공개(IPO) 단계는 우리벤처파트너스와 우리투자증권이 맡는 식이다.... 박민규 더불어민주당 의원은 \"기업의 생존율과 후속투자 유치, 매출·고용 증가 등의 성과도 종합적으로 평가할 필요가 있다\"며 \"금융지주가 서로...새 창 열림",
+        "link": "https://news.mtn.co.kr/news-detail/2026092314060317796",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "벤처캐피탈 투자유치",
+        "title": "'K-딥테크'에 3200억 푼다…신한운용의 과기혁신펀드 굴릴 곳은?새 창 열림",
+        "description": "선행투자자를 먼저 확보하고 나면 후속투자자를유치하기 수월하기 때문이다. 또한 신한자산운용은투자성과에 대한 기준도 제시했다.... 미래기술투자'인공지능(AI)' 분야 운용사는 SL인베스트먼트가 맡으며 240억원을 출자받는다. SL인베스트먼트는 지난 2000년 2월 설립된 한국계벤처캐피탈(VC)다....새 창 열림",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=03011046645583400&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "디지털투데이새 창 열림",
+        "title": "뉴스핌새 창 열림",
         "description": "",
-        "link": "http://www.digitaltoday.co.kr/",
+        "link": "http://www.newspim.com",
         "source": "",
         "date": ""
       },
@@ -3188,17 +3240,41 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "[AI핫이슈] 빅테크·스타트업까지...퍼스널 AI 에이전트 초반 레이스 후...새 창 열림",
-        "description": "ㆍ인핸스, 512억원 규모시리즈C투자 유치...에이전트OS 고도화 ㆍ넘즈에이아이, 정형 데이터 파운데이션 모델 공개...글로벌 벤치마크 1위 ㆍ네이버클라우드 \"국방 AX, 소버린 풀스택 승부\"...모델·데이터·클라우드 연결 ㆍ제논, '훈민 VLM 397B' 오픈소스 공개 오픈AI가 미국 일부 광고주들을 상대로 챗GPT...새 창 열림",
-        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=701903",
+        "title": "부산시, 내달 7일 창업페스티벌 '바운스 2026' 개막…10년 성과·미래 방...새 창 열림",
+        "description": "우수 창업기업의투자 유치와투자자 접점을 확대하기 위한 자리다. 국내외 기업·투자자와 창업기업 간 일대일 상담도 행사 기간 운영된다. 카카오모빌리티, 네이버클라우드, HD현대중공업, 롯데백화점, 한화오션 등 25개 대·중견기업과시리즈벤처스, LX벤처스, 하나캐피탈 등 30개 전문투자사가...새 창 열림",
+        "link": "https://www.newspim.com/news/view/20260928000116",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "이력서 대신 AI가 연결…유럽 '채용 에이전트'에 VC 자금 몰린다새 창 열림",
-        "description": "20일 관련 업계에 따르면 영국 런던 기반 AI 채용 스타트업 잭앤질은 최근 에어스트리트캐피털 등으로부터 4000만달러(약 553억원) 규모의시리즈A투자를유치했다. 앞서 2000만달러 규모의 시드투자를유치한 데 이어 추가 자금을 확보하면서 누적투자유치액은 6000만달러(약 830억원)로 늘었다. 잭앤질은...새 창 열림",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=01882726645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "title": "부산 창업 10년 돌아본다… 벡스코서 '바운스 2026' 팡파르새 창 열림",
+        "description": "우수 창업기업의투자유치기회를 넓히기 위한 프로그램이다. 국내외 기업과투자자 그리고 창업기업을 연결하는 일대일 밋업도 이틀간 이어진다. 카카오모빌리티와 네이버클라우드, HD현대중공업, 롯데백화점, 한화오션 등 25개 대·중견기업과시리즈벤처스, LX벤처스, 하나캐피탈 등 30개 전문투자사가...새 창 열림",
+        "link": "https://view.asiae.co.kr/article/2026092808454593827",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "‘빛나는 10년, 밝은 미래’…부산 대표 창업축제 ‘바운스’ 개막새 창 열림",
+        "description": "부산 대표 스타트업 페스티벌인 ‘바운스(BOUNCE)’가 개최 10주년을 맞아 글로벌 진출과투자 유치에 집중한 대규모 창업 교류의 장을 마련한다.... 카카오모빌리티, 네이버클라우드, HD현대중공업, 롯데백화점, 한화오션 등 25개 대·중견기업과시리즈벤처스, LX벤처스 등 30개 전문투자사가 참여한다. 또한...새 창 열림",
+        "link": "https://www.sedaily.com/article/20095349?ref=naver",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "더쎈뉴스새 창 열림",
+        "description": "",
+        "link": "https://www.mhns.co.kr/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "부산 창업축제 '바운스' 10주년…올해는투자·해외 진출에 무게새 창 열림",
+        "description": "올해는 창업기업의투자 유치와 해외 진출에 무게를 뒀다. 부산시와 부산창조경제혁신센터는 벡스코 제1전시장에서 '바운스 2026'을 개최한다고 28일...투자사를 연결하는 일대일 상담도 진행된다. 카카오모빌리티, 네이버클라우드, HD현대중공업, 롯데백화점, 한화오션 등 대·중견기업 25곳과시리즈벤처...새 창 열림",
+        "link": "https://www.mhns.co.kr/news/articleView.html?idxno=761831",
         "source": "",
         "date": ""
       },
@@ -3212,199 +3288,207 @@ const DASHBOARD_DATA = {
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "[더벨][코스포 in 제주] 프리아이디어, 10억 프리A 추진…호텔 AIoT 양산...새 창 열림",
-        "description": "호텔 어메니티 솔루션 기업 프리아이디어가 10억원 규모의 프리시리즈A투자 유치에 나섰다. 현재까지 3억원의투자를 확정한 가운데 추가투자자를 물색하고 있다. 확보한 자금은 인공지능 사물인터넷(AIoT) 디스펜서 양산과 호텔 공급확대 등에 투입할 계획이다. 우종만 프리아이디어 대표는 17~19일...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609181735432880105358",
+        "title": "[더벨][건설부동산 AX 기업 돋보기] 빅밸류 '복덕방 가재', 주거용 부동...새 창 열림",
+        "description": "자금도 확보했다. 빅밸류는 지난해 53억원 규모의시리즈B투자를유치했다. 당분간 추가 펀딩 계획은 없는 상태다. 확보한 데이터와 AI 기술을 바탕으로 기존 데이터 공급에서 AI가 데이터를 직접 탐색하고 활용하는 AX 영역으로 사업 범위를 넓혀가는 단계다.새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171609056920103934",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "[더벨][코스포 in 제주] 코스포, 제주 스타트업투자기회 확대…지역 유...새 창 열림",
-        "description": "프리아이디어는 현재 10억원 규모의 프리시리즈A투자유치를 추진하고 있다. 우종만 대표는 발표에서 누적 매출 약 55억원과 135개 호텔 공급 파이프라인을 확보했다고 설명했다. 이번투자금을 양산과 영업 확대 등에 투입해 2027년 매출 68억원을 달성하고 후속시리즈A투자유치에 나선다는 계획이다....새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609201019169640106936",
+        "title": "[더벨][thebell interview | 실리콘밸리 SVC 리포트] 김영준 중진공 소장...새 창 열림",
+        "description": "프리A 단계가 12개사로 가장 많고 시드 11개사, 프리시드 6개사,시리즈A 이상 4개사 순이다. 입주 때 진행하는 인테이크 인터뷰에서 최우선 과제로 꼽힌 것은 B2B 세일즈가 81%로 가장 많았다.투자유치가 77%, 현지 인력 확보가 35%, 법률이 23%로 뒤를 이었다. 김 소장은 \"애로 조사를 하면 세일즈와투자, 인력...새 창 열림",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609220845307140108979",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "[더벨][AI 스타트업 in 실리콘밸리] 트웰브랩스, 미국서 키운 영상 AI…...새 창 열림",
-        "description": "아마존웹서비스(AWS)를 통한 모델 공급에 이어 올해 1억달러 규모의시리즈B투자도유치했다. 트웰브랩스는 한국에서 창업한 뒤 창업 초기 미국으로 건너갔다. 대규모 영상 데이터를 보유한 고객과투자자가 모인 미국을 주력 시장으로 삼았다. 현재는 샌프란시스코 본사를 중심으로 제품 개발과 영업을...새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171240540080103750",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "[더벨][건설부동산 AX 기업 돋보기] 빌드하다, AI 건축관리 본격화…'공...새 창 열림",
-        "description": "성장 과정에서 액셀러레이터(AC) 에이씨엔디씨로부터투자를유치했다. 현재 프리시리즈A 라운드 오픈을 두고 주요 기관투자자와 협의를 진행 중이다. 김석희 대표가 최대 주주로 있다. 최근 주력하는 것은 AI 활용이다. 이 과정에서 핵심 역할을 하는 것이 자체 개발한 서비스형소프트웨어(SaaS) 빌드워크다....새 창 열림",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609141505433960107733",
-        "source": "",
-        "date": ""
-      },
-      {
-        "keyword": "투자유치 시리즈",
-        "title": "농수축산신문새 창 열림",
+        "title": "중앙신문새 창 열림",
         "description": "",
-        "link": "http://www.aflnews.co.kr",
+        "link": "https://www.jasm.co.kr",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "올해 최고 농식품 창업가 '로웨인' 영예새 창 열림",
-        "description": "한편 농식품부에 따르면 지난해 농식품 창업콘테스트와 연계 박람회 등을 통해 본선 진출기업 20개사가유치한 총 투·융자 금액은 75억 원에 달했으며, 우수사례로 선정된 발효단백질 원료 개발 기업은 콘테스트 참가 후시리즈A투자 유치에 성공하며 동남아시아와 유럽 시장 확대를 위한 발판을 마련한...새 창 열림",
-        "link": "https://www.aflnews.co.kr/news/articleView.html?idxno=328610",
+        "title": "안산사이언스밸리내 첨단로봇 연구·제조 시설 11월 착공새 창 열림",
+        "description": "27일 경기경제자유구역청과 안산시, 연합뉴스 등에 따르면 안산시와 경기경제자유구역청, 한양대학교 에리카, 에이로봇이 오는 30일투자유치협약을... 산업용 휴머노이드 '앨리스'시리즈를 제작하는 로봇 전문 스타트업 에이로봇은 2018년 한양대 에리카 창업보육센터에서 창업해 성장하면서 사업화에...새 창 열림",
+        "link": "https://www.jasm.co.kr/news/articleView.html?idxno=318366",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "[단독]의원 인맥으로 '국감 특혜 논란' 스타트업…배임·횡령·탈세 의혹새 창 열림",
-        "description": "설 대표를 고소한 캐시카우 주주 및 전 경영진 측은 회사가 주주동의 없이 받은 사업 매각 대금외에도투자유치로 받은 자금 상당액이 회사 경영과... 관련 기사☞ 이데일리는 <회계조작 연쇄사기 의혹 추적 : 가짜장부의 덫>시리즈연속 보도를 통해 캐시카우 관련 분쟁이 애즈위메이크로 이어지는 의혹을...새 창 열림",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=01685926645582416&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "title": "브릿지경제새 창 열림",
+        "description": "",
+        "link": "http://www.viva100.com",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "리벨리온 6400억·퓨리오사AI 4000억…'K-NPU' 육성에 몰린 벤처자금새 창 열림",
-        "description": "업스테이지는 지난 4월 1800억 원 규모의시리즈C 1차투자를유치하며 국내 생성형 AI 기업 최초로 기업가치 1조 원 이상의 유니콘에 올랐다. 제조 현장 투입을 목표로 휴머노이드를 개발하는 홀리데이로보틱스는 1550억 원 규모의시리즈A투자를, 영상 AI 기업 트웰브랩스는 영상 인지 시스템...새 창 열림",
-        "link": "https://www.news1.kr/industry/sb-founded/6296515",
+        "title": "[비바100] ‘기록·대응·증명·보상’ 한번에… 물류 데이터, 다음 시대...새 창 열림",
+        "description": "시리즈B-2투자 유치도 마쳤다. 현재 200여개 고객사를 확보했고 재계약률은 90% 이상이다. 북미와 싱가포르 등으로 운영 기반도 넓히고 있다. ◇기록·대응·증명·보상 한데 묶은 ‘윌로그 비전’ 윌로그는 지난 17일 통합 공급망 솔루션 ‘윌로그 비전(Willog Vision)’을 공식 출시했다. ‘Evidence in Every Move’를...새 창 열림",
+        "link": "https://www.viva100.com/article/20260927500034",
         "source": "",
         "date": ""
       },
       {
         "keyword": "투자유치 시리즈",
-        "title": "개발 전과정 수행… 에이디시스템, K드론 국산화 주도새 창 열림",
-        "description": "드론의 제조공정 전과정을 자체수행하는 에이디시스템은 최근 130억원 규모의시리즈A투자유치에 성공했다. 이번투자라운드는 LB인베스트먼트가 주도했으며 한국산업은행, 스마일게이트인베스트먼트, 미래에셋벤처투자, 플럭스벤처스, JB인베스트먼트 등이 참여했다. 에이디시스템의 누적투자유치액은...새 창 열림",
-        "link": "https://www.mt.co.kr/future/2026/09/21/2026092019491181904",
+        "title": "메디파나뉴스새 창 열림",
+        "description": "",
+        "link": "http://www.medipana.com",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "안과 의료기기 5개사, 상반기 매출 11.6%↑…사업별 희비 갈려새 창 열림",
+        "description": "회사는 지난 3월 200억원 규모시리즈A투자 유치당시 영업 개시 1년 만에 전국 병·의원 1000여곳에서 예약·주문을 확보하고 700곳 이상에 제품 공급을 완료했다고 밝혔다. WISKY는 안저 영상을 분석해 황반변성·당뇨망막병증·녹내장 등 3대 실명질환의 진단을 보조한다. 비쥬웍스는 지난달 AI...새 창 열림",
+        "link": "https://www.medipana.com/news/articleView.html?idxno=418290",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "글로벌이코노믹새 창 열림",
+        "description": "",
+        "link": "http://www.g-enews.com/",
+        "source": "",
+        "date": ""
+      },
+      {
+        "keyword": "투자유치 시리즈",
+        "title": "홍콩 재벌 손잡은 美 에너베뉴, 中서 '니켈-수소 ESS' 첫 양산… LFP 독점...새 창 열림",
+        "description": "창저우 공장 250MWh 가동… 2027년 1GWh·중동 및 美 증설 추진 에너베뉴의 이번 중국 공장 개소는 풀 비전 캐피탈을 비롯한 글로벌 기관투자자들로부터 3억 달러(약 4,200억 원) 규모의시리즈B투자 유치를 완료한 지 5개월 만에 달성한 초고속 양산 성과다. 현재 창저우 공장의 초기 연간 생산 능력은...새 창 열림",
+        "link": "https://www.g-enews.com/view.php?ud=2026092716245997630c8c1c064d_1",
         "source": "",
         "date": ""
       }
     ]
   },
   "thevc": {
-    "updated_at": "2026-09-21 09:00",
+    "updated_at": "2026-09-28 09:00",
     "home_investments": [],
     "ranking": [
       {
+        "name": "비드래프트",
+        "hits": 46,
+        "type": "중소기업",
+        "link": "https://thevc.kr/vidraft"
+      },
+      {
+        "name": "앤트로픽",
+        "hits": 41,
+        "type": "스타트업",
+        "link": "https://thevc.kr/anthropic"
+      },
+      {
         "name": "딥엑스",
-        "hits": 50,
+        "hits": 39,
         "type": "스타트업",
         "link": "https://thevc.kr/deepx"
       },
       {
-        "name": "바인드",
-        "hits": 48,
+        "name": "리벨리온",
+        "hits": 37,
         "type": "스타트업",
-        "link": "https://thevc.kr/bind"
-      },
-      {
-        "name": "에이에프더블유파트너스",
-        "hits": 46,
-        "type": "사모투자회사",
-        "link": "https://thevc.kr/afwpartners"
-      },
-      {
-        "name": "지투지바이오",
-        "hits": 45,
-        "type": "스타트업",
-        "link": "https://thevc.kr/g2gbio"
-      },
-      {
-        "name": "리얼월드",
-        "hits": 43,
-        "type": "스타트업",
-        "link": "https://thevc.kr/rlwrld"
-      },
-      {
-        "name": "뤼튼테크놀로지스",
-        "hits": 42,
-        "type": "스타트업",
-        "link": "https://thevc.kr/wrtntechnologies"
-      },
-      {
-        "name": "호석촌",
-        "hits": 41,
-        "type": "중소기업",
-        "link": "https://thevc.kr/hoseokchon"
+        "link": "https://thevc.kr/rebellions"
       },
       {
         "name": "에이아이쓰리",
-        "hits": 41,
+        "hits": 37,
         "type": "스타트업",
         "link": "https://thevc.kr/ai3"
       },
       {
+        "name": "서치오에스에이아이",
+        "hits": 37,
+        "type": "중소기업",
+        "link": "https://thevc.kr/searchosai"
+      },
+      {
+        "name": "에이럭스",
+        "hits": 35,
+        "type": "스타트업",
+        "link": "https://thevc.kr/alux"
+      },
+      {
+        "name": "에이에프더블유파트너스",
+        "hits": 35,
+        "type": "사모투자회사",
+        "link": "https://thevc.kr/afwpartners"
+      },
+      {
+        "name": "코넥스트",
+        "hits": 33,
+        "type": "중소기업",
+        "link": "https://thevc.kr/connext"
+      },
+      {
+        "name": "바인드",
+        "hits": 33,
+        "type": "스타트업",
+        "link": "https://thevc.kr/bind"
+      },
+      {
+        "name": "지투지바이오",
+        "hits": 32,
+        "type": "스타트업",
+        "link": "https://thevc.kr/g2gbio"
+      },
+      {
+        "name": "뤼튼테크놀로지스",
+        "hits": 32,
+        "type": "스타트업",
+        "link": "https://thevc.kr/wrtntechnologies"
+      },
+      {
         "name": "팀프레시",
-        "hits": 39,
+        "hits": 32,
         "type": "스타트업",
         "link": "https://thevc.kr/teamfresh"
       },
       {
         "name": "카나프테라퓨틱스",
-        "hits": 38,
+        "hits": 31,
         "type": "스타트업",
         "link": "https://thevc.kr/kanaphtherapeutics"
       },
       {
-        "name": "에이럭스",
-        "hits": 38,
+        "name": "리얼월드",
+        "hits": 31,
         "type": "스타트업",
-        "link": "https://thevc.kr/alux"
+        "link": "https://thevc.kr/rlwrld"
       },
       {
-        "name": "업스테이지",
-        "hits": 38,
-        "type": "스타트업",
-        "link": "https://thevc.kr/upstage"
-      },
-      {
-        "name": "서치오에스에이아이",
-        "hits": 38,
+        "name": "호석촌",
+        "hits": 31,
         "type": "중소기업",
-        "link": "https://thevc.kr/searchosai"
-      },
-      {
-        "name": "퓨리오사에이아이",
-        "hits": 37,
-        "type": "스타트업",
-        "link": "https://thevc.kr/furiosaai"
-      },
-      {
-        "name": "뉴넥스",
-        "hits": 37,
-        "type": "스타트업",
-        "link": "https://thevc.kr/newnex"
-      },
-      {
-        "name": "앤트로픽",
-        "hits": 37,
-        "type": "스타트업",
-        "link": "https://thevc.kr/anthropic"
-      },
-      {
-        "name": "리벨리온",
-        "hits": 34,
-        "type": "스타트업",
-        "link": "https://thevc.kr/rebellions"
-      },
-      {
-        "name": "코넥스트",
-        "hits": 32,
-        "type": "중소기업",
-        "link": "https://thevc.kr/connext"
+        "link": "https://thevc.kr/hoseokchon"
       },
       {
         "name": "아정네트웍스",
-        "hits": 32,
+        "hits": 31,
         "type": "중소기업",
         "link": "https://thevc.kr/ajungnetworks"
       },
       {
+        "name": "업스테이지",
+        "hits": 30,
+        "type": "스타트업",
+        "link": "https://thevc.kr/upstage"
+      },
+      {
+        "name": "퓨리오사에이아이",
+        "hits": 29,
+        "type": "스타트업",
+        "link": "https://thevc.kr/furiosaai"
+      },
+      {
         "name": "컬리",
-        "hits": 31,
+        "hits": 28,
         "type": "스타트업",
         "link": "https://thevc.kr/kurly"
       }
@@ -3415,16 +3499,16 @@ const DASHBOARD_DATA = {
     "total_series_c_plus": 0
   },
   "platforms": {
-    "updated_at": "2026-09-21 09:00",
+    "updated_at": "2026-09-28 09:01",
     "kotc": [
       {
         "name": "사운드백신",
         "code": "274460",
-        "price": "74",
-        "change": "10",
-        "change_pct": "15.62",
-        "volume": "3624",
-        "amount": "286716",
+        "price": "41",
+        "change": "9",
+        "change_pct": "28.12",
+        "volume": "49988",
+        "amount": "2049502",
         "platform": "K-OTC",
         "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%AC%EC%9A%B4%EB%93%9C%EB%B0%B1%EC%8B%A0",
         "ranks": [
@@ -3434,62 +3518,48 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "아리바이오",
-        "code": "192230",
-        "price": "20300",
-        "change": "0",
-        "change_pct": "0.0",
-        "volume": "2",
-        "amount": "40650",
+        "name": "한국지네틱바이오팜",
+        "code": "241140",
+        "price": "193",
+        "change": "44",
+        "change_pct": "29.53",
+        "volume": "5000",
+        "amount": "965000",
         "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4",
-        "ranks": [
-          "거래대금",
-          "거래량"
-        ]
-      },
-      {
-        "name": "에이플러스라이프",
-        "code": "141110",
-        "price": "1000",
-        "change": "150",
-        "change_pct": "17.65",
-        "volume": "1",
-        "amount": "1000",
-        "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4%EB%9D%BC%EC%9D%B4%ED%94%84",
+        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
         "ranks": [
           "거래대금",
           "거래량",
           "상승률"
+        ]
+      },
+      {
+        "name": "삼성메디슨",
+        "code": "018360",
+        "price": "9700",
+        "change": "190",
+        "change_pct": "2.0",
+        "volume": "4",
+        "amount": "38800",
+        "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
+        "ranks": [
+          "거래대금",
+          "거래량",
+          "상승률",
+          "시가총액"
         ]
       },
       {
         "name": "제이앤드",
         "code": "104690",
-        "price": "40",
-        "change": "9",
-        "change_pct": "29.03",
+        "price": "49",
+        "change": "11",
+        "change_pct": "28.95",
         "volume": "1",
-        "amount": "40",
+        "amount": "49",
         "platform": "K-OTC",
         "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%A0%9C%EC%9D%B4%EC%95%A4%EB%93%9C",
-        "ranks": [
-          "거래대금",
-          "거래량",
-          "상승률"
-        ]
-      },
-      {
-        "name": "에이치디씨영창",
-        "code": "001890",
-        "price": "34",
-        "change": "7",
-        "change_pct": "25.93",
-        "volume": "1",
-        "amount": "34",
-        "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%EC%B9%98%EB%94%94%EC%94%A8%EC%98%81%EC%B0%BD",
         "ranks": [
           "거래대금",
           "거래량",
@@ -3551,64 +3621,33 @@ const DASHBOARD_DATA = {
         "ranks": [
           "시가총액"
         ]
-      },
-      {
-        "name": "삼성메디슨",
-        "code": "018360",
-        "price": "",
-        "change": "0",
-        "change_pct": "",
-        "volume": "",
-        "amount": "",
-        "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
-        "ranks": [
-          "시가총액"
-        ]
       }
     ],
     "seoul_exchange": [
       {
-        "name": "무신사",
-        "code": "A458860",
+        "name": "에스아이플렉스",
+        "code": "A075050",
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 3538,
-        "category": "ecommerce",
+        "visit": 464,
+        "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%95%84%EC%9D%B4%ED%94%8C%EB%A0%89%EC%8A%A4-638/",
         "ranks": [
-          "거래량",
-          "인기"
+          "거래량"
         ]
       },
       {
-        "name": "오아시스",
-        "code": "A370190",
-        "price": "11100",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 4141,
-        "category": "ecommerce",
+        "name": "LPK로보틱스",
+        "code": "A183350",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 628,
+        "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4-27/",
-        "ranks": [
-          "거래량",
-          "상승",
-          "인기"
-        ]
-      },
-      {
-        "name": "뱅크샐러드",
-        "code": "A441000",
-        "price": "4000",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 1073,
-        "category": "fintech",
-        "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C-86/",
+        "url": "https://www.seoulexchange.kr/stocks/LPK%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4-714/",
         "ranks": [
           "거래량"
         ]
@@ -3616,10 +3655,10 @@ const DASHBOARD_DATA = {
       {
         "name": "쎄니팡",
         "code": "A251430",
-        "price": "800",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 11345,
+        "price": "792",
+        "change": "39 (5.18%)",
+        "change_pct": "5.18",
+        "visit": 8067,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%EC%8E%84%EB%8B%88%ED%8C%A1-112/",
@@ -3629,62 +3668,107 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "인티그리트",
-        "code": "A377660",
-        "price": "5000",
+        "name": "에스엠랩",
+        "code": "A419350",
+        "price": "1086",
         "change": "0 (0%)",
         "change_pct": "0",
-        "visit": 2400,
-        "category": "etc",
+        "visit": 3920,
+        "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%9D%B8%ED%8B%B0%EA%B7%B8%EB%A6%AC%ED%8A%B8-854/",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%97%A0%EB%9E%A9-48/",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기"
+        ]
+      },
+      {
+        "name": "무신사",
+        "code": "A458860",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 2105,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
         "ranks": [
           "거래량",
           "인기"
         ]
       },
       {
-        "name": "한국산삼원",
-        "code": "A498420",
-        "price": "52",
-        "change": "-12 (-18.75%)",
-        "change_pct": "-18.75",
-        "visit": 5080,
+        "name": "인티그리트",
+        "code": "A377660",
+        "price": "8000",
+        "change": "0 (0%)",
+        "change_pct": "0",
+        "visit": 1322,
         "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%ED%95%9C%EA%B5%AD%EC%82%B0%EC%82%BC%EC%9B%90-3913/",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%9D%B8%ED%8B%B0%EA%B7%B8%EB%A6%AC%ED%8A%B8-854/",
         "ranks": [
           "상승",
           "인기"
         ]
       },
       {
-        "name": "에스엠랩",
-        "code": "A419350",
-        "price": "1094",
+        "name": "뱅크샐러드",
+        "code": "A441000",
+        "price": "5200",
         "change": "0 (0%)",
         "change_pct": "0",
-        "visit": 4852,
-        "category": "manufacturing",
+        "visit": 922,
+        "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%97%A0%EB%9E%A9-48/",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C-86/",
+        "ranks": [
+          "상승"
+        ]
+      },
+      {
+        "name": "컬리",
+        "code": "A408480",
+        "price": "26500",
+        "change": "-400 (-1.49%)",
+        "change_pct": "-1.49",
+        "visit": 2718,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%BB%AC%EB%A6%AC-3/",
         "ranks": [
           "상승",
           "인기"
         ]
       },
       {
-        "name": "야놀자",
-        "code": "A350920",
-        "price": "15400",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 2032,
-        "category": "platform",
+        "name": "비바리퍼블리카",
+        "code": "A285240",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 2777,
+        "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%95%BC%EB%86%80%EC%9E%90-6/",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
         "ranks": [
           "상승",
+          "인기",
+          "시총"
+        ]
+      },
+      {
+        "name": "오아시스",
+        "code": "A370190",
+        "price": "9300",
+        "change": "-1500 (-13.89%)",
+        "change_pct": "-13.89",
+        "visit": 3445,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/",
+        "ranks": [
           "인기"
         ]
       },
@@ -3694,24 +3778,8 @@ const DASHBOARD_DATA = {
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 3405,
+        "visit": 3166,
         "category": "platform",
-        "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EB%91%90%EB%82%98%EB%AC%B4-327/",
-        "ranks": [
-          "상승",
-          "인기",
-          "시총"
-        ]
-      },
-      {
-        "name": "비바리퍼블리카",
-        "code": "A285240",
-        "price": "",
-        "change": "",
-        "change_pct": "",
-        "visit": 3730,
-        "category": "fintech",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/",
         "ranks": [
@@ -3720,13 +3788,27 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "컬리",
-        "code": "A408480",
-        "price": "25000",
+        "name": "한국산삼원",
+        "code": "A498420",
+        "price": "52",
         "change": "0 (0%)",
         "change_pct": "0",
-        "visit": 3341,
-        "category": "ecommerce",
+        "visit": 2007,
+        "category": "etc",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "야놀자",
+        "code": "A350920",
+        "price": "13600",
+        "change": "0 (0%)",
+        "change_pct": "0",
+        "visit": 1872,
+        "category": "platform",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/",
         "ranks": [
@@ -3739,7 +3821,7 @@ const DASHBOARD_DATA = {
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 191,
+        "visit": 149,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC-889/",
@@ -3753,7 +3835,7 @@ const DASHBOARD_DATA = {
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 27,
+        "visit": 32,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%EC%82%BC%EC%84%B1%EC%A4%91%EA%B3%B5%EC%9A%B0-3456/",
@@ -3767,7 +3849,7 @@ const DASHBOARD_DATA = {
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 63,
+        "visit": 32,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-212/",
@@ -3780,9 +3862,9 @@ const DASHBOARD_DATA = {
       {
         "name": "두나무",
         "code": "389930",
-        "price": "264000",
-        "change_pct": "2.33",
-        "board_count": 84,
+        "price": "270000",
+        "change_pct": "1.12",
+        "board_count": 123,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/389930",
@@ -3792,14 +3874,14 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "904"
+        "volume": "3323"
       },
       {
         "name": "무신사",
         "code": "458860",
-        "price": "23800",
-        "change_pct": "-0.42",
-        "board_count": 78,
+        "price": "24800",
+        "change_pct": "3.33",
+        "board_count": 89,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/458860",
@@ -3811,46 +3893,14 @@ const DASHBOARD_DATA = {
           "시총",
           "매출상승"
         ],
-        "volume": "1574"
-      },
-      {
-        "name": "오아시스",
-        "code": "370190",
-        "price": "12800",
-        "change_pct": "28.64",
-        "board_count": 86,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/370190",
-        "ranks": [
-          "거래량",
-          "인기",
-          "상승률",
-          "시총"
-        ],
-        "volume": "1632"
-      },
-      {
-        "name": "아이월드제약",
-        "code": "323530",
-        "price": "390",
-        "change_pct": "0",
-        "board_count": 25,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/323530",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "12272"
+        "volume": "1488"
       },
       {
         "name": "컬리",
         "code": "408480",
-        "price": "25100",
-        "change_pct": "-0.79",
-        "board_count": 36,
+        "price": "26200",
+        "change_pct": "0.38",
+        "board_count": 39,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/408480",
@@ -3860,29 +3910,14 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "137"
-      },
-      {
-        "name": "에스엠랩",
-        "code": "419350",
-        "price": "1260",
-        "change_pct": "16.67",
-        "board_count": 33,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/419350",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "2553"
+        "volume": "171"
       },
       {
         "name": "야놀자",
         "code": "350920",
-        "price": "13900",
+        "price": "13400",
         "change_pct": "0",
-        "board_count": 28,
+        "board_count": 49,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/350920",
@@ -3892,14 +3927,62 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "127"
+        "volume": "479"
+      },
+      {
+        "name": "오아시스",
+        "code": "370190",
+        "price": "10000",
+        "change_pct": "3.09",
+        "board_count": 50,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/370190",
+        "ranks": [
+          "거래량",
+          "인기",
+          "상승률",
+          "시총"
+        ],
+        "volume": "671"
+      },
+      {
+        "name": "에너진",
+        "code": "403680",
+        "price": "2620",
+        "change_pct": "0",
+        "board_count": 21,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/403680",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "302"
+      },
+      {
+        "name": "케이솔루션",
+        "code": "413490",
+        "price": "6650",
+        "change_pct": "0",
+        "board_count": 14,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/413490",
+        "ranks": [
+          "거래량",
+          "인기",
+          "매출상승"
+        ],
+        "volume": "600"
       },
       {
         "name": "셀메드",
         "code": "238930",
-        "price": "4520",
-        "change_pct": "-1.95",
-        "board_count": 22,
+        "price": "4490",
+        "change_pct": "0.22",
+        "board_count": 26,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/238930",
@@ -3907,14 +3990,89 @@ const DASHBOARD_DATA = {
           "거래량",
           "인기"
         ],
-        "volume": "200"
+        "volume": "622"
+      },
+      {
+        "name": "에스엠랩",
+        "code": "419350",
+        "price": "1090",
+        "change_pct": "0",
+        "board_count": 39,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/419350",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "672"
+      },
+      {
+        "name": "아이월드제약",
+        "code": "323530",
+        "price": "390",
+        "change_pct": "-6.02",
+        "board_count": 28,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/323530",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "701"
+      },
+      {
+        "name": "오리온이엔씨",
+        "code": "416920",
+        "price": "6350",
+        "change_pct": "0",
+        "board_count": 27,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/416920",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "100"
+      },
+      {
+        "name": "에코윈",
+        "code": "149990",
+        "price": "590",
+        "change_pct": "0",
+        "board_count": 7,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/149990",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "483"
+      },
+      {
+        "name": "메타빌드",
+        "code": "469270",
+        "price": "5900",
+        "change_pct": "-1.67",
+        "board_count": 5,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/469270",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "0"
       },
       {
         "name": "빗썸",
         "code": "341650",
-        "price": "179000",
-        "change_pct": "-0.56",
-        "board_count": 29,
+        "price": "177000",
+        "change_pct": "1.72",
+        "board_count": 23,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/341650",
@@ -3924,74 +4082,14 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "1"
-      },
-      {
-        "name": "에너진",
-        "code": "403680",
-        "price": "2630",
-        "change_pct": "-0.75",
-        "board_count": 22,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/403680",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "570"
-      },
-      {
-        "name": "오리온이엔씨",
-        "code": "416920",
-        "price": "6300",
-        "change_pct": "2.44",
-        "board_count": 25,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/416920",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "212"
-      },
-      {
-        "name": "케이솔루션",
-        "code": "413490",
-        "price": "6450",
-        "change_pct": "0",
-        "board_count": 7,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/413490",
-        "ranks": [
-          "거래량",
-          "인기",
-          "매출상승"
-        ],
         "volume": "0"
-      },
-      {
-        "name": "에코윈",
-        "code": "149990",
-        "price": "615",
-        "change_pct": "2.5",
-        "board_count": 5,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/149990",
-        "ranks": [
-          "거래량"
-        ],
-        "volume": "10"
       },
       {
         "name": "덕산넵코어스",
         "code": "266690",
-        "price": "22400",
-        "change_pct": "1.82",
-        "board_count": 13,
+        "price": "26600",
+        "change_pct": "1.92",
+        "board_count": 11,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/266690",
@@ -4002,167 +4100,11 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "성림첨단산업",
-        "code": "169310",
-        "price": "21000",
-        "change_pct": "0",
-        "board_count": 6,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/169310",
-        "ranks": [
-          "인기",
-          "상승률",
-          "시총"
-        ]
-      },
-      {
-        "name": "LPK로보틱스",
-        "code": "183350",
-        "price": "5800",
-        "change_pct": "0.87",
-        "board_count": 3,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/183350",
-        "ranks": [
-          "인기"
-        ]
-      },
-      {
-        "name": "서울로보틱스",
-        "code": "0024P0",
-        "price": "5500",
-        "change_pct": "0",
-        "board_count": 5,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/0024P0",
-        "ranks": [
-          "인기"
-        ]
-      },
-      {
-        "name": "한국증권금융",
-        "code": "028820",
-        "price": "20500",
-        "change_pct": "0",
-        "board_count": 13,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/028820",
-        "ranks": [
-          "인기",
-          "상승률",
-          "시총"
-        ]
-      },
-      {
-        "name": "노바셀테크놀로지",
-        "code": "170190",
-        "price": "9950",
-        "change_pct": "0",
-        "board_count": 15,
-        "ipo_badge": true,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/170190",
-        "ranks": [
-          "인기",
-          "상승률",
-          "상장준비"
-        ]
-      },
-      {
-        "name": "뱅크샐러드",
-        "code": "441000",
-        "price": "5000",
-        "change_pct": "0",
-        "board_count": 2,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/441000",
-        "ranks": [
-          "인기"
-        ]
-      },
-      {
-        "name": "영광와이케이엠씨",
-        "code": "345290",
-        "price": "6100",
-        "change_pct": "0",
-        "board_count": 2,
-        "ipo_badge": true,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/345290",
-        "ranks": [
-          "인기",
-          "상장준비"
-        ]
-      },
-      {
-        "name": "카카오모빌리티",
-        "code": "424700",
-        "price": "10000",
-        "change_pct": "0",
-        "board_count": 8,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/424700",
-        "ranks": [
-          "인기",
-          "시총"
-        ]
-      },
-      {
-        "name": "에스아이플렉스",
-        "code": "075050",
-        "price": "31800",
-        "change_pct": "2.58",
-        "board_count": 16,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/075050",
-        "ranks": [
-          "인기",
-          "상승률",
-          "시총",
-          "매출상승"
-        ]
-      },
-      {
-        "name": "엔지노믹스",
-        "code": "273400",
-        "price": "9500",
-        "change_pct": "0",
-        "board_count": 3,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/273400",
-        "ranks": [
-          "인기"
-        ]
-      },
-      {
-        "name": "에스케이플라즈마",
-        "code": "363540",
-        "price": "26900",
-        "change_pct": "0",
-        "board_count": 9,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/363540",
-        "ranks": [
-          "인기",
-          "상승률",
-          "시총"
-        ]
-      },
-      {
         "name": "그래핀스퀘어",
         "code": "245060",
-        "price": "75000",
+        "price": "70000",
         "change_pct": "0",
-        "board_count": 25,
+        "board_count": 35,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/245060",
@@ -4173,10 +4115,25 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "에이스엔지니어링",
+        "code": "442140",
+        "price": "40400",
+        "change_pct": "3.59",
+        "board_count": 4,
+        "ipo_badge": true,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/442140",
+        "ranks": [
+          "인기",
+          "상장준비",
+          "시총"
+        ]
+      },
+      {
         "name": "비바리퍼블리카",
         "code": "285240",
-        "price": "46500",
-        "change_pct": "0",
+        "price": "49300",
+        "change_pct": "1.86",
         "board_count": 30,
         "ipo_badge": false,
         "platform": "네이버비상장",
@@ -4189,41 +4146,41 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "빗썸에셋",
-        "code": "0091N0",
-        "price": "36900",
+        "name": "서울로보틱스",
+        "code": "0024P0",
+        "price": "5300",
         "change_pct": "0",
-        "board_count": 4,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/0091N0",
+        "url": "https://ustock.naver.com/stock/0024P0",
         "ranks": [
           "인기"
         ]
       },
       {
-        "name": "잉카인터넷",
-        "code": "083980",
-        "price": "1400",
-        "change_pct": "-6.67",
+        "name": "스마트로",
+        "code": "057160",
+        "price": "137000",
+        "change_pct": "3.01",
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/083980",
+        "url": "https://ustock.naver.com/stock/057160",
         "ranks": [
           "인기",
-          "매출상승"
+          "상승률"
         ]
       },
       {
-        "name": "바디프랜드",
-        "code": "191390",
-        "price": "2900",
-        "change_pct": "16",
-        "board_count": 5,
+        "name": "한국증권금융",
+        "code": "028820",
+        "price": "19900",
+        "change_pct": "-0.5",
+        "board_count": 10,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/191390",
+        "url": "https://ustock.naver.com/stock/028820",
         "ranks": [
           "인기",
           "상승률",
@@ -4231,14 +4188,42 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "럭스로보",
-        "code": "434410",
-        "price": "7550",
-        "change_pct": "0",
-        "board_count": 3,
+        "name": "현대엔지니어링",
+        "code": "064540",
+        "price": "30000",
+        "change_pct": "0.67",
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/434410",
+        "url": "https://ustock.naver.com/stock/064540",
+        "ranks": [
+          "인기",
+          "상승률",
+          "시총"
+        ]
+      },
+      {
+        "name": "뷰텔",
+        "code": "273220",
+        "price": "15400",
+        "change_pct": "0",
+        "board_count": 5,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/273220",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "스카이칩스",
+        "code": "454300",
+        "price": "1100",
+        "change_pct": "0",
+        "board_count": 7,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/454300",
         "ranks": [
           "인기"
         ]
@@ -4246,16 +4231,87 @@ const DASHBOARD_DATA = {
       {
         "name": "당근마켓",
         "code": "426920",
-        "price": "",
-        "change_pct": "",
+        "price": "204000",
+        "change_pct": "0",
         "board_count": 10,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/426920",
         "ranks": [
+          "인기",
           "상승률",
           "시총",
           "매출상승"
+        ]
+      },
+      {
+        "name": "성진테크윈",
+        "code": "192900",
+        "price": "2000",
+        "change_pct": "0",
+        "board_count": 1,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/192900",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "레드엔비아",
+        "code": "475950",
+        "price": "5000",
+        "change_pct": "6.38",
+        "board_count": 1,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/475950",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "에이치디현대삼호",
+        "code": "067030",
+        "price": "235000",
+        "change_pct": "0",
+        "board_count": 4,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/067030",
+        "ranks": [
+          "인기",
+          "상승률",
+          "시총",
+          "매출상승"
+        ]
+      },
+      {
+        "name": "바즈바이오메딕",
+        "code": "474630",
+        "price": "18000",
+        "change_pct": "0",
+        "board_count": 3,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/474630",
+        "ranks": [
+          "인기",
+          "매출상승"
+        ]
+      },
+      {
+        "name": "카카오모빌리티",
+        "code": "424700",
+        "price": "10500",
+        "change_pct": "5",
+        "board_count": 10,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/424700",
+        "ranks": [
+          "인기",
+          "시총"
         ]
       },
       {
@@ -4263,12 +4319,28 @@ const DASHBOARD_DATA = {
         "code": "0134Y0",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/0134Y0",
         "ranks": [
           "상승률",
+          "시총",
+          "매출상승"
+        ]
+      },
+      {
+        "name": "에스아이플렉스",
+        "code": "075050",
+        "price": "",
+        "change_pct": "",
+        "board_count": 7,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/075050",
+        "ranks": [
+          "상승률",
+          "시총",
           "매출상승"
         ]
       },
@@ -4277,7 +4349,7 @@ const DASHBOARD_DATA = {
         "code": "0082M0",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/0082M0",
@@ -4292,94 +4364,10 @@ const DASHBOARD_DATA = {
         "code": "268200",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/268200",
-        "ranks": [
-          "상승률",
-          "시총"
-        ]
-      },
-      {
-        "name": "텐텍",
-        "code": "448040",
-        "price": "",
-        "change_pct": "",
-        "board_count": 3,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/448040",
-        "ranks": [
-          "상승률"
-        ]
-      },
-      {
-        "name": "스마트로",
-        "code": "057160",
-        "price": "",
-        "change_pct": "",
-        "board_count": 2,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/057160",
-        "ranks": [
-          "상승률"
-        ]
-      },
-      {
-        "name": "에이치디현대삼호",
-        "code": "067030",
-        "price": "",
-        "change_pct": "",
-        "board_count": 6,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/067030",
-        "ranks": [
-          "상승률",
-          "시총",
-          "매출상승"
-        ]
-      },
-      {
-        "name": "싸이버로지텍",
-        "code": "052700",
-        "price": "",
-        "change_pct": "",
         "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/052700",
-        "ranks": [
-          "상승률",
-          "시총",
-          "매출상승"
-        ]
-      },
-      {
-        "name": "마이리얼트립",
-        "code": "370250",
-        "price": "",
-        "change_pct": "",
-        "board_count": 1,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/370250",
-        "ranks": [
-          "상승률",
-          "매출상승"
-        ]
-      },
-      {
-        "name": "현대엔지니어링",
-        "code": "064540",
-        "price": "",
-        "change_pct": "",
-        "board_count": 13,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/064540",
+        "url": "https://ustock.naver.com/stock/268200",
         "ranks": [
           "상승률",
           "시총"
@@ -4400,6 +4388,35 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "마이리얼트립",
+        "code": "370250",
+        "price": "",
+        "change_pct": "",
+        "board_count": 2,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/370250",
+        "ranks": [
+          "상승률",
+          "시총",
+          "매출상승"
+        ]
+      },
+      {
+        "name": "바디프랜드",
+        "code": "191390",
+        "price": "",
+        "change_pct": "",
+        "board_count": 6,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/191390",
+        "ranks": [
+          "상승률",
+          "시총"
+        ]
+      },
+      {
         "name": "뉴라클사이언스",
         "code": "299130",
         "price": "",
@@ -4413,11 +4430,25 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "에스케이플라즈마",
+        "code": "363540",
+        "price": "",
+        "change_pct": "",
+        "board_count": 13,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/363540",
+        "ranks": [
+          "상승률",
+          "시총"
+        ]
+      },
+      {
         "name": "알바이오",
         "code": "003190",
         "price": "",
         "change_pct": "",
-        "board_count": 9,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/003190",
@@ -4427,17 +4458,16 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "플랜텍",
-        "code": "051310",
+        "name": "성림첨단산업",
+        "code": "169310",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/051310",
+        "url": "https://ustock.naver.com/stock/169310",
         "ranks": [
-          "상승률",
-          "시총"
+          "상승률"
         ]
       },
       {
@@ -4445,7 +4475,7 @@ const DASHBOARD_DATA = {
         "code": "449850",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/449850",
@@ -4462,6 +4492,32 @@ const DASHBOARD_DATA = {
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/452370",
+        "ranks": [
+          "상장준비"
+        ]
+      },
+      {
+        "name": "엠아이티",
+        "code": "489450",
+        "price": "",
+        "change_pct": "",
+        "board_count": 1,
+        "ipo_badge": true,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/489450",
+        "ranks": [
+          "상장준비"
+        ]
+      },
+      {
+        "name": "노바셀테크놀로지",
+        "code": "170190",
+        "price": "",
+        "change_pct": "",
+        "board_count": 19,
+        "ipo_badge": true,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/170190",
         "ranks": [
           "상장준비"
         ]
@@ -4484,12 +4540,13 @@ const DASHBOARD_DATA = {
         "code": "497430",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/497430",
         "ranks": [
           "상장준비",
+          "시총",
           "매출상승"
         ]
       },
@@ -4498,7 +4555,7 @@ const DASHBOARD_DATA = {
         "code": "067430",
         "price": "",
         "change_pct": "",
-        "board_count": 7,
+        "board_count": 9,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/067430",
@@ -4537,7 +4594,7 @@ const DASHBOARD_DATA = {
         "code": "459650",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 6,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/459650",
@@ -4637,16 +4694,17 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "이에스티",
-        "code": "495910",
+        "name": "영광와이케이엠씨",
+        "code": "345290",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 5,
         "ipo_badge": true,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/495910",
+        "url": "https://ustock.naver.com/stock/345290",
         "ranks": [
-          "상장준비"
+          "상장준비",
+          "매출상승"
         ]
       },
       {
@@ -4654,23 +4712,10 @@ const DASHBOARD_DATA = {
         "code": "0111R0",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 4,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/0111R0",
-        "ranks": [
-          "상장준비"
-        ]
-      },
-      {
-        "name": "하나에어로다이내믹스",
-        "code": "271160",
-        "price": "",
-        "change_pct": "",
-        "board_count": 1,
-        "ipo_badge": true,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/271160",
         "ranks": [
           "상장준비"
         ]
@@ -4680,7 +4725,7 @@ const DASHBOARD_DATA = {
         "code": "004050",
         "price": "",
         "change_pct": "",
-        "board_count": 7,
+        "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/004050",
@@ -4693,7 +4738,7 @@ const DASHBOARD_DATA = {
         "code": "039090",
         "price": "",
         "change_pct": "",
-        "board_count": 4,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/039090",
@@ -4703,37 +4748,11 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "현대카드",
-        "code": "065900",
-        "price": "",
-        "change_pct": "",
-        "board_count": 7,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/065900",
-        "ranks": [
-          "시총"
-        ]
-      },
-      {
-        "name": "에이스엔지니어링",
-        "code": "442140",
-        "price": "",
-        "change_pct": "",
-        "board_count": 1,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/442140",
-        "ranks": [
-          "시총"
-        ]
-      },
-      {
         "name": "한국신용데이터",
         "code": "360160",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/360160",
@@ -4743,11 +4762,24 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "플랜텍",
+        "code": "051310",
+        "price": "",
+        "change_pct": "",
+        "board_count": 2,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/051310",
+        "ranks": [
+          "시총"
+        ]
+      },
+      {
         "name": "아이지에이웍스",
         "code": "438340",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/438340",
@@ -4760,7 +4792,7 @@ const DASHBOARD_DATA = {
         "code": "113300",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/113300",
@@ -4773,7 +4805,7 @@ const DASHBOARD_DATA = {
         "code": "345990",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/345990",
@@ -4786,7 +4818,7 @@ const DASHBOARD_DATA = {
         "code": "039330",
         "price": "",
         "change_pct": "",
-        "board_count": 2,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/039330",
@@ -4799,23 +4831,10 @@ const DASHBOARD_DATA = {
         "code": "292070",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/292070",
-        "ranks": [
-          "매출상승"
-        ]
-      },
-      {
-        "name": "바즈바이오메딕",
-        "code": "474630",
-        "price": "",
-        "change_pct": "",
-        "board_count": 1,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/474630",
         "ranks": [
           "매출상승"
         ]
@@ -4834,11 +4853,24 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "잉카인터넷",
+        "code": "083980",
+        "price": "",
+        "change_pct": "",
+        "board_count": 1,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/083980",
+        "ranks": [
+          "매출상승"
+        ]
+      },
+      {
         "name": "지씨에스",
         "code": "354450",
         "price": "",
         "change_pct": "",
-        "board_count": 2,
+        "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/354450",
@@ -4877,7 +4909,7 @@ const DASHBOARD_DATA = {
         "code": "163290",
         "price": "",
         "change_pct": "",
-        "board_count": 6,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/163290",
@@ -4903,7 +4935,7 @@ const DASHBOARD_DATA = {
         "code": "295110",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/295110",
@@ -4916,7 +4948,7 @@ const DASHBOARD_DATA = {
         "code": "232150",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/232150",
@@ -4942,7 +4974,7 @@ const DASHBOARD_DATA = {
         "code": "0013S0",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/0013S0",
@@ -4955,7 +4987,7 @@ const DASHBOARD_DATA = {
         "code": "215820",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/215820",
@@ -4968,11 +5000,11 @@ const DASHBOARD_DATA = {
       {
         "name": "사운드백신",
         "code": "274460",
-        "price": "74",
-        "change": "10",
-        "change_pct": "15.62",
-        "volume": "3624",
-        "amount": "286716",
+        "price": "41",
+        "change": "9",
+        "change_pct": "28.12",
+        "volume": "49988",
+        "amount": "2049502",
         "platform": "K-OTC",
         "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%AC%EC%9A%B4%EB%93%9C%EB%B0%B1%EC%8B%A0",
         "ranks": [
@@ -4982,62 +5014,48 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "아리바이오",
-        "code": "192230",
-        "price": "20300",
-        "change": "0",
-        "change_pct": "0.0",
-        "volume": "2",
-        "amount": "40650",
+        "name": "한국지네틱바이오팜",
+        "code": "241140",
+        "price": "193",
+        "change": "44",
+        "change_pct": "29.53",
+        "volume": "5000",
+        "amount": "965000",
         "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4",
-        "ranks": [
-          "거래대금",
-          "거래량"
-        ]
-      },
-      {
-        "name": "에이플러스라이프",
-        "code": "141110",
-        "price": "1000",
-        "change": "150",
-        "change_pct": "17.65",
-        "volume": "1",
-        "amount": "1000",
-        "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4%EB%9D%BC%EC%9D%B4%ED%94%84",
+        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
         "ranks": [
           "거래대금",
           "거래량",
           "상승률"
+        ]
+      },
+      {
+        "name": "삼성메디슨",
+        "code": "018360",
+        "price": "9700",
+        "change": "190",
+        "change_pct": "2.0",
+        "volume": "4",
+        "amount": "38800",
+        "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
+        "ranks": [
+          "거래대금",
+          "거래량",
+          "상승률",
+          "시가총액"
         ]
       },
       {
         "name": "제이앤드",
         "code": "104690",
-        "price": "40",
-        "change": "9",
-        "change_pct": "29.03",
+        "price": "49",
+        "change": "11",
+        "change_pct": "28.95",
         "volume": "1",
-        "amount": "40",
+        "amount": "49",
         "platform": "K-OTC",
         "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%A0%9C%EC%9D%B4%EC%95%A4%EB%93%9C",
-        "ranks": [
-          "거래대금",
-          "거래량",
-          "상승률"
-        ]
-      },
-      {
-        "name": "에이치디씨영창",
-        "code": "001890",
-        "price": "34",
-        "change": "7",
-        "change_pct": "25.93",
-        "volume": "1",
-        "amount": "34",
-        "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%EC%B9%98%EB%94%94%EC%94%A8%EC%98%81%EC%B0%BD",
         "ranks": [
           "거래대금",
           "거래량",
@@ -5101,60 +5119,29 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "삼성메디슨",
-        "code": "018360",
-        "price": "",
-        "change": "0",
-        "change_pct": "",
-        "volume": "",
-        "amount": "",
-        "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
-        "ranks": [
-          "시가총액"
-        ]
-      },
-      {
-        "name": "무신사",
-        "code": "A458860",
+        "name": "에스아이플렉스",
+        "code": "A075050",
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 3538,
-        "category": "ecommerce",
+        "visit": 464,
+        "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%95%84%EC%9D%B4%ED%94%8C%EB%A0%89%EC%8A%A4-638/",
         "ranks": [
-          "거래량",
-          "인기"
+          "거래량"
         ]
       },
       {
-        "name": "오아시스",
-        "code": "A370190",
-        "price": "11100",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 4141,
-        "category": "ecommerce",
+        "name": "LPK로보틱스",
+        "code": "A183350",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 628,
+        "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4-27/",
-        "ranks": [
-          "거래량",
-          "상승",
-          "인기"
-        ]
-      },
-      {
-        "name": "뱅크샐러드",
-        "code": "A441000",
-        "price": "4000",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 1073,
-        "category": "fintech",
-        "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C-86/",
+        "url": "https://www.seoulexchange.kr/stocks/LPK%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4-714/",
         "ranks": [
           "거래량"
         ]
@@ -5162,10 +5149,10 @@ const DASHBOARD_DATA = {
       {
         "name": "쎄니팡",
         "code": "A251430",
-        "price": "800",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 11345,
+        "price": "792",
+        "change": "39 (5.18%)",
+        "change_pct": "5.18",
+        "visit": 8067,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%EC%8E%84%EB%8B%88%ED%8C%A1-112/",
@@ -5175,62 +5162,107 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "인티그리트",
-        "code": "A377660",
-        "price": "5000",
+        "name": "에스엠랩",
+        "code": "A419350",
+        "price": "1086",
         "change": "0 (0%)",
         "change_pct": "0",
-        "visit": 2400,
-        "category": "etc",
+        "visit": 3920,
+        "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%9D%B8%ED%8B%B0%EA%B7%B8%EB%A6%AC%ED%8A%B8-854/",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%97%A0%EB%9E%A9-48/",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기"
+        ]
+      },
+      {
+        "name": "무신사",
+        "code": "A458860",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 2105,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
         "ranks": [
           "거래량",
           "인기"
         ]
       },
       {
-        "name": "한국산삼원",
-        "code": "A498420",
-        "price": "52",
-        "change": "-12 (-18.75%)",
-        "change_pct": "-18.75",
-        "visit": 5080,
+        "name": "인티그리트",
+        "code": "A377660",
+        "price": "8000",
+        "change": "0 (0%)",
+        "change_pct": "0",
+        "visit": 1322,
         "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%ED%95%9C%EA%B5%AD%EC%82%B0%EC%82%BC%EC%9B%90-3913/",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%9D%B8%ED%8B%B0%EA%B7%B8%EB%A6%AC%ED%8A%B8-854/",
         "ranks": [
           "상승",
           "인기"
         ]
       },
       {
-        "name": "에스엠랩",
-        "code": "A419350",
-        "price": "1094",
+        "name": "뱅크샐러드",
+        "code": "A441000",
+        "price": "5200",
         "change": "0 (0%)",
         "change_pct": "0",
-        "visit": 4852,
-        "category": "manufacturing",
+        "visit": 922,
+        "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%97%A0%EB%9E%A9-48/",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C-86/",
+        "ranks": [
+          "상승"
+        ]
+      },
+      {
+        "name": "컬리",
+        "code": "A408480",
+        "price": "26500",
+        "change": "-400 (-1.49%)",
+        "change_pct": "-1.49",
+        "visit": 2718,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%BB%AC%EB%A6%AC-3/",
         "ranks": [
           "상승",
           "인기"
         ]
       },
       {
-        "name": "야놀자",
-        "code": "A350920",
-        "price": "15400",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 2032,
-        "category": "platform",
+        "name": "비바리퍼블리카",
+        "code": "A285240",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 2777,
+        "category": "fintech",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%95%BC%EB%86%80%EC%9E%90-6/",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%B9%84%EB%B0%94%EB%A6%AC%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%B9%B4-17/",
         "ranks": [
           "상승",
+          "인기",
+          "시총"
+        ]
+      },
+      {
+        "name": "오아시스",
+        "code": "A370190",
+        "price": "9300",
+        "change": "-1500 (-13.89%)",
+        "change_pct": "-13.89",
+        "visit": 3445,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/",
+        "ranks": [
           "인기"
         ]
       },
@@ -5240,24 +5272,8 @@ const DASHBOARD_DATA = {
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 3405,
+        "visit": 3166,
         "category": "platform",
-        "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EB%91%90%EB%82%98%EB%AC%B4-327/",
-        "ranks": [
-          "상승",
-          "인기",
-          "시총"
-        ]
-      },
-      {
-        "name": "비바리퍼블리카",
-        "code": "A285240",
-        "price": "",
-        "change": "",
-        "change_pct": "",
-        "visit": 3730,
-        "category": "fintech",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/",
         "ranks": [
@@ -5266,13 +5282,27 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "컬리",
-        "code": "A408480",
-        "price": "25000",
+        "name": "한국산삼원",
+        "code": "A498420",
+        "price": "52",
         "change": "0 (0%)",
         "change_pct": "0",
-        "visit": 3341,
-        "category": "ecommerce",
+        "visit": 2007,
+        "category": "etc",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "야놀자",
+        "code": "A350920",
+        "price": "13600",
+        "change": "0 (0%)",
+        "change_pct": "0",
+        "visit": 1872,
+        "category": "platform",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/",
         "ranks": [
@@ -5285,7 +5315,7 @@ const DASHBOARD_DATA = {
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 191,
+        "visit": 149,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC-889/",
@@ -5299,7 +5329,7 @@ const DASHBOARD_DATA = {
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 27,
+        "visit": 32,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%EC%82%BC%EC%84%B1%EC%A4%91%EA%B3%B5%EC%9A%B0-3456/",
@@ -5313,7 +5343,7 @@ const DASHBOARD_DATA = {
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 63,
+        "visit": 32,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-212/",
@@ -5324,9 +5354,9 @@ const DASHBOARD_DATA = {
       {
         "name": "두나무",
         "code": "389930",
-        "price": "264000",
-        "change_pct": "2.33",
-        "board_count": 84,
+        "price": "270000",
+        "change_pct": "1.12",
+        "board_count": 123,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/389930",
@@ -5336,14 +5366,14 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "904"
+        "volume": "3323"
       },
       {
         "name": "무신사",
         "code": "458860",
-        "price": "23800",
-        "change_pct": "-0.42",
-        "board_count": 78,
+        "price": "24800",
+        "change_pct": "3.33",
+        "board_count": 89,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/458860",
@@ -5355,46 +5385,14 @@ const DASHBOARD_DATA = {
           "시총",
           "매출상승"
         ],
-        "volume": "1574"
-      },
-      {
-        "name": "오아시스",
-        "code": "370190",
-        "price": "12800",
-        "change_pct": "28.64",
-        "board_count": 86,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/370190",
-        "ranks": [
-          "거래량",
-          "인기",
-          "상승률",
-          "시총"
-        ],
-        "volume": "1632"
-      },
-      {
-        "name": "아이월드제약",
-        "code": "323530",
-        "price": "390",
-        "change_pct": "0",
-        "board_count": 25,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/323530",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "12272"
+        "volume": "1488"
       },
       {
         "name": "컬리",
         "code": "408480",
-        "price": "25100",
-        "change_pct": "-0.79",
-        "board_count": 36,
+        "price": "26200",
+        "change_pct": "0.38",
+        "board_count": 39,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/408480",
@@ -5404,29 +5402,14 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "137"
-      },
-      {
-        "name": "에스엠랩",
-        "code": "419350",
-        "price": "1260",
-        "change_pct": "16.67",
-        "board_count": 33,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/419350",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "2553"
+        "volume": "171"
       },
       {
         "name": "야놀자",
         "code": "350920",
-        "price": "13900",
+        "price": "13400",
         "change_pct": "0",
-        "board_count": 28,
+        "board_count": 49,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/350920",
@@ -5436,14 +5419,62 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "127"
+        "volume": "479"
+      },
+      {
+        "name": "오아시스",
+        "code": "370190",
+        "price": "10000",
+        "change_pct": "3.09",
+        "board_count": 50,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/370190",
+        "ranks": [
+          "거래량",
+          "인기",
+          "상승률",
+          "시총"
+        ],
+        "volume": "671"
+      },
+      {
+        "name": "에너진",
+        "code": "403680",
+        "price": "2620",
+        "change_pct": "0",
+        "board_count": 21,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/403680",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "302"
+      },
+      {
+        "name": "케이솔루션",
+        "code": "413490",
+        "price": "6650",
+        "change_pct": "0",
+        "board_count": 14,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/413490",
+        "ranks": [
+          "거래량",
+          "인기",
+          "매출상승"
+        ],
+        "volume": "600"
       },
       {
         "name": "셀메드",
         "code": "238930",
-        "price": "4520",
-        "change_pct": "-1.95",
-        "board_count": 22,
+        "price": "4490",
+        "change_pct": "0.22",
+        "board_count": 26,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/238930",
@@ -5451,14 +5482,89 @@ const DASHBOARD_DATA = {
           "거래량",
           "인기"
         ],
-        "volume": "200"
+        "volume": "622"
+      },
+      {
+        "name": "에스엠랩",
+        "code": "419350",
+        "price": "1090",
+        "change_pct": "0",
+        "board_count": 39,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/419350",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "672"
+      },
+      {
+        "name": "아이월드제약",
+        "code": "323530",
+        "price": "390",
+        "change_pct": "-6.02",
+        "board_count": 28,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/323530",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "701"
+      },
+      {
+        "name": "오리온이엔씨",
+        "code": "416920",
+        "price": "6350",
+        "change_pct": "0",
+        "board_count": 27,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/416920",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "100"
+      },
+      {
+        "name": "에코윈",
+        "code": "149990",
+        "price": "590",
+        "change_pct": "0",
+        "board_count": 7,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/149990",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "483"
+      },
+      {
+        "name": "메타빌드",
+        "code": "469270",
+        "price": "5900",
+        "change_pct": "-1.67",
+        "board_count": 5,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/469270",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "0"
       },
       {
         "name": "빗썸",
         "code": "341650",
-        "price": "179000",
-        "change_pct": "-0.56",
-        "board_count": 29,
+        "price": "177000",
+        "change_pct": "1.72",
+        "board_count": 23,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/341650",
@@ -5468,74 +5574,14 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "1"
-      },
-      {
-        "name": "에너진",
-        "code": "403680",
-        "price": "2630",
-        "change_pct": "-0.75",
-        "board_count": 22,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/403680",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "570"
-      },
-      {
-        "name": "오리온이엔씨",
-        "code": "416920",
-        "price": "6300",
-        "change_pct": "2.44",
-        "board_count": 25,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/416920",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "212"
-      },
-      {
-        "name": "케이솔루션",
-        "code": "413490",
-        "price": "6450",
-        "change_pct": "0",
-        "board_count": 7,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/413490",
-        "ranks": [
-          "거래량",
-          "인기",
-          "매출상승"
-        ],
         "volume": "0"
-      },
-      {
-        "name": "에코윈",
-        "code": "149990",
-        "price": "615",
-        "change_pct": "2.5",
-        "board_count": 5,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/149990",
-        "ranks": [
-          "거래량"
-        ],
-        "volume": "10"
       },
       {
         "name": "덕산넵코어스",
         "code": "266690",
-        "price": "22400",
-        "change_pct": "1.82",
-        "board_count": 13,
+        "price": "26600",
+        "change_pct": "1.92",
+        "board_count": 11,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/266690",
@@ -5546,167 +5592,11 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "성림첨단산업",
-        "code": "169310",
-        "price": "21000",
-        "change_pct": "0",
-        "board_count": 6,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/169310",
-        "ranks": [
-          "인기",
-          "상승률",
-          "시총"
-        ]
-      },
-      {
-        "name": "LPK로보틱스",
-        "code": "183350",
-        "price": "5800",
-        "change_pct": "0.87",
-        "board_count": 3,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/183350",
-        "ranks": [
-          "인기"
-        ]
-      },
-      {
-        "name": "서울로보틱스",
-        "code": "0024P0",
-        "price": "5500",
-        "change_pct": "0",
-        "board_count": 5,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/0024P0",
-        "ranks": [
-          "인기"
-        ]
-      },
-      {
-        "name": "한국증권금융",
-        "code": "028820",
-        "price": "20500",
-        "change_pct": "0",
-        "board_count": 13,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/028820",
-        "ranks": [
-          "인기",
-          "상승률",
-          "시총"
-        ]
-      },
-      {
-        "name": "노바셀테크놀로지",
-        "code": "170190",
-        "price": "9950",
-        "change_pct": "0",
-        "board_count": 15,
-        "ipo_badge": true,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/170190",
-        "ranks": [
-          "인기",
-          "상승률",
-          "상장준비"
-        ]
-      },
-      {
-        "name": "뱅크샐러드",
-        "code": "441000",
-        "price": "5000",
-        "change_pct": "0",
-        "board_count": 2,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/441000",
-        "ranks": [
-          "인기"
-        ]
-      },
-      {
-        "name": "영광와이케이엠씨",
-        "code": "345290",
-        "price": "6100",
-        "change_pct": "0",
-        "board_count": 2,
-        "ipo_badge": true,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/345290",
-        "ranks": [
-          "인기",
-          "상장준비"
-        ]
-      },
-      {
-        "name": "카카오모빌리티",
-        "code": "424700",
-        "price": "10000",
-        "change_pct": "0",
-        "board_count": 8,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/424700",
-        "ranks": [
-          "인기",
-          "시총"
-        ]
-      },
-      {
-        "name": "에스아이플렉스",
-        "code": "075050",
-        "price": "31800",
-        "change_pct": "2.58",
-        "board_count": 16,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/075050",
-        "ranks": [
-          "인기",
-          "상승률",
-          "시총",
-          "매출상승"
-        ]
-      },
-      {
-        "name": "엔지노믹스",
-        "code": "273400",
-        "price": "9500",
-        "change_pct": "0",
-        "board_count": 3,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/273400",
-        "ranks": [
-          "인기"
-        ]
-      },
-      {
-        "name": "에스케이플라즈마",
-        "code": "363540",
-        "price": "26900",
-        "change_pct": "0",
-        "board_count": 9,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/363540",
-        "ranks": [
-          "인기",
-          "상승률",
-          "시총"
-        ]
-      },
-      {
         "name": "그래핀스퀘어",
         "code": "245060",
-        "price": "75000",
+        "price": "70000",
         "change_pct": "0",
-        "board_count": 25,
+        "board_count": 35,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/245060",
@@ -5717,10 +5607,25 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "에이스엔지니어링",
+        "code": "442140",
+        "price": "40400",
+        "change_pct": "3.59",
+        "board_count": 4,
+        "ipo_badge": true,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/442140",
+        "ranks": [
+          "인기",
+          "상장준비",
+          "시총"
+        ]
+      },
+      {
         "name": "비바리퍼블리카",
         "code": "285240",
-        "price": "46500",
-        "change_pct": "0",
+        "price": "49300",
+        "change_pct": "1.86",
         "board_count": 30,
         "ipo_badge": false,
         "platform": "네이버비상장",
@@ -5733,41 +5638,41 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "빗썸에셋",
-        "code": "0091N0",
-        "price": "36900",
+        "name": "서울로보틱스",
+        "code": "0024P0",
+        "price": "5300",
         "change_pct": "0",
-        "board_count": 4,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/0091N0",
+        "url": "https://ustock.naver.com/stock/0024P0",
         "ranks": [
           "인기"
         ]
       },
       {
-        "name": "잉카인터넷",
-        "code": "083980",
-        "price": "1400",
-        "change_pct": "-6.67",
+        "name": "스마트로",
+        "code": "057160",
+        "price": "137000",
+        "change_pct": "3.01",
         "board_count": 1,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/083980",
+        "url": "https://ustock.naver.com/stock/057160",
         "ranks": [
           "인기",
-          "매출상승"
+          "상승률"
         ]
       },
       {
-        "name": "바디프랜드",
-        "code": "191390",
-        "price": "2900",
-        "change_pct": "16",
-        "board_count": 5,
+        "name": "한국증권금융",
+        "code": "028820",
+        "price": "19900",
+        "change_pct": "-0.5",
+        "board_count": 10,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/191390",
+        "url": "https://ustock.naver.com/stock/028820",
         "ranks": [
           "인기",
           "상승률",
@@ -5775,14 +5680,42 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "럭스로보",
-        "code": "434410",
-        "price": "7550",
-        "change_pct": "0",
-        "board_count": 3,
+        "name": "현대엔지니어링",
+        "code": "064540",
+        "price": "30000",
+        "change_pct": "0.67",
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/434410",
+        "url": "https://ustock.naver.com/stock/064540",
+        "ranks": [
+          "인기",
+          "상승률",
+          "시총"
+        ]
+      },
+      {
+        "name": "뷰텔",
+        "code": "273220",
+        "price": "15400",
+        "change_pct": "0",
+        "board_count": 5,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/273220",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "스카이칩스",
+        "code": "454300",
+        "price": "1100",
+        "change_pct": "0",
+        "board_count": 7,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/454300",
         "ranks": [
           "인기"
         ]
@@ -5790,16 +5723,87 @@ const DASHBOARD_DATA = {
       {
         "name": "당근마켓",
         "code": "426920",
-        "price": "",
-        "change_pct": "",
+        "price": "204000",
+        "change_pct": "0",
         "board_count": 10,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/426920",
         "ranks": [
+          "인기",
           "상승률",
           "시총",
           "매출상승"
+        ]
+      },
+      {
+        "name": "성진테크윈",
+        "code": "192900",
+        "price": "2000",
+        "change_pct": "0",
+        "board_count": 1,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/192900",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "레드엔비아",
+        "code": "475950",
+        "price": "5000",
+        "change_pct": "6.38",
+        "board_count": 1,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/475950",
+        "ranks": [
+          "인기"
+        ]
+      },
+      {
+        "name": "에이치디현대삼호",
+        "code": "067030",
+        "price": "235000",
+        "change_pct": "0",
+        "board_count": 4,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/067030",
+        "ranks": [
+          "인기",
+          "상승률",
+          "시총",
+          "매출상승"
+        ]
+      },
+      {
+        "name": "바즈바이오메딕",
+        "code": "474630",
+        "price": "18000",
+        "change_pct": "0",
+        "board_count": 3,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/474630",
+        "ranks": [
+          "인기",
+          "매출상승"
+        ]
+      },
+      {
+        "name": "카카오모빌리티",
+        "code": "424700",
+        "price": "10500",
+        "change_pct": "5",
+        "board_count": 10,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/424700",
+        "ranks": [
+          "인기",
+          "시총"
         ]
       },
       {
@@ -5807,12 +5811,28 @@ const DASHBOARD_DATA = {
         "code": "0134Y0",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/0134Y0",
         "ranks": [
           "상승률",
+          "시총",
+          "매출상승"
+        ]
+      },
+      {
+        "name": "에스아이플렉스",
+        "code": "075050",
+        "price": "",
+        "change_pct": "",
+        "board_count": 7,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/075050",
+        "ranks": [
+          "상승률",
+          "시총",
           "매출상승"
         ]
       },
@@ -5821,7 +5841,7 @@ const DASHBOARD_DATA = {
         "code": "0082M0",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/0082M0",
@@ -5836,94 +5856,10 @@ const DASHBOARD_DATA = {
         "code": "268200",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/268200",
-        "ranks": [
-          "상승률",
-          "시총"
-        ]
-      },
-      {
-        "name": "텐텍",
-        "code": "448040",
-        "price": "",
-        "change_pct": "",
-        "board_count": 3,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/448040",
-        "ranks": [
-          "상승률"
-        ]
-      },
-      {
-        "name": "스마트로",
-        "code": "057160",
-        "price": "",
-        "change_pct": "",
-        "board_count": 2,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/057160",
-        "ranks": [
-          "상승률"
-        ]
-      },
-      {
-        "name": "에이치디현대삼호",
-        "code": "067030",
-        "price": "",
-        "change_pct": "",
-        "board_count": 6,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/067030",
-        "ranks": [
-          "상승률",
-          "시총",
-          "매출상승"
-        ]
-      },
-      {
-        "name": "싸이버로지텍",
-        "code": "052700",
-        "price": "",
-        "change_pct": "",
         "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/052700",
-        "ranks": [
-          "상승률",
-          "시총",
-          "매출상승"
-        ]
-      },
-      {
-        "name": "마이리얼트립",
-        "code": "370250",
-        "price": "",
-        "change_pct": "",
-        "board_count": 1,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/370250",
-        "ranks": [
-          "상승률",
-          "매출상승"
-        ]
-      },
-      {
-        "name": "현대엔지니어링",
-        "code": "064540",
-        "price": "",
-        "change_pct": "",
-        "board_count": 13,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/064540",
+        "url": "https://ustock.naver.com/stock/268200",
         "ranks": [
           "상승률",
           "시총"
@@ -5944,6 +5880,35 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "마이리얼트립",
+        "code": "370250",
+        "price": "",
+        "change_pct": "",
+        "board_count": 2,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/370250",
+        "ranks": [
+          "상승률",
+          "시총",
+          "매출상승"
+        ]
+      },
+      {
+        "name": "바디프랜드",
+        "code": "191390",
+        "price": "",
+        "change_pct": "",
+        "board_count": 6,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/191390",
+        "ranks": [
+          "상승률",
+          "시총"
+        ]
+      },
+      {
         "name": "뉴라클사이언스",
         "code": "299130",
         "price": "",
@@ -5957,11 +5922,25 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "에스케이플라즈마",
+        "code": "363540",
+        "price": "",
+        "change_pct": "",
+        "board_count": 13,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/363540",
+        "ranks": [
+          "상승률",
+          "시총"
+        ]
+      },
+      {
         "name": "알바이오",
         "code": "003190",
         "price": "",
         "change_pct": "",
-        "board_count": 9,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/003190",
@@ -5971,17 +5950,16 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "플랜텍",
-        "code": "051310",
+        "name": "성림첨단산업",
+        "code": "169310",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/051310",
+        "url": "https://ustock.naver.com/stock/169310",
         "ranks": [
-          "상승률",
-          "시총"
+          "상승률"
         ]
       },
       {
@@ -5989,7 +5967,7 @@ const DASHBOARD_DATA = {
         "code": "449850",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/449850",
@@ -6006,6 +5984,32 @@ const DASHBOARD_DATA = {
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/452370",
+        "ranks": [
+          "상장준비"
+        ]
+      },
+      {
+        "name": "엠아이티",
+        "code": "489450",
+        "price": "",
+        "change_pct": "",
+        "board_count": 1,
+        "ipo_badge": true,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/489450",
+        "ranks": [
+          "상장준비"
+        ]
+      },
+      {
+        "name": "노바셀테크놀로지",
+        "code": "170190",
+        "price": "",
+        "change_pct": "",
+        "board_count": 19,
+        "ipo_badge": true,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/170190",
         "ranks": [
           "상장준비"
         ]
@@ -6028,12 +6032,13 @@ const DASHBOARD_DATA = {
         "code": "497430",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 1,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/497430",
         "ranks": [
           "상장준비",
+          "시총",
           "매출상승"
         ]
       },
@@ -6042,7 +6047,7 @@ const DASHBOARD_DATA = {
         "code": "067430",
         "price": "",
         "change_pct": "",
-        "board_count": 7,
+        "board_count": 9,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/067430",
@@ -6081,7 +6086,7 @@ const DASHBOARD_DATA = {
         "code": "459650",
         "price": "",
         "change_pct": "",
-        "board_count": 5,
+        "board_count": 6,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/459650",
@@ -6181,16 +6186,17 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "이에스티",
-        "code": "495910",
+        "name": "영광와이케이엠씨",
+        "code": "345290",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 5,
         "ipo_badge": true,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/495910",
+        "url": "https://ustock.naver.com/stock/345290",
         "ranks": [
-          "상장준비"
+          "상장준비",
+          "매출상승"
         ]
       },
       {
@@ -6198,23 +6204,10 @@ const DASHBOARD_DATA = {
         "code": "0111R0",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 4,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/0111R0",
-        "ranks": [
-          "상장준비"
-        ]
-      },
-      {
-        "name": "하나에어로다이내믹스",
-        "code": "271160",
-        "price": "",
-        "change_pct": "",
-        "board_count": 1,
-        "ipo_badge": true,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/271160",
         "ranks": [
           "상장준비"
         ]
@@ -6224,7 +6217,7 @@ const DASHBOARD_DATA = {
         "code": "004050",
         "price": "",
         "change_pct": "",
-        "board_count": 7,
+        "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/004050",
@@ -6237,7 +6230,7 @@ const DASHBOARD_DATA = {
         "code": "039090",
         "price": "",
         "change_pct": "",
-        "board_count": 4,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/039090",
@@ -6247,37 +6240,11 @@ const DASHBOARD_DATA = {
         ]
       },
       {
-        "name": "현대카드",
-        "code": "065900",
-        "price": "",
-        "change_pct": "",
-        "board_count": 7,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/065900",
-        "ranks": [
-          "시총"
-        ]
-      },
-      {
-        "name": "에이스엔지니어링",
-        "code": "442140",
-        "price": "",
-        "change_pct": "",
-        "board_count": 1,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/442140",
-        "ranks": [
-          "시총"
-        ]
-      },
-      {
         "name": "한국신용데이터",
         "code": "360160",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/360160",
@@ -6287,11 +6254,24 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "플랜텍",
+        "code": "051310",
+        "price": "",
+        "change_pct": "",
+        "board_count": 2,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/051310",
+        "ranks": [
+          "시총"
+        ]
+      },
+      {
         "name": "아이지에이웍스",
         "code": "438340",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/438340",
@@ -6304,7 +6284,7 @@ const DASHBOARD_DATA = {
         "code": "113300",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/113300",
@@ -6317,7 +6297,7 @@ const DASHBOARD_DATA = {
         "code": "345990",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/345990",
@@ -6330,7 +6310,7 @@ const DASHBOARD_DATA = {
         "code": "039330",
         "price": "",
         "change_pct": "",
-        "board_count": 2,
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/039330",
@@ -6343,23 +6323,10 @@ const DASHBOARD_DATA = {
         "code": "292070",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/292070",
-        "ranks": [
-          "매출상승"
-        ]
-      },
-      {
-        "name": "바즈바이오메딕",
-        "code": "474630",
-        "price": "",
-        "change_pct": "",
-        "board_count": 1,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/474630",
         "ranks": [
           "매출상승"
         ]
@@ -6378,11 +6345,24 @@ const DASHBOARD_DATA = {
         ]
       },
       {
+        "name": "잉카인터넷",
+        "code": "083980",
+        "price": "",
+        "change_pct": "",
+        "board_count": 1,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/083980",
+        "ranks": [
+          "매출상승"
+        ]
+      },
+      {
         "name": "지씨에스",
         "code": "354450",
         "price": "",
         "change_pct": "",
-        "board_count": 2,
+        "board_count": 3,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/354450",
@@ -6421,7 +6401,7 @@ const DASHBOARD_DATA = {
         "code": "163290",
         "price": "",
         "change_pct": "",
-        "board_count": 6,
+        "board_count": 8,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/163290",
@@ -6447,7 +6427,7 @@ const DASHBOARD_DATA = {
         "code": "295110",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/295110",
@@ -6460,7 +6440,7 @@ const DASHBOARD_DATA = {
         "code": "232150",
         "price": "",
         "change_pct": "",
-        "board_count": 1,
+        "board_count": 4,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/232150",
@@ -6486,7 +6466,7 @@ const DASHBOARD_DATA = {
         "code": "0013S0",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 2,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/0013S0",
@@ -6499,7 +6479,7 @@ const DASHBOARD_DATA = {
         "code": "215820",
         "price": "",
         "change_pct": "",
-        "board_count": 3,
+        "board_count": 6,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/215820",
@@ -6510,29 +6490,13 @@ const DASHBOARD_DATA = {
     ],
     "volume_spikes": [
       {
-        "name": "아이월드제약",
-        "code": "323530",
-        "price": "390",
-        "change_pct": "0",
-        "board_count": 25,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/323530",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "12272",
-        "volume_int": 12272
-      },
-      {
         "name": "사운드백신",
         "code": "274460",
-        "price": "74",
-        "change": "10",
-        "change_pct": "15.62",
-        "volume": "3624",
-        "amount": "286716",
+        "price": "41",
+        "change": "9",
+        "change_pct": "28.12",
+        "volume": "49988",
+        "amount": "2049502",
         "platform": "K-OTC",
         "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%AC%EC%9A%B4%EB%93%9C%EB%B0%B1%EC%8B%A0",
         "ranks": [
@@ -6540,48 +6504,49 @@ const DASHBOARD_DATA = {
           "거래량",
           "상승률"
         ],
-        "volume_int": 3624
+        "volume_int": 49988
       },
       {
-        "name": "에스엠랩",
-        "code": "419350",
-        "price": "1260",
-        "change_pct": "16.67",
-        "board_count": 33,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/419350",
+        "name": "한국지네틱바이오팜",
+        "code": "241140",
+        "price": "193",
+        "change": "44",
+        "change_pct": "29.53",
+        "volume": "5000",
+        "amount": "965000",
+        "platform": "K-OTC",
+        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%ED%95%9C%EA%B5%AD%EC%A7%80%EB%84%A4%ED%8B%B1%EB%B0%94%EC%9D%B4%EC%98%A4%ED%8C%9C",
         "ranks": [
+          "거래대금",
           "거래량",
-          "인기"
+          "상승률"
         ],
-        "volume": "2553",
-        "volume_int": 2553
+        "volume_int": 5000
       },
       {
-        "name": "오아시스",
-        "code": "370190",
-        "price": "12800",
-        "change_pct": "28.64",
-        "board_count": 86,
+        "name": "두나무",
+        "code": "389930",
+        "price": "270000",
+        "change_pct": "1.12",
+        "board_count": 123,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/370190",
+        "url": "https://ustock.naver.com/stock/389930",
         "ranks": [
           "거래량",
           "인기",
           "상승률",
           "시총"
         ],
-        "volume": "1632",
-        "volume_int": 1632
+        "volume": "3323",
+        "volume_int": 3323
       },
       {
         "name": "무신사",
         "code": "458860",
-        "price": "23800",
-        "change_pct": "-0.42",
-        "board_count": 78,
+        "price": "24800",
+        "change_pct": "3.33",
+        "board_count": 89,
         "ipo_badge": true,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/458860",
@@ -6593,65 +6558,65 @@ const DASHBOARD_DATA = {
           "시총",
           "매출상승"
         ],
-        "volume": "1574",
-        "volume_int": 1574
+        "volume": "1488",
+        "volume_int": 1488
       },
       {
-        "name": "두나무",
-        "code": "389930",
-        "price": "264000",
-        "change_pct": "2.33",
-        "board_count": 84,
+        "name": "아이월드제약",
+        "code": "323530",
+        "price": "390",
+        "change_pct": "-6.02",
+        "board_count": 28,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/389930",
+        "url": "https://ustock.naver.com/stock/323530",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "701",
+        "volume_int": 701
+      },
+      {
+        "name": "에스엠랩",
+        "code": "419350",
+        "price": "1090",
+        "change_pct": "0",
+        "board_count": 39,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/419350",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "672",
+        "volume_int": 672
+      },
+      {
+        "name": "오아시스",
+        "code": "370190",
+        "price": "10000",
+        "change_pct": "3.09",
+        "board_count": 50,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/370190",
         "ranks": [
           "거래량",
           "인기",
           "상승률",
           "시총"
         ],
-        "volume": "904",
-        "volume_int": 904
-      },
-      {
-        "name": "에너진",
-        "code": "403680",
-        "price": "2630",
-        "change_pct": "-0.75",
-        "board_count": 22,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/403680",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "570",
-        "volume_int": 570
-      },
-      {
-        "name": "오리온이엔씨",
-        "code": "416920",
-        "price": "6300",
-        "change_pct": "2.44",
-        "board_count": 25,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/416920",
-        "ranks": [
-          "거래량",
-          "인기"
-        ],
-        "volume": "212",
-        "volume_int": 212
+        "volume": "671",
+        "volume_int": 671
       },
       {
         "name": "셀메드",
         "code": "238930",
-        "price": "4520",
-        "change_pct": "-1.95",
-        "board_count": 22,
+        "price": "4490",
+        "change_pct": "0.22",
+        "board_count": 26,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/238930",
@@ -6659,33 +6624,48 @@ const DASHBOARD_DATA = {
           "거래량",
           "인기"
         ],
-        "volume": "200",
-        "volume_int": 200
+        "volume": "622",
+        "volume_int": 622
       },
       {
-        "name": "컬리",
-        "code": "408480",
-        "price": "25100",
-        "change_pct": "-0.79",
-        "board_count": 36,
+        "name": "케이솔루션",
+        "code": "413490",
+        "price": "6650",
+        "change_pct": "0",
+        "board_count": 14,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/408480",
+        "url": "https://ustock.naver.com/stock/413490",
         "ranks": [
           "거래량",
           "인기",
-          "상승률",
-          "시총"
+          "매출상승"
         ],
-        "volume": "137",
-        "volume_int": 137
+        "volume": "600",
+        "volume_int": 600
+      },
+      {
+        "name": "에코윈",
+        "code": "149990",
+        "price": "590",
+        "change_pct": "0",
+        "board_count": 7,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/149990",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "483",
+        "volume_int": 483
       },
       {
         "name": "야놀자",
         "code": "350920",
-        "price": "13900",
+        "price": "13400",
         "change_pct": "0",
-        "board_count": 28,
+        "board_count": 49,
         "ipo_badge": false,
         "platform": "네이버비상장",
         "url": "https://ustock.naver.com/stock/350920",
@@ -6695,65 +6675,85 @@ const DASHBOARD_DATA = {
           "상승률",
           "시총"
         ],
-        "volume": "127",
-        "volume_int": 127
+        "volume": "479",
+        "volume_int": 479
       },
       {
-        "name": "에코윈",
-        "code": "149990",
-        "price": "615",
-        "change_pct": "2.5",
-        "board_count": 5,
+        "name": "에너진",
+        "code": "403680",
+        "price": "2620",
+        "change_pct": "0",
+        "board_count": 21,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/149990",
+        "url": "https://ustock.naver.com/stock/403680",
         "ranks": [
-          "거래량"
+          "거래량",
+          "인기"
         ],
-        "volume": "10",
-        "volume_int": 10
+        "volume": "302",
+        "volume_int": 302
       },
       {
-        "name": "아리바이오",
-        "code": "192230",
-        "price": "20300",
-        "change": "0",
-        "change_pct": "0.0",
-        "volume": "2",
-        "amount": "40650",
-        "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%95%84%EB%A6%AC%EB%B0%94%EC%9D%B4%EC%98%A4",
+        "name": "컬리",
+        "code": "408480",
+        "price": "26200",
+        "change_pct": "0.38",
+        "board_count": 39,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/408480",
         "ranks": [
-          "거래대금",
-          "거래량"
+          "거래량",
+          "인기",
+          "상승률",
+          "시총"
         ],
-        "volume_int": 2
+        "volume": "171",
+        "volume_int": 171
       },
       {
-        "name": "에이플러스라이프",
-        "code": "141110",
-        "price": "1000",
-        "change": "150",
-        "change_pct": "17.65",
-        "volume": "1",
-        "amount": "1000",
+        "name": "오리온이엔씨",
+        "code": "416920",
+        "price": "6350",
+        "change_pct": "0",
+        "board_count": 27,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/416920",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "100",
+        "volume_int": 100
+      },
+      {
+        "name": "삼성메디슨",
+        "code": "018360",
+        "price": "9700",
+        "change": "190",
+        "change_pct": "2.0",
+        "volume": "4",
+        "amount": "38800",
         "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4%EB%9D%BC%EC%9D%B4%ED%94%84",
+        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%82%BC%EC%84%B1%EB%A9%94%EB%94%94%EC%8A%A8",
         "ranks": [
           "거래대금",
           "거래량",
-          "상승률"
+          "상승률",
+          "시가총액"
         ],
-        "volume_int": 1
+        "volume_int": 4
       },
       {
         "name": "제이앤드",
         "code": "104690",
-        "price": "40",
-        "change": "9",
-        "change_pct": "29.03",
+        "price": "49",
+        "change": "11",
+        "change_pct": "28.95",
         "volume": "1",
-        "amount": "40",
+        "amount": "49",
         "platform": "K-OTC",
         "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%A0%9C%EC%9D%B4%EC%95%A4%EB%93%9C",
         "ranks": [
@@ -6764,83 +6764,30 @@ const DASHBOARD_DATA = {
         "volume_int": 1
       },
       {
-        "name": "에이치디씨영창",
-        "code": "001890",
-        "price": "34",
-        "change": "7",
-        "change_pct": "25.93",
-        "volume": "1",
-        "amount": "34",
-        "platform": "K-OTC",
-        "url": "https://www.k-otc.or.kr/public/main/search?searchWord=%EC%97%90%EC%9D%B4%EC%B9%98%EB%94%94%EC%94%A8%EC%98%81%EC%B0%BD",
-        "ranks": [
-          "거래대금",
-          "거래량",
-          "상승률"
-        ],
-        "volume_int": 1
-      },
-      {
-        "name": "빗썸",
-        "code": "341650",
-        "price": "179000",
-        "change_pct": "-0.56",
-        "board_count": 29,
-        "ipo_badge": false,
-        "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/341650",
-        "ranks": [
-          "거래량",
-          "인기",
-          "상승률",
-          "시총"
-        ],
-        "volume": "1",
-        "volume_int": 1
-      },
-      {
-        "name": "무신사",
-        "code": "A458860",
+        "name": "에스아이플렉스",
+        "code": "A075050",
         "price": "",
         "change": "",
         "change_pct": "",
-        "visit": 3538,
-        "category": "ecommerce",
+        "visit": 464,
+        "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%95%84%EC%9D%B4%ED%94%8C%EB%A0%89%EC%8A%A4-638/",
         "ranks": [
-          "거래량",
-          "인기"
+          "거래량"
         ],
         "volume_int": 0
       },
       {
-        "name": "오아시스",
-        "code": "A370190",
-        "price": "11100",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 4141,
-        "category": "ecommerce",
+        "name": "LPK로보틱스",
+        "code": "A183350",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 628,
+        "category": "etc",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4-27/",
-        "ranks": [
-          "거래량",
-          "상승",
-          "인기"
-        ],
-        "volume_int": 0
-      },
-      {
-        "name": "뱅크샐러드",
-        "code": "A441000",
-        "price": "4000",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 1073,
-        "category": "fintech",
-        "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EB%B1%85%ED%81%AC%EC%83%90%EB%9F%AC%EB%93%9C-86/",
+        "url": "https://www.seoulexchange.kr/stocks/LPK%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4-714/",
         "ranks": [
           "거래량"
         ],
@@ -6849,10 +6796,10 @@ const DASHBOARD_DATA = {
       {
         "name": "쎄니팡",
         "code": "A251430",
-        "price": "800",
-        "change": "0 (0%)",
-        "change_pct": "0",
-        "visit": 11345,
+        "price": "792",
+        "change": "39 (5.18%)",
+        "change_pct": "5.18",
+        "visit": 8067,
         "category": "etc",
         "platform": "서울거래소",
         "url": "https://www.seoulexchange.kr/stocks/%EC%8E%84%EB%8B%88%ED%8C%A1-112/",
@@ -6863,15 +6810,32 @@ const DASHBOARD_DATA = {
         "volume_int": 0
       },
       {
-        "name": "인티그리트",
-        "code": "A377660",
-        "price": "5000",
+        "name": "에스엠랩",
+        "code": "A419350",
+        "price": "1086",
         "change": "0 (0%)",
         "change_pct": "0",
-        "visit": 2400,
-        "category": "etc",
+        "visit": 3920,
+        "category": "manufacturing",
         "platform": "서울거래소",
-        "url": "https://www.seoulexchange.kr/stocks/%EC%9D%B8%ED%8B%B0%EA%B7%B8%EB%A6%AC%ED%8A%B8-854/",
+        "url": "https://www.seoulexchange.kr/stocks/%EC%97%90%EC%8A%A4%EC%97%A0%EB%9E%A9-48/",
+        "ranks": [
+          "거래량",
+          "상승",
+          "인기"
+        ],
+        "volume_int": 0
+      },
+      {
+        "name": "무신사",
+        "code": "A458860",
+        "price": "",
+        "change": "",
+        "change_pct": "",
+        "visit": 2105,
+        "category": "ecommerce",
+        "platform": "서울거래소",
+        "url": "https://www.seoulexchange.kr/stocks/%EB%AC%B4%EC%8B%A0%EC%82%AC-14/",
         "ranks": [
           "거래량",
           "인기"
@@ -6879,18 +6843,35 @@ const DASHBOARD_DATA = {
         "volume_int": 0
       },
       {
-        "name": "케이솔루션",
-        "code": "413490",
-        "price": "6450",
-        "change_pct": "0",
-        "board_count": 7,
+        "name": "메타빌드",
+        "code": "469270",
+        "price": "5900",
+        "change_pct": "-1.67",
+        "board_count": 5,
         "ipo_badge": false,
         "platform": "네이버비상장",
-        "url": "https://ustock.naver.com/stock/413490",
+        "url": "https://ustock.naver.com/stock/469270",
+        "ranks": [
+          "거래량",
+          "인기"
+        ],
+        "volume": "0",
+        "volume_int": 0
+      },
+      {
+        "name": "빗썸",
+        "code": "341650",
+        "price": "177000",
+        "change_pct": "1.72",
+        "board_count": 23,
+        "ipo_badge": false,
+        "platform": "네이버비상장",
+        "url": "https://ustock.naver.com/stock/341650",
         "ranks": [
           "거래량",
           "인기",
-          "매출상승"
+          "상승률",
+          "시총"
         ],
         "volume": "0",
         "volume_int": 0
@@ -6898,19 +6879,35 @@ const DASHBOARD_DATA = {
     ],
     "ready_to_ipo": [
       {
+        "name": "에이스엔지니어링",
+        "code": "442140",
+        "ipo_state": "EXAMINATION_REQUESTED",
+        "base_date": "2026-09-21",
+        "rank": 1,
+        "url": "https://ustock.naver.com/stock/442140"
+      },
+      {
         "name": "큐로드",
         "code": "452370",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-09-18",
-        "rank": 1,
+        "rank": 2,
         "url": "https://ustock.naver.com/stock/452370"
+      },
+      {
+        "name": "엠아이티",
+        "code": "489450",
+        "ipo_state": "EXAMINATION_REQUESTED",
+        "base_date": "2026-09-18",
+        "rank": 3,
+        "url": "https://ustock.naver.com/stock/489450"
       },
       {
         "name": "노바셀테크놀로지",
         "code": "170190",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-09-17",
-        "rank": 2,
+        "rank": 4,
         "url": "https://ustock.naver.com/stock/170190"
       },
       {
@@ -6918,7 +6915,7 @@ const DASHBOARD_DATA = {
         "code": "0206M0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-09-08",
-        "rank": 3,
+        "rank": 5,
         "url": "https://ustock.naver.com/stock/0206M0"
       },
       {
@@ -6926,7 +6923,7 @@ const DASHBOARD_DATA = {
         "code": "458860",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-09-07",
-        "rank": 4,
+        "rank": 6,
         "url": "https://ustock.naver.com/stock/458860"
       },
       {
@@ -6934,7 +6931,7 @@ const DASHBOARD_DATA = {
         "code": "497430",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-08-18",
-        "rank": 5,
+        "rank": 7,
         "url": "https://ustock.naver.com/stock/497430"
       },
       {
@@ -6942,7 +6939,7 @@ const DASHBOARD_DATA = {
         "code": "067430",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-08-04",
-        "rank": 6,
+        "rank": 8,
         "url": "https://ustock.naver.com/stock/067430"
       },
       {
@@ -6950,7 +6947,7 @@ const DASHBOARD_DATA = {
         "code": "370850",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-07-31",
-        "rank": 7,
+        "rank": 9,
         "url": "https://ustock.naver.com/stock/370850"
       },
       {
@@ -6958,7 +6955,7 @@ const DASHBOARD_DATA = {
         "code": "083030",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-07-24",
-        "rank": 8,
+        "rank": 10,
         "url": "https://ustock.naver.com/stock/083030"
       },
       {
@@ -6966,7 +6963,7 @@ const DASHBOARD_DATA = {
         "code": "459650",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-07-09",
-        "rank": 9,
+        "rank": 11,
         "url": "https://ustock.naver.com/stock/459650"
       },
       {
@@ -6974,7 +6971,7 @@ const DASHBOARD_DATA = {
         "code": "0155D0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-06-30",
-        "rank": 10,
+        "rank": 12,
         "url": "https://ustock.naver.com/stock/0155D0"
       },
       {
@@ -6982,7 +6979,7 @@ const DASHBOARD_DATA = {
         "code": "0161Y0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-06-30",
-        "rank": 11,
+        "rank": 13,
         "url": "https://ustock.naver.com/stock/0161Y0"
       },
       {
@@ -6990,7 +6987,7 @@ const DASHBOARD_DATA = {
         "code": "0008D0",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-06-26",
-        "rank": 12,
+        "rank": 14,
         "url": "https://ustock.naver.com/stock/0008D0"
       },
       {
@@ -6998,7 +6995,7 @@ const DASHBOARD_DATA = {
         "code": "088920",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-06-25",
-        "rank": 13,
+        "rank": 15,
         "url": "https://ustock.naver.com/stock/088920"
       },
       {
@@ -7006,7 +7003,7 @@ const DASHBOARD_DATA = {
         "code": "404130",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-06-19",
-        "rank": 14,
+        "rank": 16,
         "url": "https://ustock.naver.com/stock/404130"
       },
       {
@@ -7014,7 +7011,7 @@ const DASHBOARD_DATA = {
         "code": "315040",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-06-11",
-        "rank": 15,
+        "rank": 17,
         "url": "https://ustock.naver.com/stock/315040"
       },
       {
@@ -7022,7 +7019,7 @@ const DASHBOARD_DATA = {
         "code": "219730",
         "ipo_state": "EXAMINATION_REQUESTED",
         "base_date": "2026-05-21",
-        "rank": 16,
+        "rank": 18,
         "url": "https://ustock.naver.com/stock/219730"
       },
       {
@@ -7030,32 +7027,16 @@ const DASHBOARD_DATA = {
         "code": "345290",
         "ipo_state": "EXAMINATION_ACCEPTED",
         "base_date": "2026-09-14",
-        "rank": 17,
+        "rank": 19,
         "url": "https://ustock.naver.com/stock/345290"
-      },
-      {
-        "name": "이에스티",
-        "code": "495910",
-        "ipo_state": "EXAMINATION_ACCEPTED",
-        "base_date": "2026-09-11",
-        "rank": 18,
-        "url": "https://ustock.naver.com/stock/495910"
       },
       {
         "name": "에이엔에이치스트럭쳐",
         "code": "0111R0",
         "ipo_state": "EXAMINATION_ACCEPTED",
         "base_date": "2026-09-03",
-        "rank": 19,
-        "url": "https://ustock.naver.com/stock/0111R0"
-      },
-      {
-        "name": "하나에어로다이내믹스",
-        "code": "271160",
-        "ipo_state": "EXAMINATION_ACCEPTED",
-        "base_date": "2026-08-28",
         "rank": 20,
-        "url": "https://ustock.naver.com/stock/271160"
+        "url": "https://ustock.naver.com/stock/0111R0"
       }
     ],
     "revenue_up": [
@@ -7100,6 +7081,13 @@ const DASHBOARD_DATA = {
         "revenue_rate": 42.96,
         "rank": null,
         "url": "https://ustock.naver.com/stock/039330"
+      },
+      {
+        "name": "영광와이케이엠씨",
+        "code": "345290",
+        "revenue_rate": 39.26,
+        "rank": null,
+        "url": "https://ustock.naver.com/stock/345290"
       },
       {
         "name": "비바리퍼블리카",
@@ -7261,27 +7249,20 @@ const DASHBOARD_DATA = {
         "revenue_rate": 13.37,
         "rank": null,
         "url": "https://ustock.naver.com/stock/360160"
-      },
-      {
-        "name": "싸이버로지텍",
-        "code": "052700",
-        "revenue_rate": 13.3,
-        "rank": null,
-        "url": "https://ustock.naver.com/stock/052700"
       }
     ],
     "summary": {
-      "kotc_count": 10,
-      "seoul_count": 14,
-      "naver_count": 85,
-      "total": 109,
+      "kotc_count": 8,
+      "seoul_count": 16,
+      "naver_count": 81,
+      "total": 105,
       "volume_spike_count": 23,
       "ready_to_ipo_count": 20,
       "revenue_up_count": 30
     }
   },
   "thirtyeight": {
-    "updated_at": "2026-09-21 09:00",
+    "updated_at": "2026-09-28 09:01",
     "community_activity": [
       {
         "rank": 1,
@@ -7292,115 +7273,115 @@ const DASHBOARD_DATA = {
       },
       {
         "rank": 2,
-        "name": "한국증권금융",
-        "code": "028820",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=028820"
-      },
-      {
-        "rank": 3,
-        "name": "싸이버로지텍",
-        "code": "052700",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=052700"
-      },
-      {
-        "rank": 4,
-        "name": "아크로스",
-        "code": "268200",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=268200"
-      },
-      {
-        "rank": 5,
-        "name": "현대엔지니어링",
-        "code": "064540",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=064540"
-      },
-      {
-        "rank": 6,
         "name": "덕산넵코어스",
         "code": "266690",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=266690"
       },
       {
-        "rank": 7,
+        "rank": 3,
+        "name": "현대엔지니어링",
+        "code": "064540",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=064540"
+      },
+      {
+        "rank": 4,
+        "name": "한국증권금융",
+        "code": "028820",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=028820"
+      },
+      {
+        "rank": 5,
+        "name": "아크로스",
+        "code": "268200",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=268200"
+      },
+      {
+        "rank": 6,
         "name": "HD현대삼호",
         "code": "067030",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=067030"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "name": "무신사",
         "code": "458860",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=458860"
       },
       {
-        "rank": 9,
-        "name": "엑소코바이오",
-        "code": "361190",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=361190"
-      },
-      {
-        "rank": 10,
-        "name": "성림첨단산업",
-        "code": "169310",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=169310"
-      },
-      {
-        "rank": 11,
-        "name": "컬리",
-        "code": "408480",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=408480"
-      },
-      {
-        "rank": 12,
-        "name": "오아시스",
-        "code": "370190",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=370190"
-      },
-      {
-        "rank": 13,
-        "name": "당근마켓",
-        "code": "426920",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=426920"
-      },
-      {
-        "rank": 14,
-        "name": "HD현대오일뱅크",
-        "code": "004050",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=004050"
-      },
-      {
-        "rank": 15,
+        "rank": 8,
         "name": "비바리퍼블리카",
         "code": "285240",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=285240"
       },
       {
-        "rank": 16,
+        "rank": 9,
+        "name": "노바셀테크놀로지",
+        "code": "170190",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=170190"
+      },
+      {
+        "rank": 10,
+        "name": "싸이버로지텍",
+        "code": "052700",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=052700"
+      },
+      {
+        "rank": 11,
+        "name": "성림첨단산업",
+        "code": "169310",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=169310"
+      },
+      {
+        "rank": 12,
+        "name": "컬리",
+        "code": "408480",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=408480"
+      },
+      {
+        "rank": 13,
+        "name": "오아시스",
+        "code": "370190",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=370190"
+      },
+      {
+        "rank": 14,
         "name": "야놀자",
         "code": "350920",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=350920"
       },
       {
-        "rank": 17,
-        "name": "유림테크",
-        "code": "0091A0",
+        "rank": 15,
+        "name": "빅웨이브로보틱스",
+        "code": "0035S0",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=0091A0"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0035S0"
+      },
+      {
+        "rank": 16,
+        "name": "당근마켓",
+        "code": "426920",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=426920"
+      },
+      {
+        "rank": 17,
+        "name": "HD현대오일뱅크",
+        "code": "004050",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=004050"
       },
       {
         "rank": 18,
@@ -7411,38 +7392,38 @@ const DASHBOARD_DATA = {
       },
       {
         "rank": 19,
-        "name": "에스아이플렉스",
-        "code": "075050",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=075050"
-      },
-      {
-        "rank": 20,
-        "name": "빅웨이브로보틱스",
-        "code": "0035S0",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=0035S0"
-      },
-      {
-        "rank": 21,
         "name": "카카오모빌리티",
         "code": "424700",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=424700"
       },
       {
-        "rank": 22,
+        "rank": 20,
+        "name": "빗썸",
+        "code": "341650",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=341650"
+      },
+      {
+        "rank": 21,
         "name": "퓨리오사에이아이",
         "code": "951625",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=951625"
       },
       {
-        "rank": 23,
-        "name": "빗썸",
-        "code": "341650",
+        "rank": 22,
+        "name": "인티그리트",
+        "code": "377660",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=341650"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=377660"
+      },
+      {
+        "rank": 23,
+        "name": "에스아이플렉스",
+        "code": "075050",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=075050"
       },
       {
         "rank": 24,
@@ -7460,101 +7441,101 @@ const DASHBOARD_DATA = {
       },
       {
         "rank": 26,
-        "name": "그래핀스퀘어",
-        "code": "245060",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=245060"
-      },
-      {
-        "rank": 27,
-        "name": "야나두",
-        "code": "467600",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=467600"
-      },
-      {
-        "rank": 28,
-        "name": "마더스제약",
-        "code": "363170",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=363170"
-      },
-      {
-        "rank": 29,
-        "name": "한국피엠지제약",
-        "code": "183590",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=183590"
-      },
-      {
-        "rank": 30,
-        "name": "노바셀테크놀로지",
-        "code": "170190",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=170190"
-      },
-      {
-        "rank": 31,
         "name": "빅텍스",
         "code": "276980",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=276980"
       },
       {
-        "rank": 32,
+        "rank": 27,
         "name": "메타빌드",
         "code": "469270",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=469270"
       },
       {
-        "rank": 33,
-        "name": "인티그리트",
-        "code": "377660",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=377660"
-      },
-      {
-        "rank": 34,
-        "name": "오브이메디",
-        "code": "330630",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=330630"
-      },
-      {
-        "rank": 35,
+        "rank": 28,
         "name": "아스트로젠",
         "code": "416230",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=416230"
       },
       {
+        "rank": 29,
+        "name": "엑소코바이오",
+        "code": "361190",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=361190"
+      },
+      {
+        "rank": 30,
+        "name": "그래핀스퀘어",
+        "code": "245060",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=245060"
+      },
+      {
+        "rank": 31,
+        "name": "야나두",
+        "code": "467600",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=467600"
+      },
+      {
+        "rank": 32,
+        "name": "마더스제약",
+        "code": "363170",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=363170"
+      },
+      {
+        "rank": 33,
+        "name": "오브이메디",
+        "code": "330630",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=330630"
+      },
+      {
+        "rank": 34,
+        "name": "다원메닥스",
+        "code": "319760",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=319760"
+      },
+      {
+        "rank": 35,
+        "name": "유림테크",
+        "code": "0091A0",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0091A0"
+      },
+      {
         "rank": 36,
+        "name": "에코크레이션",
+        "code": "413550",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=413550"
+      },
+      {
+        "rank": 37,
+        "name": "한국피엠지제약",
+        "code": "183590",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=183590"
+      },
+      {
+        "rank": 38,
         "name": "플랜텍",
         "code": "051310",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=051310"
       },
       {
-        "rank": 37,
-        "name": "네오사피엔스",
-        "code": "0161M0",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=0161M0"
-      },
-      {
-        "rank": 38,
+        "rank": 39,
         "name": "서울로보틱스",
         "code": "0024P0",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=0024P0"
-      },
-      {
-        "rank": 39,
-        "name": "다원메닥스",
-        "code": "319760",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=319760"
       },
       {
         "rank": 40,
@@ -7572,115 +7553,115 @@ const DASHBOARD_DATA = {
       },
       {
         "rank": 42,
-        "name": "에코크레이션",
-        "code": "413550",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=413550"
-      },
-      {
-        "rank": 43,
         "name": "엘리스그룹",
         "code": "0158S0",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=0158S0"
       },
       {
-        "rank": 44,
-        "name": "지아이티",
-        "code": "049450",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=049450"
-      },
-      {
-        "rank": 45,
-        "name": "후니즈",
-        "code": "374980",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=374980"
-      },
-      {
-        "rank": 46,
-        "name": "웰마커바이오",
-        "code": "951109",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=951109"
-      },
-      {
-        "rank": 47,
+        "rank": 43,
         "name": "브릴스",
         "code": "468670",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=468670"
       },
       {
-        "rank": 48,
-        "name": "수양켐텍",
-        "code": "163290",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=163290"
-      },
-      {
-        "rank": 49,
-        "name": "제넨셀",
-        "code": "291530",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=291530"
-      },
-      {
-        "rank": 50,
-        "name": "넥스모스",
-        "code": "241570",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=241570"
-      },
-      {
-        "rank": 51,
-        "name": "엠비디",
-        "code": "498150",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=498150"
-      },
-      {
-        "rank": 52,
+        "rank": 44,
         "name": "지엔티파마",
         "code": "228980",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=228980"
       },
       {
-        "rank": 53,
-        "name": "와이즈플래닛컴퍼니",
-        "code": "0010S0",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=0010S0"
-      },
-      {
-        "rank": 54,
+        "rank": 45,
         "name": "스마트로",
         "code": "057160",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=057160"
       },
       {
-        "rank": 55,
+        "rank": 46,
         "name": "이노그리드",
         "code": "126830",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=126830"
       },
       {
-        "rank": 56,
-        "name": "럭스로보",
-        "code": "434410",
+        "rank": 47,
+        "name": "에스엠랩",
+        "code": "419350",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=434410"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=419350"
+      },
+      {
+        "rank": 48,
+        "name": "영광와이케이엠씨",
+        "code": "345290",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=345290"
+      },
+      {
+        "rank": 49,
+        "name": "멜콘",
+        "code": "179880",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=179880"
+      },
+      {
+        "rank": 50,
+        "name": "카네비모빌리티",
+        "code": "313090",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=313090"
+      },
+      {
+        "rank": 51,
+        "name": "한국코러스",
+        "code": "184390",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=184390"
+      },
+      {
+        "rank": 52,
+        "name": "바로팜",
+        "code": "952366",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=952366"
+      },
+      {
+        "rank": 53,
+        "name": "지아이티",
+        "code": "049450",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=049450"
+      },
+      {
+        "rank": 54,
+        "name": "후니즈",
+        "code": "374980",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=374980"
+      },
+      {
+        "rank": 55,
+        "name": "넥스모스",
+        "code": "241570",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=241570"
+      },
+      {
+        "rank": 56,
+        "name": "엠비디",
+        "code": "498150",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=498150"
       },
       {
         "rank": 57,
-        "name": "플레토로보틱스",
-        "code": "335830",
+        "name": "와이즈플래닛컴퍼니",
+        "code": "0010S0",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=335830"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0010S0"
       },
       {
         "rank": 58,
@@ -7698,10 +7679,10 @@ const DASHBOARD_DATA = {
       },
       {
         "rank": 60,
-        "name": "이노비드",
-        "code": "279480",
+        "name": "다비오",
+        "code": "0012G0",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=279480"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0012G0"
       },
       {
         "rank": 61,
@@ -7712,10 +7693,10 @@ const DASHBOARD_DATA = {
       },
       {
         "rank": 62,
-        "name": "파이토지노믹스",
-        "code": "489880",
+        "name": "래블업",
+        "code": "0147B0",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=489880"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0147B0"
       },
       {
         "rank": 63,
@@ -7726,612 +7707,612 @@ const DASHBOARD_DATA = {
       },
       {
         "rank": 64,
-        "name": "에버온",
-        "code": "273900",
+        "name": "디티에스",
+        "code": "0015M0",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=273900"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0015M0"
       },
       {
         "rank": 65,
-        "name": "카네비모빌리티",
-        "code": "313090",
+        "name": "티앤이코리아",
+        "code": "0053F0",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=313090"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0053F0"
       },
       {
         "rank": 66,
-        "name": "어피닛",
-        "code": "497430",
+        "name": "글로벌테크놀로지",
+        "code": "486510",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=497430"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=486510"
       },
       {
         "rank": 67,
-        "name": "한국코러스",
-        "code": "184390",
+        "name": "크리에이츠",
+        "code": "439270",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=184390"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=439270"
       },
       {
         "rank": 68,
-        "name": "DKMaterials",
-        "code": "227490",
+        "name": "네이처리퍼블릭",
+        "code": "169830",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=227490"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=169830"
       },
       {
         "rank": 69,
-        "name": "하나에어로다이내믹스",
-        "code": "271160",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=271160"
-      },
-      {
-        "rank": 70,
-        "name": "지씨에스",
-        "code": "354450",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=354450"
-      },
-      {
-        "rank": 71,
-        "name": "진켐",
-        "code": "064470",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=064470"
-      },
-      {
-        "rank": 72,
         "name": "아이지에이웍스",
         "code": "438340",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=438340"
       },
       {
-        "rank": 73,
-        "name": "엔지노믹스",
-        "code": "273400",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=273400"
-      },
-      {
-        "rank": 74,
+        "rank": 70,
         "name": "그래핀랩",
         "code": "951762",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=951762"
       },
       {
-        "rank": 75,
-        "name": "뉴라텍",
-        "code": "950750",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=950750"
-      },
-      {
-        "rank": 76,
-        "name": "웰바이오텍",
-        "code": "010600",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=010600"
-      },
-      {
-        "rank": 77,
-        "name": "코이즈",
-        "code": "121850",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=121850"
-      },
-      {
-        "rank": 78,
-        "name": "제네시스디벨롭먼트홀딩스",
-        "code": "053320",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=053320"
-      },
-      {
-        "rank": 79,
-        "name": "엠비아이",
-        "code": "373180",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=373180"
-      },
-      {
-        "rank": 80,
-        "name": "엠에프엠코리아",
-        "code": "323230",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=323230"
-      },
-      {
-        "rank": 81,
-        "name": "대우송도개발",
-        "code": "004550",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=004550"
-      },
-      {
-        "rank": 82,
-        "name": "KB스팩34호",
-        "code": "0209J0",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=0209J0"
-      },
-      {
-        "rank": 83,
-        "name": "조광ILI",
-        "code": "044060",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=044060"
-      },
-      {
-        "rank": 84,
+        "rank": 71,
         "name": "진스랩",
         "code": "322110",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=322110"
       },
       {
-        "rank": 85,
-        "name": "애닉",
-        "code": "299910",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=299910"
-      },
-      {
-        "rank": 86,
+        "rank": 72,
         "name": "엔쓰리엔",
         "code": "106870",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=106870"
       },
       {
+        "rank": 73,
+        "name": "엠에스바이오",
+        "code": "0013Y0",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0013Y0"
+      },
+      {
+        "rank": 74,
+        "name": "인텔리빅스",
+        "code": "420610",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=420610"
+      },
+      {
+        "rank": 75,
+        "name": "웰마커바이오",
+        "code": "951109",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=951109"
+      },
+      {
+        "rank": 76,
+        "name": "수양켐텍",
+        "code": "163290",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=163290"
+      },
+      {
+        "rank": 77,
+        "name": "제넨셀",
+        "code": "291530",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=291530"
+      },
+      {
+        "rank": 78,
+        "name": "럭스로보",
+        "code": "434410",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=434410"
+      },
+      {
+        "rank": 79,
+        "name": "이노비드",
+        "code": "279480",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=279480"
+      },
+      {
+        "rank": 80,
+        "name": "파이토지노믹스",
+        "code": "489880",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=489880"
+      },
+      {
+        "rank": 81,
+        "name": "에버온",
+        "code": "273900",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=273900"
+      },
+      {
+        "rank": 82,
+        "name": "어피닛",
+        "code": "497430",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=497430"
+      },
+      {
+        "rank": 83,
+        "name": "DKMaterials",
+        "code": "227490",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=227490"
+      },
+      {
+        "rank": 84,
+        "name": "하나에어로다이내믹스",
+        "code": "271160",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=271160"
+      },
+      {
+        "rank": 85,
+        "name": "지씨에스",
+        "code": "354450",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=354450"
+      },
+      {
+        "rank": 86,
+        "name": "엔지노믹스",
+        "code": "273400",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=273400"
+      },
+      {
         "rank": 87,
+        "name": "코이즈",
+        "code": "121850",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=121850"
+      },
+      {
+        "rank": 88,
+        "name": "엠에프엠코리아",
+        "code": "323230",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=323230"
+      },
+      {
+        "rank": 89,
         "name": "닷",
         "code": "0013S0",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=0013S0"
       },
       {
-        "rank": 88,
-        "name": "쓰리디팩토리",
-        "code": "298700",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=298700"
-      },
-      {
-        "rank": 89,
-        "name": "프로셀테라퓨틱스",
-        "code": "122430",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=122430"
-      },
-      {
         "rank": 90,
-        "name": "시스웍",
-        "code": "269620",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=269620"
-      },
-      {
-        "rank": 91,
-        "name": "벽산건설",
-        "code": "002530",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=002530"
-      },
-      {
-        "rank": 92,
-        "name": "솔젠트",
-        "code": "145730",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=145730"
-      },
-      {
-        "rank": 93,
-        "name": "신양오라컴디스플레이",
-        "code": "086830",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=086830"
-      },
-      {
-        "rank": 94,
-        "name": "피노텍",
-        "code": "150440",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=150440"
-      },
-      {
-        "rank": 95,
-        "name": "세미솔루션",
-        "code": "292070",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=292070"
-      },
-      {
-        "rank": 96,
-        "name": "위노바",
-        "code": "039790",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=039790"
-      },
-      {
-        "rank": 97,
-        "name": "현대페인트",
-        "code": "011720",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=011720"
-      },
-      {
-        "rank": 98,
-        "name": "금융인바디",
-        "code": "952049",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=952049"
-      },
-      {
-        "rank": 99,
-        "name": "에스에이치엔엘",
-        "code": "050320",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=050320"
-      },
-      {
-        "rank": 100,
-        "name": "제너시스템즈",
-        "code": "073930",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=073930"
-      },
-      {
-        "rank": 101,
-        "name": "바이오넷",
-        "code": "074320",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=074320"
-      },
-      {
-        "rank": 102,
         "name": "바이오제닉스",
         "code": "215820",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=215820"
       },
       {
-        "rank": 103,
-        "name": "아이브스",
-        "code": "333900",
+        "rank": 91,
+        "name": "이화전기공업",
+        "code": "024810",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=333900"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=024810"
       },
       {
-        "rank": 104,
-        "name": "사피엔스바이오",
-        "code": "446170",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=446170"
-      },
-      {
-        "rank": 105,
-        "name": "이아이디",
-        "code": "093230",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=093230"
-      },
-      {
-        "rank": 106,
-        "name": "대덕바이오",
-        "code": "083180",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=083180"
-      },
-      {
-        "rank": 107,
+        "rank": 92,
         "name": "웅진식품",
         "code": "011350",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=011350"
       },
       {
+        "rank": 93,
+        "name": "원풍물산",
+        "code": "008290",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=008290"
+      },
+      {
+        "rank": 94,
+        "name": "진켐",
+        "code": "064470",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=064470"
+      },
+      {
+        "rank": 95,
+        "name": "뉴라텍",
+        "code": "950750",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=950750"
+      },
+      {
+        "rank": 96,
+        "name": "제네시스디벨롭먼트홀딩스",
+        "code": "053320",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=053320"
+      },
+      {
+        "rank": 97,
+        "name": "엠비아이",
+        "code": "373180",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=373180"
+      },
+      {
+        "rank": 98,
+        "name": "대우송도개발",
+        "code": "004550",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=004550"
+      },
+      {
+        "rank": 99,
+        "name": "솔젠트",
+        "code": "145730",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=145730"
+      },
+      {
+        "rank": 100,
+        "name": "신양오라컴디스플레이",
+        "code": "086830",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=086830"
+      },
+      {
+        "rank": 101,
+        "name": "아이월드제약",
+        "code": "323530",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=323530"
+      },
+      {
+        "rank": 102,
+        "name": "케이에이치필룩스",
+        "code": "033180",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=033180"
+      },
+      {
+        "rank": 103,
+        "name": "이아이디",
+        "code": "093230",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=093230"
+      },
+      {
+        "rank": 104,
+        "name": "원유니버스",
+        "code": "459930",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=459930"
+      },
+      {
+        "rank": 105,
+        "name": "레이트론",
+        "code": "128500",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=128500"
+      },
+      {
+        "rank": 106,
+        "name": "퓨처코어",
+        "code": "151910",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=151910"
+      },
+      {
+        "rank": 107,
+        "name": "웰바이오텍",
+        "code": "010600",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=010600"
+      },
+      {
         "rank": 108,
+        "name": "KB스팩34호",
+        "code": "0209J0",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=0209J0"
+      },
+      {
+        "rank": 109,
+        "name": "조광ILI",
+        "code": "044060",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=044060"
+      },
+      {
+        "rank": 110,
+        "name": "애닉",
+        "code": "299910",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=299910"
+      },
+      {
+        "rank": 111,
+        "name": "쓰리디팩토리",
+        "code": "298700",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=298700"
+      },
+      {
+        "rank": 112,
+        "name": "프로셀테라퓨틱스",
+        "code": "122430",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=122430"
+      },
+      {
+        "rank": 113,
+        "name": "벽산건설",
+        "code": "002530",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=002530"
+      },
+      {
+        "rank": 114,
+        "name": "지플러스생명과학",
+        "code": "352030",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=352030"
+      },
+      {
+        "rank": 115,
+        "name": "지오엠씨",
+        "code": "033030",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=033030"
+      },
+      {
+        "rank": 116,
+        "name": "세미솔루션",
+        "code": "292070",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=292070"
+      },
+      {
+        "rank": 117,
+        "name": "위노바",
+        "code": "039790",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=039790"
+      },
+      {
+        "rank": 118,
+        "name": "현대페인트",
+        "code": "011720",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=011720"
+      },
+      {
+        "rank": 119,
+        "name": "에스에이치엔엘",
+        "code": "050320",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=050320"
+      },
+      {
+        "rank": 120,
+        "name": "제너시스템즈",
+        "code": "073930",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=073930"
+      },
+      {
+        "rank": 121,
+        "name": "바이오넷",
+        "code": "074320",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=074320"
+      },
+      {
+        "rank": 122,
+        "name": "사피엔스바이오",
+        "code": "446170",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=446170"
+      },
+      {
+        "rank": 123,
+        "name": "대덕바이오",
+        "code": "083180",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=083180"
+      },
+      {
+        "rank": 124,
         "name": "구골홀딩스",
         "code": "218160",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=218160"
       },
       {
-        "rank": 109,
+        "rank": 125,
         "name": "팬택자산관리",
         "code": "025930",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=025930"
       },
       {
-        "rank": 110,
-        "name": "코스메랩",
-        "code": "233120",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=233120"
-      },
-      {
-        "rank": 111,
+        "rank": 126,
         "name": "리벨리온",
         "code": "951820",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=951820"
       },
       {
-        "rank": 112,
-        "name": "넥솔론",
-        "code": "110570",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=110570"
-      },
-      {
-        "rank": 113,
+        "rank": 127,
         "name": "건영",
         "code": "012720",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=012720"
       },
       {
-        "rank": 114,
-        "name": "티엔디",
-        "code": "448560",
+        "rank": 128,
+        "name": "넥솔론",
+        "code": "110570",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=448560"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=110570"
       },
       {
-        "rank": 115,
+        "rank": 129,
         "name": "스틸플라워",
         "code": "087220",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=087220"
       },
       {
-        "rank": 116,
-        "name": "메디포럼",
-        "code": "250900",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=250900"
-      },
-      {
-        "rank": 117,
-        "name": "로케트전기",
-        "code": "000420",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=000420"
-      },
-      {
-        "rank": 118,
+        "rank": 130,
         "name": "우경",
         "code": "025920",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=025920"
       },
       {
-        "rank": 119,
-        "name": "한진해운",
-        "code": "117930",
+        "rank": 131,
+        "name": "로케트전기",
+        "code": "000420",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=117930"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=000420"
       },
       {
-        "rank": 120,
+        "rank": 132,
         "name": "금빛",
         "code": "045890",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=045890"
       },
       {
-        "rank": 121,
-        "name": "디디에스",
-        "code": "950794",
+        "rank": 133,
+        "name": "한진해운",
+        "code": "117930",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=950794"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=117930"
       },
       {
-        "rank": 122,
+        "rank": 134,
         "name": "제이앤유글로벌",
         "code": "086200",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=086200"
       },
       {
-        "rank": 123,
-        "name": "위너지스",
-        "code": "026260",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=026260"
-      },
-      {
-        "rank": 124,
+        "rank": 135,
         "name": "현진소재",
         "code": "053660",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=053660"
       },
       {
-        "rank": 125,
-        "name": "뉴젠비아이티",
-        "code": "054650",
+        "rank": 136,
+        "name": "위너지스",
+        "code": "026260",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=054650"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=026260"
       },
       {
-        "rank": 126,
-        "name": "비나우",
-        "code": "0082M0",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=0082M0"
-      },
-      {
-        "rank": 127,
-        "name": "한케이",
-        "code": "246060",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=246060"
-      },
-      {
-        "rank": 128,
-        "name": "인스프리트",
-        "code": "073130",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=073130"
-      },
-      {
-        "rank": 129,
-        "name": "디에스",
-        "code": "051710",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=051710"
-      },
-      {
-        "rank": 130,
-        "name": "휴먼텍코리아",
-        "code": "066060",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=066060"
-      },
-      {
-        "rank": 131,
-        "name": "에스마크",
-        "code": "030270",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=030270"
-      },
-      {
-        "rank": 132,
-        "name": "렉스엘이앤지",
-        "code": "004790",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=004790"
-      },
-      {
-        "rank": 133,
-        "name": "바일테크놀러지",
-        "code": "192430",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=192430"
-      },
-      {
-        "rank": 134,
-        "name": "다음에너지",
-        "code": "092560",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=092560"
-      },
-      {
-        "rank": 135,
+        "rank": 137,
         "name": "케이엔씨글로벌",
         "code": "068150",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=068150"
       },
       {
-        "rank": 136,
-        "name": "스마일게이트엔터테인먼트",
-        "code": "812254",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=812254"
-      },
-      {
-        "rank": 137,
-        "name": "미주제강",
-        "code": "002670",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=002670"
-      },
-      {
         "rank": 138,
+        "name": "뉴젠비아이티",
+        "code": "054650",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=054650"
+      },
+      {
+        "rank": 139,
+        "name": "인스프리트",
+        "code": "073130",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=073130"
+      },
+      {
+        "rank": 140,
+        "name": "디에스",
+        "code": "051710",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=051710"
+      },
+      {
+        "rank": 141,
+        "name": "휴먼텍코리아",
+        "code": "066060",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=066060"
+      },
+      {
+        "rank": 142,
+        "name": "에스마크",
+        "code": "030270",
+        "platform": "38커뮤니케이션",
+        "url": "http://forum.38.co.kr/html/forum/board/?code=030270"
+      },
+      {
+        "rank": 143,
         "name": "아이팩토리",
         "code": "053810",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=053810"
       },
       {
-        "rank": 139,
+        "rank": 144,
         "name": "썬테크놀로지스",
         "code": "122800",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=122800"
       },
       {
-        "rank": 140,
+        "rank": 145,
         "name": "씨모텍",
         "code": "081090",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=081090"
       },
       {
-        "rank": 141,
-        "name": "트라이써클",
-        "code": "034010",
+        "rank": 146,
+        "name": "미주제강",
+        "code": "002670",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=034010"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=002670"
       },
       {
-        "rank": 142,
-        "name": "플렉스컴",
-        "code": "065270",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=065270"
-      },
-      {
-        "rank": 143,
-        "name": "앤에스",
-        "code": "126870",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=126870"
-      },
-      {
-        "rank": 144,
-        "name": "피엘에이",
-        "code": "082390",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=082390"
-      },
-      {
-        "rank": 145,
+        "rank": 147,
         "name": "배명금속",
         "code": "011800",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=011800"
       },
       {
-        "rank": 146,
+        "rank": 148,
         "name": "에이스하이텍",
         "code": "071930",
         "platform": "38커뮤니케이션",
         "url": "http://forum.38.co.kr/html/forum/board/?code=071930"
       },
       {
-        "rank": 147,
-        "name": "골든피아",
-        "code": "320120",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=320120"
-      },
-      {
-        "rank": 148,
-        "name": "엠피씨플러스",
-        "code": "050540",
-        "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=050540"
-      },
-      {
         "rank": 149,
-        "name": "에피밸리",
-        "code": "068630",
+        "name": "트라이써클",
+        "code": "034010",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=068630"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=034010"
       },
       {
         "rank": 150,
-        "name": "미라셀",
-        "code": "258890",
+        "name": "플렉스컴",
+        "code": "065270",
         "platform": "38커뮤니케이션",
-        "url": "http://forum.38.co.kr/html/forum/board/?code=258890"
+        "url": "http://forum.38.co.kr/html/forum/board/?code=065270"
       }
     ],
     "summary": {
