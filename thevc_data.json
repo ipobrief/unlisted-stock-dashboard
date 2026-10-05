@@ -1,130 +1,1795 @@
 {
-  "updated_at": "2026-09-28 09:00",
-  "home_investments": [],
+  "updated_at": "2026-10-05 09:00",
+  "home_investments": [
+    {
+      "date": "2026-10-02보도자료",
+      "company": "하이브랩IT 시스템 개발/운영IT 시스템 개발/운영, 아웃소싱",
+      "link": "",
+      "stage": "투자단계Pre-IPO",
+      "amount": "투자금액알 수 없음",
+      "investor": "투자자에스케이증권+1"
+    },
+    {
+      "date": "2026-10-02보도자료",
+      "company": "솔리드뷰라이다 센서자율주행용 LiDAR 이미지 센서",
+      "link": "",
+      "stage": "투자단계Series C",
+      "amount": "투자금액로그인 필요",
+      "investor": "투자자비공개"
+    },
+    {
+      "date": "2026-10-02보도자료",
+      "company": "제이드래곤게임즈프로젝트 DPC·모바일 크로스플레이 MMORPG",
+      "link": "",
+      "stage": "투자단계Seed",
+      "amount": "투자금액알 수 없음",
+      "investor": "투자자크릿벤처스+1"
+    },
+    {
+      "date": "2026-10-01보도자료",
+      "company": "신선고T.박스72시간 정온 유지, 온도 이력 확인, 배송 추적이 가능한 신선식품, 새벽배송에 최적화된 냉장 및 냉동 박스",
+      "link": "",
+      "stage": "투자단계Pre-A",
+      "amount": "투자금액알 수 없음",
+      "investor": "투자자엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01보도자료",
+      "company": "디라이브Orbit차량 ECU 데이터 기반 실시간 차량 관제 시스템 (CarLog, 이음 포함)",
+      "link": "",
+      "stage": "투자단계Seed",
+      "amount": "투자금액알 수 없음",
+      "investor": "투자자삼성화재해상보험"
+    }
+  ],
   "ranking": [
     {
       "name": "비드래프트",
-      "hits": 46,
+      "hits": 45,
       "type": "중소기업",
       "link": "https://thevc.kr/vidraft"
     },
     {
-      "name": "앤트로픽",
-      "hits": 41,
-      "type": "스타트업",
-      "link": "https://thevc.kr/anthropic"
-    },
-    {
-      "name": "딥엑스",
-      "hits": 39,
-      "type": "스타트업",
-      "link": "https://thevc.kr/deepx"
-    },
-    {
-      "name": "리벨리온",
-      "hits": 37,
-      "type": "스타트업",
-      "link": "https://thevc.kr/rebellions"
-    },
-    {
-      "name": "에이아이쓰리",
-      "hits": 37,
-      "type": "스타트업",
-      "link": "https://thevc.kr/ai3"
-    },
-    {
-      "name": "서치오에스에이아이",
-      "hits": 37,
+      "name": "넥스트온",
+      "hits": 16,
       "type": "중소기업",
-      "link": "https://thevc.kr/searchosai"
+      "link": "https://thevc.kr/nexton"
     },
     {
-      "name": "에이럭스",
-      "hits": 35,
-      "type": "스타트업",
-      "link": "https://thevc.kr/alux"
-    },
-    {
-      "name": "에이에프더블유파트너스",
-      "hits": 35,
-      "type": "사모투자회사",
-      "link": "https://thevc.kr/afwpartners"
-    },
-    {
-      "name": "코넥스트",
-      "hits": 33,
+      "name": "타스글로벌",
+      "hits": 13,
       "type": "중소기업",
-      "link": "https://thevc.kr/connext"
+      "link": "https://thevc.kr/tasglobal"
     },
     {
-      "name": "바인드",
-      "hits": 33,
+      "name": "브이원씨",
+      "hits": 12,
       "type": "스타트업",
-      "link": "https://thevc.kr/bind"
+      "link": "https://thevc.kr/v-ic"
     },
     {
-      "name": "지투지바이오",
-      "hits": 32,
-      "type": "스타트업",
-      "link": "https://thevc.kr/g2gbio"
-    },
-    {
-      "name": "뤼튼테크놀로지스",
-      "hits": 32,
-      "type": "스타트업",
-      "link": "https://thevc.kr/wrtntechnologies"
-    },
-    {
-      "name": "팀프레시",
-      "hits": 32,
-      "type": "스타트업",
-      "link": "https://thevc.kr/teamfresh"
-    },
-    {
-      "name": "카나프테라퓨틱스",
-      "hits": 31,
-      "type": "스타트업",
-      "link": "https://thevc.kr/kanaphtherapeutics"
-    },
-    {
-      "name": "리얼월드",
-      "hits": 31,
-      "type": "스타트업",
-      "link": "https://thevc.kr/rlwrld"
-    },
-    {
-      "name": "호석촌",
-      "hits": 31,
+      "name": "패스캐처",
+      "hits": 12,
       "type": "중소기업",
-      "link": "https://thevc.kr/hoseokchon"
+      "link": "https://thevc.kr/passcatche"
     },
     {
-      "name": "아정네트웍스",
-      "hits": 31,
+      "name": "소프트먼트",
+      "hits": 11,
+      "type": "스타트업",
+      "link": "https://thevc.kr/changupin"
+    },
+    {
+      "name": "알로스타",
+      "hits": 10,
+      "type": "스타트업",
+      "link": "https://thevc.kr/allosta"
+    },
+    {
+      "name": "빌라모자이크",
+      "hits": 10,
+      "type": "스타트업",
+      "link": "https://thevc.kr/villamozaiq"
+    },
+    {
+      "name": "메가박스중앙",
+      "hits": 10,
+      "type": "대기업/중견기업",
+      "link": "https://thevc.kr/megaboxjoongang"
+    },
+    {
+      "name": "더뮤즈엔터테인먼트",
+      "hits": 10,
       "type": "중소기업",
-      "link": "https://thevc.kr/ajungnetworks"
+      "link": "https://thevc.kr/themuzeentertainment"
     },
     {
-      "name": "업스테이지",
-      "hits": 30,
+      "name": "윌코에이펙스",
+      "hits": 9,
       "type": "스타트업",
-      "link": "https://thevc.kr/upstage"
+      "link": "https://thevc.kr/wilcoapex"
     },
     {
-      "name": "퓨리오사에이아이",
-      "hits": 29,
-      "type": "스타트업",
-      "link": "https://thevc.kr/furiosaai"
+      "name": "크림",
+      "hits": 9,
+      "type": "대기업/중견기업",
+      "link": "https://thevc.kr/kream"
     },
     {
-      "name": "컬리",
-      "hits": 28,
+      "name": "제이에스바이오컴퍼니",
+      "hits": 9,
+      "type": "중소기업",
+      "link": "https://thevc.kr/chunyujac"
+    },
+    {
+      "name": "플랜티팜",
+      "hits": 9,
+      "type": "중소기업",
+      "link": "https://thevc.kr/plantfarm"
+    },
+    {
+      "name": "엑스엔지니어링",
+      "hits": 9,
       "type": "스타트업",
-      "link": "https://thevc.kr/kurly"
+      "link": "https://thevc.kr/xengineering"
+    },
+    {
+      "name": "누코드",
+      "hits": 9,
+      "type": "스타트업",
+      "link": "https://thevc.kr/nucode"
+    },
+    {
+      "name": "클레로보틱스",
+      "hits": 8,
+      "type": "스타트업",
+      "link": "https://thevc.kr/clerobotics"
+    },
+    {
+      "name": "케이비지",
+      "hits": 8,
+      "type": "스타트업",
+      "link": "https://thevc.kr/kbg"
+    },
+    {
+      "name": "넥스트그린",
+      "hits": 8,
+      "type": "중소기업",
+      "link": "https://thevc.kr/nextgreen"
+    },
+    {
+      "name": "레온코리아",
+      "hits": 8,
+      "type": "중소기업",
+      "link": "https://thevc.kr/leonkorea"
     }
   ],
-  "recent_investments": [],
-  "series_c_plus": [],
-  "stage_summary": {},
-  "total_series_c_plus": 0
+  "recent_investments": [
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "하이브랩",
+      "link": "",
+      "press_link": "https://www.edaily.co.kr/News/Read?newsId=04359126645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "sector": "프로그램개발",
+      "stage": "Pre-IPO",
+      "amount": "투자",
+      "investor": "에스케이증권레이크우드파트너스"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "솔리드뷰",
+      "link": "",
+      "press_link": "https://www.thebell.co.kr/front/newsview.asp?code=00&key=202610020947458480104761",
+      "sector": "사물인터넷/센서",
+      "stage": "Series C",
+      "amount": "투자",
+      "investor": "비공개 기업"
+    },
+    {
+      "date": "2026-10-02",
+      "company": "제이드래곤게임즈",
+      "link": "",
+      "press_link": "http://www.startuptoday.kr/news/articleView.html?idxno=53111",
+      "sector": "게임개발",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "크릿벤처스메인스트리트벤처스"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "신선고",
+      "link": "",
+      "press_link": "https://www.venturesquare.net/1117480/",
+      "sector": "제조",
+      "stage": "Pre-A",
+      "amount": "투자",
+      "investor": "엠와이소셜컴퍼니"
+    },
+    {
+      "date": "2026-10-01",
+      "company": "디라이브",
+      "link": "",
+      "press_link": "https://www.mt.co.kr/industry/2026/10/01/2026100114040769623",
+      "sector": "클라우드",
+      "stage": "Seed",
+      "amount": "투자",
+      "investor": "삼성화재해상보험"
+    }
+  ],
+  "series_c_plus": [
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    },
+    {
+      "name": "하이브랩IT 시스템 개발/운영",
+      "link": "",
+      "status": "2012-06-1214.4년차",
+      "category": "경기도",
+      "founded": "IT 시스템 개발/",
+      "employees": "엔터프라이즈",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "제이드래곤게임즈프로젝트 D",
+      "link": "",
+      "status": "2026-06-150.4년차",
+      "category": "경기도",
+      "founded": "프로젝트 DPC·모",
+      "employees": "게임",
+      "sector": "알 수 없음",
+      "latest_stage": "알 수 없음",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "솔리드뷰라이다 센서",
+      "link": "",
+      "status": "2020-11-305.9년차",
+      "category": "부산광역시",
+      "founded": "라이다 센서자율주행",
+      "employees": "자동차",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "22개2026-07-07 공개",
+      "investor_count": 0
+    },
+    {
+      "name": "디라이브Orbit",
+      "link": "",
+      "status": "2024-12-111.9년차",
+      "category": "부산광역시",
+      "founded": "Orbit차량 EC",
+      "employees": "자동차",
+      "sector": "알 수 없음",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "알 수 없음",
+      "investor_count": 0
+    },
+    {
+      "name": "디지트론유도무기 통신부품",
+      "link": "",
+      "status": "2006-11-1020년차",
+      "category": "경기도",
+      "founded": "유도무기 통신부품유",
+      "employees": "국방/군수",
+      "sector": "로그인 필요",
+      "latest_stage": "프로 플랜 필요",
+      "investors": "2개2024-07-09 등록",
+      "investor_count": 0
+    }
+  ],
+  "stage_summary": {
+    "기타": 60
+  },
+  "total_series_c_plus": 60
 }
